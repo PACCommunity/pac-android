@@ -52,6 +52,33 @@ import org.bitcoinj.wallet.WalletProtobufSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.google.common.base.Stopwatch;
+import com.squareup.leakcanary.LeakCanary;
+import com.squareup.leakcanary.RefWatcher;
+
+import de.schildbach.wallet.data.WalletLock;
+import de.schildbach.wallet.service.BlockchainService;
+import de.schildbach.wallet.service.BlockchainServiceImpl;
+import de.schildbach.wallet.util.CrashReporter;
+import de.schildbach.wallet_test.R;
+
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.AlarmManager;
+import android.app.Application;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.StrictMode;
+import android.preference.PreferenceManager;
+import android.support.v4.content.LocalBroadcastManager;
+import android.text.format.DateUtils;
+import android.widget.Toast;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -76,7 +103,7 @@ import io.fabric.sdk.android.Fabric;
 /**
  * @author Andreas Schildbach
  */
-public class WalletApplication extends Application {
+public class WalletApplication extends Application implements Application.ActivityLifecycleCallbacks {
     private Configuration config;
     private ActivityManager activityManager;
 
@@ -87,6 +114,8 @@ public class WalletApplication extends Application {
     private File walletFile;
     private Wallet wallet;
     private PackageInfo packageInfo;
+
+    private int numStarted;
 
     public static final String ACTION_WALLET_REFERENCE_CHANGED = WalletApplication.class.getPackage().getName()
             + ".wallet_reference_changed";
@@ -114,6 +143,8 @@ public class WalletApplication extends Application {
             return;
         }
         refWatcher = LeakCanary.install(this);
+
+        registerActivityLifecycleCallbacks(this);
 
         new LinuxSecureRandom(); // init proper random number generator
 
@@ -541,4 +572,52 @@ public void updatePacMode()
 		context.setAllowInstantXinLiteMode(config.getInstantXEnabled());
 		context.setLiteMode(config.getLiteMode());
 		}
+
+    private void lockWalletIfNeeded() {
+        WalletLock walletLock = WalletLock.getInstance();
+        if (wallet.isEncrypted() && !walletLock.isWalletLocked(wallet)) {
+            walletLock.setWalletLocked(true);
+        }
+    }
+
+    @Override
+    public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+
+    }
+
+    @Override
+    public void onActivityStarted(Activity activity) {
+        if (numStarted == 0) {
+            lockWalletIfNeeded();
+        }
+        numStarted++;
+    }
+
+    @Override
+    public void onActivityResumed(Activity activity) {
+
+    }
+
+    @Override
+    public void onActivityPaused(Activity activity) {
+
+    }
+
+    @Override
+    public void onActivityStopped(Activity activity) {
+        numStarted--;
+        if (numStarted == 0) {
+            // app went to background
+        }
+    }
+
+    @Override
+    public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
+
+    }
+
+    @Override
+    public void onActivityDestroyed(Activity activity) {
+
+    }
 }
