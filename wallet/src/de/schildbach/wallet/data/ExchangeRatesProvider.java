@@ -25,7 +25,6 @@ import android.database.MatrixCursor;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
-import android.text.format.DateUtils;
 
 import com.google.common.base.Stopwatch;
 import com.squareup.okhttp.Call;
@@ -47,13 +46,20 @@ import java.util.Iterator;
 import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Lock;
 
 import javax.annotation.Nullable;
 
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
+import de.schildbach.wallet.ui.preference.PinRetryController;
 import de.schildbach.wallet.util.GenericUtils;
+
+<<<<<<<HEAD
+        =======
+        >>>>>>>1c113cd6...Lock Feature(PIN is required and has a delay between incorrect
 
 /**
  * @author Andreas Schildbach
@@ -70,6 +76,7 @@ public class ExchangeRatesProvider extends ContentProvider {
 
     private Configuration config;
     private String userAgent;
+    private PinRetryController pinRetryController;
 
     @Nullable
     private Map<String, ExchangeRate> exchangeRates = null;
@@ -84,13 +91,14 @@ public class ExchangeRatesProvider extends ContentProvider {
     private static final HttpUrl POLONIEX_URL = HttpUrl.parse("https://poloniex.com/public?command=returnTradeHistory&currencyPair="+CoinDefinition.cryptsyMarketCurrency +"_" + CoinDefinition.coinTicker);
     private static final String POLONIEX_SOURCE = "Poloniex";
 
-    private static final long UPDATE_FREQ_MS = 10 * DateUtils.MINUTE_IN_MILLIS;
+    private static final long UPDATE_FREQ_MS = TimeUnit.SECONDS.toMillis(30);
 
     private static final Logger log = LoggerFactory.getLogger(ExchangeRatesProvider.class);
 
     @Override
     public boolean onCreate() {
         final Context context = getContext();
+        this.pinRetryController = new PinRetryController(getContext());
 
         this.config = new Configuration(PreferenceManager.getDefaultSharedPreferences(context), context.getResources());
         this.userAgent = WalletApplication.httpUserAgent(WalletApplication.packageInfoFromContext(context).versionName);
@@ -253,6 +261,7 @@ public class ExchangeRatesProvider extends ContentProvider {
         try {
             final Response response = call.execute();
             if (response.isSuccessful()) {
+                pinRetryController.storeSecureTime(response.headers().getDate("date"));
                 final String content = response.body().string();
                 final JSONObject head = new JSONObject(content);
                 final Map<String, ExchangeRate> rates = new TreeMap<String, ExchangeRate>();
@@ -306,6 +315,7 @@ public class ExchangeRatesProvider extends ContentProvider {
         try {
             final Response response = call.execute();
             if (response.isSuccessful()) {
+                pinRetryController.storeSecureTime(response.headers().getDate("date"));
                 final String content = response.body().string();
 
                 JSONObject priceData = new JSONObject(content);
@@ -368,6 +378,7 @@ public class ExchangeRatesProvider extends ContentProvider {
 //
 //        return null;
 //    }
+
 
     // backport from bitcoinj 0.15
     private static Fiat parseFiatInexact(final String currencyCode, final String str) {
