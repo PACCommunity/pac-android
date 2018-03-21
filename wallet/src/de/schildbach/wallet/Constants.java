@@ -17,8 +17,14 @@
 
 package de.schildbach.wallet;
 
-import java.io.File;
-import java.util.concurrent.TimeUnit;
+import android.os.Build;
+import android.os.Environment;
+import android.text.format.DateUtils;
+
+import com.google.common.io.BaseEncoding;
+import com.squareup.okhttp.HttpUrl;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.logging.HttpLoggingInterceptor;
 
 import org.bitcoinj.core.CoinDefinition;
 import org.bitcoinj.core.Context;
@@ -29,16 +35,10 @@ import org.bitcoinj.utils.MonetaryFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.io.BaseEncoding;
-import com.squareup.okhttp.HttpUrl;
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.logging.HttpLoggingInterceptor;
+import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 import de.schildbach.wallet_test.BuildConfig;
-
-import android.os.Build;
-import android.os.Environment;
-import android.text.format.DateUtils;
 
 /**
  * @author Andreas Schildbach
@@ -144,10 +144,10 @@ public final class Constants {
             ? CoinDefinition.DONATION_ADDRESS : null;
 
     /** Recipient e-mail address for reports. */
-    public static final String REPORT_EMAIL = "hashengineeringsolutions@gmail.com";
+    public static final String REPORT_EMAIL = "chasepacdev@gmail.com";
 
     /** Subject line for manually reported issues. */
-    public static final String REPORT_SUBJECT_ISSUE = "Dash Wallet: Reported issue";
+    public static final String REPORT_SUBJECT_ISSUE = "$PAC Wallet: Reported issue";
 
     /** Subject line for crash reports. */
     public static final String REPORT_SUBJECT_CRASH = "Crash report";
@@ -226,7 +226,7 @@ public final class Constants {
     //Dash Specific
     public static long EARLIEST_HD_SEED_CREATION_TIME = 1427610960l;
 
-    public static String WALLET_URI_SCHEME = "dashwallet";
+    public static String WALLET_URI_SCHEME = "paccoin";
 
     public static boolean ENABLE_ZERO_FEES = TEST; //Enable Zero Fee's on TestNet only.
 }
