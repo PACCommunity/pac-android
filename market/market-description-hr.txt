@@ -4,7 +4,7 @@
 <b>ZNAČAJKE</b>
 
 • Bez registracije, web servis ili cloud potreban! Ovaj novčanik je de-centraliziran i klijent prema klijentu.
-• Prikaži Bitcoin iznos u DASH, mDASH i uDASH.
+• Prikaži Bitcoin iznos u $PAC, m$PAC i u$PAC.
 • Pretvorba u ili iz nacionalnih valuta.
 • Slanje i primanje Bitcoina s NFC, QR kodom ili Bitcoin URL-om.
 • Adresar za često korištene Bitcoin adrese.
@@ -28,7 +28,7 @@ https://www.transifex.com/dash/dash-wallet/
 <b>IZJAVE</b>
 
 • Mnoge  mobilne aplikacije temelje svoj kod na Bitcoin Wallet. Primjer: blockchain.info i BTCX.
-• Preporučeni pokretni novčanik od https://dash.org
+• Preporučeni pokretni novčanik od http://paccoin.net
 • Preporučava BitPay.
 
 

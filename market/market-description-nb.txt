@@ -1,10 +1,10 @@
-<b>Ha alltid dine bitcoins med deg, i lommen din!</b> Du betaler ved å raskt skanne en QR-kode. Som en kjøpmann, får du betaling pålitelig og kjapt. Dash Wallet er den første Dash mobilappen, og kanskje også den sikreste!
+<b>Ha alltid dine bitcoins med deg, i lommen din!</b> Du betaler ved å raskt skanne en QR-kode. Som en kjøpmann, får du betaling pålitelig og kjapt. $PAC Wallet er den første $PAC mobilappen, og kanskje også den sikreste!
 
 
 <b>FUNKSJONER</b>
 
 • Ingen registrering, webtjeneste eller sky trengs! Denne lommeboken er desentralisert og peer-to-peer.
-• Visning av bitcoinbeløpet i DASH, mDASH og μDASH.
+• Visning av bitcoinbeløpet i $PAC, m$PAC og μ$PAC.
 • Konvertering til og fra nasjonale valutaer.
 • Sende og motta bitcoin via NFC, QR-koder eller Bitcoin-URLer.
 • Adressebok for regelmessig brukte Bitcoin-adresser.
@@ -16,11 +16,11 @@
 
 <b>BIDRA</b>
 
-Dash Wallet har <b>åpen kildekode</b> og er <b>fri programvare</b>. Lisens: GPLv3
+$PAC Wallet har <b>åpen kildekode</b> og er <b>fri programvare</b>. Lisens: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Vår kildekode er tilgjengelig på GitHub:
-https://github.com/HashEngineering/darkcoin-wallet
+https://github.com/HashEngineering/dash-wallet
 
 Alle oversettelser skjer via Transifex:
 https://www.transifex.com/dash/dash-wallet/
@@ -29,8 +29,7 @@ https://www.transifex.com/dash/dash-wallet/
 <b>ANBEFALINGER</b>
 
 • Mange mobillommebøker baserer sin kildekode på Bitcoin Wallet. Eksempler: blockchain.info og BTCX.
-• Anbefalt mobillommebok av https://dash.org
-• Anbefalt av BitPay.
+• Anbefalt mobillommebok av http://paccoin.net
 
 
 <i>Bruk på eget ansvar!</i>

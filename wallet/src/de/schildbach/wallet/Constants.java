@@ -117,7 +117,7 @@ public final class Constants {
 
     /** Currency code for the wallet name resolver. */
     public static final String WALLET_NAME_CURRENCY_CODE = NETWORK_PARAMETERS.getId()
-            .equals(NetworkParameters.ID_MAINNET) ? "dash" : "tdash";
+            .equals(NetworkParameters.ID_MAINNET) ? "pac" : "tpac";
 
     /** URL to fetch version alerts from. */
     public static final HttpUrl VERSION_URL = HttpUrl.parse("https://wallet.schildbach.de/version");
@@ -223,7 +223,7 @@ public final class Constants {
 
     private static final Logger log = LoggerFactory.getLogger(Constants.class);
 
-    //Dash Specific
+    //$PAC Specific
     public static long EARLIEST_HD_SEED_CREATION_TIME = 1427610960l;
 
     public static String WALLET_URI_SCHEME = "paccoin";

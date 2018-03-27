@@ -16,12 +16,6 @@
 
 package de.schildbach.wallet.integration.sample;
 
-import org.bitcoin.protocols.payments.Protos;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.AddressFormatException;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.script.ScriptBuilder;
-
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
@@ -40,6 +34,12 @@ import android.widget.Toast;
 
 import com.google.protobuf.ByteString;
 
+import org.bitcoin.protocols.payments.Protos;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.AddressFormatException;
+import org.bitcoinj.core.NetworkParameters;
+import org.bitcoinj.script.ScriptBuilder;
+
 import de.schildbach.wallet.integration.android.BitcoinIntegration;
 
 /**
@@ -48,7 +48,7 @@ import de.schildbach.wallet.integration.android.BitcoinIntegration;
 public class SampleActivity extends Activity {
     private static final long AMOUNT = 500000;
     private static final String[] DONATION_ADDRESSES_MAINNET = {
-            "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv",  //Hash Engineering donation DASH address
+            "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv",  //Chase Pac Development donation $PAC address
             "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv"
     };
     private static final String[] DONATION_ADDRESSES_TESTNET = {
@@ -56,7 +56,7 @@ public class SampleActivity extends Activity {
             "ye5F5rfx44YqvqCpVvi1SfFS4dvqaqyuDr"    // https://test.faucet.dashninja.pl/
     };
     private static final String MEMO = "Sample donation";
-    private static final String WALLET_URI_SCHEME = "dashwallet";
+    private static final String WALLET_URI_SCHEME = "pacwallet";
     private static final int REQUEST_CODE = 0;
     private static final int REQUEST_PAYMENT = 1;
     private static final int REQUEST_PUBLIC_KEY = 2;
@@ -190,7 +190,7 @@ public class SampleActivity extends Activity {
             Intent chooserIntent = Intent.createChooser(walletUriIntent, "Select Wallet");
             startActivityForResult(chooserIntent, requestCode);
         } else {
-            Toast.makeText(this, "Dash Wallet not installed", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "$PAC Wallet not installed", Toast.LENGTH_LONG).show();
         }
     }
 
