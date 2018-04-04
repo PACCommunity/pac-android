@@ -47,7 +47,7 @@
             android:layout_width="@dimen/app_bar_logo_width"
             android:layout_height="@dimen/app_bar_logo_height"
             android:scaleType="fitStart"
-            android:src="@drawable/pac_logo_white" />
+            android:src="@drawable/dash_logo_white1" />
 
         <TextView
             android:id="@+id/toolbar_title"
