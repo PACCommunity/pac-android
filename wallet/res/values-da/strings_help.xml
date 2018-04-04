@@ -3,11 +3,11 @@
   <string name="help_wallet">
 <![CDATA[
 		<p>
-			Den øverste, venstre del af skærmen viser din saldo i $PAC og en valgt national valuta.
+			Den øverste, venstre del af skærmen viser din saldo i Dash og en valgt national valuta.
 			Berør skærmen for at gå til listen over nationale valutaer, og berør en af valutaerne for at vælge den som standard.
 		</p>
 		<p>
-			QR-koden til højre indeholder din $PAC-adresse og kan scannes af en anden person.
+			QR-koden til højre indeholder din Dash-adresse og kan scannes af en anden person.
 			Berør QR-koden for at få en større version af den.
 		</p>
 		<p>
@@ -16,7 +16,7 @@
 			Modtagne betalinger vil blive markeret med grøn og sendte betalinger med rød.
 		</p>
 		<p>
-			Du kan sende eller anmode om $PAC ved at berøre knapperne i handlingsbjælken.
+			Du kan sende eller anmode om Dash ved at berøre knapperne i handlingsbjælken.
 			Flere muligheder er tilgængelige i opsætningsmenuen.
 		</p>
 	]]>
@@ -24,15 +24,15 @@
   <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Ved at bruge denne dialog kan du forespørge mønter fra en anden person (som allerede skal have installeret $PAC Wallet).
+			Ved at bruge denne dialog kan du forespørge mønter fra en anden person (som allerede skal have installeret Dash Wallet).
 		</p>
 		<p>
-			First kan du indtaste et antal $PAC til forespørgslen.
+			First kan du indtaste et antal Dash til forespørgslen.
 		</p>
 		<p>
 			Bagefter får du enten QR-koden scannet af den anden person,
 			eller du kan sende din forespørgsel til en person over længere afstand med Del-knappen i action-bjælken.
-			Den anden person skal klikke på $PAC-URL\'en.
+			Den anden person skal klikke på Dash-URL\'en.
 		</p>
 		<p>
 			Uanset hvordan, vil betaleren få vist en skærm/et vindue til afsendelse af bitcoin med alle felterne forudfyldt.
@@ -44,15 +44,15 @@
 <![CDATA[
 		<p>
 			Du har startet processen for at sende mønter.
-			Du kom hertil enten via hovedsskærmen eller ved at klikke på en $PAC-URL i din molbilbrowser.
+			Du kom hertil enten via hovedsskærmen eller ved at klikke på en Dash-URL i din molbilbrowser.
 		</p>
 		<p>
-			Først skriver du den $PAC-adresse, du vil betale til.
+			Først skriver du den Dash-adresse, du vil betale til.
 			Adressen vil autoudfyldes ud fra kendte indgange i din adressebog.
-			Du kan også scanne QR-koder med $PAC-adresser eller $PAC-forespørgsler ved at klikke på QR-knappen i action-bjælken.
+			Du kan også scanne QR-koder med Dash-adresser eller Dash-forespørgsler ved at klikke på QR-knappen i action-bjælken.
 		</p>
 		<p>
-			Dernæst kan du se, hvor mange $PAC du kan bruge i øjeblikket.
+			Dernæst kan du se, hvor mange Dash du kan bruge i øjeblikket.
 			En evt. difference til saldoen fra hovedskærmen er stadig ubekræftet og kan dermed ikke bruges.
 		</p>
 		<p>
@@ -60,7 +60,7 @@
 		</p>
 		<p>
 			Du kan indtaste et beløb, mens du er offline.
-			Det vil blive sendt, næste gang $PAC Wallet genstartes.
+			Det vil blive sendt, næste gang Dash Wallet genstartes.
 			Hvis du vil have, at en betaling går igennem så hurtigt som muligt, så vær sikker på, at du er ordentligt forbundet (dvs. på et WLAN).
 		</p>
 		<p>
@@ -76,8 +76,8 @@
 			<b>Vigtige sikkerhedsnoter:</b>
 		</p>
 		<p>
-			$PAC bliver gemt på enheden.
-			<b>Hvis du mister den, mister du dine $PAC.</b>
+			Dash bliver gemt på enheden.
+			<b>Hvis du mister den, mister du dine Dash.</b>
 		</p>
 		<p>
 			Dette betyder, at du er nødt til at <b>sikkerhedskopiere din tegnebog</b>!

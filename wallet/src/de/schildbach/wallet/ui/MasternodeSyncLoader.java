@@ -18,19 +18,26 @@
 package de.schildbach.wallet.ui;
 
 
-import android.content.AsyncTaskLoader;
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.AsyncTaskLoader;
+import android.support.v4.content.LocalBroadcastManager;
 
 import org.bitcoinj.core.MasternodeManager;
-import org.bitcoinj.core.MasternodeManagerListener;
 import org.bitcoinj.core.MasternodeSync;
 import org.bitcoinj.core.MasternodeSyncListener;
-import org.bitcoinj.utils.Threading;
+import org.bitcoinj.core.MasternodeManagerListener;
 import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.utils.Threading;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.RejectedExecutionException;
+
+import de.schildbach.wallet.WalletApplication;
+import de.schildbach.wallet.util.ThrottlingWalletChangeListener;
 
 /**
  * @author Andreas Schildbach
@@ -54,14 +61,14 @@ public final class MasternodeSyncLoader extends AsyncTaskLoader<Integer>
 		this.masternodeManager = wallet.getContext().masternodeManager;
 	}
 
-	public MasternodeSyncLoader(final Context context, org.bitcoinj.core.Context pacContext)
+	public MasternodeSyncLoader(final Context context, org.bitcoinj.core.Context dashContext)
 	{
 		super(context);
 
 		//this.broadcastManager = LocalBroadcastManager.getInstance(context.getApplicationContext());
-		this.masternodeSync = pacContext.masternodeSync;
+		this.masternodeSync = dashContext.masternodeSync;
 		this.masternodeSyncStatus = masternodeSync.getSyncStatusInt();
-		this.masternodeManager = pacContext.masternodeManager;
+		this.masternodeManager = dashContext.masternodeManager;
 	}
 
 	@Override

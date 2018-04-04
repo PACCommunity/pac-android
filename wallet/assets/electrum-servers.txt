@@ -1,1 +1,2 @@
-tcp:electro-pac.paccoin.ionk]
+tcp:electrum.dash.siampm.com
+tcp:electrum-drk.club

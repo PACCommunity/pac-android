@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <!-- This Copy Address Button is added for $PAC -->
+    <!-- This Copy Address Button is added for DASH -->
     <item
         android:id="@+id/request_coins_options_copy_address"
         android:icon="@drawable/ic_content_copy_white_24dp"

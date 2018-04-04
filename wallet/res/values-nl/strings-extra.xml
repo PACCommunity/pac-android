@@ -4,10 +4,10 @@
 
 	<string name="send_coins_fragment_instantx_enable">InstantSend gebruiken</string>
 	<string name="transaction_row_message_own_instantx_lock_request_notsent">Deze InstantSend-betaling is nog niet overgedragen.</string>
-	<string name="transaction_row_message_own_instantx_lock_request">Deze InstantSend-betaling wacht op goedkeuring door $PAC Network.</string>
+	<string name="transaction_row_message_own_instantx_lock_request">Deze InstantSend-betaling wacht op goedkeuring door Dash Network.</string>
 	<string name="transaction_row_message_own_instantx_locked">InstantSend-transactie versturen (vergrendeld)</string>
-	<string name="transaction_row_message_received_instantx_lock_request">Deze InstantSend-betaling wacht op goedkeuring door $PAC Network.</string>
-	<string name="transaction_row_message_received_instantx_locked">Deze InstantSend-betaling is goedgekeurd door $PAC Network.</string>
+	<string name="transaction_row_message_received_instantx_lock_request">Deze InstantSend-betaling wacht op goedkeuring door Dash Network.</string>
+	<string name="transaction_row_message_received_instantx_locked">Deze InstantSend-betaling is goedgekeurd door Dash Network.</string>
 	<string name="transaction_row_message_received_unconfirmed_instantx">Niet-bevestigde InstantSend</string>
 	<string name="transaction_row_message_received_instantx_locked2">Vergrendelde InstantSend</string>
 
