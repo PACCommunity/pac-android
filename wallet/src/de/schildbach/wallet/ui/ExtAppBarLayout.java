@@ -20,7 +20,7 @@ import de.schildbach.wallet_test.R;
  */
 public class ExtAppBarLayout extends AppBarLayout implements AppBarLayout.OnOffsetChangedListener {
 
-    private static final String DASH_WEBPAGE_URL = "http://www.dash.org";
+    private static final String PAC_WEBPAGE_URL = "http://paccoin.net";
 
     private View toolbarTitlePanelView;
     private View toolbarLogoView;
@@ -102,7 +102,7 @@ public class ExtAppBarLayout extends AppBarLayout implements AppBarLayout.OnOffs
             @Override
             public void onClick(View v) {
                 blinkViews(toolbarLogoView, toolbarSloganView);
-                openUrl(DASH_WEBPAGE_URL);
+                openUrl(PAC_WEBPAGE_URL);
             }
         });
     }

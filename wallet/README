@@ -16,8 +16,8 @@ Certain actions cause automatic rolling backups of your wallet to app-private st
 
 Your wallet can be manually backed up to and restored from external storage:
 
-	Mainnet: /sdcard/Download/dash-wallet-backup-<yyyy-MM-dd>
-	Testnet: /sdcard/Download/dash-wallet-backup-testnet-<yyyy-MM-dd>
+	Mainnet: /sdcard/Download/pac-wallet-backup-<yyyy-MM-dd>
+	Testnet: /sdcard/Download/pac-wallet-backup-testnet-<yyyy-MM-dd>
 
 If you want to recover coins from manual backups and for whatever reason you cannot use the app
 itself to restore from the backup, see the separate README.recover guide.
@@ -74,14 +74,14 @@ Get the Android NDK from
 and unpack it to your workspace directory. Point your ANDROID_NDK_HOME variable to the unpacked Android NDK
 directory.
 
-Finally, you can build Dash Wallet and sign it with your development key. Again in your workspace,
+Finally, you can build $PAC Wallet and sign it with your development key. Again in your workspace,
 use
 
 	# first time only
-	git clone -b master https://github.com/HashEngineering/dash-wallet.git dash-wallet
+	git clone -b master https://github.com/HashEngineering/dash-wallet.git pac-wallet
 
 	# each time
-	cd dash-wallet
+	cd pac-wallet
 	git pull
     gradle clean :native-scrypt:copy test build
 
@@ -108,7 +108,7 @@ wallet file is protected against access from non-root users. In the code reposit
 separate 'prod' branch that gets rebased against master with each released version.
 
 	# each time
-	cd dash-wallet
+	cd pac-wallet
 	git fetch origin
 	git checkout origin/prod
     gradle clean :native-scrypt:copy test build
@@ -150,7 +150,7 @@ corrected manually.
 
 NFC (Near field communication)
 
-Dash Wallet supports reading Dash requests via NFC, either from a passive NFC tag or from
+$PAC Wallet supports reading $PAC requests via NFC, either from a passive NFC tag or from
 another NFC capable Android device that is requesting coins.
 
 For this to work, just enable NFC in your phone and hold your phone to the tag or device (with
@@ -164,9 +164,9 @@ Instructions for preparing an NFC tag with your address:
 
 - Some tags have less than 50 bytes capacity, those won't work. 1 KB tags recommended.
 
-- The tag needs to contain a Dash URI. You can construct one with the "Request coins" dialog,
+- The tag needs to contain a $PAC URI. You can construct one with the "Request coins" dialog,
   then share with messaging or email. You can also construct the URI manually. Example for Mainnet:
-  dash:XywwpkwZYAypoW2cCmdczh4kFcvWWb9ZZW
+  pacoin:PywwpkwZYAypoW2cCmdczh4kFcvWWb9ZZW
 
 - The type of the message needs to be URI or URL (not Text).
 
@@ -174,17 +174,17 @@ Instructions for preparing an NFC tag with your address:
   could overwrite the tag with his own Dash address.
 
 
-DASHJ
+PACJ
 
-Dash Wallet uses dashj for Dash specific logic:
+$PAC Wallet uses pacj for $PAC specific logic:
 
-    (dashj) https://github.com/HashEngineering/dashj
-	forked from (bitcoinj)  https://bitcoinj.github.io/
+    (pacj) https://github.com/HashEngineering/dashj
+	forked from (dashj) https://github.com/HashEngineering/dashj
 
 
 EXCHANGE RATES
 
-Dash Wallet reads this feed from "BitcoinAverage" for getting exchange rates:
+$PAC Wallet reads this feed from "BitcoinAverage" for getting exchange rates:
 
     https://apiv2.bitcoinaverage.com/indices/global/ticker/short?crypto=BTC
 
@@ -194,10 +194,10 @@ mind it's always a 24h average.
 
 SWEEPING WALLETS
 
-For sweeping wallets, Dash Wallet uses an API by chainz to query for unspent transaction
+For sweeping wallets, $PAC Wallet uses an API by chainz to query for unspent transaction
 outputs:
 
 	https://chainz.cryptoid.info/dash/api.dws?q=unspent
 
-When sweeping wallets, Dash Wallet uses a set of Electrum servers to query for unspent transaction
+When sweeping wallets, $PAC Wallet uses a set of Electrum servers to query for unspent transaction
 outputs (UTXOs).

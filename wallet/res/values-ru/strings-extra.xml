@@ -4,10 +4,10 @@
 
 	<string name="send_coins_fragment_instantx_enable">Использовать InstantSend</string>
 	<string name="transaction_row_message_own_instantx_lock_request_notsent">Этот платёж InstantSend пока ещё не выполнен.</string>
-	<string name="transaction_row_message_own_instantx_lock_request">Этот платёж InstantSend ожидает проверки сетью Dash.</string>
+	<string name="transaction_row_message_own_instantx_lock_request">Этот платёж InstantSend ожидает проверки сетью $PAC.</string>
 	<string name="transaction_row_message_own_instantx_locked">Транзакция InstantSend отправлена (защищена).</string>
-	<string name="transaction_row_message_received_instantx_lock_request">Этот платёж InstantSend ожидает проверки сетью Dash.</string>
-	<string name="transaction_row_message_received_instantx_locked">Этот платёж InstantSend проверен сетью Dash.</string>
+	<string name="transaction_row_message_received_instantx_lock_request">Этот платёж InstantSend ожидает проверки сетью $PAC.</string>
+	<string name="transaction_row_message_received_instantx_locked">Этот платёж InstantSend проверен сетью $PAC.</string>
 	<string name="transaction_row_message_received_unconfirmed_instantx">Неподтверждённый InstantSend</string>
 	<string name="transaction_row_message_received_instantx_locked2">Защищённый InstantSend</string>
 
@@ -17,7 +17,7 @@
 	<string name="export_keys_dialog_title_to_seed">Посмотреть фразу восстановления</string>
 	<string name="import_keys_dialog_title_from_seed">Восстановить из фразы восстановления</string>
 	<string name="backup_to_seed_wallet_dialog_message">Это ваша фраза восстановления. Пожалуйста, запишите и сохраните её.</string>
-	<string name="backup_wallet_to_seed_dialog_warning">НЕ ПОЗВОЛЯЙТЕ никому увидеть вашу фразу восстановления, так как это позволит им заполучить ваши Dash. Эта фраза не совместима с другим ПО Dash.</string>
+	<string name="backup_wallet_to_seed_dialog_warning">НЕ ПОЗВОЛЯЙТЕ никому увидеть вашу фразу восстановления, так как это позволит им заполучить ваши $PAC. Эта фраза не совместима с другим ПО $PAC.</string>
 	<string name="backup_to_seed_wallet_dialog_enter_pin_message">Ваш кошелёк защищён ПИН-кодом. Введите свой ПИН и нажмите Показать для просмотра фразы восстановления.</string>
     <string name="import_keys_from_seed_dialog_message">Введите свою фразу восстановления.</string>
 	<string name="import_export_keys_dialog_password_phrase">Вот ваша фраза восстановления.</string>
