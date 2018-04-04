@@ -1,7 +1,7 @@
 include 'wallet'
 include 'integration-android'
-include ':dashj'
-project(':dashj').projectDir = file('../dashj')
+include ':pacj'
+project(':pacj').projectDir = file('../pacj')
 include 'sample-integration-android'
 include 'native-scrypt'
 include 'native-x11'
