@@ -30,7 +30,6 @@ import org.bitcoinj.core.CoinDefinition;
 import org.bitcoinj.core.Context;
 import org.bitcoinj.core.NetworkParameters;
 import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
 import org.bitcoinj.utils.MonetaryFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,16 +37,14 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import de.schildbach.wallet_test.BuildConfig;
-
 /**
  * @author Andreas Schildbach
  */
 public final class Constants {
-    public static final boolean TEST = BuildConfig.APPLICATION_ID.contains("_test");
+    public static final boolean TEST = false;
 
     /** Network this wallet is on (e.g. testnet or mainnet). */
-    public static final NetworkParameters NETWORK_PARAMETERS = TEST ? TestNet3Params.get() : MainNetParams.get();
+    public static final NetworkParameters NETWORK_PARAMETERS =  MainNetParams.get();
 
     /** Bitcoinj global context. */
     public static final Context CONTEXT = new Context(NETWORK_PARAMETERS);
