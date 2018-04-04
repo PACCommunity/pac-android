@@ -31,7 +31,7 @@ public final class BitcoinIntegration {
     private static final String INTENT_EXTRA_PAYMENT = "payment";
     private static final String INTENT_EXTRA_TRANSACTION_HASH = "transaction_hash";
 
-    private static final String MIMETYPE_PAYMENTREQUEST = "application/dash-paymentrequest"; // BIP 71
+    private static final String MIMETYPE_PAYMENTREQUEST = "application/pac-paymentrequest"; // BIP 71
 
     /**
      * Request any amount of Bitcoins (probably a donation) from user, without feedback from the app.
@@ -221,7 +221,7 @@ public final class BitcoinIntegration {
     private static final int SATOSHIS_PER_COIN = 100000000;
 
     private static Intent makeBitcoinUriIntent(final String address, final Long amount) {
-        final StringBuilder uri = new StringBuilder("dash:");
+        final StringBuilder uri = new StringBuilder("paccoin:");
         if (address != null)
             uri.append(address);
         if (amount != null)
@@ -258,7 +258,7 @@ public final class BitcoinIntegration {
     }
 
     private static void redirectToDownload(final Context context) {
-        Toast.makeText(context, "No Dash application found.\nPlease install Dash Wallet.", Toast.LENGTH_LONG)
+        Toast.makeText(context, "No $PAC application found.\nPlease install $PAC Wallet.", Toast.LENGTH_LONG)
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,

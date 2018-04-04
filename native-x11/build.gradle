@@ -6,7 +6,7 @@ model {
 
         ndk {
             moduleName 'x11'
-            abiFilters.addAll(['armeabi', 'armeabi-v7a', 'x86', 'mips', 'arm64-v8a', 'mips64', 'x86_64'])
+            abiFilters.addAll(['armeabi', 'armeabi-v7a', 'x86', 'mips'])
             CFlags.add('-DHAVE_CONFIG_H')
             stl = "stlport_static"
         }

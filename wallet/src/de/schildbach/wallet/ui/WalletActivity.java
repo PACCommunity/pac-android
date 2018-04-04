@@ -1016,7 +1016,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
         viewDrawer.closeDrawer(GravityCompat.START);
         return true;
     }
-    //Dash Specific
+    //$PAC Specific
     private void handleDisconnect() {
         getWalletApplication().stopBlockchainService();
         finish();

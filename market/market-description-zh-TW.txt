@@ -4,7 +4,7 @@
 <b>特點</b>
 
 • 不需要註冊、不用登記網路服務、也不使用任何雲端服務！這個錢包 app 完全去中心，並使用對等網路(P2P)來服務。
-• 可以顯示不同 Bitcoin 金額單位，如 DASH、mDASH 與 µDASH。
+• 可以顯示不同 Bitcoin 金額單位，如 $PAC、m$PAC 與 µ$PAC。
 • 可以轉換各國貨幣。
 • 可以透過 NFC、QR 條碼、或是 Bitcoin 付款網址來付款及收款。
 • 可以用位址簿管理常用的 Bitcoin 位址。
@@ -16,7 +16,7 @@
 
 <b>出力</b>
 
-Dash Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
+$PAC Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Our source code is available at GitHub:
@@ -28,7 +28,7 @@ https://www.transifex.com/dash/dash-wallet/
 
 <b>大推</b>
 
-• https://dash.org 推薦的行動錢包
+• http://paccoin.net 推薦的行動錢包
 
 
 <i>請自負使用風險！</i>

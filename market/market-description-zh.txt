@@ -5,7 +5,7 @@
 <b>特性</b>
 
 • 无需注册；连接网络云服务器即可！本钱包完全去中心化，采用点对点技术。
-• 以DASH，mDASH，或µDASH表示。
+• 以$PAC，m$PAC，或µ$PAC表示。
 • 与国际货币进行兑换。
 • 通过NFC、QR码或链接发送或接收达世币。
 • 通过通讯簿记录常用达世币地址。
@@ -21,16 +21,16 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 可以在GitHub查看我们的源代码：
-https://github.com/HashEngineering/dash-wallet
+https://github.com/HashEngineering/$PAC-wallet
 
 所有翻译经由Transifex管理注入：
 https://www.transifex.com/dash/dash-wallet/
 
 你可以在这里找到更多达世币信息
-https://www.dash.org/
+http://paccoin.net
 
 <b>客户评价</b>
 
-由 https://www.dash.org 推荐使用的移动钱包
+由 http://paccoin.net 推荐使用的移动钱包
 
 <i>妥善使用，风险自负</i>

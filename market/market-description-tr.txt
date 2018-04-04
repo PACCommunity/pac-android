@@ -1,23 +1,23 @@
 Riskin size ait olduğunu bilerek kullanın! (Android 4 veya üstünü gerektirir)
 
-<b>Dash'iniz hep sizinle olsun, cebinizde!</b> QR kodunu tarayarak hızlıca ödeme yapabilir. Tacir olarak, ödemelerinizi anında ve güvenilir bir şekilde alabilirsiniz. Dash Wallet ilk mobil Dash uygulamasıdır, ve muhtemelen en güvenilir olanıdır!
+<b>$PAC'iniz hep sizinle olsun, cebinizde!</b> QR kodunu tarayarak hızlıca ödeme yapabilir. Tacir olarak, ödemelerinizi anında ve güvenilir bir şekilde alabilirsiniz. $PAC Wallet ilk mobil $PAC uygulamasıdır, ve muhtemelen en güvenilir olanıdır!
 
 <b>ÖZELLİKLER</b>
 
 • Kayıt, web hizmeti, veya bulut gerektirmez! Bu cüzdan eşler arası ve merkezi olmayan bir cüzdandır.
-• Dash miktarını DASH, mDASH ve µDASH olarak görüntüle.
+• $PAC miktarını $PAC, m$PAC ve µ$PAC olarak görüntüle.
 • Ulusal para birimlerine ve ulusal para birimlerinden dönüştürme.
-• NFC, QR kodları veya Dash URL'leri vasıtasıyla Dash gönderimi ve alımı.
-• Sürekli kullanılan Dash adresleri için adres rehberi.
+• NFC, QR kodları veya $PAC URL'leri vasıtasıyla $PAC gönderimi ve alımı.
+• Sürekli kullanılan $PAC adresleri için adres rehberi.
 • Çevrimdışıyken bile, Bluetooth vasıtasıyla ödeme yapabilirsiniz.
 • Gelen paralar için sistem bildirimleri.
 • Kağıt cüzdanların taranması (örn. soğuk depolama için kullanılan)
-• Dash bakiyesi için uygulama widget'i.
+• $PAC bakiyesi için uygulama widget'i.
 
 
 <b>KATKIDA BULUN</b>
 
-Dash Wallet <b>açık kaynak kodlu</b> <b>ücretsiz bir yazılımdır</b>. Lisans: GPLv3
+$PAC Wallet <b>açık kaynak kodlu</b> <b>ücretsiz bir yazılımdır</b>. Lisans: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Kaynak kodumuz GitHub'da mevcuttur:
@@ -26,11 +26,11 @@ https://github.com/HashEngineering/dash-wallet
 Tüm çeviriler Transifex aracılığıyla yönetilmektedir:
 https://www.transifex.com/dash/dash-wallet/
 
-Dash hakkında daha fazlası için
-https://www.dash.org/
+$PAC hakkında daha fazlası için
+http://paccoin.net
 
 <b>REFERANSLAR</b>
 
-• https://www.dash.org tarafından tavsiye edilen bir mobil cüzdan
+• http://paccoin.net tarafından tavsiye edilen bir mobil cüzdan
 
 <i>Riskin size ait olduğunu bilerek kullanın!</i>

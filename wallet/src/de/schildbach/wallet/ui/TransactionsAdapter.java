@@ -17,34 +17,6 @@
 
 package de.schildbach.wallet.ui;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Nullable;
-
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.Transaction.Purpose;
-import org.bitcoinj.core.TransactionConfidence;
-import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
-import org.bitcoinj.utils.ExchangeRate;
-import org.bitcoinj.utils.MonetaryFormat;
-import org.bitcoinj.wallet.DefaultCoinSelector;
-import org.bitcoinj.wallet.Wallet;
-
-import de.schildbach.wallet.Constants;
-import de.schildbach.wallet.data.AddressBookProvider;
-import de.schildbach.wallet.util.CircularProgressView;
-import de.schildbach.wallet.util.Formats;
-import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_test.R;
-
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Color;
@@ -59,6 +31,34 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.Sha256Hash;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.Transaction.Purpose;
+import org.bitcoinj.core.TransactionConfidence;
+import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
+import org.bitcoinj.utils.ExchangeRate;
+import org.bitcoinj.utils.MonetaryFormat;
+import org.bitcoinj.wallet.DefaultCoinSelector;
+import org.bitcoinj.wallet.Wallet;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.annotation.Nullable;
+
+import de.schildbach.wallet.Constants;
+import de.schildbach.wallet.data.AddressBookProvider;
+import de.schildbach.wallet.util.CircularProgressView;
+import de.schildbach.wallet.util.Formats;
+import de.schildbach.wallet.util.WalletUtils;
+import de.schildbach.wallet_test.R;
 
 /**
  * @author Andreas Schildbach
@@ -347,7 +347,7 @@ public class TransactionsAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             extendMessageView = itemView.findViewById(R.id.transaction_row_extend_message);
             messageView = (TextView) itemView.findViewById(R.id.transaction_row_message);
             menuView = (ImageButton) itemView.findViewById(R.id.transaction_row_menu);
-            //Dash
+            //$PAC
             ixView = itemView.findViewById(R.id.transaction_row_ix);
             ixStatusView = (TextView) itemView.findViewById(R.id.transaction_row_ix_status);
         }
