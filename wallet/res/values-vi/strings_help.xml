@@ -4,14 +4,14 @@
 	<string name="help_wallet">
 <![CDATA[
 <p>
-Phần góc trên bên trái của màn hình hiển thị số dư của bạn theo đơn vị $PAC và một loại tiền tệ quốc gia được chọn.
+Phần góc trên bên trái của màn hình hiển thị số dư của bạn theo đơn vị Dash và một loại tiền tệ quốc gia được chọn.
 
 Bấm vào danh sách tiền quốc gia và chọn một trong các loại tiền đó để chọn nó làm đơn vị ngầm định.
 </p>
 
 <p>
 
-Mã QR ở bên phải chứa địa chỉ $PAC của bạn và có thể dùng để quét bởi người muốn gửi tiền cho bạn.
+Mã QR ở bên phải chứa địa chỉ Dash của bạn và có thể dùng để quét bởi người muốn gửi tiền cho bạn.
 
 Bấm vào mã QR để xem hình phóng to hơn.
 
@@ -41,13 +41,13 @@ More options are available in the options menu.
 
 <p>
 
-Sử dụng bảng hội thoại này, bạn có thể nhận tiền từ người khác (người cũng cần đã có cài sẵn ví $PAC).
+Sử dụng bảng hội thoại này, bạn có thể nhận tiền từ người khác (người cũng cần đã có cài sẵn ví Dash).
 
 </p>
 
 <p>
 
-Đầu tiên, bạn hãy nhập vào số lượng $PAC mà bạn muốn nhận.
+Đầu tiên, bạn hãy nhập vào số lượng Dash mà bạn muốn nhận.
 
 </p>
 
@@ -57,7 +57,7 @@ Sau đó, bạn có thể sinh ra mã QR để người kia quét.
 
 Hoặc bạn có thể gửi yêu cầu cho người gửi bằng nút Chia sẻ dưới thanh hành động.
 
-Người kia sẽ click vào địa chỉ URL $PAC.
+Người kia sẽ click vào địa chỉ URL Dash.
 
 </p>
 
@@ -77,23 +77,23 @@ Nếu người đó chấp nhận thì tất cả các việc cần làm chỉ l
 
 Bạn đã khởi tạo tiến trình gửi tiền.
 
-Bạn đang ở phần này do chọn chức năng ở màn hình chính hoặc click vào địa chỉ URL $PAC trên trình duyệt di động của bạn.
+Bạn đang ở phần này do chọn chức năng ở màn hình chính hoặc click vào địa chỉ URL Dash trên trình duyệt di động của bạn.
 
 </p>
 
 <p>
 
-Đầu tiên, hãy nhập vào địa chỉ $PAC mà bạn muốn chuyển tiền.
+Đầu tiên, hãy nhập vào địa chỉ Dash mà bạn muốn chuyển tiền.
 
 Địa chỉ sẽ được tự động chọn đối với những địa chỉ đã được lưu trong danh bạ.
 
-Bạn cũng có thể quét mã QR với địa chỉ $PAC hoặc yêu cầu địa chỉ bằng cách bấm vào nút QR trong thanh công cụ hành động.
+Bạn cũng có thể quét mã QR với địa chỉ Dash hoặc yêu cầu địa chỉ bằng cách bấm vào nút QR trong thanh công cụ hành động.
 
 </p>
 
 <p>
 
-Tiếp theo, bạn có thể nhìn thấy bạn có thể tiêu bao nhiêu $PAC ở thời điểm hiện tại.
+Tiếp theo, bạn có thể nhìn thấy bạn có thể tiêu bao nhiêu Dash ở thời điểm hiện tại.
 
 Bất kỳ sự khác biệt nào về số dư so với màn hình chính là do chưa xác thực được và như vậy thì bạn chưa thể chi tiêu được luôn.
 
@@ -109,7 +109,7 @@ Cuối cùng, bạn hãy nhập vào số tiền mà bạn muốn chuyển.
 
 Bạn có thể tiến hành thanh toán khi đang ngừng kết nối.
 
-Giao dịch sẽ được gửi đi trong lần khởi động ví $PAC lần sau.
+Giao dịch sẽ được gửi đi trong lần khởi động ví Dash lần sau.
 
 Nếu bạn muốn gửi tiền càng nhanh càng tốt, hãy chắc chắn rằng bạn đang có kết nối tốt với Internet (ví dụ kết nối với mạng Wifi).
 
@@ -138,9 +138,9 @@ Hãy luôn kiểm tra địa chỉ nhận.
 
 <p>
 
-$PAC được lưu trữ trên máy này.
+Dash được lưu trữ trên máy này.
 
-<b>Nếu bạn mất máy, thì bạn sẽ mất $PAC trong máy.</b>
+<b>Nếu bạn mất máy, thì bạn sẽ mất Dash trong máy.</b>
 
 </p>
 
@@ -156,9 +156,9 @@ Giữ bản sao lưu của bạn được an toàn và hãy nhớ mật khẩu c
 
 <p>
 
-<b>Trước khi gỡ ứng dụng</b> (hoặc xoá dữ liệu trên máy này của bạn), <b>hãy chuyển số $PAC đến một ví khác</b>.
+<b>Trước khi gỡ ứng dụng</b> (hoặc xoá dữ liệu trên máy này của bạn), <b>hãy chuyển số Dash đến một ví khác</b>.
 
-Những $PAC còn lại trên đây sẽ bị mất.
+Những Dash còn lại trên đây sẽ bị mất.
 
 </p>
 
@@ -166,7 +166,7 @@ Những $PAC còn lại trên đây sẽ bị mất.
 
 <b>Các giao dịch không thể đảo ngược được</b>.
 
-Nếu bạn gửi nhầm $PAC đi đâu đó, thì hầu như không thể có cách nào có thể lấy nó lại được.
+Nếu bạn gửi nhầm Dash đi đâu đó, thì hầu như không thể có cách nào có thể lấy nó lại được.
 
 </p>
 

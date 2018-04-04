@@ -2,11 +2,11 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>$PAC, 8 desimaler</item>
-		<item>$PAC, 6 desimaler</item>
-		<item>$PAC, 4 desimaler</item>
-		<item>m$PAC, 2 desimaler</item>
-		<item>µ$PAC, ingen desimaler</item>
+		<item>DASH, 8 desimaler</item>
+		<item>DASH, 6 desimaler</item>
+		<item>DASH, 4 desimaler</item>
+		<item>mDASH, 2 desimaler</item>
+		<item>µDASH, ingen desimaler</item>
 	</string-array>
 
 </resources>

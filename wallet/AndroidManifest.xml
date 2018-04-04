@@ -82,7 +82,7 @@
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
                 <data android:mimeType="application/x-drktx" />
-                <data android:mimeType="application/x-pactx" />
+                <data android:mimeType="application/x-dashtx" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
@@ -100,7 +100,7 @@
             <intent-filter android:label="@string/send_coins_activity_title" >
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:scheme="paccoin" />
+                <data android:scheme="dash" />
                 <data android:scheme="darkcoin" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -109,7 +109,7 @@
             <intent-filter android:label="@string/send_coins_activity_title" >
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-                <data android:scheme="paccoin" />
+                <data android:scheme="dash" />
                 <data android:scheme="darkcoin" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -117,14 +117,14 @@
             <intent-filter android:label="@string/send_coins_activity_title" >
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:mimeType="application/pac-paymentrequest" />
+                <data android:mimeType="application/dash-paymentrequest" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter android:label="@string/send_coins_activity_title" >
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-                <data android:mimeType="application/pac-paymentrequest" />
+                <data android:mimeType="application/dash-paymentrequest" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -169,7 +169,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data android:mimeType="application/x-darkcoin-wallet-backup" />
-                <data android:mimeType="application/x-pac-wallet-backup" />
+                <data android:mimeType="application/x-dash-wallet-backup" />
             </intent-filter>
         </activity>
         <activity
@@ -193,7 +193,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:scheme="pacwallet" />
+                <data android:scheme="dashwallet" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
