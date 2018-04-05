@@ -265,9 +265,9 @@ public class ExchangeRatesProvider extends ContentProvider {
                                 && !fiatCurrencyCode.equals(MonetaryFormat.CODE_MBTC)
                                 && !fiatCurrencyCode.equals(MonetaryFormat.CODE_UBTC)) {
                             final JSONObject exchangeRate = head.getJSONObject(currencyCode);
-                            final JSONObject averages = exchangeRate.getJSONObject("averages");
+                            final String average = exchangeRate.getString("last");
                             try {
-                                Double _rate = pacPerBTC * averages.getDouble("day");
+                                Double _rate = pacPerBTC * Double.parseDouble(average);
                                 final Fiat rate = parseFiatInexact(fiatCurrencyCode, _rate.toString());
                                 if (rate.signum() > 0)
                                     rates.put(fiatCurrencyCode, new ExchangeRate(
