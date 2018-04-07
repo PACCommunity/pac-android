@@ -32,6 +32,8 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.text.format.DateUtils;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
+import com.crashlytics.android.answers.Answers;
 import com.google.common.base.Stopwatch;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
@@ -69,6 +71,7 @@ import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet_test.R;
+import io.fabric.sdk.android.Fabric;
 
 /**
  * @author Andreas Schildbach
@@ -103,6 +106,7 @@ public class WalletApplication extends Application {
 
     @Override
     public void onCreate() {
+        Fabric.with(this, new Answers(), new Crashlytics());
         //Memory Leak Detection
         if (LeakCanary.isInAnalyzerProcess(this)) {
             // This process is dedicated to LeakCanary for heap analysis.

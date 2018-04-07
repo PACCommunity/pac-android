@@ -19,6 +19,7 @@
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- dangerous permissions -->
     <uses-permission android:name="android.permission.CAMERA" /> <!-- group: CAMERA -->
@@ -63,6 +64,10 @@
         android:icon="@mipmap/ic_app_color"
         android:label="@string/app_name"
         android:largeHeap="true">
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a68d9754b4ecc328a9b509b49a34bcf23ced339f"
+            />
         <activity
             android:name="de.schildbach.wallet.ui.WalletActivity"
             android:configChanges="keyboard|keyboardHidden"
