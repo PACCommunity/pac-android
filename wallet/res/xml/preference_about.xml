@@ -5,7 +5,7 @@
         android:key="about_version"
         android:title="@string/about_version_title" />
     <Preference
-		android:summary="\n© 2014-2017 the Dash Wallet Developers\n© the $PAC Wallet Developers"
+		android:summary="\n© 2018 the $PAC Wallet Developers"
         android:title="@string/about_copyright_title" />
     <Preference
         android:key="about_license"
@@ -15,14 +15,14 @@
             android:action="android.intent.action.VIEW"
             android:data="https://www.gnu.org/licenses/gpl-3.0.txt" />
     </Preference>
-	<Preference
-		android:key="about_source"
-		android:summary="https://github.com/HashEngineering/dash-wallet"
-		android:title="@string/about_source_title" >
-		<intent
-			android:action="android.intent.action.VIEW"
-			android:data="https://github.com/HashEngineering/dash-wallet" />
-	</Preference>
+	<!--<Preference-->
+		<!--android:key="about_source"-->
+		<!--android:summary="https://github.com/HashEngineering/dash-wallet"-->
+		<!--android:title="@string/about_source_title" >-->
+		<!--<intent-->
+			<!--android:action="android.intent.action.VIEW"-->
+			<!--android:data="https://github.com/HashEngineering/dash-wallet" />-->
+	<!--</Preference>-->
     <Preference
         android:key="about_market_app"
         android:summary="@string/about_market_app_summary"
@@ -33,7 +33,7 @@
         android:title="@string/about_faq_title" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://bitcoin.stackexchange.com/questions/tagged/bitcoin-wallet-app" />
+            android:data="https://play.google.com/store/apps/details?id=org.paccoin.wallet" />
     </Preference>
     <Preference
         android:key="about_community_googleplus"
@@ -47,10 +47,10 @@
     <PreferenceCategory android:title="@string/about_category_credits" >
 		<Preference
 			android:key="about_credits_bitcoinj"
-			android:summary="https://github.com/HashEngineering/dashj" >
+			android:summary="https://github.com/PACCommunity/pac-android" >
 			<intent
 				android:action="android.intent.action.VIEW"
-				android:data="https://github.com/HashEngineering/dashj" />
+				android:data="https://github.com/PACCommunity/pac-android" />
 		</Preference>
         <!--
         <Preference
@@ -63,12 +63,12 @@
         </Preference>
         -->
         <Preference
-            android:key="about_credits_scrypt"
-            android:summary="https://github.com/wg/scrypt"
-            android:title="@string/about_credits_scrypt_title" >
+            android:key=""
+            android:summary=""
+            android:title="" >
             <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://github.com/wg/scrypt" />
+                android:action=""
+                android:data="" />
         </Preference>
     </PreferenceCategory>
 
