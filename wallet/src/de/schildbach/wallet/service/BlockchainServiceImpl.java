@@ -618,7 +618,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
         registerReceiver(tickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
 
-//        wallet.getContext().initPacSync(getDir("masternode", MODE_PRIVATE).getAbsolutePath());
+        wallet.getContext().initPacSync(getDir("masternode", MODE_PRIVATE).getAbsolutePath());
     }
 
     @Override

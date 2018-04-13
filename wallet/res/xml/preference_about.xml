@@ -35,14 +35,6 @@
             android:action="android.intent.action.VIEW"
             android:data="https://play.google.com/store/apps/details?id=org.paccoin.wallet" />
     </Preference>
-    <Preference
-        android:key="about_community_googleplus"
-        android:summary="@string/about_community_googleplus_summary"
-        android:title="@string/about_community_googleplus_title" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/communities/105515929887248493912" />
-    </Preference>
 
     <PreferenceCategory android:title="@string/about_category_credits" >
 		<Preference

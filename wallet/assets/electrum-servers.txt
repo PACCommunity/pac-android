@@ -1,1 +1,1 @@
-tcp:electro-pac.paccoin.ionk]
+tcp:electro-pac.paccoin.io
