@@ -27,8 +27,8 @@
 		<item>https://bitinfocharts.com/darkcoin/</item>
 	</string-array>
 	<string-array name="preferences_block_explorer_labels">
-		<item>Dash Block Explorer (Official)</item>
-		<item>Dash Block Explorer (Mirror)</item>
+		<item>$PAC Block Explorer (Official)</item>
+		<item>$PAC Block Explorer (Mirror)</item>
 		<item>BitinfoCharts</item>
 	</string-array>
 	<string-array name="preferences_block_explorer_values_testnet">
@@ -36,8 +36,8 @@
 		<item>http://test.explorer.dashninja.pl/</item>
 	</string-array>
 	<string-array name="preferences_block_explorer_labels_testnet">
-		<item>Dash Block Explorer (Official Testnet)</item>
-		<item>Dash Ninja</item>
+		<item>$PAC Block Explorer (Official Testnet)</item>
+		<item>$PAC Ninja</item>
 	</string-array>
 
 </resources>

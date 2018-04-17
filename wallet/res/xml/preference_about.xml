@@ -54,14 +54,6 @@
                 android:data="https://github.com/zxing/zxing" />
         </Preference>
         -->
-        <Preference
-            android:key=""
-            android:summary=""
-            android:title="" >
-            <intent
-                android:action=""
-                android:data="" />
-        </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen>
