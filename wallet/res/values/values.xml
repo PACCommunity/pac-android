@@ -23,8 +23,8 @@
 	</string-array>
 	<string-array name="preferences_block_explorer_values">
 		<item>http://explorer.paccoin.io/</item>
-		<item>http://explorer.darkcoin.qa/</item>
-		<item>https://bitinfocharts.com/darkcoin/</item>
+		<item>http://explorer.paccoin.io/</item>
+		<item>http://explorer.paccoin.io/</item>
 	</string-array>
 	<string-array name="preferences_block_explorer_labels">
 		<item>$PAC Block Explorer (Official)</item>
