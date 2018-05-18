@@ -22,7 +22,7 @@ You can build all sub-projects at once using Gradle:
 
 Full Guide for building the APK:
 
-`$ git clone https://github.com/HashEngineering/dashj.git `
+`$ git clone https://github.com/PACCommunity/pacj.git `
 
 `$ cd pacj`
 
@@ -32,9 +32,9 @@ Full Guide for building the APK:
 
 `$ cd ..`
 
-`$ git clone https://github.com/HashEngineering/dash-wallet.git `
+`$ git clone https://github.com/PACCommunity/pac-android.git `
 
-`$ cd dash-wallet`
+`$ cd pac-android`
 
 `$ git checkout release-4`
 

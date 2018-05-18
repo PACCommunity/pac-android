@@ -262,7 +262,7 @@ public final class BitcoinIntegration {
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("market://details?id=hashengineering.darkcoin.wallet"));
+                Uri.parse("market://details?id=org.paccoin.wallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("https://github.com/HashEngineering/dash-wallet/releases"));
 
