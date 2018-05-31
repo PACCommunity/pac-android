@@ -36,6 +36,7 @@ import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.CoinDefinition;
 import org.bitcoinj.utils.Fiat;
 import org.bitcoinj.utils.MonetaryFormat;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,7 +48,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Lock;
 
 import javax.annotation.Nullable;
 
@@ -56,10 +56,6 @@ import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.ui.preference.PinRetryController;
 import de.schildbach.wallet.util.GenericUtils;
-
-<<<<<<<HEAD
-        =======
-        >>>>>>>1c113cd6...Lock Feature(PIN is required and has a delay between incorrect
 
 /**
  * @author Andreas Schildbach
@@ -86,6 +82,7 @@ public class ExchangeRatesProvider extends ContentProvider {
             .parse("https://apiv2.bitcoinaverage.com/indices/global/ticker/short?crypto=BTC");
     private static final HttpUrl MASTERNODEWORK_PACBTC_URL = HttpUrl
             .parse("https://api.masternodes.work/pac/price");
+    private static final String CMC_URL = "https://api.coinmarketcap.com/v1/";
     private static final String BITCOINAVERAGE_SOURCE = "BitcoinAverage.com";
 
     private static final HttpUrl POLONIEX_URL = HttpUrl.parse("https://poloniex.com/public?command=returnTradeHistory&currencyPair="+CoinDefinition.cryptsyMarketCurrency +"_" + CoinDefinition.coinTicker);
@@ -306,9 +303,10 @@ public class ExchangeRatesProvider extends ContentProvider {
 
     private Double requestExchangeRateOfPacInBTC_masternodeswork() {
         final Stopwatch watch = Stopwatch.createStarted();
-
+        double price = 0.0;
+        String url = this.CMC_URL + "ticker/paccoin/";
         final Request.Builder request = new Request.Builder();
-        request.url(MASTERNODEWORK_PACBTC_URL);
+        request.url(url);
         request.header("User-Agent", userAgent);
 
         final Call call = Constants.HTTP_CLIENT.newCall(request.build());
@@ -318,9 +316,9 @@ public class ExchangeRatesProvider extends ContentProvider {
                 pinRetryController.storeSecureTime(response.headers().getDate("date"));
                 final String content = response.body().string();
 
-                JSONObject priceData = new JSONObject(content);
+                JSONObject priceData = new JSONArray(content).getJSONObject(0);
 
-                Double btcPerPac = (Double)priceData.get("btc");
+                Double btcPerPac = Double.parseDouble(priceData.getString("price_btc"));
 
 
                 watch.stop();
@@ -334,7 +332,6 @@ public class ExchangeRatesProvider extends ContentProvider {
         } catch (final Exception x) {
             log.warn("problem fetching exchange rates from " + POLONIEX_SOURCE, x);
         }
-
         return null;
     }
 //

@@ -26,7 +26,7 @@ dependencies {
         exclude(group: 'com.android.support', module: 'support-media-compat')
     }
     compile 'com.android.support:support-core-utils:25.1.1'
-    compile 'org.pacj:pacj-core:0.14.4.3'
+    compile 'org.pacj:pacj-core:0.14.4.4'
     compile 'com.android.support:recyclerview-v7:25.1.1'
     compile('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
         transitive = true;
