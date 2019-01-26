@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Preço de %s</string>
     <string name="exchange_rates_options_search">Pesquisar taxa de câmbio</string>
     <string name="exchange_rates_context_set_as_default_title">Definir como padrão</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Nenhum $PAC recebido até o momento.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Nenhum $PAC recebido até o momento.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Nenhum $PAC enviado até o momento.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Como conseguir $PAC?\n\nTroque por dinheiro tradicional,\nvenda bens ou serviços ou\nganhe trabalhando.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Como conseguir $PAC?</b>\n\nTroque por dinheiro tradicional,\nvenda bens ou serviços ou\nganhe trabalhando.</font></string>
     <string name="wallet_transactions_row_warning_backup">Parabéns, você recebeu o seu primeiro pagamento! Deseja efetuar o &lt;u&gt;backup de sua carteira&lt;/u&gt;, para proteger seus $PAC?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Dica: para aumentar a segurança da sua carteira, você pode &lt;u&gt;encriptar o seu dispositivo&lt;/u&gt;. Isto também protege os dados de outros aplicativos.</string>
     <string name="wallet_transactions_fragment_coinbase">minerados</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Confirmações</string>
 
     <string name="navigation_drawer_open">Abrir menu de navegação</string>
-    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
 
     <string name="pac_slogan">Rapido - Privado - Seguro</string>
     <string name="pac_wallet">Carteira</string>

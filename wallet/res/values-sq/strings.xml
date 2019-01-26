@@ -26,7 +26,7 @@
 	<string name="exchange_rates_context_set_as_default_title">Vëndoseni si valutë të huaj të rëndomtë</string>
 	<string name="wallet_transactions_fragment_empty_text_received">Nuk keni pranuar asnjë $PAC deri më tani</string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Nuk keni dërguar asnjë $PAC deri me tani</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Si të merrni $PAC?\n\nKëmbeni me para tradicionale,\shitni gjëra apo shërbime ose\nfito duke punuar.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto">Si të merrni $PAC?\n\nKëmbeni me para tradicionale,shitni gjëra apo shërbime ose\nfito duke punuar.</string>
 	<string name="wallet_transactions_row_warning_backup">Urime, ju sapo keni pranuar pagesën e parë! E keni &lt;u&gt;ruajtur një kopje rezervë të kuletës suaj tashmë, për ta mbrojutur ne rast humbjeje? </string>
 	<string name="wallet_transactions_fragment_coinbase">të minuara</string>
 	<string name="wallet_transactions_fragment_internal">interne</string>
@@ -294,5 +294,6 @@
 	<string name="error_parse">Parse gabim: %s</string>
 	<string name="error_http">HTTP gabim %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Gabim me Bluetooth: %1$s</string>
+    <string name="navigation_drawer_close">Menuja e Mbylljes</string>
 
 </resources>

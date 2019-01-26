@@ -8,12 +8,12 @@ dependencies {
     compile(project(':integration-android')) {
         exclude(group: 'com.google.android', module: 'android')
     }
-    compile 'org.pacj:pacj-core:0.14.4.3'
+    compile 'org.pacj:pacj-core:0.14.4.4'
 }
 
 android {
     compileSdkVersion 'android-15'
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '26.0.3'
 
     lintOptions { abortOnError false }
 

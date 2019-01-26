@@ -24,9 +24,9 @@
 	<string name="exchange_rates_fragment_source">Pris fra %s</string>
 	<string name="exchange_rates_options_search">Søk i valutakurser</string>
 	<string name="exchange_rates_context_set_as_default_title">Sett som standard for fremmed valuta</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Ingen $PAC mottatt ennå.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Ingen $PAC mottatt ennå.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Ingen $PAC sendt ennå.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Hvordan får man $PAC?\n\nKjøp for tradisjonelle penger,\nselg varer eller tjenester eller\ntjen dem ved å arbeide.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Hvordan får man $PAC?</b>\n\nKjøp for tradisjonelle penger,\nselg varer eller tjenester eller\ntjen dem ved å arbeide.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Gratulerer, du har mottatt din første betaling! Har du &lt;u&gt;tatt en sikkerhetskopi av din lommebok&lt;/u&gt;, for å beskytte deg mot tap?</string>
 	<string name="wallet_transactions_fragment_coinbase">utgravd</string>
 	<string name="wallet_transactions_fragment_internal">intern</string>
@@ -312,5 +312,6 @@
 	<string name="error_parse">Syntaksfeil: %s</string>
 	<string name="error_http">HTTP-feil %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Blåtann-feil: %1$s</string>
+    <string name="navigation_drawer_close">Lukk meny</string>
 
-	</resources>
+</resources>

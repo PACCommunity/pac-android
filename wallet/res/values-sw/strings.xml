@@ -267,4 +267,5 @@
   <string name="time_today">leo</string>
   <string name="private_key_password">PIN</string>
   <string name="private_key_bad_password">PIN mbaya</string>
+    <string name="navigation_drawer_close">Funga orodha</string>
 </resources>

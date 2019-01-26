@@ -24,9 +24,9 @@
 	<string name="exchange_rates_fragment_source">Pris fra %s</string>
 	<string name="exchange_rates_options_search">Søg iblandt vekselkurser</string>
 	<string name="exchange_rates_context_set_as_default_title">Sæt som standard for fremmed valuta</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Ingen $PAC modtaget endnu.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Ingen $PAC modtaget endnu.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Ingen $PAC sendt endnu.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Hvordan får man $PAC?\n\nKøb for traditionelle penge,\nsælg varer eller ydelser eller\ntjen dem ved at arbejde.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Hvordan får man $PAC?</b>\n\nKøb for traditionelle penge,\nsælg varer eller ydelser eller\ntjen dem ved at arbejde.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Tillykke, du har modtaget din første betaling! Har du &lt;u&gt;taget en sikkerhedskopi af din tegnebog&lt;/u&gt;, for at beskytte dig mod tab?</string>
 	<string name="wallet_transactions_fragment_coinbase">mined</string>
 	<string name="wallet_transactions_fragment_internal">intern</string>
@@ -312,5 +312,6 @@
 	<string name="error_parse">Fortolkningsfejl: %s</string>
 	<string name="error_http">HTTP-fejl %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetooth-fejl: %1$s</string>
+    <string name="navigation_drawer_close">Luk menuen</string>
 
-	</resources>
+</resources>

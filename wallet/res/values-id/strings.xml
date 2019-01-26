@@ -23,9 +23,9 @@
 	<string name="wallet_transactions_options_filter_received">Diterima</string>
 	<string name="wallet_transactions_options_filter_all">Keduanya</string>
 	<string name="wallet_transactions_options_filter_sent">Dikirim</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Tidak ada $PAC yg diterima.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Tidak ada $PAC yg diterima.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Tidak ada $PAC yg dikirim.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Bagaimana mendapatkan $PAC?\n\nTukar dgn uang tradisional,\njual barang atau jasa atau\ndengan bekerja.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Bagaimana mendapatkan $PAC?</b>\n\nTukar dgn uang tradisional,\njual barang atau jasa atau\ndengan bekerja.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Selamat, Anda menerima pembayaran pertama Anda! Sudahkah Anda &lt;u&gt;mencadangkan dompet Anda&lt;/u&gt;, utk hindari kehilangan?</string>
 	<string name="wallet_transactions_fragment_coinbase">ditambang</string>
 	<string name="wallet_transactions_fragment_internal">Internal</string>
@@ -173,4 +173,5 @@
 	<string name="action_show_qr">Tampilkan kode QR</string>
 	<string name="time_today">hari ini</string>
 	<string name="address_unlabeled">(tak berlabel)</string>
+    <string name="navigation_drawer_close">Tutup menu</string>
 </resources>

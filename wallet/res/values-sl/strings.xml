@@ -215,4 +215,5 @@
   <!--generic error messages-->
   <string name="error_io">Bralno/pisalna napaka: %s</string>
   <string name="error_http">HTTP napaka %1$s:\n%2$s</string>
+    <string name="navigation_drawer_close">Zaprite meni</string>
 </resources>

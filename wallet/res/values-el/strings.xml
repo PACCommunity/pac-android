@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Τιμή από %s</string>
     <string name="exchange_rates_options_search">Αναζήτηση ισοτιμίας</string>
     <string name="exchange_rates_context_set_as_default_title">Θέσε ως προεπιλογή</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Δεν έχουν ληφθεί $PAC μέχρι στιγμής.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Δεν έχουν ληφθεί $PAC μέχρι στιγμής.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Δεν έχουν σταλεί $PAC μέχρι στιγμής.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Πως να λάβετε $PAC;\n\nΑνταλλάξτε με πραγματικά χρήματα,\nπουλήστε αγαθά ή υπηρεσίες, ή\nκερδίστε τα με την εργασία σας.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Πως να λάβετε $PAC;</b>\n\nΑνταλλάξτε με πραγματικά χρήματα,\nπουλήστε αγαθά ή υπηρεσίες, ή\nκερδίστε τα με την εργασία σας.</font></string>
     <string name="wallet_transactions_row_warning_backup">Συγχαρητήρια, έλαβες την πρώτη σου πληρωμή! Έχεις ήδη &lt;u&gt;κρατήσει αντίγραφο ασφαλείας&lt;/u&gt;, για να το προστατέψεις από απώλεια;</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Βοήθεια: Για να αυξήσεις την ασφάλεια του πορτοφολιού σου μπορείς να &lt;u&gt;κρυπτογραφήσεις την συσκευή σου&lt;/u&gt;. Αυτό επίσης προστατεύει τα δεδομένα και από άλλες επικίνδυνες εφαρμογές.</string>
     <string name="wallet_transactions_fragment_coinbase">εξορυχθέντα</string>
@@ -349,7 +349,7 @@
     <string name="transaction_fragment_confirmations_label">Επιβεβαιώσεις</string>
 
     <string name="navigation_drawer_open">Ανοίξτε το συρτάρι κατεύθυνσης</string>
-    <string name="navigation_drawer_close">Κλείστε το συρτάρι κατεύθυνσης</string>
+    <string name="navigation_drawer_close">Κλείσιμο μενού</string>
 
     <string name="dash_slogan">Άμεσο - Ιδιωτικό - Ασφαλές</string>
     <string name="dash_wallet">Πορτοφόλι</string>

@@ -25,9 +25,9 @@
 	<string name="exchange_rates_fragment_source">Ár tőle: %s</string>
 	<string name="exchange_rates_options_search">Árfolyam keresése</string>
 	<string name="exchange_rates_context_set_as_default_title">Alapértelmezett külföldi pénznem beállítása</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Eddig nem érkezett $PAC.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Eddig nem érkezett $PAC.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Eddig nem lett küldve $PAC.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Hogyan szerezz $PAC-t?\n\nVásárolj hagyományos pénzért,\nadj el termékeket vagy szolgáltatásokat, vagy\nkeress munkával.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Hogyan szerezz $PAC-t?</b>\n\nVásárolj hagyományos pénzért,\nadj el termékeket vagy szolgáltatásokat, vagy\nkeress munkával.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Gratulálunk, megérkezett az első kifizetésed! Már készítettél &lt;u&gt;biztonsági mentést a tárcádról&lt;/u&gt;, hogy megóvd a veszteségtől?</string>
 	<string name="wallet_transactions_fragment_coinbase">bányászott</string>
 	<string name="wallet_transactions_fragment_internal">belső</string>
@@ -313,5 +313,6 @@
 	<string name="error_parse">Elemzés hiba: %s</string>
 	<string name="error_http">HTTP hiba %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetooth hiba: %1$s</string>
+    <string name="navigation_drawer_close">A menü bezárása</string>
 
-	</resources>
+</resources>

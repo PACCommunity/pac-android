@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Kosten van %s</string>
     <string name="exchange_rates_options_search">Wisselkoers zoeken</string>
     <string name="exchange_rates_context_set_as_default_title">Stel in als standaard</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Nog geen $PAC ontvangen.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Nog geen $PAC ontvangen.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Nog geen $PAC verzonden.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Hoe komt u aan $PAC?\\n\\nWissel traditionele munteenheden om voor $PAC,\\nverkoop goederen of diensten of\\nverdien ze door te werken.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Hoe komt u aan $PAC?</b>\n\nWissel traditionele munteenheden om voor $PAC,\nverkoop goederen of diensten of\nverdien ze door te werken.</font></string>
     <string name="wallet_transactions_row_warning_backup">Gefeliciteerd! U heeft uw eerste betaling ontvangen. Heeft u al &lt;u&gt; een back-up gemaakt van uw portemonnee&lt;/u&gt;, om verlies tegen te gaan?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Tip: om uw portemonnee veiliger te maken, kunt u uw  &lt;u&gt;apparaat versleutelen&lt;/u&gt;. Hierdoor worden ook de gegevens van andere apps beschermd.</string>
     <string name="wallet_transactions_fragment_coinbase">gegenereerd</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Bevestigingen</string>
 
     <string name="navigation_drawer_open">Navigatieschuif openen</string>
-    <string name="navigation_drawer_close">Navigatieschuif sluiten</string>
+    <string name="navigation_drawer_close">Menu sluiten</string>
 
     <string name="pac_slogan">Direct - Privé - Veilig</string>
     <string name="pac_wallet">Portemonnee</string>

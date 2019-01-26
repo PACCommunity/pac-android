@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Kurs von %s</string>
     <string name="exchange_rates_options_search">Wechselkurs suchen</string>
     <string name="exchange_rates_context_set_as_default_title">Als Standard festsetzen</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Noch keine $PAC empfangen.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Noch keine $PAC empfangen.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Noch keine $PAC gesendet.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Wie komme ich an $PAC?\n\nHandle gegen traditionelles Geld,\nverkaufe Güter oder Dienstleistungen oder\nverdiene durch Arbeit.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Wie komme ich an $PAC?</b>\n\nHandle gegen traditionelles Geld,\nverkaufe Güter oder Dienstleistungen oder\nverdiene durch Arbeit.</font></string>
     <string name="wallet_transactions_row_warning_backup">Gratulation, du hast deine erste Zahlung erhalten! Hast du deine Wallet bereits &lt;u&gt;gesichert&lt;/u&gt;, um dich gegen einen möglichen Verlust zu schützen?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Hinweis: Um die Sicherheit der Wallet zu erhöhen kann man &lt;u&gt;sein Gerät verschlüsseln&lt;/u&gt;. Dies schützt auch die Daten anderer Apps. </string>
     <string name="wallet_transactions_fragment_coinbase">geschürft</string>
@@ -349,7 +349,7 @@
     <string name="transaction_fragment_confirmations_label">Bestätigungen</string>
 
     <string name="navigation_drawer_open">Navigation Drawer öffnen</string>
-    <string name="navigation_drawer_close">Navigation Drawer schließen</string>
+    <string name="navigation_drawer_close">Menü schließen</string>
 
     <string name="pac_slogan">Sofort - Vertraulich - Sicher</string>
     <string name="pac_wallet">Wallet</string>

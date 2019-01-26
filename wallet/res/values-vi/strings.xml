@@ -27,7 +27,7 @@
     <string name="exchange_rates_context_set_as_default_title">Đặt làm ngầm định</string>
     <string name="wallet_transactions_fragment_empty_text_received">Hiện vẫn chưa nhận được $PAC nào.</string>
     <string name="wallet_transactions_fragment_empty_text_sent">Hiện vẫn chưa gửi $PAC nào.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Làm cách nào để nhận được $PAC?\n\nSử dụng cho các giao dịch bằng tiền như truyền thống,\nbán các sản phẩm hoặc dịch vụ hoặc\ndùng cho việc nhận thanh toán.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto">Làm cách nào để nhận được $PAC?  Sử dụng cho các giao dịch bằng tiền như truyền thống, bán các sản phẩm hoặc dịch vụ hoặc dùng cho việc nhận thanh toán.</string>
     <string name="wallet_transactions_row_warning_backup">Chúc mừng, bạn đã nhận được phần thanh toán đầu tiên của mình! Bạn đã &lt;u&gt;sao lưu ví tiền của mình&lt;/u&gt;, để tránh việc thất thoát hay chưa?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Gợi ý: để tăng tính an toàn cho ví của bạn, bạn có thể &lt;u&gt;mã hoá thiết bị của bạn&lt;/u&gt;. Điều này cũng giúp bảo vệ những dữ liệu của các ứng dụng khác nữa.</string>
     <string name="wallet_transactions_fragment_coinbase">đã khai thác</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Các xác thực</string>
 
     <string name="navigation_drawer_open">Mở ngăn điều hướng</string>
-    <string name="navigation_drawer_close">Đóng ngăn điều hướng</string>
+    <string name="navigation_drawer_close">Đóng menu</string>
 
     <string name="pac_slogan">Tức thời - Riêng tư - An toàn</string>
     <string name="pac_wallet">Ví</string>

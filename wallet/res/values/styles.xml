@@ -3,7 +3,7 @@
 
 	<style name="My.Theme" parent="Theme.AppCompat.Light.DarkActionBar">
 		<item name="colorPrimary">@color/colorPrimary</item>
-		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorPrimaryDark">@color/bg_nav</item>
 		<item name="colorAccent">@color/colorAccent</item>
 
 		<item name="actionMenuTextColor">@color/fg_network</item>
@@ -14,11 +14,22 @@
 		<item name="android:spinnerStyle">@style/My.Widget.Spinner</item>
 		<item name="android:windowContentOverlay">@null</item>
 		<item name="windowActionModeOverlay">true</item>
-		<item name="actionModeBackground">@drawable/toolbar_background</item>
+		<item name="actionModeBackground">@color/toolbarBg</item>
 	</style>
 
 	<style name="My.Theme.NoStatusBar" parent="My.Theme.NoActionBar">
 
+	</style>
+
+	<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+		<item name="android:background">@drawable/splash</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+
+	<style name="NavigationView">
+		<item name="android:listDivider">@drawable/nav_divider_style</item>
+		<item name="android:scrollbarThumbVertical">@color/transparent</item>
+		<item name="android:textColorSecondary">@color/vivid_red</item>
 	</style>
 
 	<style name="My.Theme.Transparent" parent="android:Theme">

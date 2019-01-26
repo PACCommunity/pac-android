@@ -24,9 +24,9 @@
 	<string name="exchange_rates_fragment_source">%s による価格</string>
 	<string name="exchange_rates_options_search">為替レートの検索</string>
 	<string name="exchange_rates_context_set_as_default_title">既定の外貨に設定する</string>
-	<string name="wallet_transactions_fragment_empty_text_received">まだビットコインを受け取っていません。</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">まだビットコインを受け取っていません。</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">まだビットコインを送っていません。</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">ビットコインを入手するには?\n\n通常通貨と交換するか、\nグッズやサービスを販売するか\nまたは働いて稼ぎましょう</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>ビットコインを入手するには?</b>\n\n通常通貨と交換するか、\nグッズやサービスを販売するか\nまたは働いて稼ぎましょう</font></string>
 	<string name="wallet_transactions_row_warning_backup">おめでとうございます、初めて支払いを受け取りました。遺失を防ぐために&lt;u&gt;ウォレットをバックアップ&lt;/u&gt;していますか?</string>
 	<string name="wallet_transactions_fragment_coinbase">採掘</string>
 	<string name="wallet_transactions_fragment_internal">内部</string>
@@ -312,5 +312,6 @@
 	<string name="error_parse">パースエラー:%s</string>
 	<string name="error_http">HTTPエラー %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetoothエラー: %1$s</string>
+    <string name="navigation_drawer_close">メニューを閉じる</string>
 
-	</resources>
+</resources>

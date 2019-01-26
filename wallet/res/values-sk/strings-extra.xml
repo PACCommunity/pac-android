@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Odomknúť</string>
 	<string name="wallet_lock_unlock_wallet">Odomknúť peňaženku</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Peňaženka odomknutá.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Ak chcete odomknúť Vašu peňaženku a zobraziť históriu transakcií, klepnite na ikonu zámku.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Peňaženka odomknutá.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Ak chcete odomknúť Vašu peňaženku a zobraziť históriu transakcií, klepnite na ikonu zámku.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Odomknúť Vašu peňaženku</string>
 	<string name="wallet_lock_unlock_dialog_message">Vaša peňaženka je chránená PIN-om pre míňanie. Pre pokračovanie zadajte Váš PIN a stlačte Odomknúť.</string>
 	<string name="wallet_lock_reset_wallet_title">Resetovať peňaženku</string>

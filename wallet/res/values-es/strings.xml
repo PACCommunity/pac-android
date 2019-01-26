@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Precio extraído de %s</string>
     <string name="exchange_rates_options_search">Buscar tasa de cambio</string>
     <string name="exchange_rates_context_set_as_default_title">Establecer por defecto</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Aún no se han recibido $PAC.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Aún no se han recibido $PAC.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Aún no se han enviado $PAC.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">¿Cómo obtener $PAC?\n\nCámbialos por dinero tradicional,\nvende bienes o servicios o\ngánalos trabajando</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>¿Cómo obtener $PAC?</b>\n\nCámbialos por dinero tradicional,\nvende bienes o servicios o\ngánalos trabajando</font></string>
     <string name="wallet_transactions_row_warning_backup">Felicitaciones. ¡Has recibido tu primer pago! ¿Has hecho ya una &lt;u&gt;copia de seguridad de tu billetera&lt;/u&gt; como protección frente a pérdidas?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Tip: para incrementar la seguridad de tu billetera, puedes &lt;u&gt;encriptar tu dispositivo&lt;/u&gt;. Esto tambien protege los datos de otras apps.</string>
     <string name="wallet_transactions_fragment_coinbase">extraído</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Confirmaciones</string>
 
     <string name="navigation_drawer_open">Abrir menú deslizante</string>
-    <string name="navigation_drawer_close">Cerrar menú deslizante</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
 
     <string name="pac_slogan">Instantáneo - Privado - Seguro</string>
     <string name="pac_wallet">Billetera</string>

@@ -348,9 +348,10 @@
     <string name="transaction_fragment_confirmations_label">Confirmations</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_close">Close menu</string>
 
     <string name="pac_slogan">Instant - Private - Secure</string>
     <string name="pac_wallet">Wallet</string>
+
 
 </resources>

@@ -25,7 +25,7 @@
     <string name="exchange_rates_fragment_source">ราคาเริ่มต้นจาก %s</string>
     <string name="exchange_rates_options_search">ค้นหาอัตราแลกเปลี่ยน</string>
     <string name="exchange_rates_context_set_as_default_title">ตั้งเป็นค่าเริ่มต้น</string>
-    <string name="wallet_transactions_fragment_empty_text_received">ยังไม่มี $PAC ที่ได้รับ </string>
+    <string name="wallet_transactions_fragment_empty_text_received">ยังไม่มี $PAC ที่ได้รับ</string>
     <string name="wallet_transactions_fragment_empty_text_sent">ไม่มี $PAC ที่ส่ง</string>
     <string name="wallet_transactions_fragment_empty_text_howto">จะได้รับ $PAC ได้อย่างไร ? \n\n แลกเปลี่ยนเป็นเงินดั้งเดิม ,\n ขายสินค้าหรือบริการหรือ \n ได้รับเงินจากการทำงาน</string>
     <string name="wallet_transactions_row_warning_backup">ยินดีด้วย! คุณได้รับการชำระเงินครั้งแรก!  คุณได้สำรองข้อมูล wallet ไว้เพื่อป้องกันการสูญเสียหรือไม่?</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">การยืนยัน</string>
 
     <string name="navigation_drawer_open">เปิด navigation drawer</string>
-    <string name="navigation_drawer_close">ปิด navigation drawer</string>
+    <string name="navigation_drawer_close">ปิดเมนู</string>
 
     <string name="dash_slogan">เร่งด่วน - ส่วนตัว - ปลอดภัย</string>
     <string name="dash_wallet">wallet</string>

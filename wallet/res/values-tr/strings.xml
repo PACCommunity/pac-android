@@ -27,7 +27,7 @@
     <string name="exchange_rates_context_set_as_default_title">Varsayılan olarak ayarla</string>
     <string name="wallet_transactions_fragment_empty_text_received">Şu ana kadar hiçbir $PAC alınmadı.</string>
     <string name="wallet_transactions_fragment_empty_text_sent">Şu ana kadar hiçbir $PAC gönderilmedi.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">$PAC nasıl elde edilir?\n Geleneksel para ile \ntakas ederek, mal ve hizmetler \nsatarak ya da \nçalışarak kazanabilirsiniz.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto">$PAC nasıl elde edilir?  Geleneksel para ile  takas ederek, mal ve hizmetler  satarak ya da  çalışarak kazanabilirsiniz.</string>
     <string name="wallet_transactions_row_warning_backup">Tebrikler, ilk ödemenizi almış bulunuyorsunuz! Kayba karşı korunmak için &lt;u&gt;cüzdanınızı yedeklediniz mi&lt;/u&gt;?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">İpucu: Cüzdanınızın güvenliğini arttırmak için, &lt;u&gt;cihazınızı şifreleyebilirsiniz&lt;/u&gt;. Bu aynı zamanda diğer uygulamaların verilerini de korur.</string>
     <string name="wallet_transactions_fragment_coinbase">Üretilen</string>
@@ -347,7 +347,7 @@
     <string name="transaction_fragment_confirmations_label">Onaylar</string>
 
     <string name="navigation_drawer_open">Gezinme menüsünü aç</string>
-    <string name="navigation_drawer_close">Gezinme menüsünü kapa</string>
+    <string name="navigation_drawer_close">Menüyü kapat</string>
 
     <string name="pac_slogan">Anlık - Özel - Güvenli</string>
     <string name="pac_wallet">Cüzdan</string>

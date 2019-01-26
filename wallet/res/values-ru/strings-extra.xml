@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Открыть</string>
 	<string name="wallet_lock_unlock_wallet">Открыть кошелёк</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Кошелёк закрыт</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Коснитесь иконки сверху, чтобы открыть свой кошелёк и увидеть историю транзакций.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Кошелёк закрыт</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Коснитесь иконки сверху, чтобы открыть свой кошелёк и увидеть историю транзакций.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Открыть ваш кошелёк</string>
 	<string name="wallet_lock_unlock_dialog_message">Ваш кошелёк защищён ПИН-кодом. Введите свой ПИН-код и нажмите \"Открыть\".</string>
 	<string name="wallet_lock_reset_wallet_title">Сброс кошелька</string>

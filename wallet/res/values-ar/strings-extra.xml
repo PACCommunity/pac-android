@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">فتح </string>
 	<string name="wallet_lock_unlock_wallet">فتح المحفظة</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">قفل المحفظة</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">انقر على رمز القفل أعلاه لإلغاء قفل محفظتك والاطلاع على سجل المعاملات.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">قفل المحفظة</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">انقر على رمز القفل أعلاه لإلغاء قفل محفظتك والاطلاع على سجل المعاملات.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">إفتح محفظتك</string>
 	<string name="wallet_lock_unlock_dialog_message">محفظتك محمية برقم سري . إدخل رقمك السري و إضغط على فتح للمتابعة.</string>
 	<string name="wallet_lock_reset_wallet_title">إعادة ظبط المحفظة</string>

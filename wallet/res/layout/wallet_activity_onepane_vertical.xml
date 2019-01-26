@@ -5,6 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/black_background"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -14,28 +15,28 @@
 
         <include
             android:id="@+id/request_send_buttons"
-            android:layout_alignParentBottom="true"
             layout="@layout/wallet_activity_bottom_include"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
 
         <TextView
             android:id="@+id/message_panel"
-            android:layout_above="@id/request_send_buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_above="@id/request_send_buttons"
             android:background="@color/vivid_red"
             android:padding="16dp"
             android:text="Test message"
             android:textColor="@color/white"
             android:textSize="14sp"
-            tools:visibility="visible"
-            android:visibility="gone"/>
+            android:visibility="gone"
+            tools:visibility="visible" />
 
         <android.support.design.widget.CoordinatorLayout
-            android:layout_above="@id/message_panel"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_above="@id/message_panel">
 
             <de.schildbach.wallet.ui.ExtAppBarLayout
                 android:id="@+id/appbar"
@@ -58,10 +59,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"
-                android:layout_marginBottom="16dp"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/ic_qrcode"
-                app:backgroundTint="#000000" />
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_qrcode_black"
+                app:backgroundTint="@color/vivid_red" />
 
         </android.support.design.widget.CoordinatorLayout>
 
@@ -72,8 +73,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="@drawable/nav_background"
         android:fitsSystemWindows="true"
+        android:theme="@style/NavigationView"
         app:headerLayout="@layout/nav_header_main"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
         app:menu="@menu/main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

@@ -25,9 +25,9 @@
 	<string name="exchange_rates_fragment_source">Prezzo da %s</string>
 	<string name="exchange_rates_options_search">Ricerca tasso di cambio</string>
 	<string name="exchange_rates_context_set_as_default_title">Imposta come valuta straniera predefinita</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Nessun $PAC ancora ricevuto</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Nessun $PAC ancora ricevuto</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Nessun $PAC ancora inviato</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Come ottenere $PAC?\n\nBarattali per soldi reali,\nvendi beni o servizi oppure\nricavali lavorando.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Come ottenere $PAC?</b>\n\nBarattali per soldi reali,\nvendi beni o servizi oppure\nricavali lavorando.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Congratulazioni, hai ricevuto i tuoi primi pagamenti! Hai già &lt;u&gt;eseguito un backup del tuo portafoglio &lt;/u&gt;, per proteggerlo dai danni?</string>
 	<string name="wallet_transactions_fragment_coinbase">minato</string>
 	<string name="wallet_transactions_fragment_internal">Interna</string>
@@ -319,7 +319,7 @@
 	<string name="transaction_fragment_confirmations_label">Conferme</string>
 
 	<string name="navigation_drawer_open">cassetto navigazione aperto</string>
-	<string name="navigation_drawer_close">cassetto navigazione chiuso</string>
+	<string name="navigation_drawer_close">Chiudi il menu</string>
 
 	<string name="pac_slogan">Immediato - Privato - Sicuro</string>
 	<string name="pac_wallet">Portafoglio</string>

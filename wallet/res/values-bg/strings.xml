@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Цена от %s</string>
     <string name="exchange_rates_options_search">Търсене на обменен курс</string>
     <string name="exchange_rates_context_set_as_default_title">Задай по подразбиране</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Не са получавани $PAC скоро.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Не са получавани $PAC скоро.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Не са изпращани $PAC скоро.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Как да получите $PAC?\\n\\nОбменете за конвенционална валута,\\nпродайте стоки или услуги или\\nспечелете с работа.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Как да получите $PAC?</b>  Обменете за конвенционална валута, продайте стоки или услуги или спечелете с работа.</font></string>
     <string name="wallet_transactions_row_warning_backup">Поздравления, Вие получихте първото си плащане! Направихте ли вече &lt;u&gt;архивно копие на вашия портфейл&lt;/u&gt;, за да го защитите срещу кражба?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Съвет: за да повишите сигурноста за вашият портфейл, може  &lt;u&gt;да криптирате вашето устройство&lt;/u&gt;. Това ще предпази също данните и на други приложения.</string>
     <string name="wallet_transactions_fragment_coinbase">изкопани</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Потвърждения</string>
 
     <string name="navigation_drawer_open">Отваряне на панела за навигация</string>
-    <string name="navigation_drawer_close">Затваряне на панела за навигация</string>
+    <string name="navigation_drawer_close">Затваряне на менюто</string>
 
     <string name="pac_slogan">Мигновен-Личен-Сигурен</string>
     <string name="pac_wallet">Портфейл</string>

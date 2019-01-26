@@ -204,6 +204,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
         };
         viewDrawer.addDrawerListener(toggle);
         toggle.syncState();
+        toolbarView.setNavigationIcon(R.drawable.ic_burger_button);
 
         viewFakeForSafetySubmenu = new View(this);
         viewFakeForSafetySubmenu.setVisibility(View.GONE);
