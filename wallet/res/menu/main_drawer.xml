@@ -3,10 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!--<group android:checkableBehavior="single">-->
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_home"
-            android:title="Home" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_back_arrow"
+        android:title="@string/navigation_drawer_close" />
+
+    <group android:id="@+id/my_id">
 
         <item
             android:id="@+id/nav_address_book"
@@ -20,11 +23,13 @@
             android:id="@+id/nav_paper_wallet"
             android:icon="@drawable/ic_menu_paper_wallet"
             android:title="@string/sweep_wallet_activity_title" />
-    <item
-        android:id="@+id/nav_report_issue"
-        android:icon="@drawable/ic_menu_address_book"
-        android:title="@string/preferences_report_issue_title"
-        />
+        <item
+            android:id="@+id/nav_report_issue"
+            android:icon="@drawable/ic_menu_report_issue"
+            android:title="@string/preferences_report_issue_title" />
+
+    </group>
+
     <!--</group>-->
 
     <item android:title="@string/navigation_configuration">
@@ -41,12 +46,10 @@
                 android:id="@+id/nav_settings"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="@string/preferences_activity_title" />
+            <item
+                android:id="@+id/nav_disconnect"
+                android:icon="@drawable/ic_menu_disconnect"
+                android:title="@string/wallet_options_disconnect" />
         </menu>
     </item>
-    <item
-        android:id="@+id/nav_disconnect"
-        android:icon="@drawable/ic_menu_disconnect"
-        android:title="@string/wallet_options_disconnect"
-        />
-
 </menu>

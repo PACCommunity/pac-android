@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Cours de %s</string>
     <string name="exchange_rates_options_search">Rechercher le taux de change</string>
     <string name="exchange_rates_context_set_as_default_title">Définir comme valeur défaut</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Aucun $PAC reçu à ce jour</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Aucun $PAC reçu à ce jour</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Aucun $PAC envoyé à ce jour</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Comment obtenir des $PAC ?\n\nÉchangez-en contre de l\'argent traditionnel,\nvendez des biens ou des services ou\ngagnez-en en travaillant.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Comment obtenir des $PAC ?</b>\n\nÉchangez-en contre de l\'argent traditionnel,\nvendez des biens ou des services ou\ngagnez-en en travaillant.</font></string>
     <string name="wallet_transactions_row_warning_backup">Félicitations, vous avez reçu votre premier paiement ! Avez-vous déjà &lt;u&gt;sauvegardé votre portefeuille&lt;/u&gt; afin de le protéger de toute perte ?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Astuce : pour augmenter la sécurité de votre portefeuille, vous pouvez &lt;u&gt;chiffrer votre appareil&lt;/u&gt;. Cela protégera également les données des autres applications.</string>
     <string name="wallet_transactions_fragment_coinbase">miné</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Confirmations</string>
 
     <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
-    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
 
     <string name="pac_slogan">Instantané - Confidentiel - Sûr</string>
     <string name="pac_wallet">Portefeuille</string>

@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Цена получена с %s</string>
     <string name="exchange_rates_options_search">Поиск обменного курса</string>
     <string name="exchange_rates_context_set_as_default_title">Включено по умолчанию</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Ещё не получено $PAC</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Ещё не получено $PAC</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Ещё не отправлено $PAC</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Как получить $PACи?\n\nОбменяйте обычные деньги,\nпродайте товары, окажите услуги или\nзаработайте.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Как получить $PACи?</b>\n\nОбменяйте обычные деньги,\nпродайте товары, окажите услуги или\nзаработайте.</font></string>
     <string name="wallet_transactions_row_warning_backup">Поздравляем, вы получили первый платёж! Вы уже &lt;u&gt;сделали резервную копию кошелька&lt;/u&gt;, чтобы обезопаситься от потерь?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Подсказка: чтобы усилить безопасность Вашего кошелька, вы можете &lt;u&gt;зашифровать ваше устройство&lt;/u&gt;. Это поможет защитить данные и других приложений.</string>
     <string name="wallet_transactions_fragment_coinbase">добыто</string>
@@ -350,7 +350,7 @@
     <string name="transaction_fragment_confirmations_label">Подтверждения</string>
 
     <string name="navigation_drawer_open">Открыть панель навигации</string>
-    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
 
     <string name="pac_slogan">Быстро - Приватно - Безопасно</string>
     <string name="pac_wallet">Кошелёк</string>

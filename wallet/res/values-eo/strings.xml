@@ -23,9 +23,9 @@
 	<string name="wallet_transactions_options_filter_received">Ricevita</string>
 	<string name="wallet_transactions_options_filter_all">Ambaŭ</string>
 	<string name="wallet_transactions_options_filter_sent">Sendita</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Neniom da Bitmonoj tamen ricevitaj.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Neniom da Bitmonoj tamen ricevitaj.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Neniom da Bitmonoj tamen senditaj.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Kiel obteni Bitmonojn?\n\nNegocu por tradicia mono,\nvendu varojn aŭ servojn aŭ\ngajnu per laborado.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Kiel obteni Bitmonojn?</b>\n\nNegocu por tradicia mono,\nvendu varojn aŭ servojn aŭ\ngajnu per laborado.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Gratulon, vi ricevis vian unuan pagon! Ĉu vi jam &lt;u&gt;savkopiis vian monujon&lt;/u&gt;, por protekti kontraŭ perdo?</string>
 	<string name="wallet_transactions_fragment_coinbase">minita</string>
 	<string name="wallet_transactions_fragment_internal">interna</string>
@@ -180,5 +180,6 @@
 	<string name="action_browse">Esplori</string>
 	<string name="time_today">hodiaŭ</string>
 	<string name="address_unlabeled">(sen nomo)</string>
+    <string name="navigation_drawer_close">Fermi menuon</string>
 
 </resources>

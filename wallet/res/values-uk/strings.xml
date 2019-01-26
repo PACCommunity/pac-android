@@ -231,4 +231,5 @@
   <string name="error_parse">Помилка обробки: %s</string>
   <string name="error_http">HTTP помилка %1$s:\n%2$s</string>
   <string name="error_bluetooth">Помилка Bluetooth: %1$s</string>
+    <string name="navigation_drawer_close">Закрити меню</string>
 </resources>

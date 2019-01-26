@@ -5,6 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/black_background"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -75,6 +76,7 @@
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>
+
         <include layout="@layout/wallet_activity_bottom_include" />
 
     </LinearLayout>
@@ -84,8 +86,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="@drawable/nav_background"
         android:fitsSystemWindows="true"
+        android:theme="@style/NavigationView"
         app:headerLayout="@layout/nav_header_main"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
         app:menu="@menu/main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Desbloquear</string>
 	<string name="wallet_lock_unlock_wallet">Desbloquear carteira</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Carteira bloqueada.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Toque o ícone de cadeado acima para desbloquear a sua carteira e ver o histórico de transações.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Carteira bloqueada.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Toque o ícone de cadeado acima para desbloquear a sua carteira e ver o histórico de transações.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Desbloqueie sua carteira</string>
 	<string name="wallet_lock_unlock_dialog_message">Sua carteira é protegida por um PIN. Insira o seu PIN e pressione Desbloquear para continuar.</string>
 	<string name="wallet_lock_reset_wallet_title">Resetar carteira</string>

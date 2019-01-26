@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Entsperren</string>
 	<string name="wallet_lock_unlock_wallet">Wallet entsperren</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Wallet verschlossen.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Tippe auf das Schloßsymbol, damit die Wallet entsperrt und der Transaktionsverlauf sichtbar wird.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Wallet verschlossen.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Tippe auf das Schloßsymbol, damit die Wallet entsperrt und der Transaktionsverlauf sichtbar wird.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Entsperre deine Wallet</string>
 	<string name="wallet_lock_unlock_dialog_message">Deine Wallet wird durch einen Zahlungs-PIN geschützt. Gebe den PIN ein und tippe auf Entsperren, um fortzufahren.</string>
 	<string name="wallet_lock_reset_wallet_title">Wallet zurücksetzen</string>

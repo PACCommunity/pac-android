@@ -24,9 +24,9 @@
 	<string name="exchange_rates_fragment_source">Hinta paikasta %s</string>
 	<string name="exchange_rates_options_search">Etsi rahanvaihtokurssi</string>
 	<string name="exchange_rates_context_set_as_default_title">Aseta oletetuksi vierasperäiseksi valuutaksi</string>
-	<string name="wallet_transactions_fragment_empty_text_received">$PACeja ei ole vielä vastaanotettu.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">$PACeja ei ole vielä vastaanotettu.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">$PACeja ei ole vielä lähetetty.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Kuinka saada $PACeja?\nVaihda perinteiseen rahaan,\nmyy tuotteita tai palveluita\ntai tienaa työskentelemällä.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Kuinka saada $PACeja?</b>\nVaihda perinteiseen rahaan,\nmyy tuotteita tai palveluita\ntai tienaa työskentelemällä.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Onnittelut, olet vastaanottanut ensimmäisen rahansiirtosi! Onko sinulla jo &lt;u&gt;varmuuskopio lompakostasi&lt;/u&gt; suojataksesi sitä katoamiselta?</string>
 	<string name="wallet_transactions_fragment_coinbase">louhittu</string>
 	<string name="wallet_transactions_fragment_internal">sisäinen</string>
@@ -312,5 +312,6 @@
 	<string name="error_parse">Jäsennysvirhe: %s</string>
 	<string name="error_http">HTTP-virhe %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetooth-virhe: %1$s</string>
+    <string name="navigation_drawer_close">Sulje valikko</string>
 
-	</resources>
+</resources>

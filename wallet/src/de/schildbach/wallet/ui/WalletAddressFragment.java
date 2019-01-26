@@ -108,7 +108,7 @@ public final class WalletAddressFragment extends Fragment implements NfcAdapter.
         currentAddressQrView = (ImageView) view.findViewById(R.id.bitcoin_address_qr);
 
         final CardView currentAddressQrCardView = (CardView) view.findViewById(R.id.bitcoin_address_qr_card);
-        currentAddressQrCardView.setCardBackgroundColor(Color.WHITE);
+        //currentAddressQrCardView.setCardBackgroundColor(Color.WHITE);
         currentAddressQrCardView.setPreventCornerOverlap(false);
         currentAddressQrCardView.setOnClickListener(new OnClickListener() {
             @Override
@@ -137,7 +137,7 @@ public final class WalletAddressFragment extends Fragment implements NfcAdapter.
     }
 
     private void updateView() {
-        currentAddressQrView.setImageDrawable(currentAddressQrBitmap);
+        //currentAddressQrView.setImageDrawable(currentAddressQrBitmap);
     }
 
     private void handleShowQRCode() {

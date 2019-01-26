@@ -4,13 +4,12 @@
     package="de.schildbach.wallet_test"
     android:installLocation="internalOnly"
     android:versionCode="51715"
-    android:versionName="5.18.0" >
+    android:versionName="5.18.0">
 
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="25"
         tools:ignore="OldTargetApi" />
-
     <!-- normal permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,13 +18,10 @@
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- dangerous permissions -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- dangerous permissions -->
     <uses-permission android:name="android.permission.CAMERA" /> <!-- group: CAMERA -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- group: STORAGE -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- group: STORAGE -->
-
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -64,10 +60,15 @@
         android:icon="@mipmap/ic_app_color"
         android:label="@string/app_name"
         android:largeHeap="true">
+        <activity
+            android:name="de.schildbach.wallet.ui.SplashActivity"
+            android:theme="@style/SplashTheme"
+            />
+
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="a68d9754b4ecc328a9b509b49a34bcf23ced339f"
-            />
+            android:value="a68d9754b4ecc328a9b509b49a34bcf23ced339f" />
+
         <activity
             android:name="de.schildbach.wallet.ui.WalletActivity"
             android:configChanges="keyboard|keyboardHidden"
@@ -77,17 +78,19 @@
             android:theme="@style/My.Theme.NoStatusBar" />
 
         <activity-alias
-            android:name="de.schildbach.wallet.WalletActivity"
-            android:targetActivity="de.schildbach.wallet.ui.WalletActivity" >
-            <intent-filter android:label="@string/app_name_short" >
+            android:name="de.schildbach.wallet.SplashActivity"
+            android:targetActivity="de.schildbach.wallet.ui.SplashActivity">
+            <intent-filter android:label="@string/app_name_short">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
                 <data android:mimeType="application/x-drktx" />
                 <data android:mimeType="application/x-pactx" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
@@ -101,8 +104,8 @@
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/send_coins_activity_title"
             android:theme="@style/My.Theme.ChildActivity"
-            android:windowSoftInputMode="adjustResize" >
-            <intent-filter android:label="@string/send_coins_activity_title" >
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter android:label="@string/send_coins_activity_title">
                 <action android:name="android.intent.action.VIEW" />
 
                 <data android:scheme="paccoin" />
@@ -111,7 +114,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
-            <intent-filter android:label="@string/send_coins_activity_title" >
+            <intent-filter android:label="@string/send_coins_activity_title">
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
                 <data android:scheme="paccoin" />
@@ -119,14 +122,14 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <intent-filter android:label="@string/send_coins_activity_title" >
+            <intent-filter android:label="@string/send_coins_activity_title">
                 <action android:name="android.intent.action.VIEW" />
 
                 <data android:mimeType="application/pac-paymentrequest" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <intent-filter android:label="@string/send_coins_activity_title" >
+            <intent-filter android:label="@string/send_coins_activity_title">
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
                 <data android:mimeType="application/pac-paymentrequest" />
@@ -137,8 +140,7 @@
         <activity
             android:name="de.schildbach.wallet.ui.SendCoinsQrActivity"
             android:configChanges="keyboard|keyboardHidden"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         <activity
             android:name="de.schildbach.wallet.ui.RequestCoinsActivity"
             android:configChanges="keyboard|keyboardHidden"
@@ -167,8 +169,8 @@
         <activity
             android:name="de.schildbach.wallet.ui.RestoreWalletActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
-            android:theme="@style/My.Theme.Dialog" >
-            <intent-filter android:label="@string/import_keys_intent_filter_action" >
+            android:theme="@style/My.Theme.Dialog">
+            <intent-filter android:label="@string/import_keys_intent_filter_action">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -193,8 +195,7 @@
         <activity
             android:name="de.schildbach.wallet.ui.WalletUriHandlerActivity"
             android:label="@string/app_name"
-            android:theme="@style/My.Theme.Transparent" >
-
+            android:theme="@style/My.Theme.Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -203,7 +204,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
-
         </activity>
 
         <provider
@@ -222,7 +222,7 @@
 
         <receiver
             android:name="de.schildbach.wallet.WalletBalanceWidgetProvider"
-            android:label="@string/appwidget_wallet_balance_title" >
+            android:label="@string/appwidget_wallet_balance_title">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -239,7 +239,7 @@
             android:name="de.schildbach.wallet.offline.AcceptBluetoothService"
             android:exported="false" />
 
-        <receiver android:name="de.schildbach.wallet.service.BootstrapReceiver" >
+        <receiver android:name="de.schildbach.wallet.service.BootstrapReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

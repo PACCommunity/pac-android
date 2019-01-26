@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Cena získaná z %s</string>
     <string name="exchange_rates_options_search">Vyhľadať výmenný kurz</string>
     <string name="exchange_rates_context_set_as_default_title">Nastaviť ako predvolené</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Zatiaľ neboli prijaté žiadne $PAC</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Zatiaľ neboli prijaté žiadne $PAC</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Zatiaľ neboli odoslané žiadne $PAC</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Ako získať $PAC?\n\nVýmenou za tradičné peniaze,\npredajom tovarov a služieb,\nalebo prácou.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Ako získať $PAC?</b>\n\nVýmenou za tradičné peniaze,\npredajom tovarov a služieb,\nalebo prácou.</font></string>
     <string name="wallet_transactions_row_warning_backup">Gratulujeme, obdržali ste svoju prvú platbu! Urobili ste &lt;u&gt;zálohu peňaženky&lt;/u&gt;, aby ste ju ochránili pred stratou?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Tip: pre zvýšenie zabezpečenia Vašej peňaženky môžete &lt;u&gt;zašifrovať Vaše zariadenie&lt;/u&gt;. Zabezpečíte tým aj dáta ostatných aplikácií.</string>
     <string name="wallet_transactions_fragment_coinbase">vyťažené</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Potvrdení</string>
 
     <string name="navigation_drawer_open">Otvoriť navigačný priečinok</string>
-    <string name="navigation_drawer_close">Zatvoriť navigačný priečinok</string>
+    <string name="navigation_drawer_close">Zatvorte ponuku</string>
 
     <string name="pac_slogan">Rýchla - Súkromná - Bezpečená</string>
     <string name="pac_wallet">Peňaženka</string>

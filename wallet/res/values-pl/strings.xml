@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Cena pobrana z %s</string>
     <string name="exchange_rates_options_search">Znajdź kurs</string>
     <string name="exchange_rates_context_set_as_default_title">Ustaw jako domyślne</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Nie otrzymano jeszcze żadnych $PACów.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Nie otrzymano jeszcze żadnych $PACów.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Nie wysłano jeszcze żadnych $PACów.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Jak zdobyć $PACe?\n\nWymień za tradycyjną walutę,\nsprzedawaj dobra bądź usługi lub\nzarabiaj pracując.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Jak zdobyć $PACe?</b>\n\nWymień za tradycyjną walutę,\nsprzedawaj dobra bądź usługi lub\nzarabiaj pracując.</font></string>
     <string name="wallet_transactions_row_warning_backup">Gratulacje, otrzymałeś swoją pierwszą płatność! Czy już &lt;u&gt;wykonałeś kopię zapasową swojego portfela&lt;/u&gt;, by ochronić się przed jej utratą?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Wskazówka: aby zwiększyć bezpieczeństwo swojego portfela możesz go &lt;u&gt;zaszyfrować&lt;/u&gt;. Zwiększy to również bezpieczeństwo innych aplikacji.</string>
     <string name="wallet_transactions_fragment_coinbase">wykopany</string>
@@ -348,7 +348,7 @@
     <string name="transaction_fragment_confirmations_label">Potwierdzenia</string>
 
     <string name="navigation_drawer_open">Pokaż boczne menu</string>
-    <string name="navigation_drawer_close">Ukryj boczne menu</string>
+    <string name="navigation_drawer_close">Zamknij menu</string>
 
     <string name="pac_slogan">Natychmiastowy - Prywatny - Bezpieczny</string>
     <string name="pac_wallet">Portfel</string>

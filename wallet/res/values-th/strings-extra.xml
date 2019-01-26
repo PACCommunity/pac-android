@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">ปลดล็อค</string>
 	<string name="wallet_lock_unlock_wallet">ปลดล็อค wallet ของคุณ</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">wallet ถูกล็อค</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">แตะไอคอนด้านบนเพื่อปลดล็อค wallet ของคุณและดูประวัติการทำธุรกรรม</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">wallet ถูกล็อค</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">แตะไอคอนด้านบนเพื่อปลดล็อค wallet ของคุณและดูประวัติการทำธุรกรรม</font></string>
 	<string name="wallet_lock_unlock_dialog_title">ปลดล็อค  wallet  ของคุณ </string>
 	<string name="wallet_lock_unlock_dialog_message">wallet ของคุณถูกป้องกันโดยการใช้รหัส PIN  ป้อนรหัส PIN และกดปุ่มปลดล็อคเพื่อทำต่อ</string>
 	<string name="wallet_lock_reset_wallet_title">ตั้งค่า wallet</string>

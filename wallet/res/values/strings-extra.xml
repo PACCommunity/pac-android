@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Unlock</string>
 	<string name="wallet_lock_unlock_wallet">Unlock wallet</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Wallet locked.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Tap the lock icon above to unlock your wallet and see the transaction history.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Wallet locked.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Tap the lock icon above to unlock your wallet and see the transaction history.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Unlock your wallet</string>
 	<string name="wallet_lock_unlock_dialog_message">Your wallet is protected by a spending PIN. Enter your PIN and press Unlock to continue.</string>
 	<string name="wallet_lock_reset_wallet_title">Reset wallet</string>

@@ -25,9 +25,9 @@
 	<string name="exchange_rates_fragment_source">تم جلب السعر من %s</string>
 	<string name="exchange_rates_options_search">أسعار صرف العملات</string>
 	<string name="exchange_rates_context_set_as_default_title">تعيين كافتراضي</string>
-	<string name="wallet_transactions_fragment_empty_text_received">لم يتم استلام مبالغ داش إلى الآن</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">لم يتم استلام مبالغ داش إلى الآن</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">لم يتم ارسال مبالغ داش إلى الآن</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">كيفية الحصول على  داش؟\n\nالتجارة التقليدية مقابل المال،\nبيع السلع أو الخدمات أو\nالكسب من خلال العمل.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>كيفية الحصول على داش؟</b>\n\nالتجارة التقليدية مقابل المال،\nبيع السلع أو الخدمات أو\nالكسب من خلال العمل.\n</font></string>
 	<string name="wallet_transactions_row_warning_backup">تهانينا، لقد تلقيت أول دفعة خاصة بك! قل قمت بحفظ احتياطي لمحفظتك لحمايتها من الضياع؟</string>
 	<string name="wallet_transactions_row_warning_storage_encryption">تلميح: لزيادة أمان محفظتك، يمكنك &amp; لوت؛ &amp; غ؛ تشفير جهازك &amp; لوت؛ / &amp; غ ؛. هذا أيضا يحمي البيانات من تطبيقات أخرى.</string>
 	<string name="wallet_transactions_fragment_coinbase">محفور</string>
@@ -348,7 +348,7 @@
 	<string name="transaction_fragment_confirmations_label">تأكيدات</string>
 
 	<string name="navigation_drawer_open">فتح درج التنقل</string>
-	<string name="navigation_drawer_close">فتح درج التنقل</string>
+	<string name="navigation_drawer_close">إغلاق القائمة</string>
 
 	<string name="pac_slogan">لحظة - خاصة - آمنة</string>
 	<string name="pac_wallet">محفظة</string>
