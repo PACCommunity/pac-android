@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="PINStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/vivid_red</item>
+        <item name="colorControlActivated">@color/vivid_red</item>
+        <item name="colorControlHighlight">@color/vivid_red</item>
+    </style>
+
     <style name="My.Theme.NoActionBar" parent="@style/My.Theme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

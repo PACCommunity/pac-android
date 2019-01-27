@@ -4,35 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:measureWithLargestChild="true"
-    android:orientation="horizontal">
+    android:orientation="horizontal" >
 
     <Button
         android:id="@+id/send_coins_cancel"
-        style="@style/My.Widget.ActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@drawable/send_button_style"
+        android:background="?android:attr/selectableItemBackground"
+        android:maxLines="2"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="@dimen/font_size_small" />
 
-    <Space
-        android:layout_width="0px"
-        android:layout_height="0px"
-        android:layout_weight="1" />
-
     <Button
         android:id="@+id/send_coins_go"
-        style="@style/My.Widget.ActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@drawable/request_button_style"
-        android:drawableRight="@drawable/ic_menu_back_arrow_black_right"
+        android:background="?android:attr/selectableItemBackground"
+        android:maxLines="2"
         android:textAllCaps="false"
-        android:textColor="@color/toolbarBg"
         android:textSize="@dimen/font_size_small"
+        android:textColor="@color/ripple_light"
         android:textStyle="bold" />
 
 </LinearLayout>

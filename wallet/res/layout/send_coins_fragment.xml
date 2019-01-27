@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/black_background"
     android:focusableInTouchMode="true"
     android:orientation="vertical"
     tools:ignore="RequiredSize">
@@ -34,7 +33,9 @@
             android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
             android:layout_marginTop="8dp"
             android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
         <TextView
             android:id="@+id/send_coins_payee_verified_by"
@@ -44,6 +45,7 @@
             android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
             android:singleLine="true"
             android:textColor="@color/fg_less_significant"
+            android:textColorHint="@color/white"
             android:textSize="@dimen/font_size_small" />
 
         <AutoCompleteTextView
@@ -52,10 +54,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
             android:layout_marginRight="@dimen/list_entry_padding_horizontal"
+            android:background="@drawable/rounded_edittext_style"
             android:completionThreshold="1"
             android:hint="@string/send_coins_fragment_receiving_address_hint"
             android:imeOptions="flagNoExtractUi"
-            android:singleLine="true" />
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
         <LinearLayout
             android:id="@+id/send_coins_receiving_static"
@@ -76,13 +82,17 @@
                 android:ellipsize="end"
                 android:maxLines="3"
                 android:singleLine="false"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/send_coins_receiving_static_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/list_entry_padding_horizontal" />
+                android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
         </LinearLayout>
     </LinearLayout>
 
@@ -109,40 +119,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
-            android:layout_marginRight="@dimen/list_entry_padding_horizontal"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/list_entry_padding_horizontal"
             android:divider="@drawable/divider_currency"
             android:orientation="vertical"
             android:showDividers="middle">
 
             <de.schildbach.wallet.ui.CurrencyAmountView
                 android:id="@+id/send_coins_amount_btc"
-                android:layout_width="0px"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
                 <EditText
                     android:id="@+id/send_coins_amount_btc_edittext"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/rounded_edittext_style"
+                    android:gravity="end"
                     android:imeOptions="flagNoExtractUi"
+                    android:padding="10dp"
+                    android:textAlignment="textEnd"
                     android:textSize="@dimen/font_size_large"
                     tools:ignore="TextFields" />
             </de.schildbach.wallet.ui.CurrencyAmountView>
 
             <de.schildbach.wallet.ui.CurrencyAmountView
                 android:id="@+id/send_coins_amount_local"
-                android:layout_width="0px"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
                 <EditText
                     android:id="@+id/send_coins_amount_local_edittext"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_edittext_style"
                     android:imeOptions="flagNoExtractUi"
+                    android:textAlignment="textEnd"
+                    android:padding="10dp"
                     android:textSize="@dimen/font_size_large"
-                    tools:ignore="TextFields" />
+                    tools:ignore="TextFields"
+                    android:gravity="end"
+                    android:layout_gravity="end" />
             </de.schildbach.wallet.ui.CurrencyAmountView>
         </LinearLayout>
     </LinearLayout>
@@ -154,7 +174,9 @@
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
         android:layout_marginTop="8dp"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal"
-        android:text="@string/send_coins_fragment_direct_payment_enable" />
+        android:button="@drawable/checkbox_yellow"
+        android:text="@string/send_coins_fragment_direct_payment_enable"
+        android:textColor="@color/white" />
 
     <CheckBox
         android:id="@+id/send_coins_instantx_enable"
@@ -163,13 +185,10 @@
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
         android:layout_marginTop="8dp"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal"
+        android:button="@drawable/checkbox_yellow"
         android:text="@string/send_coins_fragment_instantx_enable"
+        android:textColor="@color/white"
         android:textSize="@dimen/font_size_normal" />
-
-    <Space
-        android:layout_width="0px"
-        android:layout_height="0px"
-        android:layout_weight="1" />
 
     <TextView
         android:id="@+id/send_coins_hint"
@@ -178,6 +197,8 @@
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
         android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:textSize="@dimen/font_size_small" />
 
     <LinearLayout
@@ -195,13 +216,17 @@
 
         <EditText
             android:id="@+id/send_coins_private_key_password"
+            style="@style/PINStyle"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/private_key_password"
             android:imeOptions="flagNoExtractUi"
             android:inputType="numberPassword"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:theme="@style/PINStyle" />
 
         <TextView
             android:id="@+id/send_coins_private_key_bad_password"
