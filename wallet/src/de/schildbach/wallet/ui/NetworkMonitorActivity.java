@@ -17,12 +17,13 @@
 
 package de.schildbach.wallet.ui;
 
-import de.schildbach.wallet.util.ViewPagerTabs;
 import de.schildbach.wallet_test.R;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Context;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
@@ -45,13 +46,12 @@ public final class NetworkMonitorActivity extends AbstractBindServiceActivity {
         final FragmentManager fm = getFragmentManager();
 
         if (pager != null) {
-            final ViewPagerTabs pagerTabs = (ViewPagerTabs) findViewById(R.id.network_monitor_pager_tabs);
-            pagerTabs.addTabLabels(R.string.network_monitor_peer_list_title, R.string.network_monitor_block_list_title);
+            TabLayout tabLayout = (TabLayout) findViewById(R.id.network_monitor_pager_tabs);
+            tabLayout.setupWithViewPager(pager);
 
-            final PagerAdapter pagerAdapter = new PagerAdapter(fm);
+            final PagerAdapter pagerAdapter = new PagerAdapter(fm, this);
 
             pager.setAdapter(pagerAdapter);
-            pager.setOnPageChangeListener(pagerTabs);
             pager.setPageMargin(2);
             pager.setPageMarginDrawable(R.color.bg_less_bright);
 
@@ -75,8 +75,11 @@ public final class NetworkMonitorActivity extends AbstractBindServiceActivity {
     }
 
     private class PagerAdapter extends FragmentStatePagerAdapter {
-        public PagerAdapter(final FragmentManager fm) {
+        private final Context context;
+
+        public PagerAdapter(final FragmentManager fm, Context context) {
             super(fm);
+            this.context = context;
         }
 
         @Override
@@ -90,6 +93,12 @@ public final class NetworkMonitorActivity extends AbstractBindServiceActivity {
                 return peerListFragment;
             else
                 return blockListFragment;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return position == 0 ? context.getResources().getString(R.string.network_monitor_peer_list_title)
+                    : context.getResources().getString(R.string.network_monitor_block_list_title);
         }
     }
 }

@@ -51,6 +51,9 @@ import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -151,8 +154,13 @@ public final class WalletAddressesFragment extends FancyListFragment {
 
                 final String address = key.toAddress(Constants.NETWORK_PARAMETERS).toBase58();
                 final String label = AddressBookProvider.resolveLabel(activity, address);
-                mode.setTitle(label != null ? label
+
+                Spannable text = new SpannableString(label != null ? label
                         : WalletUtils.formatHash(address, Constants.ADDRESS_FORMAT_GROUP_SIZE, 0));
+                text.setSpan(new ForegroundColorSpan(getResources().getColor(R.color.vivid_red)),
+                        0, text.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+
+                mode.setTitle(text);
 
                 return true;
             }

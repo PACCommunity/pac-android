@@ -59,6 +59,9 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -256,8 +259,11 @@ public final class SendingAddressesFragment extends FancyListFragment
 
             @Override
             public boolean onPrepareActionMode(final ActionMode mode, final Menu menu) {
-                final String label = getLabel(position);
-                mode.setTitle(label);
+                Spannable text = new SpannableString(getLabel(position));
+                text.setSpan(new ForegroundColorSpan(getResources().getColor(R.color.vivid_red)),
+                        0, text.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+
+                mode.setTitle(text);
 
                 return true;
             }

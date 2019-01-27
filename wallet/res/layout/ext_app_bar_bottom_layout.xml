@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:background="#000000"
         android:text="toolbar message..."
-        android:textColor="@color/white"
+        android:textColor="@color/vivid_red"
         android:textSize="14sp"
         android:id="@+id/toolbar_message"
         android:paddingBottom="8dp"

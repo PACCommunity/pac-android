@@ -121,7 +121,7 @@ public final class CurrencyAmountView extends FrameLayout {
 
     public void setCurrencySymbol(@Nullable final String currencyCode) {
         if (MonetaryFormat.CODE_BTC.equals(currencyCode)) {
-            currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_btc);
+            currencySymbolDrawable = getResources().getDrawable(R.drawable.ic_coinpac);
             localCurrencyCode = null;
         } else if (MonetaryFormat.CODE_MBTC.equals(currencyCode)) {
             currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_mbtc);
