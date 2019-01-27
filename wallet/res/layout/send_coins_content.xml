@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:viewToHideWhenSoftKeyboardIsOpen="@+id/fab_scan_qr"
+    android:background="@drawable/black_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -13,14 +14,13 @@
         android:orientation="vertical">
 
         <include
-            layout="@layout/app_bar_main"
+            layout="@layout/app_bar_icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/bg_form"
             android:fillViewport="true"
             android:scrollbars="none">
 
@@ -42,7 +42,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
-        android:src="@drawable/ic_qrcode"
-        app:backgroundTint="#000000" />
+        android:src="@drawable/ic_qrcode_black"
+        app:backgroundTint="@color/vivid_red" />
 
 </de.schildbach.wallet.ui.widget.KeyboardResponsiveCoordinatorLayout>

@@ -73,6 +73,9 @@ public abstract class AbstractWalletActivity extends AppCompatActivity implement
             setSupportActionBar(toolbarView);
             ActionBar actionBar = getSupportActionBar();
             if (actionBar != null) {
+                if (toolbarView.getTag() != null && toolbarView.getTag().equals("iconToolbar"))
+                    actionBar.setDisplayShowTitleEnabled(false);
+
                 actionBar.setDisplayHomeAsUpEnabled(true);
                 actionBar.setDisplayShowHomeEnabled(true);
             }
