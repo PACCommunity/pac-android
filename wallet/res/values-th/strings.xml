@@ -352,5 +352,6 @@
 
     <string name="dash_slogan">เร่งด่วน - ส่วนตัว - ปลอดภัย</string>
     <string name="dash_wallet">wallet</string>
+    <string name="nav_code">ดูรหัสการชำระเงิน</string>
 
 </resources>

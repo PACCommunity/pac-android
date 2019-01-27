@@ -351,5 +351,6 @@
 
     <string name="pac_slogan">빠른 거래 - 프라이버시 보호 - 높은 보안성</string>
     <string name="pac_wallet">전자지갑</string>
+    <string name="nav_code">지불 코드 참조</string>
 
 </resources>

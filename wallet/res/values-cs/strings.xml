@@ -318,5 +318,6 @@
 
     <string name="pac_slogan">Rychlá - Soukromá - Zabezpečená</string>
     <string name="pac_wallet">Peněženka</string>
+    <string name="nav_code">Viz platební kód</string>
 
 </resources>

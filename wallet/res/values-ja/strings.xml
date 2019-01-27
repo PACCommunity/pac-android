@@ -313,5 +313,6 @@
 	<string name="error_http">HTTPエラー %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetoothエラー: %1$s</string>
     <string name="navigation_drawer_close">メニューを閉じる</string>
+    <string name="nav_code">支払いコードを見る</string>
 
 </resources>

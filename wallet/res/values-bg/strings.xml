@@ -352,5 +352,6 @@
 
     <string name="pac_slogan">Мигновен-Личен-Сигурен</string>
     <string name="pac_wallet">Портфейл</string>
+    <string name="nav_code">Вижте кода за плащане</string>
 
 </resources>

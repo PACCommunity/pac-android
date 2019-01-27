@@ -290,5 +290,6 @@
 	<string name="error_http">Error HTTP %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Error Bluetooth: %1$s</string>
     <string name="navigation_drawer_close">Tanca el menú</string>
+    <string name="nav_code">Veure el codi de pagament</string>
 
 </resources>

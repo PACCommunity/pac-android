@@ -122,7 +122,7 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
         recyclerView = (RecyclerView) view.findViewById(R.id.exchange_rates_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(activity));
         recyclerView.setAdapter(adapter);
-        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
+        //recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
         return view;
     }
 
@@ -357,7 +357,7 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
             final ExchangeRate exchangeRate = ExchangeRatesProvider.getExchangeRate(cursor);
             final boolean isDefaultCurrency = exchangeRate.getCurrencyCode().equals(defaultCurrency);
 
-            holder.itemView.setBackgroundResource(isDefaultCurrency ? R.color.bg_list_selected : R.color.bg_list);
+            holder.itemView.setBackgroundResource(isDefaultCurrency ? R.color.bg_list_selected : R.color.bg_nav);
 
             holder.defaultView.setVisibility(isDefaultCurrency ? View.VISIBLE : View.INVISIBLE);
 

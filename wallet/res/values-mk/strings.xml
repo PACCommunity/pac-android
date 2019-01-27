@@ -181,5 +181,6 @@
 	<string name="time_today">денес</string>
 	<string name="address_unlabeled">(без ознака)</string>
     <string name="navigation_drawer_close">Затвори мени</string>
+    <string name="nav_code">Видете Платен код</string>
 
 </resources>

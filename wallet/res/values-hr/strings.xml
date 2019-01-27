@@ -81,5 +81,6 @@
   <string name="time_today">danas</string>
   <string name="address_unlabeled">(ne obilježen)</string>
     <string name="navigation_drawer_close">Zatvorite izbornik</string>
+    <string name="nav_code">Pogledajte kôd Plaćanja</string>
     <!--generic error messages-->
 </resources>

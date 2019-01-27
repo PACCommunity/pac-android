@@ -352,5 +352,6 @@
 
     <string name="pac_slogan">Rapido - Privado - Seguro</string>
     <string name="pac_wallet">Carteira</string>
+    <string name="nav_code">Ver código de pagamento</string>
 
 </resources>

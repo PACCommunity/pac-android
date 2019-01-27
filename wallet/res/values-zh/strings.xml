@@ -351,5 +351,6 @@
 
     <string name="pac_slogan">即时-隐私-安全</string>
     <string name="pac_wallet">钱包</string>
+    <string name="nav_code">请参阅付款代码</string>
 
 </resources>

@@ -352,5 +352,6 @@
 
     <string name="pac_slogan">Instantáneo - Privado - Seguro</string>
     <string name="pac_wallet">Billetera</string>
+    <string name="nav_code">Ver Código de pago</string>
 
 </resources>

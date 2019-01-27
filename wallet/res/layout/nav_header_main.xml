@@ -24,7 +24,7 @@
         android:src="@drawable/logo" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgLogo"
         android:layout_marginTop="-9dp"
@@ -33,7 +33,7 @@
         android:layout_toStartOf="@+id/wallet_address_fragment"
         android:layout_toLeftOf="@+id/wallet_address_fragment"
         android:gravity="end"
-        android:text="Ver Código \nde pago"
+        android:text="@string/nav_code"
         android:textAlignment="textEnd"
         android:textColor="@color/white"
         android:textSize="14sp" />

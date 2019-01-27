@@ -353,5 +353,6 @@
 
     <string name="dash_slogan">Άμεσο - Ιδιωτικό - Ασφαλές</string>
     <string name="dash_wallet">Πορτοφόλι</string>
+    <string name="nav_code">Δείτε τον κωδικό πληρωμής</string>
 
 </resources>

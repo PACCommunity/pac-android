@@ -313,5 +313,6 @@
 	<string name="error_http">HTTP-virhe %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetooth-virhe: %1$s</string>
     <string name="navigation_drawer_close">Sulje valikko</string>
+    <string name="nav_code">Katso Maksukoodi</string>
 
 </resources>
