@@ -13,7 +13,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/toolbarBg"
+        android:background="@color/bg_nav"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
@@ -40,7 +40,7 @@
             android:paddingRight="16dp"
             android:paddingTop="10dp"
             android:text="toolbar message..."
-            android:textColor="@color/white"
+            android:textColor="@color/vivid_red"
             android:textSize="14sp" />
 
         <FrameLayout

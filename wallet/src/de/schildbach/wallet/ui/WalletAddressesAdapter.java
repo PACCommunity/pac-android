@@ -143,16 +143,16 @@ public class WalletAddressesAdapter extends BaseAdapter {
         final TextView addressView = (TextView) row.findViewById(R.id.address_book_row_address);
         addressView.setText(WalletUtils.formatAddress(address, Constants.ADDRESS_FORMAT_GROUP_SIZE,
                 Constants.ADDRESS_FORMAT_LINE_SIZE));
-        addressView.setTextColor(isRotateKey ? colorInsignificant : colorSignificant);
+        //addressView.setTextColor(isRotateKey ? colorInsignificant : colorSignificant);
 
         final TextView labelView = (TextView) row.findViewById(R.id.address_book_row_label);
         final String label = AddressBookProvider.resolveLabel(context, address.toBase58());
         if (label != null) {
             labelView.setText(label);
-            labelView.setTextColor(isRotateKey ? colorInsignificant : colorLessSignificant);
+            //labelView.setTextColor(isRotateKey ? colorInsignificant : colorLessSignificant);
         } else {
             labelView.setText(R.string.address_unlabeled);
-            labelView.setTextColor(colorInsignificant);
+            //labelView.setTextColor(colorInsignificant);
         }
 
         final TextView messageView = (TextView) row.findViewById(R.id.address_book_row_message);

@@ -33,10 +33,10 @@
         android:background="@color/transparent"
         android:baselineAligned="false"
         android:orientation="horizontal"
-        android:paddingLeft="@dimen/list_entry_padding_horizontal_lax"
-        android:paddingTop="@dimen/list_entry_padding_vertical"
-        android:paddingRight="@dimen/list_entry_padding_horizontal_lax"
-        android:paddingBottom="@dimen/list_entry_padding_vertical">
+        android:paddingLeft="@dimen/qr_padding_horizontal_lax"
+        android:paddingTop="@dimen/qr_padding_vertical"
+        android:paddingRight="@dimen/qr_padding_horizontal_lax"
+        android:paddingBottom="@dimen/qr_padding_vertical">
 
         <LinearLayout
             android:layout_width="0px"
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
+            android:layout_marginLeft="@dimen/qr_padding_horizontal"
             android:foreground="?android:attr/selectableItemBackground">
 
             <ImageView
