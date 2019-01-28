@@ -313,5 +313,6 @@
 	<string name="error_http">HTTP error %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetoothfel: %1$s</string>
     <string name="navigation_drawer_close">Stäng menyn</string>
+    <string name="nav_code">Se Betalningskod</string>
 
 </resources>

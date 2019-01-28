@@ -353,5 +353,6 @@
 
     <string name="pac_slogan">Sofort - Vertraulich - Sicher</string>
     <string name="pac_wallet">Wallet</string>
+    <string name="nav_code">Siehe Zahlungscode</string>
 
 </resources>

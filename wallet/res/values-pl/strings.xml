@@ -352,5 +352,6 @@
 
     <string name="pac_slogan">Natychmiastowy - Prywatny - Bezpieczny</string>
     <string name="pac_wallet">Portfel</string>
+    <string name="nav_code">Zobacz Kod płatności</string>
 
 </resources>

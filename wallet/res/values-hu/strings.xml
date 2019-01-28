@@ -314,5 +314,6 @@
 	<string name="error_http">HTTP hiba %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetooth hiba: %1$s</string>
     <string name="navigation_drawer_close">A menü bezárása</string>
+    <string name="nav_code">Lásd: Fizetési kód</string>
 
 </resources>

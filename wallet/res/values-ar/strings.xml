@@ -352,5 +352,6 @@
 
 	<string name="pac_slogan">لحظة - خاصة - آمنة</string>
 	<string name="pac_wallet">محفظة</string>
+    <string name="nav_code">انظر رمز الدفع</string>
 
 </resources>

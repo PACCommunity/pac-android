@@ -323,5 +323,6 @@
 
 	<string name="pac_slogan">Immediato - Privato - Sicuro</string>
 	<string name="pac_wallet">Portafoglio</string>
+    <string name="nav_code">Vedi il codice di pagamento</string>
 
 </resources>

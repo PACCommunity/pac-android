@@ -354,5 +354,6 @@
 
     <string name="pac_slogan">Быстро - Приватно - Безопасно</string>
     <string name="pac_wallet">Кошелёк</string>
+    <string name="nav_code">См. Код оплаты</string>
 
 </resources>

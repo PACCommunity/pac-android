@@ -352,5 +352,6 @@
 
     <string name="pac_slogan">Tức thời - Riêng tư - An toàn</string>
     <string name="pac_wallet">Ví</string>
+    <string name="nav_code">Xem mã thanh toán</string>
 
 </resources>

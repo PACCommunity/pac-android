@@ -181,5 +181,6 @@
 	<string name="time_today">hodiaŭ</string>
 	<string name="address_unlabeled">(sen nomo)</string>
     <string name="navigation_drawer_close">Fermi menuon</string>
+    <string name="nav_code">Vidu Pago kodo</string>
 
 </resources>

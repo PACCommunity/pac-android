@@ -174,4 +174,5 @@
 	<string name="time_today">hari ini</string>
 	<string name="address_unlabeled">(tak berlabel)</string>
     <string name="navigation_drawer_close">Tutup menu</string>
+    <string name="nav_code">Lihat kode pembayaran</string>
 </resources>

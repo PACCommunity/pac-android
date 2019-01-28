@@ -313,5 +313,6 @@
 	<string name="error_http">HTTP-feil %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Blåtann-feil: %1$s</string>
     <string name="navigation_drawer_close">Lukk meny</string>
+    <string name="nav_code">Se Betalingskode</string>
 
 </resources>
