@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_nav"
     android:fillViewport="true"
     android:scrollbars="none">
 
@@ -11,13 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
-            android:text="@string/encrypt_keys_dialog_message" />
+            android:text="@string/encrypt_keys_dialog_message"
+            android:textColor="@color/white" />
 
         <LinearLayout
             android:id="@+id/encrypt_keys_dialog_password_old_group"
@@ -26,7 +28,7 @@
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:divider="@drawable/divider_field"
             android:orientation="horizontal"
-            android:showDividers="middle" >
+            android:showDividers="middle">
 
             <EditText
                 android:id="@+id/encrypt_keys_dialog_password_old"
@@ -36,10 +38,12 @@
                 android:hint="@string/encrypt_keys_dialog_password_old"
                 android:imeOptions="flagNoExtractUi"
                 android:inputType="numberPassword"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:theme="@style/WhiteTextStyle" />
 
             <TextView
-                tools:visibility="visible"
                 android:id="@+id/encrypt_keys_dialog_bad_password"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
@@ -47,7 +51,8 @@
                 android:text="@string/private_key_bad_password"
                 android:textColor="@color/fg_error"
                 android:textStyle="bold"
-                android:visibility="invisible" />
+                android:visibility="invisible"
+                tools:visibility="visible" />
 
         </LinearLayout>
 
@@ -57,7 +62,7 @@
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:divider="@drawable/divider_field"
             android:orientation="horizontal"
-            android:showDividers="middle" >
+            android:showDividers="middle">
 
             <EditText
                 android:id="@+id/encrypt_keys_dialog_password_new"
@@ -67,16 +72,20 @@
                 android:hint="@string/private_key_password"
                 android:imeOptions="flagNoExtractUi"
                 android:inputType="numberPassword"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:theme="@style/WhiteTextStyle" />
 
             <TextView
-                tools:visibility="visible"
-                tools:text="weak"
                 android:id="@+id/encrypt_keys_dialog_password_strength"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                tools:text="weak"
+                tools:visibility="visible" />
 
         </LinearLayout>
 
@@ -84,27 +93,30 @@
             android:id="@+id/encrypt_keys_dialog_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
-            android:text="@string/encrypt_keys_dialog_show" />
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:button="@drawable/checkbox_yellow"
+            android:paddingBottom="10dp"
+            android:text="@string/encrypt_keys_dialog_show"
+            android:textColor="@color/white" />
 
         <TextView
-            tools:visibility="visible"
-            tools:text="6 attempts remaining"
             android:id="@+id/pin_attempts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/fg_error"
             android:textStyle="bold"
-            android:visibility="gone" />
+            android:visibility="gone"
+            tools:text="6 attempts remaining"
+            tools:visibility="visible" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax"
             android:layout_marginTop="@dimen/list_entry_padding_vertical_lax"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax"
             android:text="@string/encrypt_keys_dialog_warning"
-            android:textColor="@color/fg_less_significant"
+            android:textColor="@color/white"
             android:textSize="@dimen/font_size_small" />
 
     </LinearLayout>

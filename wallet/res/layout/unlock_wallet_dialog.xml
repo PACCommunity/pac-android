@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/bg_nav"
+    android:divider="@drawable/divider_field"
+    android:orientation="vertical"
     android:paddingLeft="@dimen/list_entry_padding_horizontal_lax"
     android:paddingRight="@dimen/list_entry_padding_horizontal_lax"
     android:paddingBottom="@dimen/list_entry_padding_vertical"
-    android:divider="@drawable/divider_field"
-    android:orientation="vertical"
     android:showDividers="middle">
 
     <LinearLayout
@@ -21,10 +22,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_weight="2"
-            android:text="@string/wallet_lock_unlock_dialog_message" />
+            android:text="@string/wallet_lock_unlock_dialog_message"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
@@ -33,36 +35,45 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/list_entry_padding_vertical"
         android:divider="@drawable/divider_field"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:showDividers="middle">
 
         <EditText
             android:id="@+id/pin"
-            android:layout_width="0px"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:gravity="center"
             android:hint="@string/private_key_password"
             android:imeOptions="flagNoExtractUi"
             android:inputType="numberPassword"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:theme="@style/WhiteTextStyle" />
 
         <Button
             android:id="@+id/unlock"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/request_button_style"
             android:text="@string/wallet_lock_unlock" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/bad_pin"
-        tools:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/private_key_bad_password"
         android:textColor="@color/fg_error"
         android:textStyle="bold"
-        android:visibility="invisible" />
+        android:visibility="invisible"
+        tools:visibility="visible" />
 
 </LinearLayout>

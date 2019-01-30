@@ -2,15 +2,16 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_nav"
     android:fillViewport="true"
-    android:scrollbars="none" >
+    android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/backup_wallet_seed_private_key_password_group"
@@ -33,10 +34,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/list_entry_padding_vertical"
                     android:layout_marginTop="@dimen/list_entry_padding_vertical"
+                    android:layout_marginBottom="@dimen/list_entry_padding_vertical"
                     android:layout_weight="2"
-                    android:text="@string/backup_to_seed_wallet_dialog_enter_pin_message" />
+                    android:text="@string/backup_to_seed_wallet_dialog_enter_pin_message"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
             <LinearLayout
@@ -53,16 +55,20 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="@string/private_key_password"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
                     android:imeOptions="flagNoExtractUi"
                     android:inputType="numberPassword"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:theme="@style/WhiteTextStyle" />
 
                 <Button
                     android:id="@+id/backup_wallet_seed_private_key_enter"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/backup_wallet_to_seed_show_recovery_phrase" />
+                    android:text="@string/backup_wallet_to_seed_show_recovery_phrase"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
             <TextView
@@ -89,9 +95,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/list_entry_padding_vertical"
                 android:layout_marginTop="@dimen/list_entry_padding_vertical"
-                android:text="@string/backup_to_seed_wallet_dialog_message" />
+                android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+                android:text="@string/backup_to_seed_wallet_dialog_message"
+                android:textColor="@color/white" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -99,14 +106,14 @@
                 android:layout_marginTop="@dimen/list_entry_padding_vertical"
                 android:divider="@drawable/divider_field"
                 android:orientation="horizontal"
-                android:showDividers="middle" >
+                android:showDividers="middle">
 
                 <TextView
                     android:id="@+id/backup_wallet_dialog_seed"
                     android:layout_width="0px"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
-                    android:textColor="@color/strong_blue_bis"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -116,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:divider="@drawable/divider_field"
                 android:orientation="horizontal"
-                android:showDividers="middle" >
+                android:showDividers="middle">
 
                 <TextView
                     android:id="@+id/backup_wallet_dialog_password_mismatch"
@@ -132,17 +139,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax"
                 android:layout_marginTop="@dimen/list_entry_padding_vertical_lax"
+                android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax"
                 android:text="@string/backup_wallet_to_seed_dialog_warning"
-                android:textColor="@color/fg_less_significant"
+                android:textColor="@color/white"
                 android:textSize="@dimen/font_size_small" />
 
             <CheckBox
                 android:id="@+id/backup_wallet_seed_private_key_written_down"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/backup_wallet_seed_private_key_written_down_box" />
+                android:button="@drawable/checkbox_yellow"
+                android:paddingBottom="10dp"
+                android:text="@string/backup_wallet_seed_private_key_written_down_box"
+                android:textColor="@color/white" />
 
             <!--TextView
                 android:id="@+id/backup_wallet_dialog_warning_encrypted"

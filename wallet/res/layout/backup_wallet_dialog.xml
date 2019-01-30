@@ -2,22 +2,24 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_nav"
     android:fillViewport="true"
-    android:scrollbars="none" >
+    android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
-            android:text="@string/backup_wallet_dialog_message" />
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:text="@string/backup_wallet_dialog_message"
+            android:textColor="@color/white" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,7 +27,7 @@
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:divider="@drawable/divider_field"
             android:orientation="horizontal"
-            android:showDividers="middle" >
+            android:showDividers="middle">
 
             <EditText
                 android:id="@+id/backup_wallet_dialog_password"
@@ -34,13 +36,17 @@
                 android:layout_weight="3"
                 android:hint="@string/import_export_keys_dialog_password"
                 android:inputType="textPassword"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:theme="@style/WhiteTextStyle" />
 
             <TextView
                 android:id="@+id/backup_wallet_dialog_password_strength"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:visibility="invisible" />
         </LinearLayout>
@@ -50,7 +56,7 @@
             android:layout_height="wrap_content"
             android:divider="@drawable/divider_field"
             android:orientation="horizontal"
-            android:showDividers="middle" >
+            android:showDividers="middle">
 
             <EditText
                 android:id="@+id/backup_wallet_dialog_password_again"
@@ -59,7 +65,10 @@
                 android:layout_weight="3"
                 android:hint="@string/backup_wallet_dialog_password_again"
                 android:inputType="textPassword"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:theme="@style/WhiteTextStyle" />
 
             <TextView
                 android:id="@+id/backup_wallet_dialog_password_mismatch"
@@ -76,19 +85,21 @@
             android:id="@+id/backup_wallet_dialog_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:button="@drawable/checkbox_yellow"
             android:checked="false"
+            android:paddingBottom="10dp"
             android:text="@string/import_export_keys_dialog_show" />
 
         <TextView
             android:id="@+id/backup_wallet_dialog_warning_encrypted"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax"
             android:layout_marginTop="@dimen/list_entry_padding_vertical_lax"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical_lax"
             android:text="@string/backup_wallet_dialog_warning_encrypted"
-            android:textColor="@color/fg_less_significant"
+            android:textColor="@color/white"
             android:textSize="@dimen/font_size_small" />
     </LinearLayout>
 
