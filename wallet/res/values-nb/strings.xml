@@ -266,7 +266,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Send rapport ved hjelp av…</string>
 	<string name="report_issue_dialog_mail_intent_failed">Sending av rapport mislyktes.</string>
 	<string name="about_title">Om</string>
-	<string name="about_version_title">Versjon</string>
+	<string name="about_version_title"><font color="#FAEC2C">Versjon</font></string>
 	<string name="about_copyright_title">Opphavsrett</string>
 	<string name="about_license_title">Lisens</string>
     <string name="about_source_title">Kildekode</string>

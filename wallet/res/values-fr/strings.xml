@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Envoyer le rapport avec…</string>
     <string name="report_issue_dialog_mail_intent_failed">Échec lors de l\'envoi du rapport.</string>
     <string name="about_title">À propos du logiciel</string>
-    <string name="about_version_title">Version</string>
+    <string name="about_version_title"><font color="#FAEC2C">Version</font></string>
     <string name="about_copyright_title">Tous droits réservés</string>
     <string name="about_license_title">Licence</string>
     <string name="about_source_title">Code source</string>

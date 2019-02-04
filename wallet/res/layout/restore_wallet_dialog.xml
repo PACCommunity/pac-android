@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_nav"
     android:fillViewport="true"
     android:scrollbars="none" >
 
@@ -16,6 +17,7 @@
             android:id="@+id/restore_wallet_dialog_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical_lax" />
 
@@ -33,6 +35,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:theme="@style/WhiteTextStyle"
             android:hint="@string/import_export_keys_dialog_password"
             android:inputType="textPassword"
             android:singleLine="true" />
@@ -43,6 +48,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:checked="false"
+            android:button="@drawable/checkbox_yellow"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
             android:text="@string/import_export_keys_dialog_show" />
 
         <TextView

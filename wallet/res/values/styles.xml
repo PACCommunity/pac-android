@@ -27,9 +27,14 @@
     </style>
 
     <style name="My.Theme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/bg_nav</item>
         <item name="colorPrimaryDark">@color/bg_nav</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/vivid_red</item>
+        <item name="colorAccent">@color/vivid_red</item>
+        <item name="colorButtonNormal">@color/vivid_red</item>
+        <item name="colorControlNormal">@color/vivid_red</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
 
         <item name="toolbarStyle">@style/ActionBarText</item>
         <item name="android:titleTextStyle">@style/ActionBarText</item>
@@ -44,6 +49,12 @@
         <item name="actionModeBackground">@color/bg_nav</item>
         <item name="actionModeCloseDrawable">@drawable/ic_menu_back_arrow</item>
         <item name="actionModeStyle">@style/ActionBarText</item>
+    </style>
+
+    <style name="PrefsTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/bg_nav</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_menu_back_arrow</item>
     </style>
 
     <style name="ActionBarText" parent="@style/Widget.AppCompat.Toolbar">
@@ -77,9 +88,12 @@
     </style>
 
     <style name="NewDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <item name="colorAccent">@color/strong_blue_bis</item>
-        <item name="android:textColorPrimary">@color/fg_significant</item>
-        <item name="android:windowBackground">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="android:windowBackground">@color/bg_nav</item>
+        <item name="android:background">@color/bg_nav</item>
+        <item name="android:colorBackground">@color/bg_nav</item>
     </style>
 
     <!--style name="My.Theme.ChildActivity" parent="@style/My.Theme">
@@ -169,9 +183,11 @@
     </style>
 
     <style name="My.Widget.Spinner" parent="@android:style/Widget.Holo.Light.Spinner">
-        <item name="android:textColor">@color/fg_significant</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/font_size_normal</item>
     </style>
+
+
     =======
     <!--style name="My.Theme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/My.Widget.ActionBar</item>

@@ -244,7 +244,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Enviant report utilitzant…</string>
 	<string name="report_issue_dialog_mail_intent_failed">Enviant un report de fallada.</string>
 	<string name="about_title">Quant a</string>
-	<string name="about_version_title">Versió</string>
+	<string name="about_version_title"><font color="#FAEC2C">Versió</font></string>
 	<string name="about_copyright_title">Drets de còpia</string>
 	<string name="about_license_title">Llicència</string>
     <string name="about_source_title">Codi font</string>

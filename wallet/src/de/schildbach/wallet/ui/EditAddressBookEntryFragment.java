@@ -18,17 +18,15 @@
 package de.schildbach.wallet.ui;
 
 import javax.annotation.Nullable;
-
 import org.bitcoinj.core.Address;
 import org.bitcoinj.wallet.Wallet;
-
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.data.AddressBookProvider;
 import de.schildbach.wallet.util.WalletUtils;
 import de.schildbach.wallet_test.R;
-
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
@@ -37,6 +35,7 @@ import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
@@ -157,6 +156,15 @@ public final class EditAddressBookEntryFragment extends DialogFragment {
             dialog.setNeutralButton(R.string.button_delete, onClickListener);
         dialog.setNegativeButton(R.string.button_cancel, onClickListener);
 
-        return dialog.create();
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 }

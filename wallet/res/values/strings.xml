@@ -239,37 +239,41 @@
     <string name="preferences_activity_title">Settings</string>
     <string name="preferences_category_diagnostics">Diagnostics</string>
     <string name="preferences_category_labs">Labs</string>
-    <string name="preferences_precision_title">Denomination and precision</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Denomination and precision</font></string>
+    <string name="preferences_precision_title_">Denomination and precision</string>
     <string name="preferences_precision_summary">Unit to show amounts in. This does not affect computations.</string>
     <string name="preferences_precision_labels_8">$PAC, 8 decimal places</string>
     <string name="preferences_precision_labels_6">$PAC, 6 decimal places</string>
     <string name="preferences_precision_labels_4">$PAC, 4 decimal places</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 decimal places</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, no decimal places</string>
-    <string name="preferences_own_name_title">Own name</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Own name</font></string>
+    <string name="preferences_own_name_title_">Own name</string>
     <string name="preferences_own_name_summary">Name of yourself, to be added to payment requests. Try to keep it short.</string>
-    <string name="preferences_send_coins_autoclose_title">Auto-close send coins dialog</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Auto-close send coins dialog</font></string>
     <string name="preferences_send_coins_autoclose_summary">When the payment is made, the send dialog will close automatically.</string>
-    <string name="preferences_connectivity_notification_title">Connectivity indicator</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Connectivity indicator</font></string>
     <string name="preferences_connectivity_notification_summary">Show current number of connected peers in the notification area.</string>
-    <string name="preferences_trusted_peer_title">Trusted peer</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Trusted peer</font></string>
+    <string name="preferences_trusted_peer_title_">Trusted peer</string>
     <string name="preferences_trusted_peer_summary">IP or hostname of single peer to connect to.</string>
     <string name="preferences_trusted_peer_resolve_progress">Resolving…</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Unknown hostname!</string>
-    <string name="preferences_trusted_peer_only_title">Skip regular peer discovery</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Skip regular peer discovery</font></string>
     <string name="preferences_trusted_peer_only_summary">Prevents connecting to any peers besides the trusted peer.</string>
     <string name="preferences_block_explorer_title">Block explorer</string>
     <string name="preferences_block_explorer_summary">External block explorer to use for browsing transactions, addresses and blocks.</string>
-    <string name="preferences_data_usage_title">Data usage</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Data usage</font></string>
     <string name="preferences_data_usage_summary">Show options to restrict data usage on mobile networks.</string>
-    <string name="preferences_remind_balance_title">Balance reminder</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Balance reminder</font></string>
     <string name="preferences_remind_balance_summary">After a couple of weeks of not being used, the app will notify if there are still coins in the wallet.</string>
-    <string name="preferences_report_issue_title">Report issue</string>
-    <string name="preferences_initiate_reset_title">Reset block chain</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Report issue</font></string>
+    <string name="menu_report_issue_title">Report issue</string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Reset block chain</font></string>
     <string name="preferences_initiate_reset_summary">Reset block chain, transactions and wallet balance. Replay will take a while, so only do this if you know why.</string>
     <string name="preferences_initiate_reset_dialog_message">Would you like to reset and replay the block chain?\n\nThis will temporarily hide your wallet balance and remove transactions. Both will recover as block chain sync progresses. Make sure you\'ve got a reliable connection to the internet.</string>
     <string name="preferences_initiate_reset_dialog_positive">Reset</string>
-    <string name="preferences_extended_public_key_title">Show xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Show xpub</font></string>
     <string name="preferences_extended_public_key_summary">View the extended public key of your wallet, so it can be imported into other apps and services. Be careful: doing so will disclose your monetary privacy to that app.</string>
     <string name="bitmap_fragment_share">Share…</string>
     <string name="extended_public_key_fragment_title">Extended Public Key</string>
@@ -288,18 +292,18 @@
     <string name="report_issue_dialog_mail_intent_chooser">Send report using…</string>
     <string name="report_issue_dialog_mail_intent_failed">Sending report failed.</string>
     <string name="about_title">About</string>
-    <string name="about_version_title">Version</string>
-    <string name="about_copyright_title">Copyright</string>
-    <string name="about_license_title">License</string>
-    <string name="about_source_title">Source code</string>
+    <string name="about_version_title"><font color="#FAEC2C">Version</font></string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">License</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Source code</font></string>
     <string name="about_category_credits">This app is using…</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, a $PAC protocol implementation</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, a $PAC protocol implementation</font></string>
     <string name="about_credits_zxing_title">ZXing, a QR-code processing library</string>
     <string name="about_credits_icon_title">This app is using an icon by \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, implemented by Will Glozer and Colin Percival</string>
-    <string name="about_market_app_title">Google Play page</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, implemented by Will Glozer and Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Google Play page</font></string>
     <string name="about_market_app_summary">Review or rate the app</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Frequently asked questions about the app</string>
     <string name="about_community_googleplus_title">Google+ community</string>
     <string name="about_community_googleplus_summary">Discuss about the app</string>
@@ -354,5 +358,13 @@
     <string name="pac_slogan">Instant - Private - Secure</string>
     <string name="pac_wallet">Wallet</string>
 
+    <string name="about_git_title"><font color="#FAEC2C"></font></string>
+
+    <string name="settings_instasend_title"><font color="#FAEC2C">Enable InstantSend</font></string>
+    <string name="settings_warning_title"><font color="#FAEC2C">Warning</font></string>
+    <string name="settings_litemode_title"><font color="#FAEC2C">Enable Lite Mode</font></string>
+    <string name="settings_disclaimer_title"><font color="#FAEC2C">Show disclaimer</font></string>
+    <string name="settings_BIP70_title"><font color="#FAEC2C">BIP70 for scan-to-pay</font></string>
+    <string name="settings_lookup_title"><font color="#FAEC2C">Look up wallet names</font></string>
 
 </resources>

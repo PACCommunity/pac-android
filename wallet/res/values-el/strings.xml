@@ -288,7 +288,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Αποστολή αναφοράς χρησιμοποιώντας…</string>
     <string name="report_issue_dialog_mail_intent_failed">Αποτυχία αποστολής της αναφοράς.</string>
     <string name="about_title">Πληροφορίες</string>
-    <string name="about_version_title">Έκδοση</string>
+    <string name="about_version_title"><font color="#FAEC2C">Έκδοση</font></string>
     <string name="about_copyright_title">Πνευματικά δικαιώματα</string>
     <string name="about_license_title">Άδεια</string>
     <string name="about_source_title">Πηγαίος κώδικας</string>

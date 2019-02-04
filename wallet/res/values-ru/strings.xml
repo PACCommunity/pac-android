@@ -288,7 +288,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Отправить отчет используя…</string>
     <string name="report_issue_dialog_mail_intent_failed">Ошибка при отправке отчета.</string>
     <string name="about_title">О программе</string>
-    <string name="about_version_title">Версия</string>
+    <string name="about_version_title"><font color="#FAEC2C">Версия</font></string>
     <string name="about_copyright_title">Авторское право</string>
     <string name="about_license_title">Лицензия</string>
     <string name="about_source_title">Исходный код</string>

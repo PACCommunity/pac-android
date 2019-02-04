@@ -30,6 +30,10 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
+import android.support.v4.content.ContextCompat;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 /**
  * @author Andreas Schildbach
@@ -53,6 +57,15 @@ public final class AboutFragment extends PreferenceFragment {
     }
 
     @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View v = super.onCreateView(inflater, container, savedInstanceState);
+
+        v.setBackgroundDrawable(ContextCompat.getDrawable(v.getContext(), R.drawable.black_background));
+
+        return v;
+    }
+
+    @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -66,7 +79,6 @@ public final class AboutFragment extends PreferenceFragment {
             marketIntent = new Intent(Intent.ACTION_VIEW,
                     Uri.parse(String.format(Constants.WEBMARKET_APP_URL, activity.getPackageName())));
         findPreference(KEY_ABOUT_MARKET_APP).setIntent(marketIntent);
-        findPreference(KEY_ABOUT_CREDITS_BITCOINJ)
-                .setTitle(getString(R.string.about_credits_bitcoinj_title, VersionMessage.BITCOINJ_VERSION));
+        //findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setTitle(getString(R.string.about_credits_bitcoinj_title, VersionMessage.BITCOINJ_VERSION));
     }
 }

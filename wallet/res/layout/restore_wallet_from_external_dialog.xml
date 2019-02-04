@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:background="@color/bg_nav"
     android:scrollbars="none" >
 
     <LinearLayout
@@ -16,6 +17,9 @@
             android:id="@+id/import_keys_from_content_dialog_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:theme="@style/WhiteTextStyle"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:hint="@string/import_export_keys_dialog_password"
             android:inputType="textPassword"
@@ -25,6 +29,9 @@
             android:id="@+id/import_keys_from_content_dialog_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_yellow"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:checked="false"
             android:text="@string/import_export_keys_dialog_show" />

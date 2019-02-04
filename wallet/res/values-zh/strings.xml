@@ -286,7 +286,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">发送报告使用…</string>
     <string name="report_issue_dialog_mail_intent_failed">发送报告失败。</string>
     <string name="about_title">关于</string>
-    <string name="about_version_title">版本</string>
+    <string name="about_version_title"><font color="#FAEC2C">版本</font></string>
     <string name="about_copyright_title">Copyright</string>
     <string name="about_license_title">许可协议</string>
     <string name="about_source_title">源代码</string>

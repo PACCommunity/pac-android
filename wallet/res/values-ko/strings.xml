@@ -286,7 +286,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">오류 보고서 전송 방법 선택</string>
     <string name="report_issue_dialog_mail_intent_failed">오류 보고서 전송에 실패했습니다.</string>
     <string name="about_title">앱 소개</string>
-    <string name="about_version_title">버전</string>
+    <string name="about_version_title"><font color="#FAEC2C">버전</font></string>
     <string name="about_copyright_title">Copyright</string>
     <string name="about_license_title">라이센스</string>
     <string name="about_source_title">소스 코드</string>

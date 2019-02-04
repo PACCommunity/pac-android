@@ -19,6 +19,7 @@ package de.schildbach.wallet.ui;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -26,6 +27,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Button;
 import android.widget.TextView;
+
+import de.schildbach.wallet_test.R;
 
 /**
  * @author Andreas Schildbach
@@ -70,6 +73,15 @@ public class ImportDialogButtonEnablerListener implements TextWatcher, OnItemSel
         final boolean hasFile = hasFile();
 
         final Button button = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
+
+        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                dialog.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                dialog.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
         button.setEnabled(hasFile && (!needsPassword || hasPassword));
     }
 

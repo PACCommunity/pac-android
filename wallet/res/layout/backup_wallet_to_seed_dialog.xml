@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/backup_wallet_to_seed_show_recovery_phrase"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/bg_nav" />
             </LinearLayout>
 
             <TextView

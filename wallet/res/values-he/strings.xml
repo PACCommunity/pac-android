@@ -188,7 +188,7 @@
   <string name="report_issue_dialog_mail_intent_chooser">שלח דוח באמצעות…</string>
   <string name="report_issue_dialog_mail_intent_failed">שליחת דו\"ח נכשלה.</string>
   <string name="about_title">על אודות</string>
-  <string name="about_version_title">גירסה</string>
+  <string name="about_version_title"><font color="#FAEC2C">גירסה</font></string>
   <string name="about_copyright_title">זכויות יוצרים</string>
   <string name="about_license_title">רישיון</string>
   <string name="about_source_title">קוד מקור</string>

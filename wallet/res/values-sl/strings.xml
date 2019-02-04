@@ -178,7 +178,7 @@
   <string name="report_issue_dialog_mail_intent_chooser">Pošlji poročilo z aplikacijo…</string>
   <string name="report_issue_dialog_mail_intent_failed">Pošiljanje poročila je spodletelo.</string>
   <string name="about_title">Vizitka</string>
-  <string name="about_version_title">Verzija</string>
+  <string name="about_version_title"><font color="#FAEC2C">Verzija</font></string>
   <string name="about_copyright_title">Avtorske pravice</string>
   <string name="about_license_title">Licenca</string>
   <string name="about_category_credits">Ta aplikacija uporablja…</string>

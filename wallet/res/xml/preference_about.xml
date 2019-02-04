@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Preference
         android:key="about_version"
@@ -36,8 +36,9 @@
             android:data="https://play.google.com/store/apps/details?id=org.paccoin.wallet" />
     </Preference>
 
-    <PreferenceCategory android:title="@string/about_category_credits" >
+    <PreferenceCategory android:title="@string/about_category_credits">
 		<Preference
+            android:title="@string/about_credits_bitcoinj_title"
 			android:key="about_credits_bitcoinj"
 			android:summary="https://github.com/PACCommunity/pac-android" >
 			<intent

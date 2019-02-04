@@ -192,7 +192,7 @@
   <string name="report_issue_dialog_mail_intent_chooser">Відправити звіт використовуючи…</string>
   <string name="report_issue_dialog_mail_intent_failed">Помилка при відправці звіту.</string>
   <string name="about_title">Про програму</string>
-  <string name="about_version_title">Версія</string>
+  <string name="about_version_title"><font color="#FAEC2C">Версія</font></string>
   <string name="about_copyright_title">Авторське право</string>
   <string name="about_license_title">Ліцензія</string>
   <string name="about_source_title">Початковий код</string>

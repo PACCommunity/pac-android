@@ -58,6 +58,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.PopupMenu;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.SearchView.OnQueryTextListener;
@@ -159,6 +160,8 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
         walletLockMenuItem.setVisible(WalletLock.getInstance().isWalletLocked(wallet));
 
         final SearchView searchView = (SearchView) menu.findItem(R.id.exchange_rates_options_search).getActionView();
+        LinearLayout searchEditFrame = (LinearLayout) searchView.findViewById(R.id.search_edit_frame);
+        ((LinearLayout.LayoutParams) searchEditFrame.getLayoutParams()).leftMargin = 60;
         searchView.setOnQueryTextListener(new OnQueryTextListener() {
             @Override
             public boolean onQueryTextChange(final String newText) {

@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Enviar relatório usando…</string>
     <string name="report_issue_dialog_mail_intent_failed">Envio de relatório falhou.</string>
     <string name="about_title">Sobre</string>
-    <string name="about_version_title">Versão</string>
+    <string name="about_version_title"><font color="#FAEC2C">Versão</font></string>
     <string name="about_copyright_title">Copyright</string>
     <string name="about_license_title">Licença</string>
     <string name="about_source_title">Código fonte</string>
