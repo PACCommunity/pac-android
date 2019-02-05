@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Изпрати доклад използвайки…</string>
     <string name="report_issue_dialog_mail_intent_failed">Изпращането на доклад е неуспешно.</string>
     <string name="about_title">За</string>
-    <string name="about_version_title">Версията</string>
+    <string name="about_version_title"><font color="#FAEC2C">Версията</font></string>
     <string name="about_copyright_title">Запазени права</string>
     <string name="about_license_title">Лиценз</string>
     <string name="about_source_title">Програмен код</string>

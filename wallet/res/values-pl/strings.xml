@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Wyślij zgłoszenie używając…</string>
     <string name="report_issue_dialog_mail_intent_failed">Wysyłąnie raportu nie powiodło się.</string>
     <string name="about_title">O programie</string>
-    <string name="about_version_title">Wersja</string>
+    <string name="about_version_title"><font color="#FAEC2C">Wersja</font></string>
     <string name="about_copyright_title">Prawa autorskie</string>
     <string name="about_license_title">Licencja</string>
     <string name="about_source_title">Kod źródłowy</string>

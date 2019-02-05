@@ -54,7 +54,9 @@ import android.app.LoaderManager.LoaderCallbacks;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnShowListener;
 import android.content.Loader;
+import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -220,6 +222,8 @@ public class RaiseFeeDialogFragment extends DialogFragment {
         });
 
         log.info("showing raise fee dialog");
+
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
         return dialog;
     }

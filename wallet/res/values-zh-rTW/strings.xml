@@ -287,7 +287,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">寄送報告…</string>
 	<string name="report_issue_dialog_mail_intent_failed">寄送報告失敗。</string>
 	<string name="about_title">關於</string>
-	<string name="about_version_title">版本</string>
+	<string name="about_version_title"><font color="#FAEC2C">版本</font></string>
 	<string name="about_copyright_title">著作權</string>
 	<string name="about_license_title">授權</string>
 	<string name="about_source_title">原始碼</string>

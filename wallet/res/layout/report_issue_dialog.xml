@@ -2,67 +2,84 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_nav"
     android:fillViewport="true"
-    android:scrollbars="none" >
+    android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
         android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/report_issue_dialog_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:layout_marginBottom="@dimen/list_entry_padding_vertical"
-            android:layout_marginTop="@dimen/list_entry_padding_vertical" />
+            android:textColor="@color/white" />
 
         <EditText
             android:id="@+id/report_issue_dialog_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:hint="@string/report_issue_dialog_description"
-            android:inputType="text|textCapSentences|textMultiLine" />
+            android:inputType="text|textCapSentences|textMultiLine"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:theme="@style/WhiteTextStyle" />
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_device_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:button="@drawable/checkbox_yellow"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_device_info" />
+            android:paddingBottom="10dp"
+            android:text="@string/report_issue_dialog_collect_device_info"
+            android:textColor="@color/white" />
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_application_log"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:button="@drawable/checkbox_yellow"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_application_log" />
+            android:paddingBottom="10dp"
+            android:text="@string/report_issue_dialog_collect_application_log"
+            android:textColor="@color/white" />
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_wallet_dump"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:button="@drawable/checkbox_yellow"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_wallet_dump" />
+            android:paddingBottom="10dp"
+            android:text="@string/report_issue_dialog_collect_wallet_dump"
+            android:textColor="@color/white" />
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_installed_packages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
+            android:layout_marginBottom="@dimen/list_entry_padding_vertical"
+            android:button="@drawable/checkbox_yellow"
             android:checked="false"
-            android:text="@string/report_issue_dialog_collect_installed_packages" />
+            android:paddingBottom="10dp"
+            android:text="@string/report_issue_dialog_collect_installed_packages"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 </ScrollView>

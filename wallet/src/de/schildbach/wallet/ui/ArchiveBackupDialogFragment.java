@@ -28,13 +28,17 @@ import de.schildbach.wallet.util.WholeStringBuilder;
 import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.text.Html;
 
 /**
@@ -95,7 +99,18 @@ public class ArchiveBackupDialogFragment extends DialogFragment {
                 });
         dialog.setNegativeButton(R.string.button_dismiss, null);
 
-        return dialog.create();
+        getActivity().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private void archiveWalletBackup(final File backupFile) {

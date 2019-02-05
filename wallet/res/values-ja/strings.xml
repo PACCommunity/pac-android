@@ -266,7 +266,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">報告に使うアプリケーション……</string>
 	<string name="report_issue_dialog_mail_intent_failed">報告失敗。</string>
 	<string name="about_title">アプリについて</string>
-	<string name="about_version_title">バージョン</string>
+	<string name="about_version_title"><font color="#FAEC2C">バージョン</font></string>
 	<string name="about_copyright_title">コピーライト</string>
 	<string name="about_license_title">ライセンス</string>
     <string name="about_source_title">ソースコード</string>

@@ -48,6 +48,7 @@ import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnClickListener;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -137,7 +138,16 @@ public final class RestoreWalletActivity extends AbstractWalletActivity
             }
         });
 
-        return dialog.create();
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private void prepareRestoreWalletDialog(final Dialog dialog) {
@@ -188,7 +198,17 @@ public final class RestoreWalletActivity extends AbstractWalletActivity
                     showDialog(DIALOG_RESTORE_WALLET);
                 }
             });
-            dialog.show();
+
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+                }
+            });
+
+            d.show();
 
             log.info("problem restoring wallet", x);
         }
@@ -268,7 +288,17 @@ public final class RestoreWalletActivity extends AbstractWalletActivity
                 finish();
             }
         });
-        dialog.show();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        d.show();
     }
 
     private void checkWalletEncryptionDialog() {

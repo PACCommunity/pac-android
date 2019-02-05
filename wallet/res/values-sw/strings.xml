@@ -230,7 +230,7 @@
   <string name="report_issue_dialog_mail_intent_chooser">Soma ripoti kutumia…</string>
   <string name="report_issue_dialog_mail_intent_failed">Kusoma ripoti alishindwe.</string>
   <string name="about_title">Kuhusu</string>
-  <string name="about_version_title">Maelezo</string>
+  <string name="about_version_title"><font color="#FAEC2C">Maelezo</font></string>
   <string name="about_copyright_title">Hati miliki</string>
   <string name="about_license_title">leseni</string>
   <string name="about_source_title">Source code (chanzo)</string>

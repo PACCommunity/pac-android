@@ -24,6 +24,7 @@ import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.Spanned;
@@ -147,6 +148,8 @@ public class RestoreWalletFromSeedDialogFragment extends DialogFragment {
             }
         });
 
+
+
         /*final String path;
         final String backupPath = Constants.Files.EXTERNAL_WALLET_BACKUP_DIR.getAbsolutePath();
         final String storagePath = Constants.Files.EXTERNAL_STORAGE_DIR.getAbsolutePath();
@@ -157,7 +160,16 @@ public class RestoreWalletFromSeedDialogFragment extends DialogFragment {
             */
 
         //fileView.setAdapter(adapter);
-        return builder.create();
+        final AlertDialog dialog = builder.create();
+        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                dialog.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                dialog.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
+            }
+        });
+
+        return dialog;
     }
 
     private void setupPasswordView() {
@@ -216,7 +228,17 @@ public class RestoreWalletFromSeedDialogFragment extends DialogFragment {
                     activity.handleRestoreWalletFromSeed();
                 }
             });
-            dialog.show();
+
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
+                }
+            });
+
+            d.show();
 
             log.info("problem restoring wallet from seed: ", x);
         }

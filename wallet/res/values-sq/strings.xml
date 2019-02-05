@@ -248,7 +248,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Dërgo raporting duke përdorur…</string>
 	<string name="report_issue_dialog_mail_intent_failed">Dërgimi i raportit dështoj.</string>
 	<string name="about_title">Rreth</string>
-	<string name="about_version_title">Verzioni</string>
+	<string name="about_version_title"><font color="#FAEC2C">Verzioni</font></string>
 	<string name="about_copyright_title">Copyright</string>
 	<string name="about_license_title">Licenca</string>
     <string name="about_source_title">Kodi burimor</string>

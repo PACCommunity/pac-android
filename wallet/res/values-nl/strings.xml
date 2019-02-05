@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Stuur rapport met…</string>
     <string name="report_issue_dialog_mail_intent_failed">Versturen van rapport mislukt.</string>
     <string name="about_title">Over</string>
-    <string name="about_version_title">Versie</string>
+    <string name="about_version_title"><font color="#FAEC2C">Versie</font></string>
     <string name="about_copyright_title">Auteursrecht</string>
     <string name="about_license_title">Licentie</string>
     <string name="about_source_title">Broncode</string>

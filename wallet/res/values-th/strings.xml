@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">ส่งรายงานโดยใช้...</string>
     <string name="report_issue_dialog_mail_intent_failed">การส่งรายงานล้มเหลว</string>
     <string name="about_title">เกี่ยวกับ</string>
-    <string name="about_version_title">เวอร์ชั่น</string>
+    <string name="about_version_title"><font color="#FAEC2C">เวอร์ชั่น</font></string>
     <string name="about_copyright_title">ลิขสิทธิ์</string>
     <string name="about_license_title">ใบอนุญาต</string>
     <string name="about_source_title">รหัสแหล่งที่มา</string>

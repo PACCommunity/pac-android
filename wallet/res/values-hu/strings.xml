@@ -267,7 +267,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Hiba küldése ezzel…</string>
 	<string name="report_issue_dialog_mail_intent_failed">Jelentés küldése sikertelen.</string>
 	<string name="about_title">Rólunk</string>
-	<string name="about_version_title">Verzió</string>
+	<string name="about_version_title"><font color="#FAEC2C">Verzió</font></string>
 	<string name="about_copyright_title">Szerző jog</string>
 	<string name="about_license_title">Licensz</string>
     <string name="about_source_title">Forráskód</string>

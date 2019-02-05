@@ -287,7 +287,7 @@
     <string name="report_issue_dialog_mail_intent_chooser">Gửi báo cáo sử dụng…</string>
     <string name="report_issue_dialog_mail_intent_failed">Gửi báo cáo không thành công.</string>
     <string name="about_title">Thông tin</string>
-    <string name="about_version_title">Phiên bản</string>
+    <string name="about_version_title"><font color="#FAEC2C">Phiên bản</font></string>
     <string name="about_copyright_title">Bản quyền</string>
     <string name="about_license_title">Giấy phép</string>
     <string name="about_source_title">Mã nguồn</string>
