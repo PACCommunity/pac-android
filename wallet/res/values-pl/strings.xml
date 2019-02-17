@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">Ustawienia</string>
     <string name="preferences_category_diagnostics">Diagnostyka</string>
     <string name="preferences_category_labs">Eksperymentalne</string>
-    <string name="preferences_precision_title">Waluta i precyzja</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Waluta i precyzja</font></string>
     <string name="preferences_precision_summary">Jednostka w której ma być podawana ilość. Nie wpływa na obliczenia.</string>
     <string name="preferences_precision_labels_8">$PAC 8 miejsc po przecinku</string>
     <string name="preferences_precision_labels_6">$PAC, 6 miejsc po przecinku</string>
     <string name="preferences_precision_labels_4">$PAC, 4 miejsc po przecinku</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 miejsca po przecinku</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, bez miejsc po przecinku</string>
-    <string name="preferences_own_name_title">Podpis</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Podpis</font></string>
     <string name="preferences_own_name_summary">Twój podpis. Będzie on dołączany do żądań płatności.</string>
-    <string name="preferences_send_coins_autoclose_title">Okno szybkiej płatności</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Okno szybkiej płatności</font></string>
     <string name="preferences_send_coins_autoclose_summary">Kiedy płatność zostanie zrealizowana, okno zamknie się automatycznie.</string>
-    <string name="preferences_connectivity_notification_title">Wskaźnik połączenia</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Wskaźnik połączenia</font></string>
     <string name="preferences_connectivity_notification_summary">Wyświetl obecną liczbę połączonych partnerów w przestrzeni powiadomień.</string>
-    <string name="preferences_trusted_peer_title">Zaufany partner</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Zaufany partner</font></string>
     <string name="preferences_trusted_peer_summary">IP lub nazwa hosta pojedynczego partnera z którym możesz się połączyć.</string>
     <string name="preferences_trusted_peer_resolve_progress">Rozwiązywanie...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Nieznany adres hosta!</string>
-    <string name="preferences_trusted_peer_only_title">Pomiń zwyczajne odkrywanie partnerów</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Pomiń zwyczajne odkrywanie partnerów</font></string>
     <string name="preferences_trusted_peer_only_summary">Zapobiega łączeniu się ze wszystkimi partnerami poza tym zaufanym.</string>
     <string name="preferences_block_explorer_title">Eksplorator bloków</string>
     <string name="preferences_block_explorer_summary">Zewnętrzny eksplorator bloków przydatny przy przeglądaniu transakcji, adresów i bloków.</string>
-    <string name="preferences_data_usage_title">Zużycie danych</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Zużycie danych</font></string>
     <string name="preferences_data_usage_summary">Pokaż opcje ograniczenia transferu danych przez sieci mobilne</string>
-    <string name="preferences_remind_balance_title">Przypomnienie salda</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Przypomnienie salda</font></string>
     <string name="preferences_remind_balance_summary">Po kilku tygodniach nieużywania, aplikacja przypomni o pozostałych środkach.</string>
-    <string name="preferences_report_issue_title">Zgłoś problem</string>
-    <string name="preferences_initiate_reset_title">Zresetuj łańcuch bloków</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Zgłoś problem</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Zresetuj łańcuch bloków</font></string>
     <string name="preferences_initiate_reset_summary">Zresetuj łańcuch bloków, transakcji i balans portfela. Może to zająć chwilę, dlatego też używaj tego tylko jeśli jesteś pewien.</string>
     <string name="preferences_initiate_reset_dialog_message">Czy chciałbyś zresetować i odtworzyć łańcuch bloków?\n\nTo tymczasowo wyzeruje stan twojego portfela i usunie transakcje. Wszystko zostanie przywrócone po synchronizacji łańcucha bloków. Upewnij się, że masz niezawodne połączenie z internetem.</string>
     <string name="preferences_initiate_reset_dialog_positive">Resetuj</string>
-    <string name="preferences_extended_public_key_title">Pokaż xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Pokaż xpub</font></string>
     <string name="preferences_extended_public_key_summary">Sprawdź rozszerzony klucz publiczny twojego portfela, tak aby mógł być zaimportowany do innych aplikacji i usług. Bądź ostrożny: ta operacja ujawni poufne dane twojego portfela.</string>
     <string name="bitmap_fragment_share">Udostępnij…</string>
     <string name="extended_public_key_fragment_title">Wydłużony Publiczny Klucz</string>
@@ -288,17 +288,17 @@
     <string name="report_issue_dialog_mail_intent_failed">Wysyłąnie raportu nie powiodło się.</string>
     <string name="about_title">O programie</string>
     <string name="about_version_title"><font color="#FAEC2C">Wersja</font></string>
-    <string name="about_copyright_title">Prawa autorskie</string>
-    <string name="about_license_title">Licencja</string>
-    <string name="about_source_title">Kod źródłowy</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Prawa autorskie</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Licencja</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Kod źródłowy</font></string>
     <string name="about_category_credits">Ta aplikacja używa...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, implementacja protokołu $PAC</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, implementacja protokołu $PAC</font></string>
     <string name="about_credits_zxing_title">ZXing, biblioteka do przetwarzania kodów QR</string>
     <string name="about_credits_icon_title">Ta aplikacja używa ikony stworzonej przez \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, zaimplementowany przez Will Glozer i Colin Percival</string>
-    <string name="about_market_app_title">Strona Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, zaimplementowany przez Will Glozer i Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Strona Google Play</font></string>
     <string name="about_market_app_summary">Wyraź swoją opinię o Aplikacji lub ją oceń</string>
-    <string name="about_faq_title">Często Zadawane Pytania</string>
+    <string name="about_faq_title"><font color="#FAEC2C">Często Zadawane Pytania</font></string>
     <string name="about_faq_summary">Często zadawane pytania dotyczące aplikacji</string>
     <string name="about_community_googleplus_title">Społeczność Google+</string>
     <string name="about_community_googleplus_summary">Porozmawiajmy o aplikacji</string>
@@ -353,5 +353,12 @@
     <string name="pac_slogan">Natychmiastowy - Prywatny - Bezpieczny</string>
     <string name="pac_wallet">Portfel</string>
     <string name="nav_code">Zobacz Kod płatności</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Włącz InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Ostrzeżenie </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Włącz wersję uproszczoną </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Pokaż wyłączenie odpowiedzialności </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 dla skanu do zapłaty </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Wyszukaj nazwy portfeli </font> </string>
 
 </resources>

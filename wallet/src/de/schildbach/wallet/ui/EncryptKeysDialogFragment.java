@@ -168,6 +168,8 @@ public class EncryptKeysDialogFragment extends DialogFragment {
         passwordStrengthView = (TextView) view.findViewById(R.id.encrypt_keys_dialog_password_strength);
 
         showView = (CheckBox) view.findViewById(R.id.encrypt_keys_dialog_show);
+        showView.setOnCheckedChangeListener(new ShowPasswordCheckListener(newPasswordView, oldPasswordView));
+        showView.setChecked(true);
 
         final DialogBuilder builder = new DialogBuilder(activity);
         builder.setTitle(R.string.encrypt_keys_dialog_title);

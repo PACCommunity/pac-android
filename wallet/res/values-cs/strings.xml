@@ -223,30 +223,30 @@
     <string name="preferences_activity_title">Nastavení</string>
     <string name="preferences_category_diagnostics">Diagnostika</string>
     <string name="preferences_category_labs">Laboratoř</string>
-    <string name="preferences_precision_title">Denominace a přesnost</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Denominace a přesnost</font></string>
     <string name="preferences_precision_summary">Jednotka pro zobrazování částek. Neovlivnuje výpočty.</string>
-    <string name="preferences_own_name_title">Vlastní jméno</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Vlastní jméno</font></string>
     <string name="preferences_own_name_summary">Vaše jméno, které se bude zobrazovat u žádostí o platbu. Buďte struční.</string>
-    <string name="preferences_send_coins_autoclose_title">Automaticky zavírat dialogové okno odesílání mincí</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Automaticky zavírat dialogové okno odesílání mincí</font></string>
     <string name="preferences_send_coins_autoclose_summary">Po provedení platby se dialogové okno automaticky zavře.</string>
-    <string name="preferences_connectivity_notification_title">Indikátor připojení</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indikátor připojení</font></string>
     <string name="preferences_connectivity_notification_summary">Zobraz aktuální počet peerů v notifikační liště.</string>
-    <string name="preferences_trusted_peer_title">Důvěryhodný peer</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Důvěryhodný peer</font></string>
     <string name="preferences_trusted_peer_summary">IP nebo hostname jednoho peera ke kterému se chcete připojit.</string>
     <string name="preferences_trusted_peer_resolve_progress">Probíhá řešení...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Neznámé hostující zařízení!</string>
-    <string name="preferences_trusted_peer_only_title">Vynechat standarní vyhledávání peerů</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Vynechat standarní vyhledávání peerů</font></string>
     <string name="preferences_trusted_peer_only_summary">Zabraňuje připojení k jiným peerům kromě důvěryhodného.</string>
     <string name="preferences_block_explorer_title">Block explorer</string>
     <string name="preferences_block_explorer_summary">Externí block explorer k prohlížení transakcí, adres a bloků.</string>
-    <string name="preferences_data_usage_title">Využití dat</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Využití dat</font></string>
     <string name="preferences_data_usage_summary">Otevřít nastavení pro omezení datového toku na mobilní síti.</string>
-    <string name="preferences_remind_balance_title">Připomenutí zůstatku</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Připomenutí zůstatku</font></string>
     <string name="preferences_remind_balance_summary">Po několika týdnech nečinnosti vás aplikace bude informovat, jestli máte v peněžence nějaké mince.</string>
-    <string name="preferences_report_issue_title">Nahlásit problém</string>
-    <string name="preferences_initiate_reset_title">Vymazat blockchain</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Nahlásit problém</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Vymazat blockchain</font></string>
     <string name="preferences_initiate_reset_dialog_positive">Obnovit</string>
-    <string name="preferences_extended_public_key_title">Zobrazit xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Zobrazit xpub</font></string>
     <string name="preferences_extended_public_key_summary">Zobrazit rozšířený veřejný klíč Vaší peněženky za účelem importování do jiných aplikací a služeb. Buďte opatrní: tímro sdílíte Vaše peněžní soukromí s danou aplikaci.</string>
     <string name="bitmap_fragment_share">Sdílet…</string>
     <string name="extended_public_key_fragment_title">Rozšířený veřejný klíč</string>
@@ -264,10 +264,10 @@
     <string name="report_issue_dialog_mail_intent_failed">Odeslání hlášení selhalo.</string>
     <string name="about_title">O aplikaci</string>
     <string name="about_version_title"><font color="#FAEC2C">Verze</font></string>
-    <string name="about_copyright_title">Copyright</string>
-    <string name="about_license_title">Licence</string>
-    <string name="about_source_title">Zdrojový kód</string>
-    <string name="about_market_app_title">Stránka Google Play</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Licence</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Zdrojový kód</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Stránka Google Play</font></string>
     <string name="about_market_app_summary">Zrecenzujte aplikaci nebo ji ohodnoťte</string>
     <string name="about_community_googleplus_title">Komunita Google+</string>
     <string name="notification_coins_received_msg">Obdrženo %s</string>
@@ -319,5 +319,12 @@
     <string name="pac_slogan">Rychlá - Soukromá - Zabezpečená</string>
     <string name="pac_wallet">Peněženka</string>
     <string name="nav_code">Viz platební kód</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Povolit InstantSend </font> </string>
+    <string name="settings_warning_title"> <font color="#FAEC2C"> Upozornění </font> </string>
+    <string name="settings_litemode_title"> <font color="#FAEC2C"> Povolit režim Lite </font> </string>
+    <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Zobrazit vyloučení odpovědnosti </font> </string>
+    <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 pro scan-to-pay </font> </string>
+    <string name="settings_lookup_title"> <font color="#FAEC2C"> Vyhledejte jména peněz </font> </string>
 
 </resources>

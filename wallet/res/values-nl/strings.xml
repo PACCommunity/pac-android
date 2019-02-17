@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">Instellingen</string>
     <string name="preferences_category_diagnostics">Diagnostiek</string>
     <string name="preferences_category_labs">Labs</string>
-    <string name="preferences_precision_title">Waarde en precisie</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Waarde en precisie</font></string>
     <string name="preferences_precision_summary">Grootheid om waarden in te tonen. Dit heeft geen invloed op berekeningen.</string>
     <string name="preferences_precision_labels_8">$PAC, 8 cijfers achter de komma</string>
     <string name="preferences_precision_labels_6">$PAC, 6 cijfers achter de komma</string>
     <string name="preferences_precision_labels_4">$PAC, 4 cijfers achter de komma</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 cijfers achter de komma</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, geen cijfers achter de komma</string>
-    <string name="preferences_own_name_title">Eigen naam</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Eigen naam</font></string>
     <string name="preferences_own_name_summary">Uw eigen naam; deze zal worden toegevoegd aan betaalverzoeken. Probeer uw naam zo kort mogelijk te houden.</string>
-    <string name="preferences_send_coins_autoclose_title">Sluit automatisch het dialoogvenster voor verzenden</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Sluit automatisch het dialoogvenster voor verzenden</font></string>
     <string name="preferences_send_coins_autoclose_summary">Zodra de betaling is gedaan zal het dialoogvenster automatisch sluiten.</string>
-    <string name="preferences_connectivity_notification_title">Connectiviteitsindicator</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Connectiviteitsindicator</font></string>
     <string name="preferences_connectivity_notification_summary">Toon huidige aantal verbonden partners in het berichten gebied.</string>
-    <string name="preferences_trusted_peer_title">Vertrouwde partner</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Vertrouwde partner</font></string>
     <string name="preferences_trusted_peer_summary">IP of hostnaam van een enkele peer om verbinding mee te maken.</string>
     <string name="preferences_trusted_peer_resolve_progress">Adres aan het ophalen....</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Onbekende hostnaam!</string>
-    <string name="preferences_trusted_peer_only_title">Sla het opsporen van vertrouwde partners over</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Sla het opsporen van vertrouwde partners over</font></string>
     <string name="preferences_trusted_peer_only_summary">Voorkomt verbinding met welke partner dan ook behalve de vertrouwde partner.</string>
     <string name="preferences_block_explorer_title">Block verkenner</string>
     <string name="preferences_block_explorer_summary">Externe block verkenner die gebruikt moet worden voor het verkennen van transacties, adressen en blokken.</string>
-    <string name="preferences_data_usage_title">Data-gebruik</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Data-gebruik</font></string>
     <string name="preferences_data_usage_summary">Toon mogelijkheden geheugengebruik op mobiele netwerken te beperken.</string>
-    <string name="preferences_remind_balance_title">Reminder voor het saldo</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Reminder voor het saldo</font></string>
     <string name="preferences_remind_balance_summary">Na enkele weken niet gebruikt te zijn zal de app waarschuwen als er nog coins in de portemonnee zijn. </string>
-    <string name="preferences_report_issue_title">Meld probleem</string>
-    <string name="preferences_initiate_reset_title">Reset blockchain</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Meld probleem</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Reset blockchain</font></string>
     <string name="preferences_initiate_reset_summary">Reset blokketen, transacties en portemonnee-saldo. Replay heeft tijd nodig, doe dit alleen als je weet waarom je dit wil.</string>
     <string name="preferences_initiate_reset_dialog_message">Wil je de blokketen resetten en herladen?\n\nDit zal tijdelijk de balans van je portemonneesaldo verbergen en je transacties verwijderen. Als het synchroniseren van de blokketen voortschrijdt zullen beide hersteld worden. Ga na of je een betrouwbare verbinding met het internet hebt. </string>
     <string name="preferences_initiate_reset_dialog_positive">Reset</string>
-    <string name="preferences_extended_public_key_title">Toon xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Toon xpub</font></string>
     <string name="preferences_extended_public_key_summary">Weergeef de uitgebreide openbare sleutel van uw portemonnee zodat deze geïmporteerd kan worden in andere apps en diensten. Let op: door deze actie zal u uw privacy vrijgeven aan de app in kwestie.</string>
     <string name="bitmap_fragment_share">Deel…</string>
     <string name="extended_public_key_fragment_title">Uitgebreide Public Key</string>
@@ -288,17 +288,17 @@
     <string name="report_issue_dialog_mail_intent_failed">Versturen van rapport mislukt.</string>
     <string name="about_title">Over</string>
     <string name="about_version_title"><font color="#FAEC2C">Versie</font></string>
-    <string name="about_copyright_title">Auteursrecht</string>
-    <string name="about_license_title">Licentie</string>
-    <string name="about_source_title">Broncode</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Auteursrecht</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Licentie</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Broncode</font></string>
     <string name="about_category_credits">Deze app gebruikt…</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, een implementatie van $PAC-protocol</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, een implementatie van $PAC-protocol</font></string>
     <string name="about_credits_zxing_title">ZXing, een bibliotheek om QR-codes te verwerken</string>
     <string name="about_credits_icon_title">Deze app gebruikt een pictogram gemaakt door \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, geïmplementeerd door Will Glozer en Colin Percival</string>
-    <string name="about_market_app_title">Google Play Pagina</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, geïmplementeerd door Will Glozer en Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Google Play Pagina</font></string>
     <string name="about_market_app_summary">schrijf een recensie of beoordeel de app</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Veelgestelde vragen over de app</string>
     <string name="about_community_googleplus_title">Google+ community</string>
     <string name="about_community_googleplus_summary">Bespreek de app</string>
@@ -353,5 +353,12 @@
     <string name="pac_slogan">Direct - Privé - Veilig</string>
     <string name="pac_wallet">Portemonnee</string>
     <string name="nav_code">Zie betalingscode</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> InstantSend inschakelen </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Waarschuwing </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Lite-modus inschakelen </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Disclaimer weergeven </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 voor scannen om te betalen </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Zoek portefeuille-namen op </font> </string>
 
 </resources>

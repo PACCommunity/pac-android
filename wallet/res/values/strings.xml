@@ -297,7 +297,7 @@
     <string name="about_license_title"><font color="#FAEC2C">License</font></string>
     <string name="about_source_title"><font color="#FAEC2C">Source code</font></string>
     <string name="about_category_credits">This app is using…</string>
-    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, a $PAC protocol implementation</font></string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj1 %1$s, a $PAC protocol implementation</font></string>
     <string name="about_credits_zxing_title">ZXing, a QR-code processing library</string>
     <string name="about_credits_icon_title">This app is using an icon by \'bitboy\'</string>
     <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, implemented by Will Glozer and Colin Percival</font></string>

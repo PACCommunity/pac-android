@@ -225,30 +225,30 @@
 	<string name="preferences_activity_title">Asetukset</string>
 	<string name="preferences_category_diagnostics">Diagnostiikka</string>
 	<string name="preferences_category_labs">Laboratoriot</string>
-	<string name="preferences_precision_title">Nimellisarvo ja tarkkuus</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">Nimellisarvo ja tarkkuus</font></string>
 	<string name="preferences_precision_summary">Yksiköt, joissa määrät näytetään. Tämä ei vaikuta laskentoihin.</string>
 	<string name="preferences_precision_labels_8">$PAC, 8 desimaalia</string>
 	<string name="preferences_precision_labels_6">$PAC, 6 desimaalia</string>
 	<string name="preferences_precision_labels_4">$PAC, 4 desimaalia</string>
 	<string name="preferences_precision_labels_2_3">m$PAC, 2 desimaalia</string>
 	<string name="preferences_precision_labels_0_6">µ$PAC, ei desimaalia</string>
-	<string name="preferences_own_name_title">Oma nimi</string>
+	<string name="preferences_own_name_title"><font color="#FAEC2C">Oma nimi</font></string>
 	<string name="preferences_own_name_summary">Nimeä itsesi lisätäksesi nimesi maksupyyntöihin. Yritä pitää se lyhyenä.</string>
-	<string name="preferences_connectivity_notification_title">Yhteysilmaisin</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Yhteysilmaisin</font></string>
 	<string name="preferences_connectivity_notification_summary">Näytä tämänhetkisten yhdistettyjen vertaisverkkojen lukumäärä ilmaisinalueella.</string>
-	<string name="preferences_trusted_peer_title">Luotettu vertainen</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Luotettu vertainen</font></string>
 	<string name="preferences_trusted_peer_summary">Yhdistettävän vertaisverkon IP tai ylläpitäjän nimi.</string>
-	<string name="preferences_trusted_peer_only_title">Ohita tavanomainen vertaisten haku</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Ohita tavanomainen vertaisten haku</font></string>
 	<string name="preferences_trusted_peer_only_summary">Estää yhdistämisen kaikkiin muihin paitsi luotettuihin vertaisverkkoihin.</string>
-	<string name="preferences_data_usage_title">Tietojen käyttö</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Tietojen käyttö</font></string>
 	<string name="preferences_data_usage_summary">Näytä asetukset rajoittaaksesi datan käyttöä mobiiliverkoissa.</string>
-	<string name="preferences_report_issue_title">Ilmoita ongelma</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Ilmoita ongelma</font></string>
 	<string name="preferences_report_issue_summary">Kerää tietoa ongelmasta ja lähetä sähköpostilla raportti kehittäjille.</string>
-	<string name="preferences_initiate_reset_title">Nollaa lohkoketju</string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Nollaa lohkoketju</font></string>
 	<string name="preferences_initiate_reset_summary">Nollaa lohkoketju, rahansiirrot sekä lompakon saldo. Uudelleenlataus vie aikaa hetken.</string>
 	<string name="preferences_initiate_reset_dialog_message">Haluatko nollata ja uudelleenlataa lohkoketjun?\n\nTämä piilottaa saldosi väliaikaisesti ja poistaa rahansiirrot. Molemmat palautuvat, kun lohkoketjun synkonointi edistyy.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Nollaa</string>
-	<string name="preferences_extended_public_key_title">Näytä xpub</string>
+	<string name="preferences_extended_public_key_title"><font color="#FAEC2C">Näytä xpub</font></string>
 	<string name="preferences_extended_public_key_summary">Näytä lompakkosi laajennettu julkinen avain, jotta se voidaan tuoda toisiin sovelluksiin ja palveluihin. Ole varovainen: tekemällä näin, luovutat rahallisen yksityisyytesi tälle sovellukselle.</string>
 	<string name="bitmap_fragment_share">Jaa…</string>
 	<string name="extended_public_key_fragment_title">Laajennettu Public Key</string>
@@ -267,14 +267,14 @@
 	<string name="report_issue_dialog_mail_intent_failed">Raportin lähetys epäonnistui.</string>
 	<string name="about_title">Tietoja</string>
 	<string name="about_version_title"><font color="#FAEC2C">Versio</font></string>
-	<string name="about_copyright_title">Tekijänoikeus</string>
-	<string name="about_license_title">Lisenssi</string>
-    <string name="about_source_title">Lähdekoodi</string>
+	<string name="about_copyright_title"><font color="#FAEC2C">Tekijänoikeus</font></string>
+	<string name="about_license_title"><font color="#FAEC2C">Lisenssi</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Lähdekoodi</font></string>
 	<string name="about_credits_zxing_title">Tämä sovellus käyttää \'zxing\':a</string>
 	<string name="about_credits_icon_title">Tämä sovellus käyttää \'bitboy\':n kuvaketta</string>
 	<string name="about_community_googleplus_title">Google+-yhteisö</string>
 	<string name="about_community_googleplus_summary">Keskustelua ohjelmasta</string>
-	<string name="about_market_app_title">Google Play-sivusto</string>
+	<string name="about_market_app_title"><font color="#FAEC2C">Google Play-sivusto</font></string>
 	<string name="about_market_app_summary">Arvostele tai tee arvio ohjelmasta</string>
 	<string name="notification_coins_received_msg">Vastaanotettu %s</string>
 
@@ -314,5 +314,12 @@
 	<string name="error_bluetooth">Bluetooth-virhe: %1$s</string>
     <string name="navigation_drawer_close">Sulje valikko</string>
     <string name="nav_code">Katso Maksukoodi</string>
+
+	<string name="settings_instasend_title"> <font color="#FAEC2C"> Ota InstantSend käyttöön </font> </string>
+	     <string name="settings_warning_title"> <font color="#FAEC2C"> Varoitus </font> </string>
+	     <string name="settings_litemode_title"> <font color="#FAEC2C"> Ota Lite-tila käyttöön </font> </string>
+	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Näytä vastuuvapauslauseke </font> </string>
+	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 maksulliseen skannaukseen </font> </string>
+	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Etsi lompakonimet </font> </string>
 
 </resources>

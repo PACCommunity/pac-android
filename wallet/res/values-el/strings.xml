@@ -239,37 +239,37 @@
     <string name="preferences_activity_title">Ρυθμίσεις</string>
     <string name="preferences_category_diagnostics">Διαγνωστικά</string>
     <string name="preferences_category_labs">Εργαστήρια</string>
-    <string name="preferences_precision_title">Ονομασία και ακρίβεια</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Ονομασία και ακρίβεια</font></string>
     <string name="preferences_precision_summary">Μονάδα απεικόνισης ποσών. Δεν επηρεάζει τους υπολογισμούς.</string>
     <string name="preferences_precision_labels_8">$PAC, 8 δεκαδικά σημεία</string>
     <string name="preferences_precision_labels_6">$PAC, 6 δεκαδικά σημεία</string>
     <string name="preferences_precision_labels_4">$PAC, 4 δεκαδικά σημεία</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 δεκαδικά σημεία</string>
     <string name="preferences_precision_labels_0_6">μ$PAC, χωρίς δεκαδικά σημεία</string>
-    <string name="preferences_own_name_title">Το όνομά σας</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Το όνομά σας</font></string>
     <string name="preferences_own_name_summary">Ονομάστε τον εαυτό σας για να προστεθεί στις εντολές πληρωμής. Προσπαθήστε να είναι μικρό το όνομα.</string>
-    <string name="preferences_send_coins_autoclose_title">Αυτόματο-κλείσιμο διαλόγου αποστολής νομισμάτων</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Αυτόματο-κλείσιμο διαλόγου αποστολής νομισμάτων</font></string>
     <string name="preferences_send_coins_autoclose_summary">Μόλις γίνει η πληρωμή, ο διάλογος αποστολής θα κλείσει αυτόματα.</string>
-    <string name="preferences_connectivity_notification_title">Ένδειξη συνδεσιμότητας</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Ένδειξη συνδεσιμότητας</font></string>
     <string name="preferences_connectivity_notification_summary">Δείτε τον τρέχοντα αριθμό των συνδεδεμένων peers στην περιοχή ειδοποιήσεων.</string>
-    <string name="preferences_trusted_peer_title">Έμπιστη πηγή</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Έμπιστη πηγή</font></string>
     <string name="preferences_trusted_peer_summary">IP ή hostname του χρήστη προς σύνδεση.</string>
     <string name="preferences_trusted_peer_resolve_progress">Επίλυση...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Άγνωστο hostname!</string>
-    <string name="preferences_trusted_peer_only_title">Παραλείψτε την ανακάλυψη του regular peer</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Παραλείψτε την ανακάλυψη του regular peer</font></string>
     <string name="preferences_trusted_peer_only_summary">Να αποτραπεί η σύνδεση με οποιαδήποτε Peer εκτός από το αξιόπιστο.</string>
     <string name="preferences_block_explorer_title">Block explorer</string>
     <string name="preferences_block_explorer_summary">Εξωτερικός block explorer για να παρακολουθείτε συναλλαγές, διευθύνσεις και blocks.</string>
-    <string name="preferences_data_usage_title">Χρήση δεδομένων</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Χρήση δεδομένων</font></string>
     <string name="preferences_data_usage_summary">Δείτε τις επιλογές για να περιορίσετε τη χρήση των δεδομένων σε κινητά δίκτυα.</string>
-    <string name="preferences_remind_balance_title">Υπενθύμιση υπολοίπου</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Υπενθύμιση υπολοίπου</font></string>
     <string name="preferences_remind_balance_summary">Μετά από δύο εβδομάδων μή χρήσης, το app θα ενημερώνει αν υπάρχουν ακόμη νομίσματα στο πορτοφόλι.</string>
-    <string name="preferences_report_issue_title">Αναφέρετε το πρόβλημα</string>
-    <string name="preferences_initiate_reset_title">Επαναφορά blockchain</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Αναφέρετε το πρόβλημα</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Επαναφορά blockchain</font></string>
     <string name="preferences_initiate_reset_summary">Επανακινήστε block chain, συναλλαγές και το υπόλοιπο του πορτοφολιού. Η επαναληψη θα πάρει λίγο καιρό για αυτό καταφύγετε σε αυτή την λύση μόνο όταν το κρίνετε απαραίτητο.</string>
     <string name="preferences_initiate_reset_dialog_message">Θέλετε να επαναφέρετε και να ξαναπαίξετε το blockchain;\n\nΈτσι θα κρύψετε προσωρινά το υπόλοιπο του πορτοφολιού σας και θα αφαιρέσετε τις συναλλαγές. Και τα δύο θα επανέρθουν μόλις το block chain sync προσωρήσει. Σιγουρευτείτε ότι έχετε σταθερή και σίγουρη σύνδεση στο ίντερνετ.</string>
     <string name="preferences_initiate_reset_dialog_positive">Επαναφορά</string>
-    <string name="preferences_extended_public_key_title">Δείξε xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Δείξε xpub</font></string>
     <string name="preferences_extended_public_key_summary">Δείτε το εκτετεμένο δημόσιο κλειδί από το πορτοφόλι σας, έτσι ώστε να μπορέσετε να το εισάγετε σε άλλες εφαρμογές και υπηρεσίες. Να είστε προσεκτικοί: με αυτό τον τρόπο θα αποκαλύψετε τη νομισματική προστασία της ιδιωτικής σας ζωής σε αυτή την εφαρμογή.</string>
     <string name="bitmap_fragment_share">Μοιραστείτε...</string>
     <string name="extended_public_key_fragment_title">Εκτεταμένο Δημόσιο Κλειδί</string>
@@ -289,17 +289,17 @@
     <string name="report_issue_dialog_mail_intent_failed">Αποτυχία αποστολής της αναφοράς.</string>
     <string name="about_title">Πληροφορίες</string>
     <string name="about_version_title"><font color="#FAEC2C">Έκδοση</font></string>
-    <string name="about_copyright_title">Πνευματικά δικαιώματα</string>
-    <string name="about_license_title">Άδεια</string>
-    <string name="about_source_title">Πηγαίος κώδικας</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Πνευματικά δικαιώματα</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Άδεια</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Πηγαίος κώδικας</font></string>
     <string name="about_category_credits">Το app χρησιμοποιεί...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, ένα πρωτόκολλο εκτέλεσης $PAC</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, ένα πρωτόκολλο εκτέλεσης $PAC</font></string>
     <string name="about_credits_zxing_title">ZXing, μία βιβλιοθήκη επεξεργασίας QR-code</string>
     <string name="about_credits_icon_title">Η εφαρμογή αυτή χρησιμοποιεί ένα εικονίδιο από τη \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, εφαρμοσμένο από τους Will Glozer και Colin Percival</string>
-    <string name="about_market_app_title">Σελίδα Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, εφαρμοσμένο από τους Will Glozer και Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Σελίδα Google Play</font></string>
     <string name="about_market_app_summary">Κάνετε κριτική ή βαθμολογήστε την εφαρμογή</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Συχνά ερωτώμενες απορίες σχετικά με την εφαρμογή</string>
     <string name="about_community_googleplus_title">Google+ κοινότητα</string>
     <string name="about_community_googleplus_summary">Συνομιλήστε σχετικά με την εφαρμογή</string>
@@ -354,5 +354,12 @@
     <string name="dash_slogan">Άμεσο - Ιδιωτικό - Ασφαλές</string>
     <string name="dash_wallet">Πορτοφόλι</string>
     <string name="nav_code">Δείτε τον κωδικό πληρωμής</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Ενεργοποίηση InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Προειδοποίηση </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Ενεργοποίηση Λειτουργίας Lite </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Εμφάνιση ειδοποίησης </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 για σάρωση-πληρωμή </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Αναζήτηση ονόματα πορτοφολιού </font> </string>
 
 </resources>
