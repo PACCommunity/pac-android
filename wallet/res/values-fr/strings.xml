@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">Paramètres</string>
     <string name="preferences_category_diagnostics">Diagnostics</string>
     <string name="preferences_category_labs">Labo</string>
-    <string name="preferences_precision_title">Coupures et précision</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Coupures et précision</font></string>
     <string name="preferences_precision_summary">Unité à utiliser pour l\'affichage. Ceci n\'affecte pas les calculs.</string>
     <string name="preferences_precision_labels_8">$PAC, 8 décimales</string>
     <string name="preferences_precision_labels_6">$PAC, 6 décimales</string>
     <string name="preferences_precision_labels_4">$PAC, 4 décimales</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 décimales</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, sans décimales</string>
-    <string name="preferences_own_name_title">Votre nom</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Votre nom</font></string>
     <string name="preferences_own_name_summary">Votre nom sera ajouté aux demandes de paiement. Il doit être court.</string>
-    <string name="preferences_send_coins_autoclose_title">Fermeture auto. de la notification d\'envoi de fonds</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Fermeture auto. de la notification d\'envoi de fonds</font></string>
     <string name="preferences_send_coins_autoclose_summary">Quand le paiement sera fait, la notification d\'envoi se fermera automatiquement.</string>
-    <string name="preferences_connectivity_notification_title">Indicateur de connectivité</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indicateur de connectivité</font></string>
     <string name="preferences_connectivity_notification_summary">Afficher dans la zone de notification le nombre de pairs actuellement connectés.</string>
-    <string name="preferences_trusted_peer_title">Pair de confiance</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Pair de confiance</font></string>
     <string name="preferences_trusted_peer_summary">IP ou nom d\'hôte d\'un pair auquel se connecter.</string>
     <string name="preferences_trusted_peer_resolve_progress">Contact en cours…</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Nom d\'hôte inconnu !</string>
-    <string name="preferences_trusted_peer_only_title">Ignorer la découverte normale des pairs</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Ignorer la découverte normale des pairs</font></string>
     <string name="preferences_trusted_peer_only_summary">Empêche la connexion à des pairs autres que les pairs de confiance.</string>
     <string name="preferences_block_explorer_title">Explorateur de blocs</string>
     <string name="preferences_block_explorer_summary">Explorateur externe de blocs à utiliser pour consulter les transactions, les adresses et les blocs.</string>
-    <string name="preferences_data_usage_title">Utilisation des données</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Utilisation des données</font></string>
     <string name="preferences_data_usage_summary">Afficher les options restreignant l\'utilisation des données sur les réseaux mobiles.</string>
-    <string name="preferences_remind_balance_title">Rappel du solde</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Rappel du solde</font></string>
     <string name="preferences_remind_balance_summary">Après quelques semaines sans utilisation, l\'application notifiera s\'il reste des fonds dans le portefeuille.</string>
-    <string name="preferences_report_issue_title">Signaler un problème</string>
-    <string name="preferences_initiate_reset_title">Réinitialiser la chaîne de blocs</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Signaler un problème</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Réinitialiser la chaîne de blocs</font></string>
     <string name="preferences_initiate_reset_summary">Réinitialise la chaîne de blocs, les transactions et le solde de portefeuille. Le rebalayage prendra du temps ; ne faites donc ceci qu\'en connaissance de cause.</string>
     <string name="preferences_initiate_reset_dialog_message">Souhaitez-vous réinitialiser et rebalayer la chaîne de blocs ?\n\nCela masquera provisoirement le solde de votre portefeuille et les transactions. Les deux réapparaîtront à mesure qu\'avancera la synchronisation de la chaîne de blocs. Veuillez vous assurer d\'avoir une connexion Internet fiable.</string>
     <string name="preferences_initiate_reset_dialog_positive">Réinitialiser</string>
-    <string name="preferences_extended_public_key_title">Afficher la xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Afficher la xpub</font></string>
     <string name="preferences_extended_public_key_summary">Visualisez la clé privée étendue de votre portefeuille afin qu\'elle puisse être importée dans d\'autres applications et services. Attention : ceci divulguera vos informations monétaires à cette application.</string>
     <string name="bitmap_fragment_share">Partager…</string>
     <string name="extended_public_key_fragment_title">Clé privée étendue</string>
@@ -288,17 +288,17 @@
     <string name="report_issue_dialog_mail_intent_failed">Échec lors de l\'envoi du rapport.</string>
     <string name="about_title">À propos du logiciel</string>
     <string name="about_version_title"><font color="#FAEC2C">Version</font></string>
-    <string name="about_copyright_title">Tous droits réservés</string>
-    <string name="about_license_title">Licence</string>
-    <string name="about_source_title">Code source</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Tous droits réservés</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Licence</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Code source</font></string>
     <string name="about_category_credits">Cette application utilise...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, une implémentation du protocole $PAC</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, une implémentation du protocole $PAC</font></string>
     <string name="about_credits_zxing_title">ZXing, une bibliothèque de traitement de QR-code</string>
     <string name="about_credits_icon_title">Cette application utilise une icône de \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, implémenté par Will Glozer et Colin Percival</string>
-    <string name="about_market_app_title">Page Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, implémenté par Will Glozer et Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Page Google Play</font></string>
     <string name="about_market_app_summary">Évaluer ou noter cette appli</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Questions fréquemment posées sur cette application</string>
     <string name="about_community_googleplus_title">Communauté Google+</string>
     <string name="about_community_googleplus_summary">Discussion sur cette application</string>
@@ -353,5 +353,12 @@
     <string name="pac_slogan">Instantané - Confidentiel - Sûr</string>
     <string name="pac_wallet">Portefeuille</string>
     <string name="nav_code">Voir le code de paiement</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Activer InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Avertissement </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Activer le mode Lite </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Afficher la clause de non-responsabilité </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 pour la numérisation vers le paiement </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Recherchez les noms de portefeuille </font> </string>
 
 </resources>

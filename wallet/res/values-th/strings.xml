@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">ตั้งค่า</string>
     <string name="preferences_category_diagnostics">การวินิจฉัย</string>
     <string name="preferences_category_labs">ห้องปฏิบัติการ</string>
-    <string name="preferences_precision_title">หน่วยเงินและความแม่นยำ</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">หน่วยเงินและความแม่นยำ</font></string>
     <string name="preferences_precision_summary">หน่วยที่แสดงจำนวนเงิน ไม่มีผลต่อการคำนวณ</string>
     <string name="preferences_precision_labels_8">$PAC, ทศนิยม 8 ตำแหน่ง</string>
     <string name="preferences_precision_labels_6">$PAC, ทศนิยม 6 ตำแหน่ง</string>
     <string name="preferences_precision_labels_4">$PAC, ทศนิยม 4 ตำแหน่ง</string>
     <string name="preferences_precision_labels_2_3">m$PAC, ทศนิยม 2 ตำแหน่ง</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, ไม่มีทศนิยม</string>
-    <string name="preferences_own_name_title">ชื่อของตัวเอง</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">ชื่อของตัวเอง</font></string>
     <string name="preferences_own_name_summary">ใส่ชื่อของคุณ เพื่อเพิ่มลงในคำขอการชำระเงิน พยายามทำให้สั้น</string>
-    <string name="preferences_send_coins_autoclose_title">ปิดการส่งเหรียญอัตโนมัติ</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">ปิดการส่งเหรียญอัตโนมัติ</font></string>
     <string name="preferences_send_coins_autoclose_summary">เมื่อการชำระเงินเสร็จสิ้น การส่งจะปิดโดยอัตโนมัติ</string>
-    <string name="preferences_connectivity_notification_title">ตัวบ่งชี้การเชื่อมต่อ</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">ตัวบ่งชี้การเชื่อมต่อ</font></string>
     <string name="preferences_connectivity_notification_summary">แสดงหมายเลขปัจจุบันของ peers ที่เชื่อมต่อในพื้นที่แจ้งเตือน</string>
-    <string name="preferences_trusted_peer_title">peer ที่เชื่อถือได้</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">peer ที่เชื่อถือได้</font></string>
     <string name="preferences_trusted_peer_summary">IP หรือ hostname ของ peer เดี่ยว ที่เชื่อมต่อถึง</string>
     <string name="preferences_trusted_peer_resolve_progress">การตัดสินใจ</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">ไม่รู้จัก hostname!</string>
-    <string name="preferences_trusted_peer_only_title">ข้าม การค้นพบ peer ปกติ</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">ข้าม การค้นพบ peer ปกติ</font></string>
     <string name="preferences_trusted_peer_only_summary">ป้องกันการเชื่อมต่อกับ Peer อื่นๆ  นอกจาก peer ที่เชื่อถือได้</string>
     <string name="preferences_block_explorer_title">Block explorer</string>
     <string name="preferences_block_explorer_summary">block explorer ภายนอกที่ใช้สำหรับการเรียกดูธุรกรรมที่อยู่และblock</string>
-    <string name="preferences_data_usage_title">การใช้ข้อมูล</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">การใช้ข้อมูล</font></string>
     <string name="preferences_data_usage_summary">แสดงตัวเลือกเพื่อจำกัดการใช้ข้อมูลในเครือข่ายมือถือ</string>
-    <string name="preferences_remind_balance_title">เตือนยอดคงเหลือ</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">เตือนยอดคงเหลือ</font></string>
     <string name="preferences_remind_balance_summary">หลังจากสองสามสัปดาห์ไม่มีการใช้งาน  แอพพลิเคชั่นจะแจ้งเตือนว่ายังมีเหรียญอยู่ใน wallet</string>
-    <string name="preferences_report_issue_title">รายงานปัญหา</string>
-    <string name="preferences_initiate_reset_title">รีเซ็ต block chain</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">รายงานปัญหา</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">รีเซ็ต block chain</font></string>
     <string name="preferences_initiate_reset_summary">รีเซ็ต block chain,  ธุรกรรม และ ยอดคงเหลือ wallet  การทำซ้ำนี้จะใช้เวลาสักพัก  ดังนั้นทำเมื่อทราบสาเหตุเท่านั้น</string>
     <string name="preferences_initiate_reset_dialog_message">คุณต้องการจะรีเซ็ต block chain หรือไม่? \n\n นี่จะเป็นการซ่อนยอดคงเหลือของ wallet ของคุณไว้ชั่วคราวและลบธุรกรรมออก ทั้งสองอย่างจะคืนสภาพอย่าการซิ้งค์ block chain   ตรวจสอบให้แน่ใจว่าคุณมีการเชื่อมต่ออินเทอร์เน็ตที่เชื่อถือได้</string>
     <string name="preferences_initiate_reset_dialog_positive">ตั้งค่า</string>
-    <string name="preferences_extended_public_key_title">แสดง xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">แสดง xpub</font></string>
     <string name="preferences_extended_public_key_summary">ดูส่วนขยาย public key  wallet ของคุณ  มันสามารถนำเข้าไปยังแอพพลิเคชั่นและบริการอื่น ๆ ได้   โปรดระวัง: การทำเช่นนี้จะเป็นการเปิดเผยข้อมูลทางการเงินส่วนบุคคลของคุณไปยังแอพพลิเคชั่นนั้น</string>
     <string name="bitmap_fragment_share">แบ่งปัน...</string>
     <string name="extended_public_key_fragment_title">ขยาย Public key</string>
@@ -288,17 +288,17 @@
     <string name="report_issue_dialog_mail_intent_failed">การส่งรายงานล้มเหลว</string>
     <string name="about_title">เกี่ยวกับ</string>
     <string name="about_version_title"><font color="#FAEC2C">เวอร์ชั่น</font></string>
-    <string name="about_copyright_title">ลิขสิทธิ์</string>
-    <string name="about_license_title">ใบอนุญาต</string>
-    <string name="about_source_title">รหัสแหล่งที่มา</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">ลิขสิทธิ์</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">ใบอนุญาต</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">รหัสแหล่งที่มา</font></string>
     <string name="about_category_credits">แอพพลิเคชั่นนี่กำลังใช้</string>
-    <string name="about_credits_bitcoinj_title">$PACj %s,  การดำเนินการใช้โปรโตคอล $PAC</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">$PACj %s, การดำเนินการใช้โปรโตคอล $PAC</font></string>
     <string name="about_credits_zxing_title">ZXing, ห้องสมุดของการประมวลผลรหัสโค้ด QR</string>
     <string name="about_credits_icon_title">แอพพลิเคชั่นนี้กำลังใช้ไอคอนของ bitboy</string>
-    <string name="about_credits_scrypt_title">Scrypt ดำเนินการโดย Will Glozer และ Colin Percival</string>
-    <string name="about_market_app_title">หน้า Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt ดำเนินการโดย Will Glozer และ Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">หน้า Google Play</font></string>
     <string name="about_market_app_summary">วิจารณ์หรือให้คะแนนแอพพลิเคชั่นนี้</string>
-    <string name="about_faq_title">คำถามที่พบบ่อย </string>
+    <string name="about_faq_title"><font color="#FAEC2C">คำถามที่พบบ่อย </font></string>
     <string name="about_faq_summary">คำถามที่พบบ่อยเกี่ยวกับแอพพลิเคชั่น</string>
     <string name="about_community_googleplus_title">ชุมชน Google+</string>
     <string name="about_community_googleplus_summary">พูดคุยเกี่ยวกับแอพพลิเคชั่น</string>
@@ -353,5 +353,12 @@
     <string name="dash_slogan">เร่งด่วน - ส่วนตัว - ปลอดภัย</string>
     <string name="dash_wallet">wallet</string>
     <string name="nav_code">ดูรหัสการชำระเงิน</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> เปิดใช้งาน InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> คำเตือน </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> เปิดใช้งานโหมด Lite </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> แสดงข้อจำกัดความรับผิดชอบ </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 สำหรับสแกนเพื่อจ่าย </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> ค้นหาชื่อกระเป๋าเงิน </font> </string>
 
 </resources>

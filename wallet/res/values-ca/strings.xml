@@ -210,23 +210,23 @@
 	<string name="preferences_activity_title">Ajustaments</string>
 	<string name="preferences_category_diagnostics">Diagnosis</string>
 	<string name="preferences_category_labs">Laboratoris</string>
-	<string name="preferences_precision_title">Denominació i exactitud</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">Denominació i exactitud</font></string>
 	<string name="preferences_precision_summary">Unitat en que es mostren els imports. No afecta al còmput.</string>
-	<string name="preferences_connectivity_notification_title">Indicador de connectivitat.</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indicador de connectivitat.</font></string>
 	<string name="preferences_connectivity_notification_summary">Mostra el nombre actual de parells connectats a l\'àrea de notificació.</string>
-	<string name="preferences_trusted_peer_title">Parell de confiança</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Parell de confiança</font></string>
 	<string name="preferences_trusted_peer_summary">IP o nom de host del parell per connectar-hi</string>
-	<string name="preferences_trusted_peer_only_title">Omet la cerca regular de parells</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Omet la cerca regular de parells</font></string>
 	<string name="preferences_trusted_peer_only_summary">Evita de connectar a qualsevol parell que no sigui un parell de confiança.</string>
-	<string name="preferences_data_usage_title">Ús de dades</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Ús de dades</font></string>
 	<string name="preferences_data_usage_summary">Mostra opcions per a restringir l\'ús de dades en xarxes mòbils. </string>
-	<string name="preferences_report_issue_title">Avisa d\'un problema</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Avisa d\'un problema</font></string>
 	<string name="preferences_report_issue_summary">Agafa informació sobre el problema i envia un correu amb el teu informe als desenvolupadors.</string>
-	<string name="preferences_initiate_reset_title">Reinicialitza la cadena de blocs</string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Reinicialitza la cadena de blocs</font></string>
 	<string name="preferences_initiate_reset_summary">Reinicialitza la cadena de blocs, les transaccions i el balanç de la cartera. Re-escanejar trigara una mica.</string>
 	<string name="preferences_initiate_reset_dialog_message">Voldries reiniciar i re-escanejar la cadena de blocs?\n\nAixò amagara el saldo de la teva cartera temporalment i esborrara les transaccions. Ambdues es recuperaran mentre es sincronitza.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Reinicia</string>
-	<string name="preferences_extended_public_key_title">Mostra xpub</string>
+	<string name="preferences_extended_public_key_title"><font color="#FAEC2C">Mostra xpub</font></string>
 	<string name="preferences_extended_public_key_summary">Visualitza la clau pública extesa de la teva butxaca, per poder ser importades per altes aplicacions o serveis. Tingues cuidado: Si ho fa, revelar la seva privacitat monetària per a aquesta aplicació.</string>
 	<string name="bitmap_fragment_share">Compartir…</string>
 	<string name="extended_public_key_fragment_title">Clau pública extesa</string>
@@ -245,13 +245,13 @@
 	<string name="report_issue_dialog_mail_intent_failed">Enviant un report de fallada.</string>
 	<string name="about_title">Quant a</string>
 	<string name="about_version_title"><font color="#FAEC2C">Versió</font></string>
-	<string name="about_copyright_title">Drets de còpia</string>
-	<string name="about_license_title">Llicència</string>
-    <string name="about_source_title">Codi font</string>
+	<string name="about_copyright_title"><font color="#FAEC2C">Drets de còpia</font></string>
+	<string name="about_license_title"><font color="#FAEC2C">Llicència</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Codi font</font></string>
 	<string name="about_credits_zxing_title">Aquesta aplicació utilitza \'zxing\'</string>
 	<string name="about_community_googleplus_title">Comunitat Google+</string>
 	<string name="about_community_googleplus_summary">Debats sobre l\'aplicació</string>
-	<string name="about_market_app_title">Pàgina de Google Play</string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Pàgina de Google Play</font></string>
 	<string name="about_market_app_summary">Analitza o puntua l\'aplicació</string>
 	<string name="notification_coins_received_msg">Rebuts%s</string>
 
@@ -291,5 +291,12 @@
 	<string name="error_bluetooth">Error Bluetooth: %1$s</string>
     <string name="navigation_drawer_close">Tanca el menú</string>
     <string name="nav_code">Veure el codi de pagament</string>
+
+	<string name="settings_instasend_title"><font color="#FAEC2C"> Activar InstantSend </font></string>
+	<string name="settings_warning_title"><font color="#FAEC2C"> Avís </font></string>
+	<string name="settings_litemode_title"><font color="#FAEC2C"> Habilita el mode Lite </font></string>
+	<string name="settings_disclaimer_title"><font color="#FAEC2C"> Mostra exempció de responsabilitat </font></string>
+	<string name="settings_BIP70_title"><font color="#FAEC2C"> BIP70 per escanejar-pagar </font></string>
+	<string name="settings_lookup_title"><font color="#FAEC2C"> Busqueu els noms de la cartera </font></string>
 
 </resources>

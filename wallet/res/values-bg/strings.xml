@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">Настройки</string>
     <string name="preferences_category_diagnostics">Диагностика</string>
     <string name="preferences_category_labs">Labs</string>
-    <string name="preferences_precision_title">Деноминация и прецизност</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Деноминация и прецизност</font></string>
     <string name="preferences_precision_summary">Единица за показване на наличност. Това не засяга изчисляването.</string>
     <string name="preferences_precision_labels_8">$PAC, 8 десетични знака</string>
     <string name="preferences_precision_labels_6">$PAC, 6 десетични знака</string>
     <string name="preferences_precision_labels_4">$PAC, 4 десетични знака</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 десетични знака</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, без десетични знаци</string>
-    <string name="preferences_own_name_title">Собствено име</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Собствено име</font></string>
     <string name="preferences_own_name_summary">Вашето име , ще бъде добавено към заявката за плащане. Опитайте се да бъде кратко.</string>
-    <string name="preferences_send_coins_autoclose_title">Автоматично затваряне на диалоговия прозорец</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Автоматично затваряне на диалоговия прозорец</font></string>
     <string name="preferences_send_coins_autoclose_summary">Когато плащането бъде направено, диалоговият прозорец за изпращане ще се затвори автоматично.</string>
-    <string name="preferences_connectivity_notification_title">Индикатор на свързване</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Индикатор на свързване</font></string>
     <string name="preferences_connectivity_notification_summary">Показва настоящия брой на свързани пиъри в полето за съобщения.</string>
-    <string name="preferences_trusted_peer_title">Доверен пиър</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Доверен пиър</font></string>
     <string name="preferences_trusted_peer_summary">IP или хост име на един пиър е свързан.</string>
     <string name="preferences_trusted_peer_resolve_progress">Разрешаване...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Непознат хост!</string>
-    <string name="preferences_trusted_peer_only_title">Прескочи регулярното търсене на пиъри</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Прескочи регулярното търсене на пиъри</font></string>
     <string name="preferences_trusted_peer_only_summary">Предотвратява свързването на всички пиъри освен доверените пиъри.</string>
     <string name="preferences_block_explorer_title">Блок експлорър</string>
     <string name="preferences_block_explorer_summary">Външен блок експлорър за разглеждане на транзакции, адреси и блокове.</string>
-    <string name="preferences_data_usage_title">Използване на данни</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Използване на данни</font></string>
     <string name="preferences_data_usage_summary">Показва опциите за ограничаване използването на данни с мобилните мрежи.</string>
-    <string name="preferences_remind_balance_title">Напомняне за баланс</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Напомняне за баланс</font></string>
     <string name="preferences_remind_balance_summary">След няколко седмици не използване, приложението ще ви уведоми, ако все още има монети в портфейла.</string>
-    <string name="preferences_report_issue_title">Докладвай проблем</string>
-    <string name="preferences_initiate_reset_title">Нулирай блок верига</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Докладвай проблем</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Нулирай блок верига</font></string>
     <string name="preferences_initiate_reset_summary">Ресет на блок-верига,транзакции и баланс на портфейла. Преглеждането ще отнеме време, така че правете това само ако е необходимо.</string>
     <string name="preferences_initiate_reset_dialog_message">Бихте ли желали да направите ресет и преглед на блок-веригата?\n\nТова временно ще скрие вашият баланс и ще премахне транзакциите.Ще бъдат възстановени при синхронизирането на блок-веригата. Уверете се, че Интернет връзката е надеждна.</string>
     <string name="preferences_initiate_reset_dialog_positive">Нулиране</string>
-    <string name="preferences_extended_public_key_title">Показване на xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Показване на xpub</font></string>
     <string name="preferences_extended_public_key_summary">Вижте разширения публичен ключ от вашият портфейл, така ще можете да го импортирате в друго приложение или услуга. Бъдете внимателни: това ще разкрие вашата парична неприкосновеност на това приложение.</string>
     <string name="bitmap_fragment_share">Сподели…</string>
     <string name="extended_public_key_fragment_title">Разширен публичен ключ</string>
@@ -288,17 +288,17 @@
     <string name="report_issue_dialog_mail_intent_failed">Изпращането на доклад е неуспешно.</string>
     <string name="about_title">За</string>
     <string name="about_version_title"><font color="#FAEC2C">Версията</font></string>
-    <string name="about_copyright_title">Запазени права</string>
-    <string name="about_license_title">Лиценз</string>
-    <string name="about_source_title">Програмен код</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Запазени права</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Лиценз</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Програмен код</font></string>
     <string name="about_category_credits">Това приложение използва...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, изпълнява $PAC протокола</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, изпълнява $PAC протокола</font></string>
     <string name="about_credits_zxing_title">ZXing, обработва QR библиотеката</string>
     <string name="about_credits_icon_title">Това приложение използва икона от \"bitboy\"</string>
-    <string name="about_credits_scrypt_title">Скрипт,осъществен от Will Glozer и Colin Percival</string>
-    <string name="about_market_app_title">Google Play страница</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Скрипт,осъществен от Will Glozer и Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Google Play страница</font></string>
     <string name="about_market_app_summary">Прегледайте и оценете приложението</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Често задавани въпроси относно приложението</string>
     <string name="about_community_googleplus_title">Google+ общност</string>
     <string name="about_community_googleplus_summary">Дискусии за приложението</string>
@@ -353,5 +353,12 @@
     <string name="pac_slogan">Мигновен-Личен-Сигурен</string>
     <string name="pac_wallet">Портфейл</string>
     <string name="nav_code">Вижте кода за плащане</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Активиране на InstantSend </font> </string>
+    <string name="settings_warning_title"> <font color="#FAEC2C"> Предупреждение </font> </string>
+    <string name="settings_litemode_title"> <font color="#FAEC2C"> Активиране на Lite режим </font> </string>
+    <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Показване на отказа от отговорност </font> </string>
+    <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 за сканиране за плащане </font> </string>
+    <string name="settings_lookup_title"> <font color="#FAEC2C"> Търсене на имена на портфейла </font> </string>
 
 </resources>

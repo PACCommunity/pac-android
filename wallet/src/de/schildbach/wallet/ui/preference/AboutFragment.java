@@ -27,10 +27,13 @@ import de.schildbach.wallet_test.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.support.v4.content.ContextCompat;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -79,6 +82,10 @@ public final class AboutFragment extends PreferenceFragment {
             marketIntent = new Intent(Intent.ACTION_VIEW,
                     Uri.parse(String.format(Constants.WEBMARKET_APP_URL, activity.getPackageName())));
         findPreference(KEY_ABOUT_MARKET_APP).setIntent(marketIntent);
-        //findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setTitle(getString(R.string.about_credits_bitcoinj_title, VersionMessage.BITCOINJ_VERSION));
+
+        String title = getString(R.string.about_credits_bitcoinj_title, VersionMessage.BITCOINJ_VERSION);
+        SpannableString titleColor= new SpannableString(title);
+        titleColor.setSpan(new ForegroundColorSpan(getResources().getColor(R.color.vivid_red)), 0, title.length(), 0);
+        findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setTitle(titleColor);
     }
 }

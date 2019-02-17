@@ -225,30 +225,30 @@
 	<string name="preferences_activity_title">Opsætning</string>
 	<string name="preferences_category_diagnostics">Diagnostik</string>
 	<string name="preferences_category_labs">Laboratoriet</string>
-	<string name="preferences_precision_title">Denominering og præcision</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">Denominering og præcision</font></string>
 	<string name="preferences_precision_summary">Enhed som beløb vises i. Dette påvirker ikke beregninger.</string>
 	<string name="preferences_precision_labels_8">$PAC, 8 decimaler</string>
 	<string name="preferences_precision_labels_6">$PAC, 6 decimaler</string>
 	<string name="preferences_precision_labels_4">$PAC, 4 decimaler</string>
 	<string name="preferences_precision_labels_2_3">m$PAC, 2 decimaler</string>
 	<string name="preferences_precision_labels_0_6">µ$PAC, uden decimaler</string>
-	<string name="preferences_own_name_title">Eget navn</string>
+	<string name="preferences_own_name_title"><font color="#FAEC2C">Eget navn</font></string>
 	<string name="preferences_own_name_summary">Dit eget navn, som skal føjes til betalingsforespørgsler. Prøv at holde det kort.</string>
-	<string name="preferences_connectivity_notification_title">Forbindelsesindikator</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Forbindelsesindikator</font></string>
 	<string name="preferences_connectivity_notification_summary">Vis aktuelt antal af forbundne peers i notifikationsområdet.</string>
-	<string name="preferences_trusted_peer_title">Betroet peer</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Betroet peer</font></string>
 	<string name="preferences_trusted_peer_summary">IP eller værtsnavn for forbindelse til en enkelt peer.</string>
-	<string name="preferences_trusted_peer_only_title">Spring normal peer-søgning over</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Spring normal peer-søgning over</font></string>
 	<string name="preferences_trusted_peer_only_summary">Forhindrer forbindelse til andre peers end den betroede.</string>
-	<string name="preferences_data_usage_title">Dataforbrug</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Dataforbrug</font></string>
 	<string name="preferences_data_usage_summary">Vis indstillinger for restriktion på dataforbrug på mobile netværk.</string>
-	<string name="preferences_report_issue_title">Rapportér problem</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Rapportér problem</font></string>
 	<string name="preferences_report_issue_summary">Saml information om dit problem og email din rapport til udviklerne.</string>
-	<string name="preferences_initiate_reset_title">Nulstil blokkæde</string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Nulstil blokkæde</font></string>
 	<string name="preferences_initiate_reset_summary">Nulstil blokkæde, overførsler og saldo for tegnebogen. Gennemløb af blokkæden vil tage et stykke tid.</string>
 	<string name="preferences_initiate_reset_dialog_message">Vil du nulstille og gennemløbe blokkæden igen?\n\nDette vil midlertidigt skjule din saldo og fjerne overførsler. Begge dele vil dukke op igen, efterhånden som der synkroniseres med blokkæden.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Nulstil</string>
-	<string name="preferences_extended_public_key_title">Vis xpub</string>
+	<string name="preferences_extended_public_key_title"><font color="#FAEC2C">Vis xpub</font></string>
 	<string name="preferences_extended_public_key_summary">Vis din tegnebogs udvidede offentlige nøgle så den kan importeres til andre apps og tjenester. Vær forsigtig: Du vil afsløre dit økonomiske privatliv til pågældende app, hvis du gør dette.</string>
 	<string name="bitmap_fragment_share">Del …</string>
 	<string name="extended_public_key_fragment_title">Udvidet offentlig nøgle</string>
@@ -267,14 +267,14 @@
 	<string name="report_issue_dialog_mail_intent_failed">Afsendelse af rapport mislykkedes.</string>
 	<string name="about_title">Om</string>
 	<string name="about_version_title"><font color="#FAEC2C">Version</font></string>
-	<string name="about_copyright_title">Ophavsret</string>
-	<string name="about_license_title">Licens</string>
-    <string name="about_source_title">Kildekode</string>
+	<string name="about_copyright_title"><font color="#FAEC2C">Ophavsret</font></string>
+	<string name="about_license_title"><font color="#FAEC2C">Licens</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Kildekode</font></string>
 	<string name="about_credits_zxing_title">Denne app bruger \'zxing\'</string>
 	<string name="about_credits_icon_title">Denne app bruger et ikon af \'bitboy\'</string>
 	<string name="about_community_googleplus_title">Google+-fællesskab</string>
 	<string name="about_community_googleplus_summary">Diskussioner om appen</string>
-	<string name="about_market_app_title">Google Play-side</string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Google Play-side</font></string>
 	<string name="about_market_app_summary">Anmeld eller bedøm appen</string>
 	<string name="notification_coins_received_msg">Modtog %s</string>
 
@@ -314,5 +314,12 @@
 	<string name="error_bluetooth">Bluetooth-fejl: %1$s</string>
     <string name="navigation_drawer_close">Luk menuen</string>
     <string name="nav_code">Se Betalingskode</string>
+
+	<string name="settings_instasend_title"> <font color="#FAEC2C"> Aktiver InstantSend </font> </string>
+	<string name="settings_warning_title"> <font color="#FAEC2C"> Advarsel </font> </string>
+	<string name="settings_litemode_title"> <font color="#FAEC2C"> Aktiver Lite-tilstand </font> </string>
+	<string name="settings_disclaimer_title"> <font color="#FAEC2C"> Vis ansvarsfraskrivelse </font> </string>
+	<string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 for scanning til betaling </font> </string>
+	<string name="settings_lookup_title"> <font color="#FAEC2C"> Søg efter tegnebognavne </font> </string>
 
 </resources>

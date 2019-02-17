@@ -239,37 +239,37 @@
     <string name="preferences_activity_title">Настройки</string>
     <string name="preferences_category_diagnostics">Диагностика</string>
     <string name="preferences_category_labs">Лаборатория</string>
-    <string name="preferences_precision_title">Деноминация и точность</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Деноминация и точность</font></string>
     <string name="preferences_precision_summary">Единицы, в которых отображаются суммы. Не влияет на вычисления.</string>
     <string name="preferences_precision_labels_8">дэш, 8 знаков после запятой</string>
     <string name="preferences_precision_labels_6">дэш, 6 знаков после запятой</string>
     <string name="preferences_precision_labels_4">дэш, 4 знаков после запятой</string>
     <string name="preferences_precision_labels_2_3">миллидэш, 2 знака после запятой</string>
     <string name="preferences_precision_labels_0_6">микродэш, без знаков после запятой</string>
-    <string name="preferences_own_name_title">Ваше имя</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Ваше имя</font></string>
     <string name="preferences_own_name_summary">Ваше имя, которое добавится в запрос платежа. Старайтесь указывать кратко.</string>
-    <string name="preferences_send_coins_autoclose_title">Автоматически закрывать диалог отправки</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Автоматически закрывать диалог отправки</font></string>
     <string name="preferences_send_coins_autoclose_summary">После завершения платежа диалог отправки закроется автоматически.</string>
-    <string name="preferences_connectivity_notification_title">Индикатор подключения</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Индикатор подключения</font></string>
     <string name="preferences_connectivity_notification_summary">Показать текущее число подключений в области уведомлений.</string>
-    <string name="preferences_trusted_peer_title">Доверенный узел</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Доверенный узел</font></string>
     <string name="preferences_trusted_peer_summary">IP или имя хоста одного участника для подключения</string>
     <string name="preferences_trusted_peer_resolve_progress">Открывается...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Неизвестное имя сервера!</string>
-    <string name="preferences_trusted_peer_only_title">Не искать узлы в сети</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Не искать узлы в сети</font></string>
     <string name="preferences_trusted_peer_only_summary">Предотвращает подключение к любым участникам, кроме доверенного.</string>
     <string name="preferences_block_explorer_title">Обозреватель блоков</string>
     <string name="preferences_block_explorer_summary">Внешний обозреватель блоков, используемый для просмотра транзакций, адресов и блоков.</string>
-    <string name="preferences_data_usage_title">Использование данных</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Использование данных</font></string>
     <string name="preferences_data_usage_summary">Показать опции ограничения использования данных в мобильных сетях.</string>
-    <string name="preferences_remind_balance_title">Напоминание о балансе</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Напоминание о балансе</font></string>
     <string name="preferences_remind_balance_summary">Если в кошельке все еще есть средства, но вы не пользовались им уже несколько недель, то приложение об этом напомнит.</string>
-    <string name="preferences_report_issue_title">Сообщить о проблеме</string>
-    <string name="preferences_initiate_reset_title">Перегрузить блокчейн</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Сообщить о проблеме</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Перегрузить блокчейн</font></string>
     <string name="preferences_initiate_reset_summary">Сброс блокчейна, транзакций и баланса. Перезагрузка займёт некоторое время, поэтому прибегайте к этому только тогда, когда точно знаете, что вы делаете.</string>
     <string name="preferences_initiate_reset_dialog_message">Вы хотите сбросить и обновить блокчейн?\n\nЭто сделает временно недоступными ваши баланс и список транзакций. Они будут восстановлены в процессе синхронизации блокчейна. Убедитесь, что что у вас надёжное подключение к интернету.</string>
     <string name="preferences_initiate_reset_dialog_positive">Сброс</string>
-    <string name="preferences_extended_public_key_title">Показать xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Показать xpub</font></string>
     <string name="preferences_extended_public_key_summary">Просмотр расширенного открытого ключа вашего кошелька может быть полезен для импортирования в другие приложения и услуги. Будьте осторожны: этим вы нарушаете свою финансовую конфиденциальность.</string>
     <string name="bitmap_fragment_share">Поделиться…</string>
     <string name="extended_public_key_fragment_title">Расширенный  публичный ключ</string>
@@ -289,18 +289,18 @@
     <string name="report_issue_dialog_mail_intent_failed">Ошибка при отправке отчета.</string>
     <string name="about_title">О программе</string>
     <string name="about_version_title"><font color="#FAEC2C">Версия</font></string>
-    <string name="about_copyright_title">Авторское право</string>
-    <string name="about_license_title">Лицензия</string>
-    <string name="about_source_title">Исходный код</string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Авторское право</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Лицензия</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Исходный код</font></string>
     <string name="about_category_credits">Это приложение использует...</string>
 
-    <string name="about_credits_bitcoinj_title">pacj %s, версия протокола Дэш</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, версия протокола Дэш</font></string>
     <string name="about_credits_zxing_title">ZXing, библиотеку по работе с QR-кодами</string>
     <string name="about_credits_icon_title">Это приложение использует иконку от \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, в реализации от Will Glozer и Colin Percival</string>
-    <string name="about_market_app_title">Страница Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, в реализации от Will Glozer и Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Страница Google Play</font></string>
     <string name="about_market_app_summary">Напишите отзыв или оцените приложение</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Часто задаваемые вопросы об этом приложении</string>
     <string name="about_community_googleplus_title">Сообщество Google+</string>
     <string name="about_community_googleplus_summary">Обсуждение этого Приложения</string>
@@ -355,5 +355,12 @@
     <string name="pac_slogan">Быстро - Приватно - Безопасно</string>
     <string name="pac_wallet">Кошелёк</string>
     <string name="nav_code">См. Код оплаты</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Включить InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Предупреждение </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Включить облегченный режим </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Показать заявление об отказе </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 для сканирования на оплату </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Поиск имен кошельков </font> </string>
 
 </resources>
