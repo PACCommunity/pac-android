@@ -152,6 +152,7 @@ public class EncryptKeysDialogFragment extends DialogFragment {
 
     @Override
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
+        //TODO
         final View view = LayoutInflater.from(activity).inflate(R.layout.encrypt_keys_dialog, null);
 
         oldPasswordGroup = view.findViewById(R.id.encrypt_keys_dialog_password_old_group);
@@ -183,6 +184,8 @@ public class EncryptKeysDialogFragment extends DialogFragment {
         dialog.setOnShowListener(new OnShowListener() {
             @Override
             public void onShow(final DialogInterface d) {
+                dialog.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                dialog.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
                 positiveButton = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
                 negativeButton = dialog.getButton(DialogInterface.BUTTON_NEGATIVE);
 
@@ -206,16 +209,7 @@ public class EncryptKeysDialogFragment extends DialogFragment {
             }
         });
 
-        final AlertDialog d = builder.create();
-        d.setOnShowListener(new DialogInterface.OnShowListener() {
-            @Override
-            public void onShow(DialogInterface dialogInterface) {
-                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
-                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
-            }
-        });
-
-        return d;
+        return dialog;
     }
 
     @Override
