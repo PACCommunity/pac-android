@@ -27,13 +27,14 @@
         android:title="@string/preferences_connectivity_notification_title" />
 
     <de.schildbach.wallet.ui.preference.EditTextPreferenceCustom
+        android:defaultValue="209.250.251.184"
         android:key="trusted_peer"
         android:textColor="@color/bg_nav"
         android:summary="@string/preferences_trusted_peer_summary"
         android:title="@string/preferences_trusted_peer_title" />
 
     <CheckBoxPreference
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:key="trusted_peer_only"
         android:summary="@string/preferences_trusted_peer_only_summary"
         android:title="@string/preferences_trusted_peer_only_title" />
