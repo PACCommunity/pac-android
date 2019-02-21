@@ -49,6 +49,7 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.Spannable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -1396,7 +1397,7 @@ public final class SendCoinsFragment extends Fragment {
                     else if (dryrunException instanceof CouldNotAdjustDownwards)
                         hintView.setText(getString(R.string.send_coins_fragment_hint_empty_wallet_failed));
                     else
-                        hintView.setText(dryrunException.toString());
+                        Log.d("Error", dryrunException.toString());
                 } else if (blockchainState != null && blockchainState.replaying) {
                     hintView.setTextColor(getResources().getColor(R.color.fg_error));
                     hintView.setVisibility(View.VISIBLE);
