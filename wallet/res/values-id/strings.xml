@@ -182,4 +182,6 @@
 	<string name="settings_disclaimer_title"> <font color="#FAEC2C"> Tampilkan penafian </font> </string>
 	<string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 untuk memindai-ke-bayar </font> </string>
 	<string name="settings_lookup_title"> <font color="#FAEC2C"> Mencari nama dompet </font> </string>
+    <string name="instantDialogTitle">Transaksi tidak diizinkan</string>
+	<string name="instantDialogBody">Transaksi tidak dapat dilakukan karena melebihi batas pengiriman segera</string>
 </resources>

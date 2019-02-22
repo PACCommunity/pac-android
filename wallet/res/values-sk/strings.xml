@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Zobraziť upozornenie </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 pre scan-to-pay </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Hľadajte mená peňaženky </font> </string>
+    <string name="instantDialogTitle">Transakcia nie je povolená</string>
+    <string name="instantDialogBody">Transakciu nemožno vykonať, pretože presahuje limit okamžitého doručenia</string>
 
 </resources>

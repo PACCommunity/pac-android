@@ -224,4 +224,6 @@
        <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Prikaži omejitev odgovornosti </font> </string>
        <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 za optično branje </font> </string>
        <string name="settings_lookup_title"> <font color="#FAEC2C"> Poiščite imena denarnice </font> </string>
+    <string name="instantDialogTitle">Transakcija ni dovoljena</string>
+    <string name="instantDialogBody">Transakcije ni mogoče izvesti, ker presega omejitev takojšnje dobave</string>
 </resources>

@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Mostrar anuncio de responsabilidad </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 para escaneo de pago </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Busqueda de nombres de billeteras </font> </string>
+    <string name="instantDialogTitle">Transacción no permitida</string>
+    <string name="instantDialogBody">La transacción no se puede realizar porque supera el límite de envio instantáneo</string>
 
 </resources>

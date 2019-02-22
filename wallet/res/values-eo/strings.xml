@@ -189,4 +189,6 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Montru deklaron </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 por scan-to-pay </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Rigardu monujajn nomojn </font> </string>
+    <string name="instantDialogTitle">Transakcio ne rajtigita</string>
+    <string name="instantDialogBody">La transakcio ne povas esti farita ĉar ĝi superas la limon de tuja transdono</string>
 </resources>

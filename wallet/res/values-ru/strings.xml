@@ -362,5 +362,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Показать заявление об отказе </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 для сканирования на оплату </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Поиск имен кошельков </font> </string>
+    <string name="instantDialogTitle">Транзакция не разрешена</string>
+    <string name="instantDialogBody">Транзакция не может быть выполнена, поскольку она превышает лимит немедленной доставки</string>
 
 </resources>

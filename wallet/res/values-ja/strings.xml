@@ -321,5 +321,7 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C">免責事項を表示</font> </string>
 	     <string name="settings_BIP70_title"> <font color= "#FAEC2C">スキャンから支払いまでのBIP70 </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C">ウォレット名を検索</font> </string>
+    <string name="instantDialogTitle">取引は許可されていません</string>
+    <string name="instantDialogBody">即時配送の制限を超えているため、トランザクションを実行できません</string>
 
 </resources>

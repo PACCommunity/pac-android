@@ -331,5 +331,7 @@
 	<string name="settings_disclaimer_title"> <font color="#FAEC2C"> Mostra disclaimer </font></string>
 	<string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 per scan-to-pay </font></string>
 	<string name="settings_lookup_title"> <font color="#FAEC2C"> Cerca nomi di portafoglio </font></string>
+    <string name="instantDialogTitle">Transazione non consentita</string>
+    <string name="instantDialogBody">La transazione non può essere eseguita perché supera il limite di consegna immediata</string>
 
 </resources>

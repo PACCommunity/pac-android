@@ -298,5 +298,7 @@
 	<string name="settings_disclaimer_title"><font color="#FAEC2C"> Mostra exempció de responsabilitat </font></string>
 	<string name="settings_BIP70_title"><font color="#FAEC2C"> BIP70 per escanejar-pagar </font></string>
 	<string name="settings_lookup_title"><font color="#FAEC2C"> Busqueu els noms de la cartera </font></string>
+    <string name="instantDialogTitle">Transacció no permesa</string>
+	<string name="instantDialogBody">La transacció no es pot realitzar perquè supera el límit d\'enviament instantanis</string>
 
 </resources>

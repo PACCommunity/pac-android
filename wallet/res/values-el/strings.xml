@@ -361,5 +361,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Εμφάνιση ειδοποίησης </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 για σάρωση-πληρωμή </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Αναζήτηση ονόματα πορτοφολιού </font> </string>
+    <string name="instantDialogTitle">Η συναλλαγή δεν επιτρέπεται</string>
+    <string name="instantDialogBody">Η συναλλαγή δεν μπορεί να πραγματοποιηθεί επειδή υπερβαίνει το όριο της άμεσης παράδοσης</string>
 
 </resources>

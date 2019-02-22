@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Hiển thị từ chối trách nhiệm </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 để quét trả tiền </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Tra cứu tên ví </font> </string>
+    <string name="instantDialogTitle">Giao dịch không được phép</string>
+    <string name="instantDialogBody">Giao dịch không thể được thực hiện vì vượt quá giới hạn giao hàng tức thì</string>
 
 </resources>

@@ -361,5 +361,7 @@
          <string name = "settings_disclaimer_title"> <font color = "#FAEC2C"> Haftungsausschluss anzeigen </font> </string>
          <string name = "settings_BIP70_title"> <font color = "#FAEC2C"> BIP70 für Scan-to-Pay </font> </string>
          <string name = "settings_lookup_title"> <font color = "#FAEC2C"> Suchen Sie nach den Namen der Wallets </font> </string>
+    <string name="instantDialogTitle">Transaktion nicht erlaubt</string>
+    <string name="instantDialogBody">Die Transaktion kann nicht ausgeführt werden, da sie das Limit der sofortigen Lieferung überschreitet</string>
 
 </resources>

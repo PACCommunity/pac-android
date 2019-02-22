@@ -189,5 +189,7 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Покажи одрекување од одговорност </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 за скенирање за плаќање </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Побарајте имиња на паричникот </font> </string>
+    <string name="instantDialogTitle">Трансакцијата не е дозволена</string>
+    <string name="instantDialogBody">Трансакцијата не може да се изврши бидејќи ја надминува границата на непосредна испорака</string>
 
 </resources>

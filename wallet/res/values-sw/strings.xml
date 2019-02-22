@@ -276,4 +276,6 @@
        <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Onyesha kukataa </font> </string>
        <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 kwa Scan-to-pay </font> </string>
        <string name="settings_lookup_title"> <font color="#FAEC2C"> Angalia majina ya mkoba </font> </string>
+    <string name="instantDialogTitle">Shughuli haziruhusiwi</string>
+    <string name="instantDialogBody">Shughuli haziwezi kufanywa kwa sababu inazidi kikomo cha utoaji wa haraka</string>
 </resources>
