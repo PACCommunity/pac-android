@@ -27,7 +27,7 @@
     <string name="exchange_rates_context_set_as_default_title">设为默认</string>
     <string name="wallet_transactions_fragment_empty_text_received">尚未收到达世币。</string>
     <string name="wallet_transactions_fragment_empty_text_sent">尚未发送达世币。</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">如何获得达世币？\\n\\n用传统货币进行交易，\\n出售商品或服务，或者\\n通过劳动赚取。</string>
+    <string name="wallet_transactions_fragment_empty_text_howto">如何获得达世币？\n\n用传统货币进行交易，\n出售商品或服务，或者\n通过劳动赚取。\n</string>
     <string name="wallet_transactions_row_warning_backup">恭喜，您收到了第一笔付款！您是否已经 &lt;u&gt;备份了您的钱包&lt;/u&gt;，以避免损失？</string>
     <string name="wallet_transactions_row_warning_storage_encryption">提示：为了增加钱包的安全度，您可以 &lt;u&gt;加密您的设备&lt;/u&gt;. 这样也可以同样其他app的数据。</string>
     <string name="wallet_transactions_fragment_coinbase">挖矿所的</string>
@@ -237,37 +237,37 @@
     <string name="preferences_activity_title">设置</string>
     <string name="preferences_category_diagnostics">诊断</string>
     <string name="preferences_category_labs">实验</string>
-    <string name="preferences_precision_title">面值和精度</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">面值和精度</font></string>
     <string name="preferences_precision_summary">金额的显示单位，不会影响计算。</string>
     <string name="preferences_precision_labels_8">$PAC, 8位小数</string>
     <string name="preferences_precision_labels_6">$PAC, 6位小数</string>
     <string name="preferences_precision_labels_4">$PAC, 4位小数</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2位小数</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, 无小数位</string>
-    <string name="preferences_own_name_title">自己的名字</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">自己的名字</font></string>
     <string name="preferences_own_name_summary">为自己起名，可在支付请求中显示。尽量简短。</string>
-    <string name="preferences_send_coins_autoclose_title">自动关闭发送币窗口</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">自动关闭发送币窗口</font></string>
     <string name="preferences_send_coins_autoclose_summary">当交易完成后，发送窗口将自动关闭。</string>
-    <string name="preferences_connectivity_notification_title">连接指示器</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">连接指示器</font></string>
     <string name="preferences_connectivity_notification_summary">在通知区域中显示已连接的节点数。</string>
-    <string name="preferences_trusted_peer_title">受信任的节点</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">受信任的节点</font></string>
     <string name="preferences_trusted_peer_summary">要连接的单个节点的IP地址或主机名称。</string>
     <string name="preferences_trusted_peer_resolve_progress">解析中...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">未知主机名称！</string>
-    <string name="preferences_trusted_peer_only_title">跳过常规节点发现</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">跳过常规节点发现</font></string>
     <string name="preferences_trusted_peer_only_summary">除了受信任节点外，防止连接到任何其它的节点。</string>
     <string name="preferences_block_explorer_title">区块浏览器</string>
     <string name="preferences_block_explorer_summary">外部区块浏览器用于网页交易、地址、和区块。</string>
-    <string name="preferences_data_usage_title">数据使用</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">数据使用</font></string>
     <string name="preferences_data_usage_summary">显示限制移动网络数据使用的选项。</string>
-    <string name="preferences_remind_balance_title">余额贴士</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">余额贴士</font></string>
     <string name="preferences_remind_balance_summary">若钱包中依然存有达世币，几周都未曾使用，app将发送通知提醒用户。</string>
-    <string name="preferences_report_issue_title">报告问题</string>
-    <string name="preferences_initiate_reset_title">重置区块链 (blockchain)</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">报告问题</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">重置区块链 (blockchain)</font></string>
     <string name="preferences_initiate_reset_summary">重置区块链，交易，以及钱包余额。此步骤需要等待一段时间，使用前请务必了解此功能用途。</string>
     <string name="preferences_initiate_reset_dialog_message">你是否想重置区块链？/n/n这样做会暂时隐藏你的钱包余额和交易记录。区块链同步完成后会恢复。请确保你已联入了可靠的网络。</string>
     <string name="preferences_initiate_reset_dialog_positive">重置</string>
-    <string name="preferences_extended_public_key_title">显示xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">显示xpub</font></string>
     <string name="preferences_extended_public_key_summary">浏览您钱包的公钥，这样可以将其导入其他程序或服务中。请注意：如此做会对其他程序暴露您的财政隐私。</string>
     <string name="bitmap_fragment_share">分享...</string>
     <string name="extended_public_key_fragment_title">扩展的公钥</string>
@@ -286,18 +286,18 @@
     <string name="report_issue_dialog_mail_intent_chooser">发送报告使用…</string>
     <string name="report_issue_dialog_mail_intent_failed">发送报告失败。</string>
     <string name="about_title">关于</string>
-    <string name="about_version_title">版本</string>
-    <string name="about_copyright_title">Copyright</string>
-    <string name="about_license_title">许可协议</string>
-    <string name="about_source_title">源代码</string>
+    <string name="about_version_title"><font color="#FAEC2C">版本</font></string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">许可协议</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">源代码</font></string>
     <string name="about_category_credits">此应用正在使用...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, 达世币实现协议</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, 达世币实现协议</font></string>
     <string name="about_credits_zxing_title">ZXing, 二维码处理函数库</string>
     <string name="about_credits_icon_title">此app使用的是‘bitboy’的图标</string>
-    <string name="about_credits_scrypt_title">脚本, 由Will Glozer 和 Colin Percival制作</string>
-    <string name="about_market_app_title">Google Play 页面</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">脚本, 由Will Glozer 和 Colin Percival制作</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Google Play 页面</font></string>
     <string name="about_market_app_summary">评价这个应用</string>
-    <string name="about_faq_title">常见问题</string>
+    <string name="about_faq_title"><font color="#FAEC2C">常见问题</font></string>
     <string name="about_faq_summary">对于此APP的常见问题</string>
     <string name="about_community_googleplus_title">Google+ 社区</string>
     <string name="about_community_googleplus_summary">讨论APP</string>
@@ -347,9 +347,19 @@
     <string name="transaction_fragment_confirmations_label">确认</string>
 
     <string name="navigation_drawer_open">开启导航抽屉</string>
-    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="navigation_drawer_close">关闭菜单</string>
 
     <string name="pac_slogan">即时-隐私-安全</string>
     <string name="pac_wallet">钱包</string>
+    <string name="nav_code">请参阅付款代码</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C">启用InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C">警告</font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C">启用精简模式</font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C">显示免责声明</font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 for scan-to-pay </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C">查找钱包名称</font> </string>
+    <string name="instantDialogTitle">交易不被允许</string>
+    <string name="instantDialogBody">交易无法执行，因为它超出了即时交付的限制</string>
 
 </resources>

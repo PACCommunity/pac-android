@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Ontgrendel</string>
 	<string name="wallet_lock_unlock_wallet">Ontgrendel portemonnee</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Portemonnee is vergrendeld.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Tap het sloticoon boven om je portemonnee te ontgrendelen en de transactiegeschiedenis te bekijken.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Portemonnee is vergrendeld.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Tap het sloticoon boven om je portemonnee te ontgrendelen en de transactiegeschiedenis te bekijken.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Ontgrendel je portemonnee</string>
 	<string name="wallet_lock_unlock_dialog_message">Betalingen vanuit je portemonnee zijn bescherm met een pin. Voer je pin in en kies Ontgrendel om verder te gaan.</string>
 	<string name="wallet_lock_reset_wallet_title">Reset portemonnee</string>

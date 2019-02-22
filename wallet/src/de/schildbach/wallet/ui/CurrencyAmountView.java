@@ -83,8 +83,8 @@ public final class CurrencyAmountView extends FrameLayout {
 
     private void init(final Context context) {
         final Resources resources = context.getResources();
-        significantColor = resources.getColor(R.color.fg_significant);
-        lessSignificantColor = resources.getColor(R.color.fg_less_significant);
+        significantColor = resources.getColor(R.color.white);
+        lessSignificantColor = resources.getColor(R.color.white);
         errorColor = resources.getColor(R.color.fg_error);
         deleteButtonDrawable = resources.getDrawable(R.drawable.ic_clear_grey600_24dp);
     }
@@ -121,7 +121,7 @@ public final class CurrencyAmountView extends FrameLayout {
 
     public void setCurrencySymbol(@Nullable final String currencyCode) {
         if (MonetaryFormat.CODE_BTC.equals(currencyCode)) {
-            currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_btc);
+            currencySymbolDrawable = getResources().getDrawable(R.drawable.ic_coinpac);
             localCurrencyCode = null;
         } else if (MonetaryFormat.CODE_MBTC.equals(currencyCode)) {
             currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_mbtc);

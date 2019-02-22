@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">가격 출처  %s</string>
     <string name="exchange_rates_options_search">환율 검색</string>
     <string name="exchange_rates_context_set_as_default_title">기본값으로 설정</string>
-    <string name="wallet_transactions_fragment_empty_text_received">아직 대쉬를 받은 내역이 없습니다.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">아직 대쉬를 받은 내역이 없습니다.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">아직 대쉬를 보낸 내역이 없습니다.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">대쉬 획득 방법\n\n1. 로컬 통화로 대쉬 구매\n2. 상품이나 서비스 판매\n3. 용역 대가로 획득</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>대쉬 획득 방법</b>\n\n1. 로컬 통화로 대쉬 구매\n2. 상품이나 서비스 판매\n3. 용역 대가로 획득</font></string>
     <string name="wallet_transactions_row_warning_backup">축하드립니다. 첫번째 결제를 받았습니다. 분실에 대비하기 위해 &lt;u&gt;전자 지갑 백업&lt;/u&gt;을 수행하신 적이 있나요? </string>
     <string name="wallet_transactions_row_warning_storage_encryption">힌트: 지갑의 안전을 위해 &lt;u&gt;기기 암호화&lt;u&gt;를 사용해 보세요. 이것은 다른 앱의 자료도 보호해 줍니다.</string>
     <string name="wallet_transactions_fragment_coinbase">신규 채굴 코인</string>
@@ -237,37 +237,37 @@
     <string name="preferences_activity_title">설정</string>
     <string name="preferences_category_diagnostics">오류 진단</string>
     <string name="preferences_category_labs">실험실</string>
-    <string name="preferences_precision_title">액면 변경 및 표시할 자리수 </string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">액면 변경 및 표시할 자리수</font></string>
     <string name="preferences_precision_summary">수량 표시 영역의 단위입니다. 산정되는 수치에는 영향을 미치지 않습니다.</string>
     <string name="preferences_precision_labels_8">$PAC, 소수 8자리</string>
     <string name="preferences_precision_labels_6">$PAC, 소수 6자리</string>
     <string name="preferences_precision_labels_4">$PAC, 소수 4자리</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 소수 2자리</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, 소수 표시 안함</string>
-    <string name="preferences_own_name_title">소유자명</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">소유자명</font></string>
     <string name="preferences_own_name_summary">결제요청에 추가될 당신의 이름입니다. 짧게 입력해주세요.</string>
-    <string name="preferences_send_coins_autoclose_title">송금 대화창을 자동으로 닫기</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">송금 대화창을 자동으로 닫기</font></string>
     <string name="preferences_send_coins_autoclose_summary">결제가 완료되면 송금 대화창이 자동으로 닫힙니다.</string>
-    <string name="preferences_connectivity_notification_title">피어 연결 개수</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">피어 연결 개수</font></string>
     <string name="preferences_connectivity_notification_summary">알림 창에 현재 연결된 피어(Peer)의 숫자를 표시합니다.</string>
-    <string name="preferences_trusted_peer_title">신뢰할 수 있는 피어</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">신뢰할 수 있는 피어</font></string>
     <string name="preferences_trusted_peer_summary">IP 또는 연결할 단일 피어의 호스트네임</string>
     <string name="preferences_trusted_peer_resolve_progress">분석 중...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">알려지지 않은 호스트 네임!</string>
-    <string name="preferences_trusted_peer_only_title">일반적인 피어 탐색을 수행하지 않고 지나칩니다.</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">일반적인 피어 탐색을 수행하지 않고 지나칩니다.</font></string>
     <string name="preferences_trusted_peer_only_summary">신뢰할 수 있는 피어(Peer)를 포함한 어떤 피어라도 새롭게 연결하는 것을 차단합니다.</string>
     <string name="preferences_block_explorer_title">블럭 탐색기</string>
     <string name="preferences_block_explorer_summary">트랜잭션, 주소, 블럭을 검색하기 위한 외부의 블럭 탐색기 사용</string>
-    <string name="preferences_data_usage_title">데이터 사용량</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">데이터 사용량</font></string>
     <string name="preferences_data_usage_summary">모바일 네트워크에서 사용할 데이터 사용량 제한 설정을 보여줍니다.</string>
-    <string name="preferences_remind_balance_title">잔액 알림</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">잔액 알림</font></string>
     <string name="preferences_remind_balance_summary">앱에 잔액이 남아 있는 상태에서 몇 주간 사용을 하지 않으면 앱이 알람을 보냅니다.</string>
-    <string name="preferences_report_issue_title">오류 보고</string>
-    <string name="preferences_initiate_reset_title">블럭체인 재설정</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">오류 보고</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">블럭체인 재설정</font></string>
     <string name="preferences_initiate_reset_summary">블럭 체인과 거래 내역, 대쉬 잔액을 다시 읽어들입니다. 이 리셋 과정에 상당히 많은 시간이 소요되므로 이 기능이 무엇인지 정확히 이해하고 있는 경우에만 적용하십시오.</string>
     <string name="preferences_initiate_reset_dialog_message">블럭체인을 초기화한 후 다시 불러오겠습니까?\n\n이 작업을 진행하면 지갑의 잔액과 거래 내역이 일시적으로 표시되지 않습니다. 블럭체인 동기화 완료 시, 다시 정상적으로 표시됩니다.</string>
     <string name="preferences_initiate_reset_dialog_positive">재동기화</string>
-    <string name="preferences_extended_public_key_title">xpub 보이기</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">xpub 보이기</font></string>
     <string name="preferences_extended_public_key_summary">전자지갑의 확장 공개키를 표시해서 다른 앱과 서비스로 내보낼 수 있습니다. 지갑의 잔액과 거래 내역이 다른 사람에게 공개될 수 있으므로 주의해야 합니다.</string>
     <string name="bitmap_fragment_share">공유</string>
     <string name="extended_public_key_fragment_title">확장 개인키</string>
@@ -286,18 +286,18 @@
     <string name="report_issue_dialog_mail_intent_chooser">오류 보고서 전송 방법 선택</string>
     <string name="report_issue_dialog_mail_intent_failed">오류 보고서 전송에 실패했습니다.</string>
     <string name="about_title">앱 소개</string>
-    <string name="about_version_title">버전</string>
-    <string name="about_copyright_title">Copyright</string>
-    <string name="about_license_title">라이센스</string>
-    <string name="about_source_title">소스 코드</string>
+    <string name="about_version_title"><font color="#FAEC2C">버전</font></string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">라이센스</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">소스 코드</font></string>
     <string name="about_category_credits">이 앱이 사용 중인 프로토콜</string>
-    <string name="about_credits_bitcoinj_title">pacj %s 버전</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s 버전</font></string>
     <string name="about_credits_zxing_title">ZXing의 QR코드 처리 라이브러리</string>
     <string name="about_credits_icon_title">이 앱은 \'bitboy\'의 아이콘을 사용합니다.</string>
-    <string name="about_credits_scrypt_title">Scrypt : Will Glozer와 Colin Percival 구현</string>
-    <string name="about_market_app_title">구글 플레이의 앱 페이지</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt : Will Glozer와 Colin Percival 구현</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">구글 플레이의 앱 페이지</font></string>
     <string name="about_market_app_summary">앱 리뷰 또는 등급 점수 매기러 가기</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">이 앱에 대한 묻고 답하기(FAQ) 내용</string>
     <string name="about_community_googleplus_title">Google+의 앱 커뮤니티</string>
     <string name="about_community_googleplus_summary">이 앱에 대한 토론장</string>
@@ -347,9 +347,19 @@
     <string name="transaction_fragment_confirmations_label">승인</string>
 
     <string name="navigation_drawer_open">메뉴 탐색 열기</string>
-    <string name="navigation_drawer_close">메뉴 탐색 닫기</string>
+    <string name="navigation_drawer_close">메뉴 닫기</string>
 
     <string name="pac_slogan">빠른 거래 - 프라이버시 보호 - 높은 보안성</string>
     <string name="pac_wallet">전자지갑</string>
+    <string name="nav_code">지불 코드 참조</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> InstantSend 사용 </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> 경고 </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> 라이트 모드 사용 </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> 면책 조항 표시 </font> </string>
+    <string name="settings_BIP70_title"> <font color="#FAEC2C">scan-to-pay 용 BIP70 </font></string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> 지갑 이름 찾기 </font> </string>
+    <string name="instantDialogTitle">거래를 허용하지 않음</string>
+    <string name="instantDialogBody">즉시 배달 한도를 초과하여 거래를 수행 할 수 없습니다</string>
 
 </resources>

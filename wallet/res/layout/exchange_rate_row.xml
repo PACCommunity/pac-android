@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/bg_list"
+    android:background="@color/bg_nav"
     android:focusable="true"
-    android:foreground="?android:attr/selectableItemBackground" >
+    android:foreground="?android:attr/selectableItemBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/list_entry_padding_vertical"
         android:paddingLeft="@dimen/list_entry_padding_horizontal"
+        android:paddingTop="@dimen/list_entry_padding_vertical"
         android:paddingRight="@dimen/list_entry_padding_horizontal"
-        android:paddingTop="@dimen/list_entry_padding_vertical" >
+        android:paddingBottom="@dimen/list_entry_padding_vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="true"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0" >
+                android:layout_weight="0">
 
                 <TextView
                     android:id="@+id/exchange_rate_row_currency_code"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
                 <TextView
@@ -40,6 +41,7 @@
                     android:maxWidth="128sp"
                     android:singleLine="true"
                     android:text="@string/exchange_rates_fragment_default"
+                    android:textColor="@color/white"
                     android:visibility="invisible" />
             </FrameLayout>
 
@@ -49,14 +51,16 @@
                 android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
                 android:layout_weight="1"
                 android:singleLine="true"
-                android:text="@string/exchange_rates_fragment_rate" />
+                android:text="@string/exchange_rates_fragment_rate"
+                android:textColor="@color/white" />
 
             <de.schildbach.wallet.ui.CurrencyTextView
                 android:id="@+id/exchange_rate_row_rate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:layout_marginLeft="@dimen/list_entry_padding_horizontal" />
+                android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
+                android:textColor="@color/white" />
 
             <Space
                 android:layout_width="24dp"
@@ -67,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="true"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/exchange_rate_row_default"
@@ -78,6 +82,7 @@
                 android:maxWidth="128sp"
                 android:singleLine="true"
                 android:text="@string/exchange_rates_fragment_default"
+                android:textColor="@color/white"
                 android:visibility="visible" />
 
             <TextView
@@ -87,7 +92,7 @@
                 android:layout_weight="1"
                 android:singleLine="true"
                 android:text="@string/exchange_rates_fragment_balance"
-                android:textColor="@color/fg_less_significant" />
+                android:textColor="@color/white" />
 
             <de.schildbach.wallet.ui.CurrencyTextView
                 android:id="@+id/exchange_rate_row_balance"
@@ -95,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
-                android:textColor="@color/fg_less_significant" />
+                android:textColor="@color/white" />
 
             <Space
                 android:layout_width="24dp"
@@ -108,7 +113,18 @@
         style="@style/My.Widget.Button.Borderless.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|right"
+        android:layout_gravity="center_vertical|right"
         android:src="@drawable/ic_more_vert_grey600_18dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white" />
 
 </FrameLayout>

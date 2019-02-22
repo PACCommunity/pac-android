@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Mở khoá</string>
 	<string name="wallet_lock_unlock_wallet">Mở khoá ví</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Ví đã được khoá</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Bấm vào biểu tượng khoá ở trên để mở khoá ví của bạn và xem lịch sử giao dịch.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Ví đã được khoá</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Bấm vào biểu tượng khoá ở trên để mở khoá ví của bạn và xem lịch sử giao dịch.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Mở khoá ví</string>
 	<string name="wallet_lock_unlock_dialog_message">Ví của bạn được bảo vệ bởi mã PIN chi tiêu. Hãy nhập mã PIN và bấm Mở Khoá để tiếp tục</string>
 	<string name="wallet_lock_reset_wallet_title">Thiết lập lại ví</string>

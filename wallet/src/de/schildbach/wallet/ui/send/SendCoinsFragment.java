@@ -36,6 +36,7 @@ import android.database.ContentObserver;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.database.MergeCursor;
+import android.icu.util.CurrencyAmount;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.nfc.NdefMessage;
@@ -49,6 +50,7 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.Spannable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -76,6 +78,7 @@ import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.InsufficientMoneyException;
+import org.bitcoinj.core.Monetary;
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.SporkManager;
 import org.bitcoinj.core.Transaction;
@@ -436,7 +439,7 @@ public final class SendCoinsFragment extends Fragment {
 
             if (id == ID_RECEIVING_ADDRESS_BOOK_LOADER)
                 return new CursorLoader(context, AddressBookProvider.contentUri(context.getPackageName()), null,
-                        AddressBookProvider.SELECTION_QUERY, new String[] { constraint }, null);
+                        AddressBookProvider.SELECTION_QUERY, new String[]{constraint}, null);
             else if (id == ID_RECEIVING_ADDRESS_NAME_LOADER)
                 return new ReceivingAddressNameLoader(context, constraint);
             else
@@ -472,7 +475,7 @@ public final class SendCoinsFragment extends Fragment {
                 targetAdapter.swapCursor(receivingAddressNameCursor);
             else
                 targetAdapter.swapCursor(
-                        new MergeCursor(new Cursor[] { receivingAddressBookCursor, receivingAddressNameCursor }));
+                        new MergeCursor(new Cursor[]{receivingAddressBookCursor, receivingAddressNameCursor}));
         }
     }
 
@@ -492,8 +495,8 @@ public final class SendCoinsFragment extends Fragment {
 
         @Override
         public Cursor loadInBackground() {
-            final MatrixCursor cursor = new MatrixCursor(new String[] { AddressBookProvider.KEY_ROWID,
-                    AddressBookProvider.KEY_LABEL, AddressBookProvider.KEY_ADDRESS }, 1);
+            final MatrixCursor cursor = new MatrixCursor(new String[]{AddressBookProvider.KEY_ROWID,
+                    AddressBookProvider.KEY_LABEL, AddressBookProvider.KEY_ADDRESS}, 1);
 
 //            if (constraint.indexOf('.') >= 0 || constraint.indexOf('@') >= 0) {
 //                try {
@@ -707,11 +710,9 @@ public final class SendCoinsFragment extends Fragment {
             instantXenable.setChecked(true);
             instantXenable.setEnabled(false);
         }
-        instantXenable.setOnCheckedChangeListener(new OnCheckedChangeListener()
-        {
+        instantXenable.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(final CompoundButton buttonView, final boolean isChecked)
-            {
+            public void onCheckedChanged(final CompoundButton buttonView, final boolean isChecked) {
                 updateView();
                 handler.post(dryrunRunnable);
             }
@@ -739,8 +740,15 @@ public final class SendCoinsFragment extends Fragment {
             public void onClick(final View v) {
                 validateReceivingAddress();
 
-                if (everythingPlausible()) {
-                    handleGo();
+                long val = amountCalculatorLink.getAmount().getValue();
+                if(instantXenable.isChecked() && val >= 10000000000000L){
+                    final DialogBuilder dialog = DialogBuilder.warn(activity, R.string.instantDialogTitle);
+                    dialog.setMessage(R.string.instantDialogBody);
+                    dialog.setNeutralButton(R.string.button_ok, null);
+                    dialog.show();
+                } else {
+                    if (everythingPlausible())
+                        handleGo();
                 }
 
                 updateView();
@@ -931,7 +939,7 @@ public final class SendCoinsFragment extends Fragment {
         switch (item.getItemId()) {
             //case R.id.send_coins_options_scan:
             //	handleScan();
-        //		return true;
+            //		return true;
             case R.id.send_coins_options_fee_category_zero:
                 handleFeeCategory(FeeCategory.ZERO);
                 return true;
@@ -1062,14 +1070,14 @@ public final class SendCoinsFragment extends Fragment {
         sendRequest.emptyWallet = paymentIntent.mayEditAmount()
                 && finalAmount.equals(wallet.getBalance(BalanceType.ESTIMATED));
         sendRequest.feePerKb = fees.get(feeCategory);
-        sendRequest.feePerKb = sendRequest.useInstantSend ? TransactionLockRequest.MIN_FEE: sendRequest.feePerKb;
+        sendRequest.feePerKb = sendRequest.useInstantSend ? TransactionLockRequest.MIN_FEE : sendRequest.feePerKb;
         sendRequest.memo = paymentIntent.memo;
         sendRequest.exchangeRate = amountCalculatorLink.getExchangeRate();
         sendRequest.aesKey = encryptionKey;
 
-        if(usingInstantSend)
+        if (usingInstantSend)
             sendRequest.ensureMinRequiredFee = true;
-        else if(Constants.ENABLE_ZERO_FEES && feeCategory == FeeCategory.ECONOMIC || feeCategory == FeeCategory.ZERO)
+        else if (Constants.ENABLE_ZERO_FEES && feeCategory == FeeCategory.ECONOMIC || feeCategory == FeeCategory.ZERO)
             sendRequest.ensureMinRequiredFee = false;  //Allow for below the reference fee transactions
         else sendRequest.ensureMinRequiredFee = true;
 
@@ -1088,7 +1096,7 @@ public final class SendCoinsFragment extends Fragment {
                 final Address refundAddress = paymentIntent.standard == Standard.BIP70
                         ? wallet.freshAddress(KeyPurpose.REFUND) : null;
                 final Payment payment = PaymentProtocol.createPaymentMessage(
-                        Arrays.asList(new Transaction[] { sentTransaction }), finalAmount, refundAddress, null,
+                        Arrays.asList(new Transaction[]{sentTransaction}), finalAmount, refundAddress, null,
                         paymentIntent.payeeData);
 
                 if (directPaymentEnableView.isChecked())
@@ -1273,11 +1281,11 @@ public final class SendCoinsFragment extends Fragment {
                     sendRequest.emptyWallet = paymentIntent.mayEditAmount()
                             && amount.equals(wallet.getBalance(BalanceType.ESTIMATED));
                     sendRequest.feePerKb = fees.get(feeCategory);
-                    sendRequest.feePerKb = sendRequest.useInstantSend ? TransactionLockRequest.MIN_FEE: sendRequest.feePerKb;
+                    sendRequest.feePerKb = sendRequest.useInstantSend ? TransactionLockRequest.MIN_FEE : sendRequest.feePerKb;
 
-                    if(sendRequest.useInstantSend)
+                    if (sendRequest.useInstantSend)
                         sendRequest.ensureMinRequiredFee = true;
-                    else if(Constants.ENABLE_ZERO_FEES && feeCategory == FeeCategory.ECONOMIC || feeCategory == FeeCategory.ZERO)
+                    else if (Constants.ENABLE_ZERO_FEES && feeCategory == FeeCategory.ECONOMIC || feeCategory == FeeCategory.ZERO)
                         sendRequest.ensureMinRequiredFee = false;  //Allow for below the reference fee transactions
                     else sendRequest.ensureMinRequiredFee = true;
 
@@ -1396,7 +1404,7 @@ public final class SendCoinsFragment extends Fragment {
                     else if (dryrunException instanceof CouldNotAdjustDownwards)
                         hintView.setText(getString(R.string.send_coins_fragment_hint_empty_wallet_failed));
                     else
-                        hintView.setText(dryrunException.toString());
+                        Log.d("Error", dryrunException.toString());
                 } else if (blockchainState != null && blockchainState.replaying) {
                     hintView.setTextColor(getResources().getColor(R.color.fg_error));
                     hintView.setVisibility(View.VISIBLE);
@@ -1417,9 +1425,8 @@ public final class SendCoinsFragment extends Fragment {
                         final Spannable hintLocalFee = new MonetarySpannable(Constants.LOCAL_FORMAT, amountCalculatorLink.getExchangeRate().coinToFiat(dryrunTransaction.getFee()))
                                 .applyMarkup(null, MonetarySpannable.STANDARD_INSIGNIFICANT_SPANS);
                         hintView.setText(getString(hintResId, btcFormat.format(dryrunTransaction.getFee())
-                                + (hintLocalFee != null ? (" (" + amountCalculatorLink.getExchangeRate().coinToFiat(dryrunTransaction.getFee()).currencyCode + " " + hintLocalFee + ")"): "")));
-                    } catch (NullPointerException x)
-                    {
+                                + (hintLocalFee != null ? (" (" + amountCalculatorLink.getExchangeRate().coinToFiat(dryrunTransaction.getFee()).currencyCode + " " + hintLocalFee + ")") : "")));
+                    } catch (NullPointerException x) {
                         //only show the fee in $PAC
                         hintView.setText(getString(hintResId, btcFormat.format(dryrunTransaction.getFee())));
                     }

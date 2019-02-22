@@ -408,7 +408,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
         final String bitcoinRequest = determineBitcoinRequestStr(true);
         final byte[] paymentRequest = determinePaymentRequest(true);
 
-        // update qr-code
+        // update qr_style-code
         qrCodeBitmap = new BitmapDrawable(getResources(), Qr.bitmap(bitcoinRequest));
         qrCodeBitmap.setFilterBitmap(false);
         qrView.setImageDrawable(qrCodeBitmap);

@@ -28,18 +28,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
-
 import org.bitcoinj.core.Transaction;
 import org.bitcoinj.core.VerificationException;
 import org.bitcoinj.core.VersionedChecksummedBytes;
 import org.bitcoinj.crypto.ChildNumber;
 import org.bitcoinj.wallet.Wallet;
 import org.bitcoinj.wallet.Wallet.BalanceType;
-
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 import com.squareup.okhttp.HttpUrl;
-
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
@@ -57,7 +54,6 @@ import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
 import de.schildbach.wallet_test.R;
-
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -204,6 +200,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
         };
         viewDrawer.addDrawerListener(toggle);
         toggle.syncState();
+        toolbarView.setNavigationIcon(R.drawable.ic_burger_button);
 
         viewFakeForSafetySubmenu = new View(this);
         viewFakeForSafetySubmenu.setVisibility(View.GONE);
@@ -487,7 +484,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 return application.getWallet().toString(false, true, true, null);
             }
         };
-        dialog.show();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        d.show();
     }
 
     @Override
@@ -519,7 +526,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
         dialog.setTitle(R.string.backup_wallet_permission_dialog_title);
         dialog.setMessage(getString(R.string.backup_wallet_permission_dialog_message));
         dialog.singleDismissButton(null);
-        return dialog.create();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private Dialog createRestoreWalletPermissionDialog() {
@@ -527,7 +544,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
         dialog.setTitle(R.string.restore_wallet_permission_dialog_title);
         dialog.setMessage(getString(R.string.restore_wallet_permission_dialog_message));
         dialog.singleDismissButton(null);
-        return dialog.create();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private Dialog createRestoreWalletDialog() {
@@ -610,7 +637,16 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
         fileView.setAdapter(adapter);
 
-        return dialog.create();
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private void prepareRestoreWalletDialog(final Dialog dialog) {
@@ -693,7 +729,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
             }
         });
         dialog.setNegativeButton(R.string.button_dismiss, null);
-        return dialog.create();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private void checkAlerts() {
@@ -807,7 +853,16 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 }
             };
 
-            dialog.show();
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+                }
+            });
+
+            d.show();
         }
     }
 
@@ -829,7 +884,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
         }
 
         dialog.setNegativeButton(R.string.button_dismiss, null);
-        return dialog.create();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private Dialog createVersionAlertDialog() {
@@ -867,7 +932,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
         }
 
         dialog.setNegativeButton(R.string.button_dismiss, null);
-        return dialog.create();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        return d;
     }
 
     private void restoreWalletFromEncrypted(final File file, final String password) {
@@ -894,7 +969,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
                     showDialog(DIALOG_RESTORE_WALLET);
                 }
             });
-            dialog.show();
+
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+                }
+            });
+
+            d.show();
 
             log.info("problem restoring wallet: " + file, x);
         }
@@ -917,7 +1002,18 @@ public final class WalletActivity extends AbstractBindServiceActivity
                     showDialog(DIALOG_RESTORE_WALLET);
                 }
             });
-            dialog.show();
+
+
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+                }
+            });
+
+            d.show();
 
             log.info("problem restoring unencrypted wallet: " + file, x);
         } finally {
@@ -951,7 +1047,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
                     showDialog(DIALOG_RESTORE_WALLET);
                 }
             });
-            dialog.show();
+
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+                }
+            });
+
+            d.show();
 
             log.info("problem restoring private keys: " + file, x);
         } finally {
@@ -986,7 +1092,17 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 finish();
             }
         });
-        dialog.show();
+
+        final AlertDialog d = dialog.create();
+        d.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+            }
+        });
+
+        d.show();
     }
 
     private void checkWalletEncryptionDialog() {

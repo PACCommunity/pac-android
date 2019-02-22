@@ -58,6 +58,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.PopupMenu;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.SearchView.OnQueryTextListener;
@@ -122,7 +123,7 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
         recyclerView = (RecyclerView) view.findViewById(R.id.exchange_rates_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(activity));
         recyclerView.setAdapter(adapter);
-        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
+        //recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
         return view;
     }
 
@@ -159,6 +160,8 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
         walletLockMenuItem.setVisible(WalletLock.getInstance().isWalletLocked(wallet));
 
         final SearchView searchView = (SearchView) menu.findItem(R.id.exchange_rates_options_search).getActionView();
+        LinearLayout searchEditFrame = (LinearLayout) searchView.findViewById(R.id.search_edit_frame);
+        ((LinearLayout.LayoutParams) searchEditFrame.getLayoutParams()).leftMargin = 60;
         searchView.setOnQueryTextListener(new OnQueryTextListener() {
             @Override
             public boolean onQueryTextChange(final String newText) {
@@ -357,7 +360,7 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
             final ExchangeRate exchangeRate = ExchangeRatesProvider.getExchangeRate(cursor);
             final boolean isDefaultCurrency = exchangeRate.getCurrencyCode().equals(defaultCurrency);
 
-            holder.itemView.setBackgroundResource(isDefaultCurrency ? R.color.bg_list_selected : R.color.bg_list);
+            holder.itemView.setBackgroundResource(isDefaultCurrency ? R.color.bg_list_selected : R.color.bg_nav);
 
             holder.defaultView.setVisibility(isDefaultCurrency ? View.VISIBLE : View.INVISIBLE);
 

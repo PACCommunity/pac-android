@@ -18,25 +18,28 @@
 package de.schildbach.wallet.ui.preference;
 
 import java.net.InetAddress;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.WalletBalanceWidgetProvider;
 import de.schildbach.wallet_test.R;
-
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Process;
+import android.preference.DialogPreference;
 import android.preference.EditTextPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
+import android.support.v4.content.ContextCompat;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 /**
  * @author Andreas Schildbach
@@ -80,6 +83,7 @@ public final class SettingsFragment extends PreferenceFragment implements OnPref
         btcPrecisionPreference = findPreference(Configuration.PREFS_KEY_BTC_PRECISION);
         btcPrecisionPreference.setOnPreferenceChangeListener(this);
 
+
         trustedPeerPreference = findPreference(Configuration.PREFS_KEY_TRUSTED_PEER);
         ((EditTextPreference) trustedPeerPreference).getEditText().setSingleLine();
         trustedPeerPreference.setOnPreferenceChangeListener(this);
@@ -91,6 +95,15 @@ public final class SettingsFragment extends PreferenceFragment implements OnPref
         dataUsagePreference.setEnabled(pm.resolveActivity(dataUsagePreference.getIntent(), 0) != null);
 
         updateTrustedPeer();
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View v = super.onCreateView(inflater, container, savedInstanceState);
+
+        v.setBackgroundDrawable(ContextCompat.getDrawable(v.getContext(), R.drawable.black_background));
+
+        return v;
     }
 
     @Override

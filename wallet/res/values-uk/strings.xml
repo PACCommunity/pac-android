@@ -164,18 +164,18 @@
   <string name="preferences_activity_title">Налаштування</string>
   <string name="preferences_category_diagnostics">Діагностика</string>
   <string name="preferences_category_labs">Лабораторія</string>
-  <string name="preferences_precision_title">Деномінація і точність</string>
+  <string name="preferences_precision_title"><font color="#FAEC2C">Деномінація і точність</font></string>
   <string name="preferences_precision_summary">Одиниці, в яких показуються суми. Не впливає на вирахування.</string>
-  <string name="preferences_connectivity_notification_title">Індикатор з\'єднання</string>
+  <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Індикатор з\'єднання</font></string>
   <string name="preferences_connectivity_notification_summary">Показати поточну кількість підключень в області сповіщень.</string>
-  <string name="preferences_trusted_peer_title">Довірений учасник</string>
+  <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Довірений учасник</font></string>
   <string name="preferences_trusted_peer_summary">IP або ім\'я хоста одного учасника для підключення</string>
-  <string name="preferences_trusted_peer_only_title">Не виконувати звичайне виявлення учасників</string>
+  <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Не виконувати звичайне виявлення учасників</font></string>
   <string name="preferences_trusted_peer_only_summary">Попереджає підключення до будь яких учасників, окрім довіреного.</string>
-  <string name="preferences_data_usage_title">Використання даних</string>
+  <string name="preferences_data_usage_title"><font color="#FAEC2C">Використання даних</font></string>
   <string name="preferences_data_usage_summary">Показати опції обмеженняя використання даних в мобільних меражах.</string>
   <string name="preferences_report_issue_title">Повідомити про проблему</string>
-  <string name="preferences_initiate_reset_title">Скинути ланцюжок блоків</string>
+  <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Скинути ланцюжок блоків</font></string>
   <string name="preferences_initiate_reset_summary">Скинути ланцюжок блоків, транзакції і баланс гаманця. Повторне завантаження займе деякий час і трафік.</string>
   <string name="preferences_initiate_reset_dialog_message">Ви дійсно хочете скинути і перезавантажити ланцюжок блоків?\n\nЦя дія тимчасово приховає баланс гаманця і видалити транзакції. І те, і інше відновиться під час синхронізації ланцюжка блоків.</string>
   <string name="preferences_initiate_reset_dialog_positive">Скидання</string>
@@ -192,16 +192,16 @@
   <string name="report_issue_dialog_mail_intent_chooser">Відправити звіт використовуючи…</string>
   <string name="report_issue_dialog_mail_intent_failed">Помилка при відправці звіту.</string>
   <string name="about_title">Про програму</string>
-  <string name="about_version_title">Версія</string>
-  <string name="about_copyright_title">Авторське право</string>
-  <string name="about_license_title">Ліцензія</string>
-  <string name="about_source_title">Початковий код</string>
+  <string name="about_version_title"><font color="#FAEC2C">Версія</font></string>
+  <string name="about_copyright_title"><font color="#FAEC2C">Авторське право</font></string>
+  <string name="about_license_title"><font color="#FAEC2C">Ліцензія</font></string>
+  <string name="about_source_title"><font color="#FAEC2C">Початковий код</font></string>
   <string name="about_category_credits">Цей додаток використовує…</string>
-  <string name="about_credits_bitcoinj_title">bitcoinj %s</string>
+  <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">bitcoinj %s</font></string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_community_googleplus_title">Спільнота в Google+</string>
   <string name="about_community_googleplus_summary">Обговорення додатка</string>
-  <string name="about_market_app_title">Сторінка Google Play</string>
+  <string name="about_market_app_title"><font color="#FAEC2C">Сторінка Google Play</font></string>
   <string name="about_market_app_summary">Напишіть відгук або оцініть додаток</string>
   <string name="notification_coins_received_msg">Отримано %s</string>
   <string name="notification_peers_connected_msg">підключено %d учасників</string>
@@ -231,4 +231,16 @@
   <string name="error_parse">Помилка обробки: %s</string>
   <string name="error_http">HTTP помилка %1$s:\n%2$s</string>
   <string name="error_bluetooth">Помилка Bluetooth: %1$s</string>
+    <string name="navigation_drawer_close">Закрити меню</string>
+    <string name="nav_code">Див. Код оплати</string>
+
+  <string name="settings_instasend_title"> <font color="#FAEC2C"> Увімкнути InstantSend </font> </string>
+       <string name="settings_warning_title"> <font color="#FAEC2C"> Попередження </font> </string>
+       <string name="settings_litemode_title"> <font color="#FAEC2C"> Увімкнути режим Lite </font> </string>
+       <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Показати застереження </font> </string>
+       <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 для сканування до </font> </string>
+       <string name="settings_lookup_title"> <font color="#FAEC2C"> Пошук назв гаманця </font> </string>
+    <string name="instantDialogTitle">Транзакція не дозволена</string>
+  <string name="instantDialogBody">Операція не може бути виконана, оскільки вона перевищує межу миттєвої доставки</string>
+
 </resources>

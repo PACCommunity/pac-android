@@ -17,7 +17,7 @@
   <string name="exchange_rates_fragment_balance">stanje</string>
   <string name="exchange_rates_fragment_source">Cijena sa %s</string>
   <string name="exchange_rates_options_search">Traži konverzijsku stopu</string>
-  <string name="wallet_transactions_fragment_empty_text_received">Nema primljenih Bitcoina do sad</string>
+  <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Nema primljenih Bitcoina do sad</font></string>
   <string name="wallet_transactions_fragment_empty_text_sent">Nema poslanih Bitcoina do sada.</string>
   <string name="wallet_transactions_fragment_coinbase">iskopano</string>
   <string name="wallet_transactions_fragment_internal">unutarnja</string>
@@ -59,9 +59,9 @@
   <string name="scan_camera_problem_dialog_title">Ispričavamo se</string>
   <string name="scan_camera_problem_dialog_message">Kamera je naišla na problem. Vjerovatno ćete morati ponovno pokrenuti uređaj</string>
   <string name="about_title">O nama</string>
-  <string name="about_license_title">Licenca</string>
+  <string name="about_license_title"><font color="#FAEC2C">Licenca</font></string>
   <string name="about_category_credits">Ova aplikacija koristi…</string>
-  <string name="about_credits_bitcoinj_title">bitcoin %s</string>
+  <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">bitcoin %s</font></string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="notification_peers_connected_msg">%d klijenata spojeno</string>
   <!--generic buttons-->
@@ -80,5 +80,16 @@
   <string name="action_show_qr">Prikaži QR kod</string>
   <string name="time_today">danas</string>
   <string name="address_unlabeled">(ne obilježen)</string>
-  <!--generic error messages-->
+    <string name="navigation_drawer_close">Zatvorite izbornik</string>
+    <string name="nav_code">Pogledajte kôd Plaćanja</string>
+    <!--generic error messages-->
+
+  <string name="settings_instasend_title"> <font color="#FAEC2C"> Omogući InstantSend </font> </string>
+       <string name="settings_warning_title"> <font color="#FAEC2C"> Upozorenje </font> </string>
+       <string name="settings_litemode_title"> <font color="#FAEC2C"> Omogući jednostavan način </font> </string>
+       <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Prikaži odricanje </font> </string>
+       <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 za skeniranje za plaćanje </font> </string>
+       <string name="settings_lookup_title"> <font color="#FAEC2C"> Potraži nazive novčanika </font> </string>
+    <string name="instantDialogTitle">Transakcija nije dopuštena</string>
+  <string name="instantDialogBody">Transakcija se ne može izvršiti jer prelazi ograničenje trenutne isporuke</string>
 </resources>

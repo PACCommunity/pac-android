@@ -23,6 +23,7 @@ import de.schildbach.wallet_test.R;
 
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.app.ActionBar;
 import android.view.LayoutInflater;
@@ -38,6 +39,8 @@ public final class PreferenceActivity extends AppCompatPreferenceActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        //setTheme(R.style.PrefsTheme);
+        getListView().setBackgroundDrawable(ContextCompat.getDrawable(this, R.drawable.black_background));
 
         initToolbar();
     }

@@ -35,14 +35,13 @@ dependencies {
         transitive = true;
     }
     compile 'com.android.support:cardview-v7:25.1.1'
-
     compile 'com.google.protobuf:protobuf-java:2.6.1'
     compile 'com.google.guava:guava:20.0'
     compile 'com.google.zxing:core:3.3.0'
     compile 'com.squareup.okhttp:okhttp:2.7.5'
     compile 'com.squareup.okhttp:logging-interceptor:2.7.5'
     compile 'com.squareup.moshi:moshi:1.3.1'
-//    compile 'com.netki:wallet-name-resolver:0.1.3'
+    //    compile 'com.netki:wallet-name-resolver:0.1.3'
     //compile 'com.netki:wallet-name-resolver:0.1.3'
     compile 'org.slf4j:slf4j-api:1.7.22'
     compile('com.github.tony19:logback-android-classic:1.1.1-6') {
@@ -50,6 +49,7 @@ dependencies {
     }
     compile 'com.github.tony19:logback-android-core:1.1.1-6'
     compile 'com.google.code.findbugs:jsr305:2.0.3'
+    compile 'com.android.support.constraint:constraint-layout:1.1.3'
     testCompile 'junit:junit:4.12'
     //Memory Leak Detection
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
@@ -66,13 +66,20 @@ dependencies {
 }
 
 ext {
-     archivesBaseName = 'pac-wallet'
+    archivesBaseName = 'pac-wallet'
 }
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword '$PAC2TheMoon123;::::'
+            storeFile file('C:/Users/amali/Desktop/wall3t/pac-android/wallet/PacWalletKeystore.jks')
+            storePassword '$PAC2TheMoon123456!'
+        }
+    }
     compileSdkVersion 'android-25'
-    buildToolsVersion '26.0.2'
-
+    buildToolsVersion '26.0.3'
     lintOptions {
         abortOnError false
         disable 'MissingTranslation'
@@ -82,7 +89,6 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
-
     buildTypes {
         all {
             minifyEnabled true
@@ -154,7 +160,7 @@ task buildNativeScrypt(type: GradleBuild) {
 
 
 
-    task buildNativeX11(type: GradleBuild) {
+task buildNativeX11(type: GradleBuild) {
     buildFile = '../native-x11/build.gradle'
     tasks = ['copy']
 }

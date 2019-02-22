@@ -27,7 +27,7 @@
     <string name="exchange_rates_context_set_as_default_title">Varsayılan olarak ayarla</string>
     <string name="wallet_transactions_fragment_empty_text_received">Şu ana kadar hiçbir $PAC alınmadı.</string>
     <string name="wallet_transactions_fragment_empty_text_sent">Şu ana kadar hiçbir $PAC gönderilmedi.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">$PAC nasıl elde edilir?\n Geleneksel para ile \ntakas ederek, mal ve hizmetler \nsatarak ya da \nçalışarak kazanabilirsiniz.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto">$PAC nasıl elde edilir?  Geleneksel para ile  takas ederek, mal ve hizmetler  satarak ya da  çalışarak kazanabilirsiniz.</string>
     <string name="wallet_transactions_row_warning_backup">Tebrikler, ilk ödemenizi almış bulunuyorsunuz! Kayba karşı korunmak için &lt;u&gt;cüzdanınızı yedeklediniz mi&lt;/u&gt;?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">İpucu: Cüzdanınızın güvenliğini arttırmak için, &lt;u&gt;cihazınızı şifreleyebilirsiniz&lt;/u&gt;. Bu aynı zamanda diğer uygulamaların verilerini de korur.</string>
     <string name="wallet_transactions_fragment_coinbase">Üretilen</string>
@@ -237,37 +237,37 @@
     <string name="preferences_activity_title">Ayarlar</string>
     <string name="preferences_category_diagnostics">Teşhisler</string>
     <string name="preferences_category_labs">Laboratuvarlar</string>
-    <string name="preferences_precision_title">İsimlendirme ve hassasiyet</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">İsimlendirme ve hassasiyet</font></string>
     <string name="preferences_precision_summary">Miktarların gösterileceği birim. Bu hesaplamaları etkilemez.</string>
     <string name="preferences_precision_labels_8">$PAC, ondalık basamak sayısı 8</string>
     <string name="preferences_precision_labels_6">$PAC, ondalık basamak sayısı 6</string>
     <string name="preferences_precision_labels_4">$PAC, ondalık basamak sayısı 4</string>
     <string name="preferences_precision_labels_2_3">m$PAC, ondalık basamak sayısı 2</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, ondalık basamak sayısı yoktur</string>
-    <string name="preferences_own_name_title">Kendi isminiz</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Kendi isminiz</font></string>
     <string name="preferences_own_name_summary">Ödeme taleplerine eklenecek isminiz. Kısa tutmaya çalışın.</string>
-    <string name="preferences_send_coins_autoclose_title">$PAC gönderme diyaloğunu otomatik-kapa</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">$PAC gönderme diyaloğunu otomatik-kapa</font></string>
     <string name="preferences_send_coins_autoclose_summary">Ödeme yapıldığında, gönderme diyaloğu otomatikman kapanacaktır.</string>
-    <string name="preferences_connectivity_notification_title">Bağlantı göstergesi</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Bağlantı göstergesi</font></string>
     <string name="preferences_connectivity_notification_summary">Bağlı eşlerin sayısını bildirim alanında göster.</string>
-    <string name="preferences_trusted_peer_title">Güvenilir eş</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Güvenilir eş</font></string>
     <string name="preferences_trusted_peer_summary">Bağlanılacak tekil eşin IP veya sistem adı.</string>
     <string name="preferences_trusted_peer_resolve_progress">Çözümlüyor...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Bilinmeyen sistem adı!</string>
-    <string name="preferences_trusted_peer_only_title">Düzenli eş keşfini atla</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Düzenli eş keşfini atla</font></string>
     <string name="preferences_trusted_peer_only_summary">Güvenilir eş dışındaki eşlere bağlanmayı önler.</string>
     <string name="preferences_block_explorer_title">Blok gezgini</string>
     <string name="preferences_block_explorer_summary">İşlemleri, adresleri ve blokları gözden geçirmek için kullanılacak harici blok gezgini.</string>
-    <string name="preferences_data_usage_title">Veri kullanımı</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Veri kullanımı</font></string>
     <string name="preferences_data_usage_summary">Mobil şebekelerde veri kullanımını kısıtlama seçeneklerini göster.</string>
-    <string name="preferences_remind_balance_title">Bakiye hatırlatıcı</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Bakiye hatırlatıcı</font></string>
     <string name="preferences_remind_balance_summary">Birkaç hafta kullanım olmadığı takdirde, uygulama size cüzdanınızda $PAC olup olmadığını hatırlatacaktır.</string>
     <string name="preferences_report_issue_title">Sorun rapor et</string>
-    <string name="preferences_initiate_reset_title">Blok zincirini yeniden başlat</string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Blok zincirini yeniden başlat</font></string>
     <string name="preferences_initiate_reset_summary">Blok zincirini, işlemleri ve cüzdan bakiyesini yeniden başlat. Eski haline gelmesi vakit alacaktır, bu yüzden bunu neden yaptığınızı biliyorsanız yapınız.</string>
     <string name="preferences_initiate_reset_dialog_message">Blok zincirini yeniden başlatıp tekrar yüklenmesini ister misiniz?\n\nBu geçici olarak bakiyenizi gizler ve işlemlerinizi kaldırır. Blok zinciri senkronize oldukça ikiside yeniden gösterilecektir. Güvenilir bir internet bağlantınız olduğundan emin olun.</string>
     <string name="preferences_initiate_reset_dialog_positive">Yeniden Başlat</string>
-    <string name="preferences_extended_public_key_title">xpub\'ı göster</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">xpub\'ı göster</font></string>
     <string name="preferences_extended_public_key_summary">Başka uygulama ve servislere iç aktarım yapılabilmesi için cüzdanınızın genişletilmiş genel anahtarını gösterir. Dikkatli olun: bunu yapmanız parasal gizliliğinizi o uygulamaya ifşa edecektir.</string>
     <string name="bitmap_fragment_share">Paylaş…</string>
     <string name="extended_public_key_fragment_title">Genişletilmiş Genel Anahtar</string>
@@ -286,18 +286,18 @@
     <string name="report_issue_dialog_mail_intent_chooser">Raporu şununla gönder…</string>
     <string name="report_issue_dialog_mail_intent_failed">Rapor gönderimi başarısız.</string>
     <string name="about_title">Hakkında</string>
-    <string name="about_version_title">Sürüm</string>
-    <string name="about_copyright_title">Telif Hakkı</string>
-    <string name="about_license_title">Lisans</string>
-    <string name="about_source_title">Kaynak kodu</string>
+    <string name="about_version_title"><font color="#FAEC2C">Sürüm</font></string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Telif Hakkı</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Lisans</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Kaynak kodu</font></string>
     <string name="about_category_credits">Bu uygulama bunları kullanıyor...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, bir $PAC protokolü uygulaması</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, bir $PAC protokolü uygulaması</font></string>
     <string name="about_credits_zxing_title">ZXing, bir QR-kodu işleme kütüphanesi</string>
     <string name="about_credits_icon_title">Bu uygulama \'bitboy\' tarafından bir ikon kullanıyor.</string>
-    <string name="about_credits_scrypt_title">Scrypt, Will Glozer ve Colin Percival tarafından uygulanmıştır</string>
-    <string name="about_market_app_title">Google Play sayfası</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, Will Glozer ve Colin Percival tarafından uygulanmıştır</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Google Play sayfası</font></string>
     <string name="about_market_app_summary">Uygulamayı değerlendir veya puanla</string>
-    <string name="about_faq_title">Sıkça Sorulan Sorular</string>
+    <string name="about_faq_title"><font color="#FAEC2C">Sıkça Sorulan Sorular</font></string>
     <string name="about_faq_summary">Uygulama hakkında sıkça sorulan sorular</string>
     <string name="about_community_googleplus_title">Google+ topluluğu</string>
     <string name="about_community_googleplus_summary">Uygulama hakkında tartış</string>
@@ -347,9 +347,19 @@
     <string name="transaction_fragment_confirmations_label">Onaylar</string>
 
     <string name="navigation_drawer_open">Gezinme menüsünü aç</string>
-    <string name="navigation_drawer_close">Gezinme menüsünü kapa</string>
+    <string name="navigation_drawer_close">Menüyü kapat</string>
 
     <string name="pac_slogan">Anlık - Özel - Güvenli</string>
     <string name="pac_wallet">Cüzdan</string>
+    <string name="nav_code">Ödeme koduna bakın</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C">InstantSend\'i Etkinleştir </font> </string>
+    <string name="settings_warning_title"> <font color="#FAEC2C">Uyarı</font> </string>
+    <string name="settings_litemode_title"> <font color="#FAEC2C">Lite Modunu Etkinleştir</font> </string>
+    <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Yasal uyarıyı göster</font> </string>
+    <string name="settings_BIP70_title"> <font color="#FAEC2C">Ödeme için tarama için BIP70</font> </string>
+    <string name="settings_lookup_title"> <font color="#FAEC2C">M-cüzdan adlarına bakın</font> </string>
+    <string name="instantDialogTitle">İşleme izin verilmiyor</string>
+    <string name="instantDialogBody">Anında teslimat sınırını aştığından işlem gerçekleştirilemiyor</string>
 
 </resources>

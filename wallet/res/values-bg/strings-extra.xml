@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Отключи</string>
 	<string name="wallet_lock_unlock_wallet">Отключи портфейла</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Портфейлът е заключен.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Докоснете иконата за заключване по-горе, за да отключите портфейла си и да видите историята на транзакциите.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Портфейлът е заключен.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Докоснете иконата за заключване по-горе, за да отключите портфейла си и да видите историята на транзакциите.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Отключете портфейла си</string>
 	<string name="wallet_lock_unlock_dialog_message">Портфейлът Ви е защитен от ПИН за  похарчване. Въведете своя ПИН и натиснете Отключи за да продължите.</string>
 	<string name="wallet_lock_reset_wallet_title">Нулиране на портфейла</string>

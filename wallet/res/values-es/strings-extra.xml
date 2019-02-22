@@ -37,8 +37,8 @@
 
 	<string name="wallet_lock_unlock">Desbloquear</string>
 	<string name="wallet_lock_unlock_wallet">Desbloquear billetera</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Billetera bloqueada.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Toque el ícono de candado de arriba para desbloquear tu billetera y ver el historial de transacciones.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Billetera bloqueada.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Toque el ícono de candado de arriba para desbloquear tu billetera y ver el historial de transacciones.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Desbloquea tu billetera</string>
 	<string name="wallet_lock_unlock_dialog_message">Tu billetera está protegida por un PIN. Ingresa tu PIN y presiona Desbloquear para continuar.</string>
 	<string name="wallet_lock_reset_wallet_title">Reiniciar billetera</string>

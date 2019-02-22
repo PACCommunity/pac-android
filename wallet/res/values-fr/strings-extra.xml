@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Déverrouiller</string>
 	<string name="wallet_lock_unlock_wallet">Déverrouiller le portefeuille</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Portefeuille verrouillé.</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Touchez l\'icône de cadenas, ci-dessus, pour déverrouiller votre portefeuille et voir votre historique de transactions.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Portefeuille verrouillé.</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Touchez l\'icône de cadenas, ci-dessus, pour déverrouiller votre portefeuille et voir votre historique de transactions.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Déverrouiller votre portefeuille</string>
 	<string name="wallet_lock_unlock_dialog_message">Votre portefeuille est protégé par un code PIN pour les dépenses. Saisissez votre code PIN et appuyez sur Déverrouiller pour continuer.</string>
 	<string name="wallet_lock_reset_wallet_title">Réinitialiser le portefeuille</string>

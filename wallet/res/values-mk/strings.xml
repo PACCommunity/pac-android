@@ -23,9 +23,9 @@
 	<string name="wallet_transactions_options_filter_received">Примено</string>
 	<string name="wallet_transactions_options_filter_all">Двете</string>
 	<string name="wallet_transactions_options_filter_sent">Испратено</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Нема примени Биткоини досега.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Нема примени Биткоини досега.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Нема испратени Биткоини досега.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Како да дојдеш до Биткоини?\n\nРазмени за традиционални пари,\nпродавај продукти или сервиси, или \nзаработи со работење.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Како да дојдеш до Биткоини?</b>\n\nРазмени за традиционални пари,\nпродавај продукти или сервиси, или \nзаработи со работење.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Честитки, ја доби твојата прва исплата! Дали веќе направи &lt;u&gt;резервна копија од паричникот&lt;/u&gt;, во случај да го загубиш?</string>
 	<string name="wallet_transactions_fragment_coinbase">ископани</string>
 	<string name="wallet_transactions_fragment_internal">внатрешен</string>
@@ -123,18 +123,18 @@
 	<string name="preferences_activity_title">Поставувања</string>
 	<string name="preferences_category_diagnostics">Дијагностицирање</string>
 	<string name="preferences_category_labs">Лабораторија</string>
-	<string name="preferences_precision_title">Деноминација и прецизност</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">Деноминација и прецизност</font></string>
 	<string name="preferences_precision_summary">Мерка за прикажување на салдото. Ова не влијае на пресметките.</string>
-	<string name="preferences_connectivity_notification_title">Индикадор за поврзливост</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Индикадор за поврзливост</font></string>
 	<string name="preferences_connectivity_notification_summary">Прикажи моментален број на поврзани точки во полето за известувања.</string>
-	<string name="preferences_trusted_peer_title">Ополномоштена точка</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Ополномоштена точка</font></string>
 	<string name="preferences_trusted_peer_summary">IP или име на единствена точка за поврзување.</string>
-	<string name="preferences_trusted_peer_only_title">Прескокни основно откривање на точки</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Прескокни основно откривање на точки</font></string>
 	<string name="preferences_trusted_peer_only_summary">Спречи поврзување со точки, освен со оние на кои им веруваш.</string>
-	<string name="preferences_data_usage_title">Мобилна конекција</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Мобилна конекција</font></string>
 	<string name="preferences_data_usage_summary">Прикажи опции да се ограничи користењето на мобилна конекција.</string>
-	<string name="preferences_report_issue_title">Пријави грешка</string>
-	<string name="preferences_initiate_reset_title">Ресетирај го Blockchain</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Пријави грешка</font></string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Ресетирај го Blockchain</font></string>
 	<string name="preferences_initiate_reset_summary">Ресетирај го blockchain, трансакциите и салдото на паричникот. Ова може да потрае малку.</string>
 	<string name="preferences_initiate_reset_dialog_message">Дали би сакал да го ресетираш и обновиш blockchain?\n\nОва привремено ќе го скрие салдото на твојот паричник и ќе ги отстрани трансакциите. И двете ќе се обноват штом blockchain се сихронизира.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Ресетирај</string>
@@ -150,13 +150,13 @@
 	<string name="report_issue_dialog_collect_wallet_dump">Додај го отпадот на паричникот</string>
 	<string name="report_issue_dialog_mail_intent_chooser">Испрати извештај со…</string>
 	<string name="about_title">За апликацијата</string>
-	<string name="about_license_title">Лиценца</string>
+	<string name="about_license_title"><font color="#FAEC2C">Лиценца</font></string>
 	<string name="about_category_credits">Оваа апликација користи…</string>
-	<string name="about_credits_bitcoinj_title">bitcoinj %s</string>
+	<string name="about_credits_bitcoinj_title"><font color="#FAEC2C">bitcoinj %s</font></string>
 	<string name="about_credits_zxing_title">ZXing</string>
 	<string name="about_community_googleplus_title">Google+ заедница</string>
 	<string name="about_community_googleplus_summary">Дискусија за апликацијата</string>
-	<string name="about_market_app_title">Google Play страница</string>
+	<string name="about_market_app_title"><font color="#FAEC2C">Google Play страница</font></string>
 	<string name="about_market_app_summary">Напиши мислење или оцени ја апликацијата</string>
 	<string name="notification_coins_received_msg">Примени %s</string>
 	<string name="notification_peers_connected_msg">%d поврзани точки</string>
@@ -180,5 +180,16 @@
 	<string name="action_browse">Прегледај</string>
 	<string name="time_today">денес</string>
 	<string name="address_unlabeled">(без ознака)</string>
+    <string name="navigation_drawer_close">Затвори мени</string>
+    <string name="nav_code">Видете Платен код</string>
+
+	<string name="settings_instasend_title"> <font color="#FAEC2C"> Овозможи InstantSend </font> </string>
+	     <string name="settings_warning_title"> <font color="#FAEC2C"> Предупредување </font> </string>
+	     <string name="settings_litemode_title"> <font color="#FAEC2C"> Овозможи режим на Lite </font> </string>
+	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Покажи одрекување од одговорност </font> </string>
+	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 за скенирање за плаќање </font> </string>
+	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Побарајте имиња на паричникот </font> </string>
+    <string name="instantDialogTitle">Трансакцијата не е дозволена</string>
+    <string name="instantDialogBody">Трансакцијата не може да се изврши бидејќи ја надминува границата на непосредна испорака</string>
 
 </resources>

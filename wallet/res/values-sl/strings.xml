@@ -150,18 +150,18 @@
   <string name="preferences_activity_title">Nastavitve</string>
   <string name="preferences_category_diagnostics">Diagnostika</string>
   <string name="preferences_category_labs">V razvoju</string>
-  <string name="preferences_precision_title">Enota in prikaz številk</string>
+  <string name="preferences_precision_title"><font color="#FAEC2C">Enota in prikaz številk</font></string>
   <string name="preferences_precision_summary">Enota za prikaz. Ne vpliva na računanje.</string>
-  <string name="preferences_connectivity_notification_title">Kazalnik povezanosti</string>
+  <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Kazalnik povezanosti</font></string>
   <string name="preferences_connectivity_notification_summary">Prikaži število trenutno povezanih vrstnikov v področju za obvestila.</string>
-  <string name="preferences_trusted_peer_title">Vrstnik, ki mu zaupate</string>
+  <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Vrstnik, ki mu zaupate</font></string>
   <string name="preferences_trusted_peer_summary">IP-naslov ali gostiteljsko ime vrstnika za povezavo.</string>
-  <string name="preferences_trusted_peer_only_title">Preskoči običajno odkrivanje vrstnikov</string>
+  <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Preskoči običajno odkrivanje vrstnikov</font></string>
   <string name="preferences_trusted_peer_only_summary">Prepreči povezavo vsemi vrstniki, razen z tem, ki mu zaupate.</string>
-  <string name="preferences_data_usage_title">Poraba podatkov</string>
+  <string name="preferences_data_usage_title"><font color="#FAEC2C">Poraba podatkov</font></string>
   <string name="preferences_data_usage_summary">Prikaži možnosti za omejitev porabe podatkov prek mobilnih omrežij.</string>
-  <string name="preferences_report_issue_title">Prijavi težavo</string>
-  <string name="preferences_initiate_reset_title">Ponastavi nakazila</string>
+  <string name="preferences_report_issue_title"><font color="#FAEC2C">Prijavi težavo</font></string>
+  <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Ponastavi nakazila</font></string>
   <string name="preferences_initiate_reset_summary">Ponovno prenesi nakazila in preračunaj stanje. To bo vzelo nekaj časa.</string>
   <string name="preferences_initiate_reset_dialog_message">Želite ponovno prenesti in preračunati nakazila?\n\nZačasno ne boste mogli videti svojega stanja in transakcij ter izvajati plačil. Ti podatki se bodo spet prikazali tekom ponovnega usklajevanja.</string>
   <string name="preferences_initiate_reset_dialog_positive">Ponastavi</string>
@@ -178,15 +178,15 @@
   <string name="report_issue_dialog_mail_intent_chooser">Pošlji poročilo z aplikacijo…</string>
   <string name="report_issue_dialog_mail_intent_failed">Pošiljanje poročila je spodletelo.</string>
   <string name="about_title">Vizitka</string>
-  <string name="about_version_title">Verzija</string>
-  <string name="about_copyright_title">Avtorske pravice</string>
-  <string name="about_license_title">Licenca</string>
+  <string name="about_version_title"><font color="#FAEC2C">Verzija</font></string>
+  <string name="about_copyright_title"><font color="#FAEC2C">Avtorske pravice</font></string>
+  <string name="about_license_title"><font color="#FAEC2C">Licenca</font></string>
   <string name="about_category_credits">Ta aplikacija uporablja…</string>
-  <string name="about_credits_bitcoinj_title">bitcoinj %s</string>
+  <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">bitcoinj %s</font></string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_community_googleplus_title">Skupnost na Google+</string>
   <string name="about_community_googleplus_summary">Razprave o aplikaciji</string>
-  <string name="about_market_app_title">Stran na Google Play</string>
+  <string name="about_market_app_title"><font color="#FAEC2C">Stran na Google Play</font></string>
   <string name="about_market_app_summary">Oceni aplikacijo</string>
   <string name="notification_coins_received_msg">Prejeto: %s</string>
   <string name="notification_peers_connected_msg">Število povezanih vrstnikov: %d</string>
@@ -215,4 +215,15 @@
   <!--generic error messages-->
   <string name="error_io">Bralno/pisalna napaka: %s</string>
   <string name="error_http">HTTP napaka %1$s:\n%2$s</string>
+    <string name="navigation_drawer_close">Zaprite meni</string>
+    <string name="nav_code">Glejte plačilno kodo</string>
+
+  <string name="settings_instasend_title"> <font color="#FAEC2C"> Omogoči InstantSend </font> </string>
+       <string name="settings_warning_title"> <font color="#FAEC2C"> Opozorilo </font> </string>
+       <string name="settings_litemode_title"> <font color="#FAEC2C"> Omogoči Lite način </font> </string>
+       <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Prikaži omejitev odgovornosti </font> </string>
+       <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 za optično branje </font> </string>
+       <string name="settings_lookup_title"> <font color="#FAEC2C"> Poiščite imena denarnice </font> </string>
+    <string name="instantDialogTitle">Transakcija ni dovoljena</string>
+    <string name="instantDialogBody">Transakcije ni mogoče izvesti, ker presega omejitev takojšnje dobave</string>
 </resources>

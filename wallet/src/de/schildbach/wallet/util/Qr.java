@@ -68,7 +68,7 @@ public class Qr {
             bitmap.copyPixelsFromBuffer(ByteBuffer.wrap(pixels));
             return bitmap;
         } catch (final WriterException x) {
-            log.info("problem creating qr code", x);
+            log.info("problem creating qr_style code", x);
             return null;
         }
     }

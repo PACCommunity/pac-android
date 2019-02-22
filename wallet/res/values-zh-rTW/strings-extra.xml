@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">解鎖</string>
 	<string name="wallet_lock_unlock_wallet">解鎖錢包</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">錢包己被鎖上</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">點擊上面的鎖定圖標解鎖你的錢包並查看交易記錄。</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">錢包己被鎖上</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">點擊上面的鎖定圖標解鎖你的錢包並查看交易記錄。</font></string>
 	<string name="wallet_lock_unlock_dialog_title">解鎖你的錢包</string>
 	<string name="wallet_lock_unlock_dialog_message">您的錢包受個人密碼保護。輸入您的PIN碼並按 解鎖以繼續。</string>
 	<string name="wallet_lock_reset_wallet_title">重置錢包</string>

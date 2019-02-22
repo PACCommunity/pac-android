@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_nav"
     android:fillViewport="true"
     android:scrollbars="none" >
 
@@ -16,6 +17,7 @@
             android:id="@+id/restore_wallet_dialog_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:layout_marginTop="@dimen/list_entry_padding_vertical_lax" />
 
@@ -23,6 +25,9 @@
             android:id="@+id/import_seed_recovery_phrase"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:theme="@style/WhiteTextStyle"
             android:layout_marginTop="@dimen/list_entry_padding_vertical"
             android:hint="@string/import_export_keys_dialog_password_phrase" />
 

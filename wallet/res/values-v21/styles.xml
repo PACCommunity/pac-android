@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="PINStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/vivid_red</item>
+        <item name="colorControlActivated">@color/vivid_red</item>
+        <item name="colorControlHighlight">@color/vivid_red</item>
+    </style>
+
     <style name="My.Theme.NoActionBar" parent="@style/My.Theme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -10,6 +16,17 @@
 
     <style name="My.Theme.NoStatusBar" parent="My.Theme.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@drawable/splash</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="NavigationView">
+        <item name="android:listDivider">@drawable/nav_divider_style</item>
+        <item name="android:scrollbarThumbVertical">@color/transparent</item>
+        <item name="android:textColorSecondary">@color/vivid_red</item>
     </style>
 
     <style name="My.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">

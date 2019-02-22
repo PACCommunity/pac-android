@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Precio extraído de %s</string>
     <string name="exchange_rates_options_search">Buscar tasa de cambio</string>
     <string name="exchange_rates_context_set_as_default_title">Establecer por defecto</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Aún no se han recibido $PAC.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Aún no se han recibido $PAC.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Aún no se han enviado $PAC.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">¿Cómo obtener $PAC?\n\nCámbialos por dinero tradicional,\nvende bienes o servicios o\ngánalos trabajando</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>¿Cómo obtener $PAC?</b>\n\nCámbialos por dinero tradicional,\nvende bienes o servicios o\ngánalos trabajando</font></string>
     <string name="wallet_transactions_row_warning_backup">Felicitaciones. ¡Has recibido tu primer pago! ¿Has hecho ya una &lt;u&gt;copia de seguridad de tu billetera&lt;/u&gt; como protección frente a pérdidas?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Tip: para incrementar la seguridad de tu billetera, puedes &lt;u&gt;encriptar tu dispositivo&lt;/u&gt;. Esto tambien protege los datos de otras apps.</string>
     <string name="wallet_transactions_fragment_coinbase">extraído</string>
@@ -226,7 +226,7 @@
     <string name="encrypt_keys_dialog_state_done">Hecho.</string>
     <string name="scan_camera_problem_dialog_title">Lo sentimos</string>
     <string name="scan_camera_problem_dialog_message">La cámara ha sufrido un problema. Probablemente necesites reiniciar el dispositivo.</string>
-    <string name="scan_camera_permission_dialog_title">Permisos de la camara</string>
+    <string name="scan_camera_permission_dialog_title">Permisos de la cámara</string>
     <string name="scan_camera_permission_dialog_message">Para poder escanear códigos QR, necesitas dar permisos al uso de la camara.</string>
     <string name="input_parser_io_error">No se pueden leer los datos:\n%s</string>
     <string name="input_parser_cannot_classify">No se reconoce la entrada:\n%s</string>
@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">Ajustes</string>
     <string name="preferences_category_diagnostics">Diagnóstico</string>
     <string name="preferences_category_labs">Laboratorio</string>
-    <string name="preferences_precision_title">Denominación y precisión</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Denominación y precisión</font></string>
     <string name="preferences_precision_summary">Unidad para mostrar cantidad. No afecta a los cálculos.</string>
     <string name="preferences_precision_labels_8">$PAC, 8  décimas</string>
     <string name="preferences_precision_labels_6">$PAC. 6 décimas</string>
     <string name="preferences_precision_labels_4">$PAC, 4 décimas</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 décimas</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, sin décimas</string>
-    <string name="preferences_own_name_title">Tu nombre</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Tu nombre</font></string>
     <string name="preferences_own_name_summary">Tu nombre, para añadirlo a las peticiones de pago. Intenta que sea corto.</string>
-    <string name="preferences_send_coins_autoclose_title">Diálogo de envio de monedas auto-cerrado</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Diálogo de envio de monedas auto-cerrado</font></string>
     <string name="preferences_send_coins_autoclose_summary">Cuando el pago es completado, el dialogo de envio se cerrara automáticamente.</string>
-    <string name="preferences_connectivity_notification_title">Indicador de conectividad</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indicador de conectividad</font></string>
     <string name="preferences_connectivity_notification_summary">Mostrar número actual de pares conectados en el área de notificaciones.</string>
-    <string name="preferences_trusted_peer_title">Par de confianza</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Par de confianza</font></string>
     <string name="preferences_trusted_peer_summary">IP o nombre de host del par individual al que conectarse.</string>
     <string name="preferences_trusted_peer_resolve_progress">Resolviendo...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Servidor desconocido</string>
-    <string name="preferences_trusted_peer_only_title">Saltar descubrimiento de pares regulares</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Saltar descubrimiento de pares regulares</font></string>
     <string name="preferences_trusted_peer_only_summary">Evita las conexiones a todo par que no sea el de confianza.</string>
     <string name="preferences_block_explorer_title">Explorador de bloques</string>
     <string name="preferences_block_explorer_summary">Explorador de bloques externo para uso de navegación de transacciones, direcciones y bloques.</string>
-    <string name="preferences_data_usage_title">Uso de datos</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Uso de datos</font></string>
     <string name="preferences_data_usage_summary">Mostrar opciones para limitar el uso de datos en redes móviles.</string>
-    <string name="preferences_remind_balance_title">Recordatorio de balance</string>
-    <string name="preferences_remind_balance_summary">Despues de un par de semanas de no ser usada, el app te notificara si hay aún monedas en su billetera.</string>
-    <string name="preferences_report_issue_title">Reportar problema</string>
-    <string name="preferences_initiate_reset_title">Reevaluar cadena de bloques</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Recordatorio de balance</font></string>
+    <string name="preferences_remind_balance_summary">Después de un par de semanas de no ser usada, el app te notificara si hay aún monedas en su billetera.</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Reportar problema</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Reevaluar cadena de bloques</font></string>
     <string name="preferences_initiate_reset_summary">Reevaluar la cadena de bloques, transacciones y balance de la billetera. La reproducción tomará un tiempo, solo haz esto si sabes porqué.</string>
     <string name="preferences_initiate_reset_dialog_message">Deseas reevaluar y reproducir la cadena de bloques?\n\nEsto ocultará remporalmente tu balance de la billetera y removerá transacciones. Ambas se recoperarán en la medida en que la sincronización de la cadena de bloques progrese. Asegurate de tener una conexión a Internet confiable.</string>
     <string name="preferences_initiate_reset_dialog_positive">Reiniciar</string>
-    <string name="preferences_extended_public_key_title">Mostrar xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Mostrar xpub</font></string>
     <string name="preferences_extended_public_key_summary">Ve la llave publica extendida de tu billetera, para que pueda ser importada hacia otras apps y servicios ten cuidado: hacer esto dara a conocer tu privacidad monetaria a esa app.</string>
     <string name="bitmap_fragment_share">Comparte…</string>
     <string name="extended_public_key_fragment_title">Extender llave publica</string>
@@ -287,18 +287,18 @@
     <string name="report_issue_dialog_mail_intent_chooser">Enviar informe mediante…</string>
     <string name="report_issue_dialog_mail_intent_failed">Ha fallado el envío del informe.</string>
     <string name="about_title">Acerca de</string>
-    <string name="about_version_title">Versión</string>
-    <string name="about_copyright_title">Copyright</string>
-    <string name="about_license_title">Licencia</string>
-    <string name="about_source_title">Código fuente</string>
+    <string name="about_version_title"><font color="#FAEC2C">Versión</font></string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Licencia</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Código fuente</font></string>
     <string name="about_category_credits">Esta app está usando...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, una implementación de protocolo $PAC</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, una implementación de protocolo $PAC</font></string>
     <string name="about_credits_zxing_title">ZXing, una libreria de procesamiento de códigos QR</string>
     <string name="about_credits_icon_title">Esta app utiliza un icono por \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, implementado por Will Glozer y Colin Percival</string>
-    <string name="about_market_app_title">Página en Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, implementado por Will Glozer y Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Página en Google Play</font></string>
     <string name="about_market_app_summary">Critica o evalúa la aplicación</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Preguntas frecuentes sobre la aplicación </string>
     <string name="about_community_googleplus_title">Comunidad Google+</string>
     <string name="about_community_googleplus_summary">Discuta sobre la aplicación </string>
@@ -307,7 +307,7 @@
     <string name="notification_inactivity_title">¡Aún tienes $PAC en este dispositivo!</string>
     <string name="notification_inactivity_message">Recuerda que tu balance de %s será perdido si desinstalas el app de $PAC Wallet sin enviarlo a otra cartera antes. </string>
     <string name="notification_inactivity_message_donate">Si no te importan tus monedas, puedes donarlas al proyecto de $PAC Wallet.</string>
-    <string name="notification_inactivity_action_dismiss">Recuerdame despues</string>
+    <string name="notification_inactivity_action_dismiss">Recuerdame después</string>
     <string name="notification_inactivity_action_dismiss_forever">No me recuerdes</string>
     <string name="appwidget_wallet_balance_title">Saldo en $PAC</string>
 
@@ -348,9 +348,19 @@
     <string name="transaction_fragment_confirmations_label">Confirmaciones</string>
 
     <string name="navigation_drawer_open">Abrir menú deslizante</string>
-    <string name="navigation_drawer_close">Cerrar menú deslizante</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
 
     <string name="pac_slogan">Instantáneo - Privado - Seguro</string>
     <string name="pac_wallet">Billetera</string>
+    <string name="nav_code">Ver Código de pago</string>
+
+    <string name="settings_instasend_title"><font color="#FAEC2C"> Habilitar InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Advertencia </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Habilitar modo Lite </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Mostrar anuncio de responsabilidad </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 para escaneo de pago </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Busqueda de nombres de billeteras </font> </string>
+    <string name="instantDialogTitle">Transacción no permitida</string>
+    <string name="instantDialogBody">La transacción no se puede realizar porque supera el límite de envio instantáneo</string>
 
 </resources>

@@ -25,9 +25,9 @@
 	<string name="exchange_rates_fragment_source">تم جلب السعر من %s</string>
 	<string name="exchange_rates_options_search">أسعار صرف العملات</string>
 	<string name="exchange_rates_context_set_as_default_title">تعيين كافتراضي</string>
-	<string name="wallet_transactions_fragment_empty_text_received">لم يتم استلام مبالغ داش إلى الآن</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">لم يتم استلام مبالغ داش إلى الآن</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">لم يتم ارسال مبالغ داش إلى الآن</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">كيفية الحصول على  داش؟\n\nالتجارة التقليدية مقابل المال،\nبيع السلع أو الخدمات أو\nالكسب من خلال العمل.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>كيفية الحصول على داش؟</b>\n\nالتجارة التقليدية مقابل المال،\nبيع السلع أو الخدمات أو\nالكسب من خلال العمل.\n</font></string>
 	<string name="wallet_transactions_row_warning_backup">تهانينا، لقد تلقيت أول دفعة خاصة بك! قل قمت بحفظ احتياطي لمحفظتك لحمايتها من الضياع؟</string>
 	<string name="wallet_transactions_row_warning_storage_encryption">تلميح: لزيادة أمان محفظتك، يمكنك &amp; لوت؛ &amp; غ؛ تشفير جهازك &amp; لوت؛ / &amp; غ ؛. هذا أيضا يحمي البيانات من تطبيقات أخرى.</string>
 	<string name="wallet_transactions_fragment_coinbase">محفور</string>
@@ -238,37 +238,37 @@
 	<string name="preferences_activity_title">الإعدادات</string>
 	<string name="preferences_category_diagnostics">التشخيصات</string>
 	<string name="preferences_category_labs">المختبرات</string>
-	<string name="preferences_precision_title">وحدات القياس والدقة</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">وحدات القياس والدقة</font></string>
 	<string name="preferences_precision_summary">الوحدة المستخدمة لإظهار المبالغ. هذا لا يؤثر على العمليات الحسابية.</string>
 	<string name="preferences_precision_labels_8">داش، 8 المنازل العشرية</string>
 	<string name="preferences_precision_labels_6">داش، 6 المنازل العشرية</string>
 	<string name="preferences_precision_labels_4">داش، 4 المنازل العشرية</string>
 	<string name="preferences_precision_labels_2_3">داش، 2 المنازل العشرية</string>
 	<string name="preferences_precision_labels_0_6">داش، أي المنازل العشرية</string>
-	<string name="preferences_own_name_title">اسم خاص</string>
+	<string name="preferences_own_name_title"><font color="#FAEC2C">اسم خاص</font></string>
 	<string name="preferences_own_name_summary">اسم نفسك، ليتم إضافتها إلى طلبات الدفع. حاول إبقائها قصيرة.</string>
-	<string name="preferences_send_coins_autoclose_title">إغلاق السيارات تلقائيا إغلاق الحوار</string>
+	<string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">إغلاق السيارات تلقائيا إغلاق الحوار</font></string>
 	<string name="preferences_send_coins_autoclose_summary">عند إجراء الدفع، سيتم إغلاق مربع الحوار إرسال تلقائيا.</string>
-	<string name="preferences_connectivity_notification_title">مؤشر الاتصال</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">مؤشر الاتصال</font></string>
 	<string name="preferences_connectivity_notification_summary">إظهار العدد الحالي للأقران المتصلة في قائمة التنبيهات.</string>
-	<string name="preferences_trusted_peer_title">قرن موثوق Peer</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">قرن موثوق Peer</font></string>
 	<string name="preferences_trusted_peer_summary">عنوان IP أو عنوان مضيف لقرن واحد Peer للاتصال به</string>
 	<string name="preferences_trusted_peer_resolve_progress">حل ...</string>
 	<string name="preferences_trusted_peer_resolve_unknown_host">اسم مضيف غير معروف!</string>
-	<string name="preferences_trusted_peer_only_title">تخطى أو تجاهل الاكتشاف العادي للأقران Peer</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">تخطى أو تجاهل الاكتشاف العادي للأقران Peer</font></string>
 	<string name="preferences_trusted_peer_only_summary">منع الاتصال بأي أقران غير الموثوق بها</string>
 	<string name="preferences_block_explorer_title">بلوك إكسبلورر</string>
 	<string name="preferences_block_explorer_summary">مستكشف كتلة خارجية لاستخدامها لتصفح المعاملات والعناوين والكتل.</string>
-	<string name="preferences_data_usage_title">استخدام البيانات</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">استخدام البيانات</font></string>
 	<string name="preferences_data_usage_summary">إظهار الخيارات لتقييد استخدام البيانات على شبكات الانترنت المحمول اللاسلكية</string>
-	<string name="preferences_remind_balance_title">تذكير الرصيد</string>
+	<string name="preferences_remind_balance_title"><font color="#FAEC2C">تذكير الرصيد</font></string>
 	<string name="preferences_remind_balance_summary">بعد بضعة أسابيع من عدم استخدامها، فإن التطبيق يخطر إذا كان لا يزال هناك القطع النقدية في المحفظة.</string>
-	<string name="preferences_report_issue_title">إبلاغ عن مشكلة</string>
-	<string name="preferences_initiate_reset_title">إعادة تعيين Blockchain</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">إبلاغ عن مشكلة</font></string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">إعادة تعيين Blockchain</font></string>
 	<string name="preferences_initiate_reset_summary">إعادة بلوكشين والمعاملات ومحفظة التوازن. الإعادة سوف يستغرق بعض الوقت، لذلك لا تفعل هذا إلا إذا كنت تعرف لماذا.</string>
 	<string name="preferences_initiate_reset_dialog_message">هل ترغب في إعادة تعيين سلسلة الحظر وإعادة تشغيلها؟ \ n \ n سيؤدي ذلك إلى إخفاء رصيد محفظتك مؤقتا وإزالة المعاملات. كلاهما سوف يتعافى مع تقدم سلسلة متزامنة كتلة. تأكد من أنك حصلت على اتصال موثوق بالإنترنت.</string>
 	<string name="preferences_initiate_reset_dialog_positive">إعادة تعيين</string>
-	<string name="preferences_extended_public_key_title">عرض xpub</string>
+	<string name="preferences_extended_public_key_title"><font color="#FAEC2C">عرض xpub</font></string>
 	<string name="preferences_extended_public_key_summary">عرض المفتاح العام الموسع لمحفظتك، لذلك يمكن استيرادها إلى تطبيقات وخدمات أخرى. كن حذرا: القيام بذلك سوف تكشف خصوصيتك النقدية لهذا التطبيق.</string>
 	<string name="bitmap_fragment_share">نشر</string>
 	<string name="extended_public_key_fragment_title">مفتاح عام موسع</string>
@@ -287,18 +287,18 @@
 	<string name="report_issue_dialog_mail_intent_chooser">إرسال التقرير بواسطة…</string>
 	<string name="report_issue_dialog_mail_intent_failed">فشل إرسال التقرير.</string>
 	<string name="about_title">تعليمات</string>
-	<string name="about_version_title">الإصدار</string>
-	<string name="about_copyright_title">حقوق النشر</string>
-	<string name="about_license_title">رخصة</string>
-	<string name="about_source_title">مصدر الرمز</string>
+	<string name="about_version_title"><font color="#FAEC2C">الإصدار</font></string>
+	<string name="about_copyright_title"><font color="#FAEC2C">حقوق النشر</font></string>
+	<string name="about_license_title"><font color="#FAEC2C">رخصة</font></string>
+	<string name="about_source_title"><font color="#FAEC2C">مصدر الرمز</font></string>
 	<string name="about_category_credits">يستخدم هذا التطبيق ...</string>
-	<string name="about_credits_bitcoinj_title">داش%s، وهو تنفيذ بروتوكول داش</string>
+	<string name="about_credits_bitcoinj_title"><font color="#FAEC2C">داش%s، وهو تنفيذ بروتوكول داش</font></string>
 	<string name="about_credits_zxing_title">ZXing، مكتبة معالجة رمز الاستجابة السريعة</string>
 	<string name="about_credits_icon_title">هذا التطبيق يستخدم رمز من قبل \'bitboy\'</string>
-	<string name="about_credits_scrypt_title">سكريبت، التي تنفذها ويل غلوزر وكولن برسيفال</string>
-	<string name="about_market_app_title">صفحة متجر جوجل بلاي Google Play</string>
+	<string name="about_credits_scrypt_title"><font color="#FAEC2C">سكريبت، التي تنفذها ويل غلوزر وكولن برسيفال</font></string>
+	<string name="about_market_app_title"><font color="#FAEC2C">صفحة متجر جوجل بلاي Google Play</font></string>
 	<string name="about_market_app_summary">إعداد تقرير أو تقييم للتطبيق</string>
-	<string name="about_faq_title">التعليمات</string>
+	<string name="about_faq_title"><font color="#FAEC2C">التعليمات</font></string>
 	<string name="about_faq_summary">أسئلة وأجوبة حول التطبيق</string>
 	<string name="about_community_googleplus_title">مجتمع جوجل بلس +Google</string>
 	<string name="about_community_googleplus_summary">مناقشة حول التطبيق</string>
@@ -348,9 +348,19 @@
 	<string name="transaction_fragment_confirmations_label">تأكيدات</string>
 
 	<string name="navigation_drawer_open">فتح درج التنقل</string>
-	<string name="navigation_drawer_close">فتح درج التنقل</string>
+	<string name="navigation_drawer_close">إغلاق القائمة</string>
 
 	<string name="pac_slogan">لحظة - خاصة - آمنة</string>
 	<string name="pac_wallet">محفظة</string>
+    <string name="nav_code">انظر رمز الدفع</string>
+
+	<string name="settings_instasend_title"><font color="#FAEC2C"> تمكين InstantSend </font></string>
+	<string name="settings_warning_title"><font color="#FAEC2C"> تحذير </font></string>
+    <string name="settings_litemode_title"><font color="#FAEC2C"> تمكين الوضع البسيط </font></string>
+	<string name="settings_disclaimer_title"><font color="#FAEC2C"> عرض إخلاء المسؤولية </font></string>
+    <string name="settings_BIP70_title"><font color="#FAEC2C"> BIP70 لإجراء المسح الضوئي للدفع </font></string>
+	<string name="settings_lookup_title"><font color="#FAEC2C"> البحث عن أسماء المحفظة </font></string>
+	<string name="instantDialogTitle">المعاملة غير مسموحة</string>
+	<string name="instantDialogBody">لا يمكن تنفيذ المعاملة لأنها تتجاوز الحد الأقصى للتسليم الفوري</string>
 
 </resources>

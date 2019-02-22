@@ -18,14 +18,11 @@
 package de.schildbach.wallet.ui;
 
 import javax.annotation.Nullable;
-
 import de.schildbach.wallet_test.R;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;

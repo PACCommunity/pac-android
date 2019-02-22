@@ -25,9 +25,9 @@
     <string name="exchange_rates_fragment_source">Preço de %s</string>
     <string name="exchange_rates_options_search">Pesquisar taxa de câmbio</string>
     <string name="exchange_rates_context_set_as_default_title">Definir como padrão</string>
-    <string name="wallet_transactions_fragment_empty_text_received">Nenhum $PAC recebido até o momento.</string>
+    <string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Nenhum $PAC recebido até o momento.</font></string>
     <string name="wallet_transactions_fragment_empty_text_sent">Nenhum $PAC enviado até o momento.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">Como conseguir $PAC?\n\nTroque por dinheiro tradicional,\nvenda bens ou serviços ou\nganhe trabalhando.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Como conseguir $PAC?</b>\n\nTroque por dinheiro tradicional,\nvenda bens ou serviços ou\nganhe trabalhando.</font></string>
     <string name="wallet_transactions_row_warning_backup">Parabéns, você recebeu o seu primeiro pagamento! Deseja efetuar o &lt;u&gt;backup de sua carteira&lt;/u&gt;, para proteger seus $PAC?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Dica: para aumentar a segurança da sua carteira, você pode &lt;u&gt;encriptar o seu dispositivo&lt;/u&gt;. Isto também protege os dados de outros aplicativos.</string>
     <string name="wallet_transactions_fragment_coinbase">minerados</string>
@@ -238,37 +238,37 @@
     <string name="preferences_activity_title">Configurações</string>
     <string name="preferences_category_diagnostics">Diagnósticos</string>
     <string name="preferences_category_labs">Labs</string>
-    <string name="preferences_precision_title">Denominação e precisão</string>
+    <string name="preferences_precision_title"><font color="#FAEC2C">Denominação e precisão</font></string>
     <string name="preferences_precision_summary">Unidade para mostrar valores. Isso não afeta os cálculos.</string>
     <string name="preferences_precision_labels_8">$PAC, 8 casas decimais</string>
     <string name="preferences_precision_labels_6">$PAC, 6 casas decimais</string>
     <string name="preferences_precision_labels_4">$PAC, 4 casas decimais</string>
     <string name="preferences_precision_labels_2_3">m$PAC, 2 casas decimais</string>
     <string name="preferences_precision_labels_0_6">µ$PAC, sem casas decimais</string>
-    <string name="preferences_own_name_title">Nome proprio</string>
+    <string name="preferences_own_name_title"><font color="#FAEC2C">Nome proprio</font></string>
     <string name="preferences_own_name_summary">Seu nome proprio, para ser adicionado nos pedidos de pagamento. Tente mantê-lo curto.</string>
-    <string name="preferences_send_coins_autoclose_title">Fechar automaticamente diálogo de enviar moedas</string>
+    <string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">Fechar automaticamente diálogo de enviar moedas</font></string>
     <string name="preferences_send_coins_autoclose_summary">Quando o pagamento é feito, a caixa de diálogo fechará automaticamente.</string>
-    <string name="preferences_connectivity_notification_title">Indicador de conectividade</string>
+    <string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indicador de conectividade</font></string>
     <string name="preferences_connectivity_notification_summary">Mostrar número atual de pontos conectados na área de notificação.</string>
-    <string name="preferences_trusted_peer_title">Pontos confiáveis</string>
+    <string name="preferences_trusted_peer_title"><font color="#FAEC2C">Pontos confiáveis</font></string>
     <string name="preferences_trusted_peer_summary">IP ou hostname de um ponto para conectar.</string>
     <string name="preferences_trusted_peer_resolve_progress">Resolvendo...</string>
     <string name="preferences_trusted_peer_resolve_unknown_host">Nome do host desconhecido!</string>
-    <string name="preferences_trusted_peer_only_title">Pular descoberta de pontos comuns</string>
+    <string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Pular descoberta de pontos comuns</font></string>
     <string name="preferences_trusted_peer_only_summary">Impede a conexão com outros pontos que não sejam de confiança.</string>
     <string name="preferences_block_explorer_title">Explorador de blocos</string>
     <string name="preferences_block_explorer_summary">Explorador de bloco externo usado para navegar em transações, endereços e blocos.</string>
-    <string name="preferences_data_usage_title">Uso de dados</string>
+    <string name="preferences_data_usage_title"><font color="#FAEC2C">Uso de dados</font></string>
     <string name="preferences_data_usage_summary">Mostrar opções para restringir o uso de dados em redes móveis.</string>
-    <string name="preferences_remind_balance_title">Lembrete de saldo</string>
+    <string name="preferences_remind_balance_title"><font color="#FAEC2C">Lembrete de saldo</font></string>
     <string name="preferences_remind_balance_summary">Após algumas semanas se não for usado, o app irá notificar se ainda existem moedas na carteira.</string>
-    <string name="preferences_report_issue_title">Informar problema</string>
-    <string name="preferences_initiate_reset_title">Reiniciar Blockchain</string>
+    <string name="preferences_report_issue_title"><font color="#FAEC2C">Informar problema</font></string>
+    <string name="preferences_initiate_reset_title"><font color="#FAEC2C">Reiniciar Blockchain</font></string>
     <string name="preferences_initiate_reset_summary">Redefinir a blockchain, transações e saldo de carteira. Voltar a realizar vai demorar um pouco, então apenas faz isso se você sabe o por quê.</string>
     <string name="preferences_initiate_reset_dialog_message">Gostaria de redefinir e reproduzir a blockchain\n\nIsso ocultará temporariamente o saldo da sua carteira e removerá as transações. Ambos serão recuperados à medida que a sincronização da blockchain progride. Certifique-se de que tem uma conexão à Internet.</string>
     <string name="preferences_initiate_reset_dialog_positive">Reiniciar</string>
-    <string name="preferences_extended_public_key_title">Mostrar xpub</string>
+    <string name="preferences_extended_public_key_title"><font color="#FAEC2C">Mostrar xpub</font></string>
     <string name="preferences_extended_public_key_summary">Ver a chave pública estendida de sua carteira, para que possa ser importada para outros aplicativos e serviços. Tenha cuidado: isso irá divulgar a sua privacidade monetária para o app.</string>
     <string name="bitmap_fragment_share">Compartilhar…</string>
     <string name="extended_public_key_fragment_title">Chave Pública Estendida</string>
@@ -287,18 +287,18 @@
     <string name="report_issue_dialog_mail_intent_chooser">Enviar relatório usando…</string>
     <string name="report_issue_dialog_mail_intent_failed">Envio de relatório falhou.</string>
     <string name="about_title">Sobre</string>
-    <string name="about_version_title">Versão</string>
-    <string name="about_copyright_title">Copyright</string>
-    <string name="about_license_title">Licença</string>
-    <string name="about_source_title">Código fonte</string>
+    <string name="about_version_title"><font color="#FAEC2C">Versão</font></string>
+    <string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+    <string name="about_license_title"><font color="#FAEC2C">Licença</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Código fonte</font></string>
     <string name="about_category_credits">Este aplicativo está usando...</string>
-    <string name="about_credits_bitcoinj_title">pacj %s, uma implementação do protocolo $PAC</string>
+    <string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s, uma implementação do protocolo $PAC</font></string>
     <string name="about_credits_zxing_title">ZXing, uma biblioteca de processamento de QR-code</string>
     <string name="about_credits_icon_title">Este aplicativo está usando um ícone por \'bitboy\'</string>
-    <string name="about_credits_scrypt_title">Scrypt, implementado por Will Glozer e Colin Percival</string>
-    <string name="about_market_app_title">Página na Google Play</string>
+    <string name="about_credits_scrypt_title"><font color="#FAEC2C">Scrypt, implementado por Will Glozer e Colin Percival</font></string>
+    <string name="about_market_app_title"><font color="#FAEC2C">Página na Google Play</font></string>
     <string name="about_market_app_summary">Comente ou classifique o aplicativo</string>
-    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_title"><font color="#FAEC2C">FAQ</font></string>
     <string name="about_faq_summary">Perguntas frequentes sobre o aplicativo</string>
     <string name="about_community_googleplus_title">Comunidade Google+</string>
     <string name="about_community_googleplus_summary">Discutir sobre o aplicativo</string>
@@ -348,9 +348,19 @@
     <string name="transaction_fragment_confirmations_label">Confirmações</string>
 
     <string name="navigation_drawer_open">Abrir menu de navegação</string>
-    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
 
     <string name="pac_slogan">Rapido - Privado - Seguro</string>
     <string name="pac_wallet">Carteira</string>
+    <string name="nav_code">Ver código de pagamento</string>
+
+    <string name="settings_instasend_title"> <font color="#FAEC2C"> Ativar InstantSend </font> </string>
+         <string name="settings_warning_title"> <font color="#FAEC2C"> Aviso </font> </string>
+         <string name="settings_litemode_title"> <font color="#FAEC2C"> Ativar o Modo Lite </font> </string>
+         <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Mostrar aviso </font> </string>
+         <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 para digitalização para pagamento </font> </string>
+         <string name="settings_lookup_title"> <font color="#FAEC2C"> Procure nomes de carteira </font> </string>
+    <string name="instantDialogTitle">Transação não permitida</string>
+    <string name="instantDialogBody">A transação não pode ser executada porque excede o limite de entrega imediata</string>
 
 </resources>

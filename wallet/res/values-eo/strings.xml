@@ -23,9 +23,9 @@
 	<string name="wallet_transactions_options_filter_received">Ricevita</string>
 	<string name="wallet_transactions_options_filter_all">Ambaŭ</string>
 	<string name="wallet_transactions_options_filter_sent">Sendita</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Neniom da Bitmonoj tamen ricevitaj.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Neniom da Bitmonoj tamen ricevitaj.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Neniom da Bitmonoj tamen senditaj.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Kiel obteni Bitmonojn?\n\nNegocu por tradicia mono,\nvendu varojn aŭ servojn aŭ\ngajnu per laborado.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Kiel obteni Bitmonojn?</b>\n\nNegocu por tradicia mono,\nvendu varojn aŭ servojn aŭ\ngajnu per laborado.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Gratulon, vi ricevis vian unuan pagon! Ĉu vi jam &lt;u&gt;savkopiis vian monujon&lt;/u&gt;, por protekti kontraŭ perdo?</string>
 	<string name="wallet_transactions_fragment_coinbase">minita</string>
 	<string name="wallet_transactions_fragment_internal">interna</string>
@@ -123,18 +123,18 @@
 	<string name="preferences_activity_title">Agoroj</string>
 	<string name="preferences_category_diagnostics">Diagnozo</string>
 	<string name="preferences_category_labs">Labs</string>
-	<string name="preferences_precision_title">Nomado kaj precizeco</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">Nomado kaj precizeco</font></string>
 	<string name="preferences_precision_summary">Unueco por montri kvantojn. Ĉi tio ne afektas komputadojn.</string>
-	<string name="preferences_connectivity_notification_title">Indikilo pri Konekteco</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indikilo pri Konekteco</font></string>
 	<string name="preferences_connectivity_notification_summary">Montru aktualan nombron da konektitaj kolegoj en la sciiga areo.</string>
-	<string name="preferences_trusted_peer_title">Konfidinda Kolego</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Konfidinda Kolego</font></string>
 	<string name="preferences_trusted_peer_summary">IP aŭ nomo de gastiga komputilo de sola pajro por konekti al.</string>
-	<string name="preferences_trusted_peer_only_title">Salti regula pajra malkovro</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Salti regula pajra malkovro</font></string>
 	<string name="preferences_trusted_peer_only_summary">Haltas konektadon al ajnaj pajroj krom la fidinda pajro.</string>
-	<string name="preferences_data_usage_title">Datumoj uzado</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Datumoj uzado</font></string>
 	<string name="preferences_data_usage_summary">Montri opciojn por restrikti datuman uzon je poŝtelefonaj retoj.</string>
-	<string name="preferences_report_issue_title">Reporti aferon</string>
-	<string name="preferences_initiate_reset_title">Reŝargi Blokĉenon</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Reporti aferon</font></string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Reŝargi Blokĉenon</font></string>
 	<string name="preferences_initiate_reset_summary">Reŝargi blokĉenon, transakciojn, kaj monujan saldon. Povus preni momenton.</string>
 	<string name="preferences_initiate_reset_dialog_message">Ĉu vi volus reŝargi la blokĉenon?\n\nTio provizore kaŝi vian monujo-saldo kaj forigi transakciojn. Ambaŭ reiros kiel blokĉena sinkronigo progresas.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Reŝargi</string>
@@ -150,13 +150,13 @@
 	<string name="report_issue_dialog_collect_wallet_dump">Postglui monujaĵon</string>
 	<string name="report_issue_dialog_mail_intent_chooser">Sendi reporton uzante…</string>
 	<string name="about_title">Pri</string>
-	<string name="about_license_title">Licenco</string>
+	<string name="about_license_title"><font color="#FAEC2C">Licenco</font></string>
 	<string name="about_category_credits">Ĉi tiu aplikaĵo uzas…</string>
-	<string name="about_credits_bitcoinj_title">pacj %s</string>
+	<string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj %s</font></string>
 	<string name="about_credits_zxing_title">ZXing</string>
 	<string name="about_community_googleplus_title">\"Google+\" Komunumo</string>
 	<string name="about_community_googleplus_summary">Diskutoj pri l\'aplikaĵo</string>
-	<string name="about_market_app_title">\"Google Play\" Paĝo</string>
+	<string name="about_market_app_title"><font color="#FAEC2C">\"Google Play\" Paĝo</font></string>
 	<string name="about_market_app_summary">Revui aŭ gradi l\'aplikaĵon</string>
 	<string name="notification_coins_received_msg">Ricevita %s</string>
 	<string name="notification_peers_connected_msg">%d pajroj konektitaj</string>
@@ -180,5 +180,15 @@
 	<string name="action_browse">Esplori</string>
 	<string name="time_today">hodiaŭ</string>
 	<string name="address_unlabeled">(sen nomo)</string>
+    <string name="navigation_drawer_close">Fermi menuon</string>
+    <string name="nav_code">Vidu Pago kodo</string>
 
+	<string name="settings_instasend_title"> <font color="#FAEC2C"> Ebligu InstantSend </font> </string>
+	     <string name="settings_warning_title"> <font color="#FAEC2C"> Averto </font> </string>
+	     <string name="settings_litemode_title"> <font color="#FAEC2C"> Enable Lite Mode </font> </string>
+	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Montru deklaron </font> </string>
+	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 por scan-to-pay </font> </string>
+	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Rigardu monujajn nomojn </font> </string>
+    <string name="instantDialogTitle">Transakcio ne rajtigita</string>
+    <string name="instantDialogBody">La transakcio ne povas esti farita ĉar ĝi superas la limon de tuja transdono</string>
 </resources>

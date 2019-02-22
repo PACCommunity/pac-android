@@ -23,9 +23,9 @@
 	<string name="wallet_transactions_options_filter_received">Diterima</string>
 	<string name="wallet_transactions_options_filter_all">Keduanya</string>
 	<string name="wallet_transactions_options_filter_sent">Dikirim</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Tidak ada $PAC yg diterima.</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">Tidak ada $PAC yg diterima.</font></string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Tidak ada $PAC yg dikirim.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Bagaimana mendapatkan $PAC?\n\nTukar dgn uang tradisional,\njual barang atau jasa atau\ndengan bekerja.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>Bagaimana mendapatkan $PAC?</b>\n\nTukar dgn uang tradisional,\njual barang atau jasa atau\ndengan bekerja.</font></string>
 	<string name="wallet_transactions_row_warning_backup">Selamat, Anda menerima pembayaran pertama Anda! Sudahkah Anda &lt;u&gt;mencadangkan dompet Anda&lt;/u&gt;, utk hindari kehilangan?</string>
 	<string name="wallet_transactions_fragment_coinbase">ditambang</string>
 	<string name="wallet_transactions_fragment_internal">Internal</string>
@@ -123,16 +123,16 @@
 	<string name="preferences_activity_title">Pengaturan</string>
 	<string name="preferences_category_diagnostics">Diagnosa</string>
 	<string name="preferences_category_labs">Lab</string>
-	<string name="preferences_connectivity_notification_title">Indikator Konetivitas</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Indikator Konetivitas</font></string>
 	<string name="preferences_connectivity_notification_summary">Tampilkan jumlah peer yang terhubung pada area notifikasi.</string>
-	<string name="preferences_trusted_peer_title">Peer Terpercaya</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Peer Terpercaya</font></string>
 	<string name="preferences_trusted_peer_summary">IP atau hostname dari satu peer untuk dihubungkan.</string>
-	<string name="preferences_trusted_peer_only_title">Lewati Pencarian Peer Reguler</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Lewati Pencarian Peer Reguler</font></string>
 	<string name="preferences_trusted_peer_only_summary">Cegah hubungan dengan peer lain selain peer terpercaya.</string>
-	<string name="preferences_data_usage_title">Penggunaan data</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Penggunaan data</font></string>
 	<string name="preferences_data_usage_summary">Tampilkan pilihan utk pembatasan penggunaan data ponsel.</string>
-	<string name="preferences_report_issue_title">Laporkan Masalah</string>
-	<string name="preferences_initiate_reset_title">Atur-ulang Rantai-blok</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Laporkan Masalah</font></string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Atur-ulang Rantai-blok</font></string>
 	<string name="preferences_initiate_reset_summary">Atur-ulang rantai-blok, transaksi dan saldo dompet. pengulangan akan berlangsung lama.</string>
 	<string name="preferences_initiate_reset_dialog_message">Apakah Anda ingin mengatur-ulang untuk pengulangan rantai-blok?\n\nIni akan menyembunyikan saldo Anda dan hapus transaksi sementara. Keduanya akan pulih setelah rantai-blok sinkron.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Atur-ulang</string>
@@ -147,11 +147,11 @@
 	<string name="report_issue_dialog_collect_wallet_dump">Tambahkan dump dompet</string>
 	<string name="report_issue_dialog_mail_intent_chooser">Kirim laporan dgn…</string>
 	<string name="about_title">Mengenai</string>
-	<string name="about_license_title">Lisensi</string>
+	<string name="about_license_title"><font color="#FAEC2C">Lisensi</font></string>
 	<string name="about_category_credits">Apl ini menggunakan…</string>
-	<string name="about_credits_bitcoinj_title">bitcoinj %s</string>
+	<string name="about_credits_bitcoinj_title"><font color="#FAEC2C">bitcoinj %s</font></string>
 	<string name="about_credits_zxing_title">ZXing</string>
-	<string name="about_market_app_title">Halaman Apl Google Play</string>
+	<string name="about_market_app_title"><font color="#FAEC2C">Halaman Apl Google Play</font></string>
 	<string name="notification_coins_received_msg">Diterima %s</string>
 	<string name="notification_peers_connected_msg">%d peer terhubung</string>
 	<!-- generic buttons -->
@@ -173,4 +173,15 @@
 	<string name="action_show_qr">Tampilkan kode QR</string>
 	<string name="time_today">hari ini</string>
 	<string name="address_unlabeled">(tak berlabel)</string>
+    <string name="navigation_drawer_close">Tutup menu</string>
+    <string name="nav_code">Lihat kode pembayaran</string>
+
+	<string name="settings_instasend_title"> <font color="#FAEC2C"> Aktifkan InstantSend </font> </string>
+	<string name="settings_warning_title"> <font color="#FAEC2C"> Peringatan </font> </string>
+	<string name="settings_litemode_title"> <font color="#FAEC2C"> Aktifkan Mode Lite </font> </string>
+	<string name="settings_disclaimer_title"> <font color="#FAEC2C"> Tampilkan penafian </font> </string>
+	<string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 untuk memindai-ke-bayar </font> </string>
+	<string name="settings_lookup_title"> <font color="#FAEC2C"> Mencari nama dompet </font> </string>
+    <string name="instantDialogTitle">Transaksi tidak diizinkan</string>
+	<string name="instantDialogBody">Transaksi tidak dapat dilakukan karena melebihi batas pengiriman segera</string>
 </resources>

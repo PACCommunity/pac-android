@@ -48,6 +48,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Process;
+import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -151,6 +152,7 @@ public class EncryptKeysDialogFragment extends DialogFragment {
 
     @Override
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
+        //TODO
         final View view = LayoutInflater.from(activity).inflate(R.layout.encrypt_keys_dialog, null);
 
         oldPasswordGroup = view.findViewById(R.id.encrypt_keys_dialog_password_old_group);
@@ -167,6 +169,8 @@ public class EncryptKeysDialogFragment extends DialogFragment {
         passwordStrengthView = (TextView) view.findViewById(R.id.encrypt_keys_dialog_password_strength);
 
         showView = (CheckBox) view.findViewById(R.id.encrypt_keys_dialog_show);
+        showView.setOnCheckedChangeListener(new ShowPasswordCheckListener(newPasswordView, oldPasswordView));
+        showView.setChecked(true);
 
         final DialogBuilder builder = new DialogBuilder(activity);
         builder.setTitle(R.string.encrypt_keys_dialog_title);
@@ -180,6 +184,8 @@ public class EncryptKeysDialogFragment extends DialogFragment {
         dialog.setOnShowListener(new OnShowListener() {
             @Override
             public void onShow(final DialogInterface d) {
+                dialog.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                dialog.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
                 positiveButton = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
                 negativeButton = dialog.getButton(DialogInterface.BUTTON_NEGATIVE);
 

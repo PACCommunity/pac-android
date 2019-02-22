@@ -52,8 +52,11 @@ import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnShowListener;
+import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -146,6 +149,9 @@ public class BackupWalletDialogFragment extends DialogFragment {
         dialog.setOnShowListener(new OnShowListener() {
             @Override
             public void onShow(final DialogInterface d) {
+                dialog.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(activity, R.color.bg_shortcut));
+                dialog.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(activity, R.color.vivid_red));
+
                 positiveButton = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
                 positiveButton.setTypeface(Typeface.DEFAULT_BOLD);
                 positiveButton.setOnClickListener(new OnClickListener() {
@@ -254,7 +260,17 @@ public class BackupWalletDialogFragment extends DialogFragment {
             final DialogBuilder dialog = DialogBuilder.warn(activity, R.string.import_export_keys_dialog_failure_title);
             dialog.setMessage(getString(R.string.export_keys_dialog_failure, x.getMessage()));
             dialog.singleDismissButton(null);
-            dialog.show();
+
+            final AlertDialog d = dialog.create();
+            d.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    d.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.bg_shortcut));
+                    d.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(ContextCompat.getColor(dialog.getContext(), R.color.vivid_red));
+                }
+            });
+
+            d.show();
 
             log.error("problem backing up wallet", x);
         } finally {

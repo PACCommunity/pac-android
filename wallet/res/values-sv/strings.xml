@@ -225,30 +225,30 @@
 	<string name="preferences_activity_title">Inställningar</string>
 	<string name="preferences_category_diagnostics">Diagnostik</string>
 	<string name="preferences_category_labs">Labb</string>
-	<string name="preferences_precision_title">Valör och precision</string>
+	<string name="preferences_precision_title"><font color="#FAEC2C">Valör och precision</font></string>
 	<string name="preferences_precision_summary">Enhet för att visa belopp i. Det här påverkar inte uträkningar.</string>
 	<string name="preferences_precision_labels_8">$PAC, 8 decimaler</string>
 	<string name="preferences_precision_labels_6">$PAC, 6 decimaler</string>
 	<string name="preferences_precision_labels_4">$PAC, 4 decimaler</string>
 	<string name="preferences_precision_labels_2_3">m$PAC, 2 decimaler</string>
 	<string name="preferences_precision_labels_0_6">µ$PAC, inga decimaler</string>
-	<string name="preferences_own_name_title">Ditt namn</string>
+	<string name="preferences_own_name_title"><font color="#FAEC2C">Ditt namn</font></string>
 	<string name="preferences_own_name_summary">Skriv ditt namn för att användas vid betalningsmottagande. Gärna kort.</string>
-	<string name="preferences_connectivity_notification_title">Anslutningsindikator</string>
+	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">Anslutningsindikator</font></string>
 	<string name="preferences_connectivity_notification_summary">Visa aktuellt antal anslutna peers i notifikationsområdet.</string>
-	<string name="preferences_trusted_peer_title">Säkra noder</string>
+	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">Säkra noder</font></string>
 	<string name="preferences_trusted_peer_summary">IP eller värdnamn hos enskild peer att ansluta till.</string>
-	<string name="preferences_trusted_peer_only_title">Hoppa över ordinarie Peer-upptäckt</string>
+	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">Hoppa över ordinarie Peer-upptäckt</font></string>
 	<string name="preferences_trusted_peer_only_summary">Förhindrar anslutning till någon peer annat än den peer du litar på.</string>
-	<string name="preferences_data_usage_title">Dataanvändning</string>
+	<string name="preferences_data_usage_title"><font color="#FAEC2C">Dataanvändning</font></string>
 	<string name="preferences_data_usage_summary">Visa alternativ för att begränsa dataanvändning över mobila nätverk.</string>
-	<string name="preferences_report_issue_title">Rapportera problem</string>
+	<string name="preferences_report_issue_title"><font color="#FAEC2C">Rapportera problem</font></string>
 	<string name="preferences_report_issue_summary">Samla information om ditt problem och maila rapporten till utvecklarna.</string>
-	<string name="preferences_initiate_reset_title">Återställ blockkedjan</string>
+	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">Återställ blockkedjan</font></string>
 	<string name="preferences_initiate_reset_summary">Återställer blockkedjan, transaktioner och plånboksbalansen, det tar en stund.</string>
 	<string name="preferences_initiate_reset_dialog_message">Vill du återställa och återsynkronisera blockkedjan? Detta kommer att tillfälligt dölja plånbokens saldo och radera genomförda transaktioner. Båda dessa kommer att återställas när blockkedjans synkronisering fortsätter.</string>
 	<string name="preferences_initiate_reset_dialog_positive">Återställ</string>
-	<string name="preferences_extended_public_key_title">Visa xpub</string>
+	<string name="preferences_extended_public_key_title"><font color="#FAEC2C">Visa xpub</font></string>
 	<string name="preferences_extended_public_key_summary">Visa din plånboks publika huvudnyckel så den kan importeras till andra program och tjänster. Men var försiktig: Detta kommer att avslöja dina kontouppgifter för det program som importerar nyckeln.</string>
 	<string name="bitmap_fragment_share">Dela…</string>
 	<string name="extended_public_key_fragment_title">Publik huvudnyckel</string>
@@ -266,15 +266,15 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Skicka rapport med…</string>
 	<string name="report_issue_dialog_mail_intent_failed">Rapportering misslyckades</string>
 	<string name="about_title">Om</string>
-	<string name="about_version_title">Version</string>
-	<string name="about_copyright_title">Copyright</string>
-	<string name="about_license_title">Licens</string>
-    <string name="about_source_title">Källkod</string>
+	<string name="about_version_title"><font color="#FAEC2C">Version</font></string>
+	<string name="about_copyright_title"><font color="#FAEC2C">Copyright</font></string>
+	<string name="about_license_title"><font color="#FAEC2C">Licens</font></string>
+    <string name="about_source_title"><font color="#FAEC2C">Källkod</font></string>
 	<string name="about_credits_zxing_title">Denna app använder \'zxing\'</string>
 	<string name="about_credits_icon_title">Appen använder en ikon av \'bitboy\'</string>
 	<string name="about_community_googleplus_title">Google+-community</string>
 	<string name="about_community_googleplus_summary">Diskussioner om appen</string>
-	<string name="about_market_app_title">Google Play-sida</string>
+	<string name="about_market_app_title"><font color="#FAEC2C">Google Play-sida</font></string>
 	<string name="about_market_app_summary">Recensera eller betygsätt appen</string>
 	<string name="notification_coins_received_msg">Mottagit %s</string>
 
@@ -312,5 +312,16 @@
 	<string name="error_parse">Parse error: %s</string>
 	<string name="error_http">HTTP error %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetoothfel: %1$s</string>
+    <string name="navigation_drawer_close">Stäng menyn</string>
+    <string name="nav_code">Se Betalningskod</string>
 
-	</resources>
+	<string name="settings_instasend_title"> <font color="#FAEC2C"> Aktivera InstantSend </font> </string>
+	     <string name="settings_warning_title"> <font color="#FAEC2C"> Varning </font> </string>
+	     <string name="settings_litemode_title"> <font color="#FAEC2C"> Aktivera Lite-läge </font> </string>
+	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Visa ansvarsfriskrivning </font> </string>
+	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 för skanning till betalning </font> </string>
+	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Slå på namn på plånbok </font> </string>
+    <string name="instantDialogTitle">Transaktion ej tillåten</string>
+    <string name="instantDialogBody">Transaktionen kan inte utföras eftersom den överskrider gränsen för direktleverans</string>
+
+</resources>

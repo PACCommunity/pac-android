@@ -35,8 +35,8 @@
 
 	<string name="wallet_lock_unlock">Odblokuj</string>
 	<string name="wallet_lock_unlock_wallet">Odblokuj portfel</string>
-	<string name="wallet_lock_unlock_to_see_txs_title">Portfel zablokowany</string>
-	<string name="wallet_lock_unlock_to_see_txs_txt">Dotknij ikonę kłódki powyżej aby odblokować twój portfel i zobaczyć historię transakcji.</string>
+	<string name="wallet_lock_unlock_to_see_txs_title"><font color="#FAEC2C">Portfel zablokowany</font></string>
+	<string name="wallet_lock_unlock_to_see_txs_txt"><font color="#ffffff">Dotknij ikonę kłódki powyżej aby odblokować twój portfel i zobaczyć historię transakcji.</font></string>
 	<string name="wallet_lock_unlock_dialog_title">Odblokuj swój portfel</string>
 	<string name="wallet_lock_unlock_dialog_message">Twój portfel jest chroniony poprzez PIN, wpisz swój PIN i wciśnij Odblokuj aby kontynuować. </string>
 	<string name="wallet_lock_reset_wallet_title">Zrestartuj portfel</string>
