@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> แสดงข้อจำกัดความรับผิดชอบ </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 สำหรับสแกนเพื่อจ่าย </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> ค้นหาชื่อกระเป๋าเงิน </font> </string>
+    <string name="instantDialogTitle">ไม่อนุญาตให้ทำธุรกรรม</string>
+    <string name="instantDialogBody">ไม่สามารถทำธุรกรรมได้เนื่องจากเกินขีด จำกัด ของการจัดส่งแบบทันที</string>
 
 </resources>

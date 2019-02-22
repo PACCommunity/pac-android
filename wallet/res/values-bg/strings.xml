@@ -360,5 +360,7 @@
     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Показване на отказа от отговорност </font> </string>
     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 за сканиране за плащане </font> </string>
     <string name="settings_lookup_title"> <font color="#FAEC2C"> Търсене на имена на портфейла </font> </string>
+    <string name="instantDialogTitle">Транзакцията не е разрешена</string>
+    <string name="instantDialogBody">Транзакцията не може да се извърши, защото превишава лимита за незабавна доставка</string>
 
 </resources>

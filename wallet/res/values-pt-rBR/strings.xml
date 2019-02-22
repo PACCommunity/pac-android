@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Mostrar aviso </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 para digitalização para pagamento </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Procure nomes de carteira </font> </string>
+    <string name="instantDialogTitle">Transação não permitida</string>
+    <string name="instantDialogBody">A transação não pode ser executada porque excede o limite de entrega imediata</string>
 
 </resources>

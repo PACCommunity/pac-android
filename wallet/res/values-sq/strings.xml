@@ -303,5 +303,7 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Trego mohim </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 për scan-to-pay </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Shikoni emrat e portofolit </font> </string>
+    <string name="instantDialogTitle">Transaksioni nuk lejohet</string>
+    <string name="instantDialogBody">Transaksioni nuk mund të kryhet sepse tejkalon limitin e dorëzimit të menjëhershëm</string>
 
 </resources>

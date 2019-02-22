@@ -322,5 +322,7 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Jogi nyilatkozat megjelenítése </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 a fizetéshez-fizetéshez </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Keressen pénztárcák nevét </font> </string>
+    <string name="instantDialogTitle">A tranzakció nem engedélyezett</string>
+    <string name="instantDialogBody">A tranzakció nem hajtható végre, mert meghaladja az azonnali szállítás határát</string>
 
 </resources>

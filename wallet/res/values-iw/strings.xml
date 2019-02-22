@@ -218,6 +218,8 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> הצגת כתב ויתור </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 לסריקה לתשלום </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> חפש שמות ארנק </font> </string>
+    <string name="instantDialogTitle">העסקה אינה מותרת</string>
+	<string name="instantDialogBody">לא ניתן לבצע את העסקה משום שהיא חורגת ממגבלת האספקה המיידית</string>
 
 </resources>
 

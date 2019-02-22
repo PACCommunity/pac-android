@@ -321,5 +321,7 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Vis ansvarsfraskrivelse </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 for skanning til betaling </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Slå opp lommeboknavn </font> </string>
+    <string name="instantDialogTitle">Transaksjon ikke tillatt</string>
+    <string name="instantDialogBody">Transaksjonen kan ikke utføres fordi den overskrider grensen for umiddelbar levering</string>
 
 </resources>

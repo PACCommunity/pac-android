@@ -367,4 +367,7 @@
     <string name="settings_BIP70_title"><font color="#FAEC2C">BIP70 for scan-to-pay</font></string>
     <string name="settings_lookup_title"><font color="#FAEC2C">Look up wallet names</font></string>
 
+    <string name="instantDialogTitle">Transaction not allowed</string>
+    <string name="instantDialogBody">The transaction can not be performed because it exceeds the limit of instant delivery</string>
+
 </resources>

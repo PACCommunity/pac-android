@@ -321,5 +321,7 @@
 	     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Visa ansvarsfriskrivning </font> </string>
 	     <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 för skanning till betalning </font> </string>
 	     <string name="settings_lookup_title"> <font color="#FAEC2C"> Slå på namn på plånbok </font> </string>
+    <string name="instantDialogTitle">Transaktion ej tillåten</string>
+    <string name="instantDialogBody">Transaktionen kan inte utföras eftersom den överskrider gränsen för direktleverans</string>
 
 </resources>

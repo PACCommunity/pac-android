@@ -359,5 +359,7 @@
     <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Yasal uyarıyı göster</font> </string>
     <string name="settings_BIP70_title"> <font color="#FAEC2C">Ödeme için tarama için BIP70</font> </string>
     <string name="settings_lookup_title"> <font color="#FAEC2C">M-cüzdan adlarına bakın</font> </string>
+    <string name="instantDialogTitle">İşleme izin verilmiyor</string>
+    <string name="instantDialogBody">Anında teslimat sınırını aştığından işlem gerçekleştirilemiyor</string>
 
 </resources>

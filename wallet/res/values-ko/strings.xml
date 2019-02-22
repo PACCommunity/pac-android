@@ -359,5 +359,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> 면책 조항 표시 </font> </string>
     <string name="settings_BIP70_title"> <font color="#FAEC2C">scan-to-pay 용 BIP70 </font></string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> 지갑 이름 찾기 </font> </string>
+    <string name="instantDialogTitle">거래를 허용하지 않음</string>
+    <string name="instantDialogBody">즉시 배달 한도를 초과하여 거래를 수행 할 수 없습니다</string>
 
 </resources>

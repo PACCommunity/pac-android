@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Pokaż wyłączenie odpowiedzialności </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 dla skanu do zapłaty </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Wyszukaj nazwy portfeli </font> </string>
+    <string name="instantDialogTitle">Transakcja jest niedozwolona</string>
+    <string name="instantDialogBody">Transakcji nie można wykonać, ponieważ przekracza limit natychmiastowej dostawy</string>
 
 </resources>

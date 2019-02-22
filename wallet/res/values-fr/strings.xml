@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Afficher la clause de non-responsabilité </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 pour la numérisation vers le paiement </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Recherchez les noms de portefeuille </font> </string>
+    <string name="instantDialogTitle">Transaction non autorisée</string>
+    <string name="instantDialogBody">La transaction ne peut pas être effectuée car elle dépasse la limite de livraison immédiate</string>
 
 </resources>

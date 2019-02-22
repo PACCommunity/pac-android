@@ -360,5 +360,7 @@
 	<string name="settings_disclaimer_title"><font color="#FAEC2C"> عرض إخلاء المسؤولية </font></string>
     <string name="settings_BIP70_title"><font color="#FAEC2C"> BIP70 لإجراء المسح الضوئي للدفع </font></string>
 	<string name="settings_lookup_title"><font color="#FAEC2C"> البحث عن أسماء المحفظة </font></string>
+	<string name="instantDialogTitle">المعاملة غير مسموحة</string>
+	<string name="instantDialogBody">لا يمكن تنفيذ المعاملة لأنها تتجاوز الحد الأقصى للتسليم الفوري</string>
 
 </resources>

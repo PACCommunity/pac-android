@@ -240,5 +240,7 @@
        <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Показати застереження </font> </string>
        <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 для сканування до </font> </string>
        <string name="settings_lookup_title"> <font color="#FAEC2C"> Пошук назв гаманця </font> </string>
+    <string name="instantDialogTitle">Транзакція не дозволена</string>
+  <string name="instantDialogBody">Операція не може бути виконана, оскільки вона перевищує межу миттєвої доставки</string>
 
 </resources>

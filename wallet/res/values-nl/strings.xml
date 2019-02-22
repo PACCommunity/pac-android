@@ -360,5 +360,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C"> Disclaimer weergeven </font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 voor scannen om te betalen </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C"> Zoek portefeuille-namen op </font> </string>
+    <string name="instantDialogTitle">Transactie niet toegestaan</string>
+    <string name="instantDialogBody">De transactie kan niet worden uitgevoerd omdat het groter is dan de limiet van instant verzonden</string>
 
 </resources>

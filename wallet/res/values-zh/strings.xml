@@ -359,5 +359,7 @@
          <string name="settings_disclaimer_title"> <font color="#FAEC2C">显示免责声明</font> </string>
          <string name="settings_BIP70_title"> <font color="#FAEC2C"> BIP70 for scan-to-pay </font> </string>
          <string name="settings_lookup_title"> <font color="#FAEC2C">查找钱包名称</font> </string>
+    <string name="instantDialogTitle">交易不被允许</string>
+    <string name="instantDialogBody">交易无法执行，因为它超出了即时交付的限制</string>
 
 </resources>
