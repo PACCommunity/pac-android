@@ -21,6 +21,11 @@
 			Você pode enviar ou solicitar pagamentos tocando nos respectivos botões na barra de ações.
 			Mais opções estão disponíveis nos menus de navegação e opções.
 		</p>
+		<p>
+            Se você tiver algum problema para se conectar ao $ blockchain do PAC, provavelmente é devido a problemas de rede
+            em alguns dispositivos Android, a solução seria desligar sua conexão Wi-Fi e ativá-la
+            novamente após alguns segundos (se você alternar entre redes Wi-Fi diferentes, obterá um resultado melhor).
+        </p>
 	]]>
     </string>
     <string name="help_request_coins">

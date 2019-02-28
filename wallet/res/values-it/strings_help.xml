@@ -19,6 +19,11 @@
 			È possibile inviare o ricevere $PAC toccando i pulsanti nella barra delle azioni.
 			Ulteriori opzioni sono disponibili nel menu delle opzioni.
 		</p>
+		<p>
+			Se hai qualche problema nel connetterti a $ PAC blockchain, è probabilmente dovuto a problemi di rete
+			in alcuni dispositivi Android, la soluzione sarebbe spegnere la connessione Wi-Fi e accenderla
+			di nuovo dopo pochi secondi (se passi da una rete Wi-Fi diversa otterrai un risultato migliore).
+		</p>
 	]]>
 	</string>
   <string name="help_request_coins">

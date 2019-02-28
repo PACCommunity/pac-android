@@ -21,6 +21,12 @@
 			In der Titelzeile finden sich Knöpfe zum Anfordern oder Versenden von Zahlungen.
 			Mehr Optionen sind im Navigations-Menü (oben links) und den Options-Menüs verfügbar
 		</p>
+		<p>
+			Wenn Sie Probleme bei der Verbindung zu $ PAC blockchain haben, liegt dies möglicherweise an Netzwerkproblemen
+			Bei einigen Android-Geräten würde die Lösung Ihre Wi-Fi-Verbindung abschalten und einschalten
+			Nach einigen Sekunden erneut (wenn Sie zwischen verschiedenen Wi-Fi-Netzwerken wechseln, erhalten Sie ein besseres Ergebnis).
+<		/p>
+
 	]]>
 	</string>
     <string name="help_request_coins">

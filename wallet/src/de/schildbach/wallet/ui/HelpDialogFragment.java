@@ -23,6 +23,7 @@ import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
 import android.text.Html;
+import android.text.Spanned;
 
 /**
  * @author Andreas Schildbach
@@ -62,7 +63,8 @@ public final class HelpDialogFragment extends DialogFragment {
         final int messageResId = args.getInt(KEY_MESSAGE);
 
         final DialogBuilder dialog = new DialogBuilder(activity);
-        dialog.setMessage(Html.fromHtml(getString(messageResId)));
+        final Spanned element = Html.fromHtml(getString(messageResId));
+        dialog.setMessage(element);
         dialog.singleDismissButton(null);
         return dialog.create();
     }

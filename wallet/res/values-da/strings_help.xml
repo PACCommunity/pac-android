@@ -19,6 +19,11 @@
 			Du kan sende eller anmode om $PAC ved at berøre knapperne i handlingsbjælken.
 			Flere muligheder er tilgængelige i opsætningsmenuen.
 		</p>
+        <p>
+            Hvis du har problemer med at oprette forbindelse til $ PAC blockchain, skyldes det sandsynligvis netværksproblemer
+            i nogle Android-enheder vil løsningen være at slukke for din Wi-Fi-forbindelse og tænde den
+            igen efter et par sekunder (hvis du skifter mellem forskellige Wi-Fi-netværk får du et bedre resultat).
+        </p>
 	]]>
     </string>
   <string name="help_request_coins">

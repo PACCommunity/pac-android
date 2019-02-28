@@ -19,6 +19,11 @@
 			Küldhetsz vagy kérhetsz érméket a gombok megérintésével az akciósávban.
 			További lehetőségek elérhetők az opciók menüben.
 		</p>
+		<p>
+			Ha bármilyen problémája van a $ PAC blokk-lánchoz való csatlakozással, valószínűleg a hálózati problémák okozzák
+			Néhány Android-eszközön a megoldás kikapcsolná a Wi-Fi kapcsolatot, és bekapcsolná
+			néhány másodperc múlva (ha átkapcsol a különböző Wi-Fi hálózatok között, jobb eredményt kap).
+		</p>
 	]]>
 	</string>
   <string name="help_request_coins">

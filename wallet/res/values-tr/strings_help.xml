@@ -21,6 +21,11 @@
 			$PAC gönderimi veya talebinde bulunmak için işlem çubuğundaki butonlara tıklayınız.
 			(sol üstteki) Navigasyon ve seçenekler menüsünde daha fazla opsiyon mevcuttur.
 		</p>
+		<p>
+            $ PAC blok zincirine bağlanmada herhangi bir probleminiz varsa, bu muhtemelen ağ sorunlarından kaynaklanmaktadır.
+            Bazı Android cihazlarda, çözüm Wi-Fi bağlantınızı kapatıp açar.
+            birkaç saniye sonra tekrar (farklı Wi-Fi ağları arasında geçiş yaparsanız daha iyi bir sonuç elde edersiniz).
+        </p>
 	]]>
     </string>
     <string name="help_request_coins">
