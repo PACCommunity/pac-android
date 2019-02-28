@@ -25,6 +25,11 @@
 			Vi povas sendi aŭ peti monojn per frapetadi la butonojn en la agejo.
 			Pli da opcioj estas disponeblaj en la opcioj menuo.
 		</p>
+		<p>
+			Se vi havas iun problemon konektanta al $ PAC-bloko, ĝi verŝajne devas pro retoj
+			En iuj aparatoj de Android, la solvo malŝaltus vian ligilon de Wi-Fi kaj turnos ĝin
+			denove post kelkaj sekundoj (se vi interŝanĝos inter malsamaj Wi-Fi-retoj, vi ricevos pli bonan rezulton).
+		</p>
 	]]>
 	</string>
 	<string name="help_request_coins">

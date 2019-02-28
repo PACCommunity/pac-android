@@ -27,6 +27,11 @@
 		<p>
 			V aplikacijskem meniju imate na voljo še druge možnosti.
 		</p>
+		<p>
+			Če imate težave pri povezovanju s paketom $ PAC blockchain, je to verjetno posledica težav z omrežjem
+			v nekaterih napravah s sistemom Android je rešitev izključitev povezave Wi-Fi in vklop
+			po nekaj sekundah (če preklopite med različnimi omrežji Wi-Fi, boste dobili boljši rezultat).
+		</p>
 	]]>
 	</string>
 	<string name="help_request_coins">

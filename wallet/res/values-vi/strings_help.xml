@@ -21,6 +21,11 @@
 			Bạn có thể gửi hoặc yêu cầu nhận tiền bằng việc bấm vào các nút ở thanh hành động.
 			Còn các tuỳ chọn thêm nữa ở trong menu định hướng (góc trên bên trái) và menu tuỳ chọn.
 		4
+		5
+		    Nếu bạn có bất kỳ vấn đề nào khi kết nối với blockchain $ PAC, có thể đó là do sự cố mạng
+            trong một số thiết bị Android, giải pháp sẽ là tắt kết nối Wi-Fi của bạn và bật nó lên
+            một lần nữa sau vài giây (nếu bạn chuyển đổi giữa các mạng Wi-Fi khác nhau, bạn sẽ nhận được kết quả tốt hơn).
+		5
 	]]></string>
     <string name="help_request_coins">
 <![CDATA[

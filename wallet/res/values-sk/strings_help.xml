@@ -21,6 +21,11 @@
 			Poslať alebo vyžiadať platbu môžete poklepaním na tlačítka v spodnej časti.
 			Viac možností je dostupných v navigačnom menu (vľavo hore) a v menu nastavení.
 		</p>
+		<p>
+            Ak máte problém s pripojením k bloku reťazca $ PAC, je pravdepodobne kvôli problémom so sieťou
+            v niektorých zariadeniach s Androidom by riešenie vypínalo vaše pripojenie k sieti Wi-Fi a zapnuté
+            opäť po niekoľkých sekundách (ak prepnete medzi rôznymi sieťami Wi-Fi, dostanete lepší výsledok).
+         <p>
 	]]>
     </string>
     <string name="help_request_coins">

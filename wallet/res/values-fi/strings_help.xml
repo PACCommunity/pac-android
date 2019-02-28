@@ -19,6 +19,11 @@
 			Voit lähettää tai pyytää kolikoita napauttamalla painikkeita toimintopalkissa.
 			Lisää asetuksia on saatavilla asetusvalikossa.
 		</p>
+		<p>
+			Jos sinulla on ongelmia liittymällä $ PAC -blokkiin, se johtuu todennäköisesti verkko-ongelmista
+			joissakin Android-laitteissa ratkaisu sammuttaisi Wi-Fi-yhteyden ja käynnistä sen
+			muutaman sekunnin kuluttua (jos vaihdat eri Wi-Fi-verkkojen välillä, saat paremman tuloksen).
+		</p>
 	]]>
 	</string>
   <string name="help_request_coins">

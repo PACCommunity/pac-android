@@ -24,6 +24,11 @@
 			U kunt $PAC verzenden of verzoeken door op de knoppen van de actiebalk te drukken.
 			Meer opties zijn aanwezig in het opties menu.
 		</p>
+		<p>
+			Als u problemen ondervindt bij het verbinden met $ PAC blockchain, is dit waarschijnlijk te wijten aan netwerkproblemen
+			op sommige Android-apparaten zou de oplossing je wifi-verbinding uitschakelen en aanzetten
+			opnieuw na een paar seconden (als u schakelt tussen verschillende Wi-Fi-netwerken, krijgt u een beter resultaat).
+		</p>
 	]]>
 	</string>
   <string name="help_request_coins">
