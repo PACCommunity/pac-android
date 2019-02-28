@@ -124,7 +124,7 @@ public class ArchiveBackupDialogFragment extends DialogFragment {
         intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(backupFile));
 
         try {
-            startActivity(Intent.createChooser(intent, getString(R.string.export_keys_dialog_mail_intent_chooser)));
+            //startActivity(Intent.createChooser(intent, getString(R.string.export_keys_dialog_mail_intent_chooser)));
             log.info("invoked chooser for archiving wallet backup");
         } catch (final Exception x) {
             new Toast(activity).longToast(R.string.export_keys_dialog_mail_intent_failed);
