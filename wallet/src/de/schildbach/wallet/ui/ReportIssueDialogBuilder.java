@@ -216,31 +216,36 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
     }
 
     private void startSend(final CharSequence subject, final CharSequence text, final ArrayList<Uri> attachments) {
-        final Intent intent;
-
-        if (attachments.size() == 0) {
-            intent = new Intent(Intent.ACTION_SEND);
-            intent.setType("message/rfc822");
-        } else if (attachments.size() == 1) {
-            intent = new Intent(Intent.ACTION_SEND);
-            intent.setType("text/plain");
-            intent.putExtra(Intent.EXTRA_STREAM, attachments.get(0));
-        } else {
-            intent = new Intent(Intent.ACTION_SEND_MULTIPLE);
-            intent.setType("text/plain");
-            intent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, attachments);
-        }
-
-        intent.putExtra(Intent.EXTRA_EMAIL, new String[] { Constants.REPORT_EMAIL });
-        if (subject != null)
-            intent.putExtra(Intent.EXTRA_SUBJECT, subject);
-        intent.putExtra(Intent.EXTRA_TEXT, text);
-
-        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-
         try {
+
+            Intent gmailIntent = new Intent();
+            gmailIntent.setClassName("com.google.android.gm", "com.google.android.gm.ComposeActivityGmail");
+
+            if (attachments.size() == 0) {
+                gmailIntent = new Intent(Intent.ACTION_SENDTO);
+                gmailIntent.setType("message/rfc822");
+            } else if (attachments.size() == 1) {
+                gmailIntent = new Intent(Intent.ACTION_SENDTO);
+                gmailIntent.setType("text/plain");
+                gmailIntent.putExtra(Intent.EXTRA_STREAM, attachments.get(0));
+            } else {
+                gmailIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+                gmailIntent.setType("text/plain");
+                gmailIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, attachments);
+            }
+
+            gmailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] { Constants.REPORT_EMAIL });
+            if (subject != null)
+                gmailIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+            gmailIntent.putExtra(Intent.EXTRA_TEXT, text);
+
+            gmailIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+
             context.startActivity(
-                    Intent.createChooser(intent, context.getString(R.string.report_issue_dialog_mail_intent_chooser)));
+                    gmailIntent
+            );
+
             log.info("invoked chooser for sending issue report");
         } catch (final Exception x) {
             Toast.makeText(context, R.string.report_issue_dialog_mail_intent_failed, Toast.LENGTH_LONG).show();

@@ -19,6 +19,11 @@
 			Du kan sende eller be om mynter ved å trykke på knappene i handlingsfeltet.
 			Flere alternativer er tilgjengelige i menyen for alternativer.
 		</p>
+		<p>
+            Hvis du har problemer med å koble til $ PAC-blokkering, skyldes det sannsynligvis nettverksproblemer
+            i noen Android-enheter vil løsningen slå av Wi-Fi-tilkoblingen din og slå den på
+            igjen etter noen sekunder (hvis du bytter mellom forskjellige Wi-Fi-nettverk, får du et bedre resultat).
+        </p>
 	]]>
 	</string>
   <string name="help_request_coins">

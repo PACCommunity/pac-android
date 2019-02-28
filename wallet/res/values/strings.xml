@@ -206,7 +206,7 @@
     <string name="export_keys_dialog_mail_subject">$PAC Wallet backup</string>
     <string name="export_keys_dialog_mail_text">The attached encrypted file contains $PAC private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
     <string name="export_keys_dialog_mail_intent_chooser">Archive wallet using…</string>
-    <string name="export_keys_dialog_mail_intent_failed">Archiving wallet failed.</string>
+    <string name="export_keys_dialog_mail_intent_failed">Archiving wallet process failed.</string>
     <string name="import_export_keys_dialog_password">password</string>
     <string name="backup_wallet_dialog_password_again">again</string>
     <string name="backup_wallet_dialog_password_mismatch">mismatch!</string>

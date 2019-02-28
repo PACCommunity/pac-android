@@ -21,6 +21,11 @@
 			You can send or request coins by tapping the buttons in the action bar.
 			More options are available in the navigation (top left) and options menus.
 		</p>
+		<p>
+		    If you have any problem connecting to $PAC blockchain, it is probably due to network issues
+		    in some Android devices, the solution would be turning off your Wi-Fi connection and turn it on
+		    again after a few seconds (if you switch between different Wi-Fi networks you will get a better result).
+		</p>
 	]]>
     </string>
     <string name="help_request_coins">

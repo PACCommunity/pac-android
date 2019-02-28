@@ -19,6 +19,11 @@
 			Du kan skicka en myntbegäran genom att klicka på knapparna i åtgärdsfältet.
 			Fler alternativ finns under alternativmenyn.
 		</p>
+		<p>
+			Om du har problem med att ansluta till $ PAC blockchain beror det troligen på nätverksproblem
+			i vissa Android-enheter skulle lösningen stängas av din Wi-Fi-anslutning och sätta på den
+			igen efter några sekunder (om du växlar mellan olika Wi-Fi-nätverk får du ett bättre resultat).
+		</p>
 	]]>
 	</string>
   <string name="help_request_coins">

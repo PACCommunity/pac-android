@@ -21,6 +21,11 @@
 			Możesz wysłać lub zażądać płatności w menu akcji
 			Więcej opcji jest dostępnych w menu nawigacji (lewy górny róg) lub w menu opcji.
 		</p>
+		<p>
+            Jeśli masz jakiś problem z połączeniem z łańcuchem bloków $ PAC, jest to prawdopodobnie spowodowane problemami z siecią
+            na niektórych urządzeniach z Androidem rozwiązaniem byłoby wyłączenie połączenia Wi-Fi i włączenie go
+            ponownie po kilku sekundach (jeśli przełączasz się między różnymi sieciami Wi-Fi, uzyskasz lepszy wynik).
+        </p>
 	]]></string>
     <string name="help_request_coins">
 <![CDATA[

@@ -154,7 +154,7 @@ public final class Constants {
             ? CoinDefinition.DONATION_ADDRESS : null;
 
     /** Recipient e-mail address for reports. */
-    public static final String REPORT_EMAIL = "chasepacdev@gmail.com";
+    public static final String REPORT_EMAIL = "iamcryptocashman@gmail.com";
 
     /** Subject line for manually reported issues. */
     public static final String REPORT_SUBJECT_ISSUE = "$PAC Wallet: Reported issue";
