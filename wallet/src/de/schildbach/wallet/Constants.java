@@ -160,7 +160,7 @@ public final class Constants {
     public static final String REPORT_SUBJECT_ISSUE = "$PAC Wallet: Reported issue";
 
     /** Subject line for crash reports. */
-    public static final String REPORT_SUBJECT_CRASH = "Crash report";
+    public static final String REPORT_SUBJECT_CRASH = "Crash report in Android Wallet";
 
     public static final char CHAR_HAIR_SPACE = '\u200a';
     public static final char CHAR_THIN_SPACE = '\u2009';
