@@ -45,23 +45,10 @@
         <ImageView
             android:id="@+id/toolbar_logo"
             android:layout_width="@dimen/app_bar_logo_width"
-            android:layout_height="@dimen/app_bar_logo_height"
+            android:layout_height="match_parent"
             android:scaleType="fitStart"
-            android:src="@drawable/logopac" />
-
-        <TextView
-            android:id="@+id/toolbar_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/toolbar_logo"
-            android:layout_marginTop="-4dp"
-            android:scaleY="0.7"
-            android:text="@string/pac_wallet"
-            android:textAllCaps="true"
-            android:textColor="#ffffff"
-            android:textSize="15sp"
-            android:textStyle="bold|italic"
-            android:visibility="gone" />
+            android:src="@drawable/logopac"
+            android:layout_marginBottom="@dimen/app_bar_logo_margin_bottom"/>
 
         <TextView
             android:id="@+id/toolbar_slogan"

@@ -18,13 +18,12 @@ import de.schildbach.wallet_test.R;
 /**
  * @author Tomasz Ludek
  */
-public class ExtAppBarLayout extends AppBarLayout implements AppBarLayout.OnOffsetChangedListener {
+public class ExtAppBarLayout extends AppBarLayout{
 
     private static final String PAC_WEBPAGE_URL = "http://paccoin.net";
 
     private View toolbarTitlePanelView;
     private View toolbarLogoView;
-    private View toolbarTitleView;
     private View toolbarSloganView;
 
     private boolean expanded = true;
@@ -54,40 +53,9 @@ public class ExtAppBarLayout extends AppBarLayout implements AppBarLayout.OnOffs
         inflate(getContext(), R.layout.ext_app_bar_layout, this);
         inflate(getContext(), R.layout.ext_app_bar_bottom_layout, this);
         setBackgroundColor(Color.TRANSPARENT);
-        addOnOffsetChangedListener(this);
         toolbarTitlePanelView = findViewById(R.id.toolbar_title_panel);
         toolbarLogoView = findViewById(R.id.toolbar_logo);
-        toolbarTitleView = findViewById(R.id.toolbar_title);
         toolbarSloganView = findViewById(R.id.toolbar_slogan);
-    }
-
-    @Override
-    public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-        float totalScrollRange = appBarLayout.getTotalScrollRange();
-        float scaleFactor = (totalScrollRange + verticalOffset) / totalScrollRange;
-        float scale = 1f + 0.68f * scaleFactor;
-        toolbarLogoView.setPivotX(0);
-        toolbarLogoView.setPivotY(0);
-        toolbarLogoView.setScaleX(scale);
-        toolbarLogoView.setScaleY(scale);
-
-        if (scaleFactor > 0.1) {
-            toolbarTitleView.setVisibility(INVISIBLE);
-        } else {
-            toolbarTitleView.setVisibility(VISIBLE);
-        }
-
-        if (scaleFactor > 0.5) {
-            if (!expanded) {
-                expanded = true;
-                showSlogan();
-            }
-        } else {
-            if (expanded) {
-                expanded = false;
-                hideLink();
-            }
-        }
     }
 
     private void showSlogan() {
