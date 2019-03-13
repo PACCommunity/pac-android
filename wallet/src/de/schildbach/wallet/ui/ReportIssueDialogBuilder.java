@@ -40,6 +40,7 @@ import de.schildbach.wallet.util.FileAttachmentProvider;
 import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet_test.R;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
@@ -218,33 +219,49 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
     private void startSend(final CharSequence subject, final CharSequence text, final ArrayList<Uri> attachments) {
         try {
 
-            Intent gmailIntent = new Intent();
-            gmailIntent.setClassName("com.google.android.gm", "com.google.android.gm.ComposeActivityGmail");
+            final AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.AlertDialogStyle).create();
+            alertDialog.setTitle("Alert");
+            alertDialog.setMessage("An email will be composed, it requires of the interaction of the user to select his email client and it will send the logs and backup files to see what happened");
+            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
 
-            if (attachments.size() == 0) {
-                gmailIntent = new Intent(Intent.ACTION_SENDTO);
-                gmailIntent.setType("message/rfc822");
-            } else if (attachments.size() == 1) {
-                gmailIntent = new Intent(Intent.ACTION_SENDTO);
-                gmailIntent.setType("text/plain");
-                gmailIntent.putExtra(Intent.EXTRA_STREAM, attachments.get(0));
-            } else {
-                gmailIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
-                gmailIntent.setType("text/plain");
-                gmailIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, attachments);
-            }
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
 
-            gmailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] { Constants.REPORT_EMAIL });
-            if (subject != null)
-                gmailIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
-            gmailIntent.putExtra(Intent.EXTRA_TEXT, text);
+                            Intent gmailIntent = new Intent();
 
-            gmailIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                            if (attachments.size() == 0) {
+                                gmailIntent = new Intent(Intent.ACTION_SENDTO);
+                                gmailIntent.setType("message/rfc822");
+                            } else if (attachments.size() == 1) {
+                                gmailIntent = new Intent(Intent.ACTION_SENDTO);
+                                gmailIntent.setType("text/plain");
+                                gmailIntent.putExtra(Intent.EXTRA_STREAM, attachments.get(0));
+                            } else {
+                                gmailIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+                                gmailIntent.setType("text/plain");
+                                gmailIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, attachments);
+                            }
 
 
-            context.startActivity(
-                    gmailIntent
-            );
+                            gmailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] { Constants.REPORT_EMAIL });
+                            if (subject != null)
+                                gmailIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+                            gmailIntent.putExtra(Intent.EXTRA_TEXT, text);
+
+                            gmailIntent.setType("message/rfc822");
+
+                            gmailIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+                            context.startActivity(
+                                    gmailIntent
+                            );
+                            alertDialog.dismiss();
+
+                        }
+                    });
+            alertDialog.show();
+
+
 
             log.info("invoked chooser for sending issue report");
         } catch (final Exception x) {
@@ -252,6 +269,13 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
             log.error("report issue failed", x);
         }
     }
+
+
+
+
+
+
+
 
     @Nullable
     protected abstract CharSequence subject();

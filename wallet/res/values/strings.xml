@@ -355,8 +355,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close menu</string>
 
-    <string name="pac_slogan">Instant - Private - Secure</string>
-    <string name="pac_wallet">Wallet</string>
+    <string name="pac_slogan"></string>
+    <string name="pac_wallet"></string>
 
     <string name="about_git_title"><font color="#FAEC2C"></font></string>
 

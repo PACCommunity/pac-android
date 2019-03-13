@@ -35,12 +35,12 @@
         android:layout_marginTop="8dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/toolbar_logo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:scaleType="fitStart"
-            android:src="@drawable/logopac" />
+        <!--<ImageView-->
+            <!--android:id="@+id/toolbar_logo"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:scaleType="fitStart"-->
+            <!--android:src="@drawable/logopac" />-->
 
     </RelativeLayout>
 
