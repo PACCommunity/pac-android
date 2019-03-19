@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+	<string name="nav_code">支払いコードを見る</string>
 	<string name="toast_wallet_reset">ウォレットはリセットされました!\n復元には多少時間がかかります。</string>
-	<string name="wallet_disclaimer_fragment_remind_safety">自己の責任においてご使用下さい。&lt;u&gt;安全の注意事項&lt;/u&gt;をお読み下さい。</string>
+	<string name="wallet_disclaimer_fragment_remind_safety">&lt;u&gt;安全に関する重要な注意&lt;/u&gt;を確認し、ご自身の責任でご使用ください。</string>
 	<string name="wallet_disclaimer_fragment_remind_backup">&lt;u&gt;ウォレットをバックアップ&lt;/u&gt;する必要があります!</string>
 	<string name="blockchain_state_progress_hours">%1$s, %2$d時間遅れ</string>
 	<string name="blockchain_state_progress_days">%1$s, %2$d日遅れ</string>
@@ -11,7 +13,7 @@
 	<string name="blockchain_state_progress_stalled">同期が停滞しています</string>
 	<string name="blockchain_state_progress_problem_storage">同期: ストレージに問題があります</string>
 	<string name="blockchain_state_progress_problem_network">同期: ネットワークに問題があります</string>
-	<string name="wallet_address_fragment_clipboard_msg">ビットコインアドレスをクリップボードにコピーしました</string>
+	<string name="wallet_address_fragment_clipboard_msg">$PACアドレスをクリップボードにコピーしました</string>
 	<string name="wallet_address_dialog_fragment_hint">プライバシー保護のため、アドレスは支払いを受け取るごとに変化します。</string>
 	<string name="wallet_balance_fragment_too_much">この額はポケットに入れて運ぶには多すぎます。一部をもっと安全な場所に移してください。</string>
 	<string name="wallet_balance_fragment_replaying">再生中は残高情報は利用できません。</string>
@@ -24,10 +26,11 @@
 	<string name="exchange_rates_fragment_source">%s による価格</string>
 	<string name="exchange_rates_options_search">為替レートの検索</string>
 	<string name="exchange_rates_context_set_as_default_title">既定の外貨に設定する</string>
-	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">まだビットコインを受け取っていません。</font></string>
-	<string name="wallet_transactions_fragment_empty_text_sent">まだビットコインを送っていません。</string>
-	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>ビットコインを入手するには?</b>\n\n通常通貨と交換するか、\nグッズやサービスを販売するか\nまたは働いて稼ぎましょう</font></string>
-	<string name="wallet_transactions_row_warning_backup">おめでとうございます、初めて支払いを受け取りました。遺失を防ぐために&lt;u&gt;ウォレットをバックアップ&lt;/u&gt;していますか?</string>
+	<string name="wallet_transactions_fragment_empty_text_received"><font color="#FAEC2C">まだ$PACを受け取っていません。</font></string>
+	<string name="wallet_transactions_fragment_empty_text_sent">まだ$PACを送っていません。</string>
+	<string name="wallet_transactions_fragment_empty_text_howto"><font color="#ffffff"><b>$PACを入手するには?</b>\n\n法定通貨と交換するか、\nグッズやサービスを販売するか\nまたは働いて稼ぎましょう</font></string>
+	<string name="wallet_transactions_row_warning_backup">おめでとうございます、初めて支払いを受け取りました。損失を防ぐために&lt;u&gt;ウォレットをバックアップ&lt;/u&gt;していますか?</string>
+	<string name="wallet_transactions_row_warning_storage_encryption">ヒント：ウォレットの安全性を高めるために、&lt;u&gt;デバイスの暗号化&lt;/u&gt;. することができます。これは他のアプリケーションのデータも保護します。</string>
 	<string name="wallet_transactions_fragment_coinbase">採掘</string>
 	<string name="wallet_transactions_fragment_internal">内部</string>
 	<string name="wallet_transactions_options_filter">絞り込み</string>
@@ -41,35 +44,37 @@
 	<string name="wallet_options_donate">チップ/寄付</string>
 	<string name="wallet_donate_address_label">$PAC Walletへ寄付する</string>
 	<string name="wallet_low_storage_dialog_title">内部デバイスのストレージ容量が残りわずかです!</string>
-	<string name="wallet_low_storage_dialog_msg">$PAC Walletはトランザクションやブロックを記憶するのに内部ストレージを使用します。もし容量が不足した場合、動作しなくなりあなたのビットコインが危機にさらされるでしょう!\n\n不要なアプリを削除するためにアプリケーションマネージャを開きますか?</string>
+	<string name="wallet_low_storage_dialog_msg">$PAC Walletはトランザクションやブロックを記憶するのに内部ストレージを使用します。もし容量が不足した場合、動作しなくなりあなたの$PACが危機にさらされるでしょう!\n\n不要なアプリを削除するためにアプリケーションマネージャを開きますか?</string>
 	<string name="wallet_low_storage_dialog_button_apps">アプリの管理</string>
+	<string name="wallet_timeskew_dialog_title">日付を確認 &amp; 時間設定</string>
+	<string name="wallet_timeskew_dialog_msg">デバイスの時刻は %d 分ずれています。この問題により、$PACを送受信できません。\n\n日付、時刻、タイムゾーンの設定を確認し、必要に応じて修正してください。</string>
 	<string name="wallet_version_dialog_title">新バージョンが利用可能です!</string>
 	<string name="wallet_version_dialog_msg">このバージョンには重要なバグフィックスがあります。詳細を見るには、Google Playの最新情報を見てください。</string>
 	<string name="wallet_version_dialog_msg_deprecated">アップデートが表示されない場合、それはおそらくあなたのバージョンのAndroidはもうサポートされないということです。</string>
 	<string name="wallet_version_dialog_button_market">Google Play</string>
 	<string name="wallet_version_dialog_button_binary">ダウンロード</string>
-
 	<string name="wallet_old_sdk_dialog_title">Androidのバージョンが古すぎます</string>
 	<string name="wallet_old_sdk_dialog_message">次の$PAC Walletのリリースの際、このデバイスはもうサポートされないかもしれません。場合によっては、このデバイスでのコインの利用が困難になるかもしれません。\n\n意図的にしているのでない限り、あなたのコインをすぐにでも移動させることをおすすめします。</string>
-	<string name="send_coins_activity_title">ビットコインの送金</string>
+	<string name="send_coins_activity_title">$PACの送金</string>
 	<string name="send_coins_fragment_request_payment_request_progress">%s から署名の取得中……</string>
 	<string name="send_coins_fragment_request_payment_request_failed_title">署名の取得に失敗しました</string>
 	<string name="send_coins_fragment_request_payment_request_wrong_signature">不正な署名です!</string>
-
 	<string name="send_coins_fragment_payee_verified_by">認証者: %s</string>
 	<string name="send_coins_fragment_payee_verified_by_unknown">不明</string>
-
 	<string name="send_coins_fragment_receiving_address_label">支払先</string>
 	<string name="send_coins_fragment_receiving_address_hint">アドレスもしくは名前を入力</string>
-	<string name="send_coins_fragment_receiving_address_error">無効なビットコインアドレスです!</string>
+	<string name="send_coins_fragment_receiving_address_error">無効な$PACアドレスです!</string>
 	<string name="send_coins_fragment_receiving_address_own">自分自身に送金しようとしています!</string>
 	<string name="send_coins_fragment_receiving_address_complex">複雑な\nアドレス</string>
 	<string name="send_coins_fragment_pending">(%sが確認待ちです)</string>
 	<string name="send_coins_fragment_amount_label">合計支払</string>
-	<string name="send_coins_fragment_hint_fee">%sの少額のネットワーク手数料が課金されます。</string>
+	<string name="send_coins_fragment_hint_fee_economic">経済的な送金手数料 %s が支払われます。あなたが確認時間を気にしない場合にのみ\'経済的\'を使用してください。</string>
+	<string name="send_coins_fragment_hint_fee">送金手数料 %s が支払われます。</string>
+	<string name="send_coins_fragment_hint_fee_priority">優先手数料 %s が支払われます。 送金手数料が気になる場合は、できるだけ早く確認が必要な場合にのみ「優先順位」を使用してください。</string>
 	<string name="send_coins_fragment_hint_dusty_send">送金額小さすぎます</string>
 	<string name="send_coins_fragment_hint_insufficient_money">ご利用できるコインが足りません。%sが不足です。</string>
 	<string name="send_coins_fragment_hint_empty_wallet_failed">ウォレット中の少額の支払いを合計しても送信可能な額には足りませんでした。</string>
+	<string name="send_coins_fragment_hint_replaying">リプレイが進行中のため、現在支払いはできません。</string>
 	<string name="send_coins_fragment_direct_payment_enable">受取人へ直接送金する。</string>
 	<string name="send_coins_fragment_direct_payment_ack">直接的な送金が成功しました。</string>
 	<string name="send_coins_fragment_direct_payment_nack">直接的な接続による送金での支払いは拒否されました。</string>
@@ -94,6 +99,8 @@
 	<string name="send_coins_options_empty">ウォレットが空です</string>
 	<string name="raise_fee_dialog_title">ネットワーク手数料の増額</string>
 	<string name="raise_fee_dialog_message">この支払いの手数料を%sだけ増やしますか? これにより支払いの承認が早くなります。</string>
+	<string name="raise_fee_dialog_determining_fee">送金手数料の決定…</string>
+	<string name="raise_fee_dialog_cant_raise"この支払いの送金手数料は引き上げることができません。.</string>
 	<string name="raise_fee_dialog_state_decrypting">復号中……</string>
 	<string name="raise_fee_dialog_state_done">完了。</string>
 	<string name="raise_fee_dialog_button_raise">増額</string>
@@ -114,25 +121,25 @@
 	<string name="sweep_wallet_fragment_insufficient_money_msg">ウォレット内のコインがスイープするには不十分です。</string>
 	<string name="sweep_wallet_options_reload">残高のリロード</string>
 	<string name="maintenance_dialog_title">補修をお勧めします</string>
-	<string name="maintenance_dialog_message">安全でないアドレス宛てに %1$s を受け取りました。このコインを安全なアドレスに移動しますか? 少額ですがネットワーク手数料として %2$s が支払われます。</string>
+	<string name="maintenance_dialog_message">安全でないアドレス宛てに %1$s を受け取りました。このコインを安全なアドレスに移動しますか？ 少額ですが送金手数料として %2$s が支払われます。</string>
 	<string name="maintenance_dialog_state_decrypting">復号中……</string>
 	<string name="maintenance_dialog_state_done">完了</string>
 	<string name="maintenance_dialog_button_move">移動</string>
-	<string name="request_coins_activity_title">ビットコインのリクエスト</string>
+	<string name="request_coins_activity_title">$PACのリクエスト</string>
 	<string name="request_coins_fragment_amount_label">リクエストする額(省略可能)</string>
 	<string name="request_coins_fragment_accept_bluetooth_payment">より信頼できる手順としてBluetooth経由での支払いを許可</string>
 	<string name="request_coins_fragment_initiate_request_qr">このコードを送金者にスキャンさせてください。</string>
-	<string name="request_coins_fragment_initiate_request_nfc">または、NFCが使用可能なデバイスアをタップしてください。</string>
-	<string name="request_coins_clipboard_msg">ビットコインのリクエストがクリップボードにコピーされました</string>
-	<string name="request_coins_share_dialog_title">ビットコインのリクエストを共有……</string>
-	<string name="request_coins_no_local_app_msg">他のビットコインアプリが見付かりませんでした</string>
+	<string name="request_coins_fragment_initiate_request_nfc">または、NFCが使用可能なデバイス同士をタッチしてください。</string>
+	<string name="request_coins_clipboard_msg">$PACのリクエストがクリップボードにコピーされました</string>
+	<string name="request_coins_share_dialog_title">$PACのリクエストを共有……</string>
+	<string name="request_coins_no_local_app_msg">他の$PACアプリが見付かりませんでした</string>
 	<string name="request_coins_options_local_app_title">ローカルアプリからのリクエスト</string>
 	<string name="address_book_activity_title">アドレスブック</string>
 	<string name="address_book_list_receiving_title">あなたのアドレス</string>
 	<string name="address_book_list_receiving_random">古いアドレス</string>
 	<string name="address_book_list_sending_title">送金先アドレス</string>
 	<string name="address_book_empty_text">アドレスブックにエントリーがありません</string>
-	<string name="address_book_context_send_title">アドレスへビットコインを送金</string>
+	<string name="address_book_context_send_title">アドレスへ$PACを送金</string>
 	<string name="address_book_context_edit_title">アドレスを編集</string>
 	<string name="address_book_context_remove_title">アドレスを削除</string>
 	<string name="address_book_context_copy_to_clipboard_title">クリップボードへコピー</string>
@@ -151,22 +158,28 @@
 	<string name="edit_address_book_entry_dialog_address_label">アドレス</string>
 	<string name="edit_address_book_entry_dialog_label_label">ラベル</string>
 	<string name="edit_address_book_entry_dialog_button_edit">保存</string>
-	<string name="transaction_row_fee">ネットワーク手数料</string>
+	<string name="transaction_row_fee">送金手数料</string>
 	<string name="transaction_row_message_purpose_key_rotation">このトランザクションはウォレットの窃盗に対する強度を上げます。&lt;u&gt;より詳細な情報。&lt;/u&gt;</string>
 	<string name="transaction_row_message_purpose_raise_fee">このトランザクションは前の支払いのネットワーク手数料を増額します。</string>
 	<string name="transaction_row_message_own_unbroadcasted">この支払はまだ送信されていません。</string>
 	<string name="transaction_row_message_received_direct">この支払は直接届きました。利用可能とならないリスクがあります。</string>
+	<string name="transaction_row_message_received_unconfirmed_delayed">この支払いの確認は遅れています。$PACネットワークの過負荷が原因である可能性があります。</string>
 	<string name="transaction_row_message_received_unconfirmed_unlocked">この支払は数分程度で利用可能となります。</string>
+	<string name="transaction_row_message_received_in_conflict">この支払いは送信者によって取り消される危険性が高くなります。可能であれば、確認を待ちます。</string>
 	<string name="transaction_row_message_received_dead">この支払は送金者により、引き戻されました。</string>
-	<string name="transaction_row_message_received_dust">少額すぎて、通常の支払等には使用できないでしょう。</string>
+	<string name="transaction_row_message_received_dust">少額すぎて、通常の支払等には使用できないできません。</string>
 	<string name="transaction_row_message_received_pay_to_many">この支払いはあなた以外にも多くのウォレットに支払っており、徐々にアプリを遅くする可能性があります。可能であればあなただけに支払う支払いを受けてください。</string>
+	<string name="transaction_row_message_received_rbf">送信者が安全でないトランザクションタイプを使用したため、この支払は延期されました。</string>
 	<string name="network_monitor_activity_title">ネットワークモニタ</string>
 	<string name="network_monitor_peer_list_title">ピア</string>
 	<string name="network_monitor_block_list_title">ブロック</string>
+	<string name="block_row_mining_difficulty_adjustment">マイニング難易度調整</string>
+	<string name="block_row_mining_reward_adjustment">マイニング報酬の半減</string>
 	<string name="block_row_now">たった今</string>
-	<string name="peer_list_fragment_empty">接続済みのピアはありません</string>
-	<string name="peer_list_row_ping_time">⇆ %d&#x2009;ms</string>
-
+	<string name="peer_list_fragment_empty">接続済みのピアがありません</string>
+	<string name="peer_list_row_ping_time">? %d&#x2009;ms</string>
+	<string name="restore_wallet_permission_dialog_title">読み取りアクセス許可がありません</string>
+	<string name="restore_wallet_permission_dialog_message">外部ストレージでウォレットバックアップを検索するには、読み取りアクセス権限を付与する必要があります。</string>
 	<string name="import_keys_dialog_title">ウォレットのリストア</string>
 	<string name="import_keys_dialog_message">外部ストレージからウォレットのバックアップファイルを選択してください (%s):</string>
 	<string name="restore_wallet_dialog_replace_warning">現在のウォレットを置き換えようとしています。現在ウォレットにあるコインは別途バックアップが無いかぎり全て失われます。</string>
@@ -181,7 +194,8 @@
 	<string name="restore_wallet_dialog_success">ウォレットは復元されました。</string>
 	<string name="restore_wallet_dialog_success_replay">あなたのウォレットは正常に復元されました。続いて残高を計算します。これには多少時間がかかる場合があります。</string>
 	<string name="import_keys_dialog_failure">ウォレットが復元できませんでした:\n\n%s\n\nパスワード間違い?</string>
-
+	<string name="backup_wallet_permission_dialog_title">書き込みアクセス権限がありません</string>
+	<string name="backup_wallet_permission_dialog_message">ウォレットを外部ストレージにバックアップするには、書き込みアクセス権限を付与する必要があります。</string>
 	<string name="export_keys_dialog_title">ウォレットのバックアップ</string>
 	<string name="backup_wallet_dialog_message">バックアップはあなたが決めたパスワードで暗号化され、外部ストレージに書き込まれます。</string>
 	<string name="backup_wallet_dialog_warning_encrypted">あなたのウォレットは送金用PINで保護されています。バックアップ用パスワードに加えてPINも忘れないようにしてください。</string>
@@ -189,8 +203,8 @@
 	<string name="export_keys_dialog_success"><![CDATA[<p>あなたのウォレットは<tt>%s</tt>にバックアップされました。</p><p>もしSDカードが利用できる機種であれば、SDカードに<i>バックアップすべきです</i>。そしてSDカードを取り出し、安全な場所へ保管してください。もしSDカードが<i>取り出せない</i>場合、そのデバイス以外へバックアップを移す必要があります。</p><p><b>もしそのデバイスのみにバックアップがある場合、同時に両方を失ってしまうかもしれません!</b></p><p>どのような場合であれ、バックアップパスワードは覚えておいてください。今すぐウォレットをアーカイブしますか?</p>]]></string>
 	<string name="export_keys_dialog_failure">ウォレットをバックアップできませんでした:\n%s</string>
 	<string name="export_keys_dialog_button_archive">アーカイブ</string>
-	<string name="export_keys_dialog_mail_subject">ビットコインウォレットのバックアップ</string>
-	<string name="export_keys_dialog_mail_text">添付した暗号化ファイルにはビットコイン秘密鍵が含まれています、いかなる時でも安全に保管してくだしさい。暗号化パスワードを忘れないようにしてください！</string>
+	<string name="export_keys_dialog_mail_subject">$PACウォレットのバックアップ</string>
+	<string name="export_keys_dialog_mail_text">添付した暗号化ファイルには$PAC秘密鍵が含まれています、いかなる時でも安全に保管してくだしさい。暗号化パスワードを忘れないようにしてください！</string>
 	<string name="export_keys_dialog_mail_intent_chooser">ウォレットのアーカイブに利用するアプリケーション…</string>
 	<string name="export_keys_dialog_mail_intent_failed">ウォレットのアーカイブに失敗しました。</string>
 	<string name="import_export_keys_dialog_password">パスワード</string>
@@ -201,7 +215,7 @@
 	<string name="import_keys_intent_filter_action">ウォレットのリストア</string>
 	<string name="encrypt_keys_dialog_title">送金用PIN</string>
 	<string name="encrypt_keys_dialog_message">あなたのウォレットからの送金はこのPINによって防止されます。</string>
-	<string name="encrypt_keys_dialog_warning">重要: PINを忘れないようにしてください! 他人が知っている番号を使わないでください(誕生日など)。</string>
+	<string name="encrypt_keys_dialog_warning">重要: PINを覚えておく必要があります。他人が知っている番号を使わないでください(誕生日など)。</string>
 	<string name="encrypt_keys_dialog_password_old">古いPIN</string>
 	<string name="encrypt_keys_dialog_password_strength_weak">弱い</string>
 	<string name="encrypt_keys_dialog_password_strength_fair">そこそこ</string>
@@ -213,35 +227,46 @@
 	<string name="encrypt_keys_dialog_state_done">完了</string>
 	<string name="scan_camera_problem_dialog_title">申し訳ありません</string>
 	<string name="scan_camera_problem_dialog_message">カメラに問題があります。デバイスを再起動する必要があるかもしれません。</string>
+	<string name="scan_camera_permission_dialog_title">カメラへのアクセス許可</string>
+	<string name="scan_camera_permission_dialog_message">QRコードをスキャンするには、カメラを使用するアクセス権限を付与する必要があります。</string>
 	<string name="input_parser_io_error">データを読込めませんでした:\n%s</string>
 	<string name="input_parser_cannot_classify">入力を認識できません:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">無効なビットコインURI:\n%s</string>
-	<string name="input_parser_invalid_address">無効なビットコインアドレスを入手しました!\n(メインネット/テストネットの混同?)</string>
+	<string name="input_parser_invalid_bitcoin_uri">無効な$PAC URI:\n%s</string>
+	<string name="input_parser_invalid_address">無効な$PACアドレスを入手しました!\n(メインネット/テストネットの混同?)</string>
 	<string name="input_parser_unverifyable_paymentrequest">支払いリクエストの検証が出来ません:\n%s</string>
-
 	<string name="input_parser_invalid_paymentrequest">無効な支払のリクエスト:\n%s</string>
-
 	<string name="input_parser_invalid_transaction">無効なトランザクション:\n%s</string>
 	<string name="preferences_activity_title">設定</string>
 	<string name="preferences_category_diagnostics">診断</string>
 	<string name="preferences_category_labs">ラボ</string>
 	<string name="preferences_precision_title"><font color="#FAEC2C">通貨単位の切り下げと切り上げ</font></string>
+	<string name="preferences_precision_title_">通貨単位の切り下げと切り上げ</string>
 	<string name="preferences_precision_summary">総額の表示単位。これは計算に影響しません。</string>
 	<string name="preferences_precision_labels_8">$PAC、小数点以下8桁</string>
 	<string name="preferences_precision_labels_6">$PAC、小数点以下6桁</string>
 	<string name="preferences_precision_labels_4">$PAC、小数点以下4桁</string>
 	<string name="preferences_precision_labels_2_3">m$PAC、小数点以下2桁</string>
-	<string name="preferences_precision_labels_0_6">µ$PAC、小数点無し</string>
+	<string name="preferences_precision_labels_0_6">μ$PAC、小数点無し</string>
 	<string name="preferences_own_name_title"><font color="#FAEC2C">自身の名前</font></string>
+	<string name="preferences_own_name_title_">自身の名前</string>
 	<string name="preferences_own_name_summary">支払いリクエストに含める、あなた自身の名前。短いものにしてください。</string>
+	<string name="preferences_send_coins_autoclose_title"><font color="#FAEC2C">コインの送信ダイアログの自動クローズ</font></string>
+	<string name="preferences_send_coins_autoclose_summary">支払いが行われると、送信ダイアログが自動的に閉じます。</string>
 	<string name="preferences_connectivity_notification_title"><font color="#FAEC2C">接続インジゲーター</font></string>
 	<string name="preferences_connectivity_notification_summary">通知エリア内に現在の接続ピア数を表示する。</string>
 	<string name="preferences_trusted_peer_title"><font color="#FAEC2C">信頼されたピア</font></string>
+	<string name="preferences_trusted_peer_title_">信頼されたピア</string>
 	<string name="preferences_trusted_peer_summary">接続する単一ピアのIPアドレスかホスト名。</string>
+	<string name="preferences_trusted_peer_resolve_progress">解決…</string>
+	<string name="preferences_trusted_peer_resolve_unknown_host">ホスト名が不明です！</string>
 	<string name="preferences_trusted_peer_only_title"><font color="#FAEC2C">通常のピア探索をスキップ</font></string>
 	<string name="preferences_trusted_peer_only_summary">信頼されたピア以外に接続しない。</string>
+	<string name="preferences_block_explorer_title">ブロックエクスプローラーr</string>
+	<string name="preferences_block_explorer_summary">トランザクション、アドレス、およびブロックの参照に使用する外部ブロックエクスプローラ。</string>
 	<string name="preferences_data_usage_title"><font color="#FAEC2C">データの使用方法</font></string>
 	<string name="preferences_data_usage_summary">モバイルネットワークにおけるデータ使用制限のオプションを表示する。</string>
+	<string name="preferences_remind_balance_title"><font color="#FAEC2C">残高リマインダ</font></string>
+	<string name="preferences_remind_balance_summary">数週間使用されていないと、アプリはウォレットにまだコインがある場合に通知します。</string>
 	<string name="preferences_report_issue_title"><font color="#FAEC2C">問題を報告</font></string>
 	<string name="preferences_report_issue_summary">問題に関する情報を収集し、開発者へメールで報告する。</string>
 	<string name="preferences_initiate_reset_title"><font color="#FAEC2C">ブロックチェーンのリセット</font></string>
@@ -255,6 +280,7 @@
 	<string name="extended_public_key_fragment_share">xpubを共有……</string>
 	<string name="report_issue_dialog_title_issue">問題を報告</string>
 	<string name="report_issue_dialog_title_crash">直前のクラッシュを検知しました</string>
+	<string name="report_issue_dialog_title_transaction">選択した支払いに関する問題を報告する</string>
 	<string name="report_issue_dialog_message_issue">発生した問題について、再現するのに十分なぐらい性格に記述してください。</string>
 	<string name="report_issue_dialog_message_crash">今後、この問題を修正する手助けとして、クラッシュレポートを送信しますか?</string>
 	<string name="report_issue_dialog_description">説明</string>
@@ -269,16 +295,27 @@
 	<string name="about_version_title"><font color="#FAEC2C">バージョン</font></string>
 	<string name="about_copyright_title"><font color="#FAEC2C">コピーライト</font></string>
 	<string name="about_license_title"><font color="#FAEC2C">ライセンス</font></string>
-    <string name="about_source_title"><font color="#FAEC2C">ソースコード</font></string>
+	<string name="about_source_title"><font color="#FAEC2C">ソースコード</font></string>
+	<string name="about_category_credits">このアプリは使用しています…</string>
+	<string name="about_credits_bitcoinj_title"><font color="#FAEC2C">pacj1 %1$s、$ PACプロトコルの実装</font></string>
 	<string name="about_credits_zxing_title">このアプリは\'zxing\'を使用しています。</string>
 	<string name="about_credits_icon_title">このアプリは\'bitboy\'によるアイコンを使用しています。</string>
+	<string name="about_credits_scrypt_title"><font color="#FAEC2C">Will GlozerとColin Percivalによって実装されたスクリプト</font></string>
+	<string name="about_market_app_title"><font color="#FAEC2C">Google Play page</font></string>
+	<string name="about_market_app_summary">アプリケーションのレビューまたは評価p</string>
+	<string name="about_faq_title"><font color="#FAEC2C">よくある質問</font></string>
+	<string name="about_faq_summary">アプリケーションに関するよくある質問</string>
 	<string name="about_community_googleplus_title">Google+ コミュニティ</string>
 	<string name="about_community_googleplus_summary">アプリについてのディスカッション</string>
-	<string name="about_market_app_title"><font color="#FAEC2C">Google Playのページ</font></string>
-	<string name="about_market_app_summary">アプリのレビューや評価をしてください</string>
-	<string name="notification_coins_received_msg">%sを受け取りました</string>
+	<string name="notification_coins_received_msg">受信 %s</string>
+	<string name="notification_peers_connected_msg">%d ピア接続</string>
+	<string name="notification_inactivity_title">あなたはまだこの端末に$PACを持っています！</string>
+	<string name="notification_inactivity_message">最初に送信せずに$PACウォレットアプリをアンインストールすると、%s の残高が失われることを忘れないでください。</string>
+	<string name="notification_inactivity_message_donate">あなたのコインを気にしないのであれば、それらを$PACウォレットプロジェクトに寄付することもできます。</string>
+	<string name="notification_inactivity_action_dismiss">後で再通知する</string>
+	<string name="notification_inactivity_action_dismiss_forever">再通知しない</string>
+	<string name="appwidget_wallet_balance_title">$PAC 残高</string>
 
-	<string name="notification_peers_connected_msg">%dピアが接続済</string>
 	<!-- generic buttons -->
 	<string name="button_ok">OK</string>
 	<string name="button_dismiss">閉じる</string>
@@ -312,16 +349,25 @@
 	<string name="error_parse">パースエラー:%s</string>
 	<string name="error_http">HTTPエラー %1$s:\n%2$s</string>
 	<string name="error_bluetooth">Bluetoothエラー: %1$s</string>
-    <string name="navigation_drawer_close">メニューを閉じる</string>
-    <string name="nav_code">支払いコードを見る</string>
 
+	<string name="transaction_fragment_confirmations_label">確認</string>
+
+	<string name="navigation_drawer_open">メニューを開く</string>
+	<string name="navigation_drawer_close">メニューを閉じる</string>
+
+	<string name="pac_slogan"></string>
+	<string name="pac_wallet"></string>
+
+	<string name="about_git_title"><font color="#FAEC2C"></font></string>
+	
 	<string name="settings_instasend_title"> <font color="#FAEC2C">インスタント送信を有効にする</font> </string>
-	     <string name="settings_warning_title"> <font color= "#FAEC2C">警告</font> </string>
-	     <string name="settings_litemode_title"> <font color="#FAEC2C">ライトモードを有効にする</font> </string>
-	     <string name="settings_disclaimer_title"> <font color="#FAEC2C">免責事項を表示</font> </string>
-	     <string name="settings_BIP70_title"> <font color= "#FAEC2C">スキャンから支払いまでのBIP70 </font> </string>
-	     <string name="settings_lookup_title"> <font color="#FAEC2C">ウォレット名を検索</font> </string>
-    <string name="instantDialogTitle">取引は許可されていません</string>
-    <string name="instantDialogBody">即時配送の制限を超えているため、トランザクションを実行できません</string>
+	<string name="settings_warning_title"> <font color= "#FAEC2C">警告</font> </string>
+	<string name="settings_litemode_title"> <font color="#FAEC2C">ライトモードを有効にする</font> </string>
+	<string name="settings_disclaimer_title"> <font color="#FAEC2C">免責事項を表示</font> </string>
+	<string name="settings_BIP70_title"> <font color= "#FAEC2C">スキャンから支払いまでのBIP70 </font> </string>
+	<string name="settings_lookup_title"> <font color="#FAEC2C">ウォレット名を検索</font> </string>
+	
+	<string name="instantDialogTitle">取引は許可されていません</string>
+	<string name="instantDialogBody">インスタント送金の制限を超えているため、トランザクションを実行できません</string>
 
 </resources>
